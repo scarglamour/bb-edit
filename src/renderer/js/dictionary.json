@@ -1,0 +1,5695 @@
+[
+  ["140AD17E", { "name": "Adventurous Noble", "type": "background" }],
+  ["3C1774B5", { "name": "Apprentice", "type": "background" }],
+  ["52330AD5", { "name": "Assassin", "type": "background" }],
+  ["A96F7125", { "name": "Assassin (Southern)", "type": "background" }],
+  ["2AAE8559", { "name": "Bastard", "type": "background" }],
+  ["513CA7C5", { "name": "Beggar", "type": "background" }],
+  ["24623B29", { "name": "Beggar (Southern)", "type": "background" }],
+  ["2128342F", { "name": "Bowyer", "type": "background" }],
+  ["4C95ED0E", { "name": "Brawler", "type": "background" }],
+  ["9E3EE827", { "name": "Butcher", "type": "background" }],
+  ["25863EEB", { "name": "Butcher (Southern)", "type": "background" }],
+  ["BB0CBBB3", { "name": "Caravan Hand", "type": "background" }],
+  ["36AD2550", { "name": "Caravan Hand (Southern)", "type": "background" }],
+  ["F1D4D64F", { "name": "Companion (Spear)", "type": "background" }],
+  ["C23261F9", { "name": "Companion (Axe)", "type": "background" }],
+  ["D1B9D2CC", { "name": "Companion (X-bow)", "type": "background" }],
+  ["44EDF915", { "name": "Companion (Southern Lance)", "type": "background" }],
+  ["D9846B5C", { "name": "Companion (Southern Mallet)", "type": "background" }],
+  ["A49582A7", { "name": "Companion (Southern Bow)", "type": "background" }],
+  ["7EF5172D", { "name": "Crusader", "type": "background" }],
+  ["71648BCF", { "name": "Cultist", "type": "background" }],
+  ["02F755E2", { "name": "Cultist Converted", "type": "background" }],
+  ["6C9CE698", { "name": "Cripple", "type": "background" }],
+  ["2BEEF2DE", { "name": "Cripple (Southern)", "type": "background" }],
+  ["7B9A3CF7", { "name": "Daytaler", "type": "background" }],
+  ["F6D131D4", { "name": "Daytaler (Southern)", "type": "background" }],
+  ["0746329A", { "name": "Deserter", "type": "background" }],
+  ["71BA80F4", { "name": "Disowned Noble", "type": "background" }],
+  ["29A78F2E", { "name": "Eunuch", "type": "background" }],
+  ["5CD45309", { "name": "Eunuch (Southern)", "type": "background" }],
+  ["C6DD9695", { "name": "Farmhand", "type": "background" }],
+  ["FA656BC3", { "name": "Fisherman", "type": "background" }],
+  ["F1D086E6", { "name": "Fisherman (Southern)", "type": "background" }],
+  ["B36261EF", { "name": "Flagellant", "type": "background" }],
+  ["33311369", { "name": "Gambler", "type": "background" }],
+  ["8ECF4795", { "name": "Gambler (Southern)", "type": "background" }],
+  ["24ACB273", { "name": "Gravedigger", "type": "background" }],
+  ["EA19650F", { "name": "Graverobber", "type": "background" }],
+  ["3A157B3E", { "name": "Hedge Knight", "type": "background" }],
+  ["AEF7C74B", { "name": "Historian", "type": "background" }],
+  ["754B3FBD", { "name": "Historian (Southern)", "type": "background" }],
+  ["3B540890", { "name": "Houndmaster", "type": "background" }],
+  ["3B7D9408", { "name": "Hunter", "type": "background" }],
+  ["B5DD9094", { "name": "Juggler", "type": "background" }],
+  ["B47205E5", { "name": "Killer on the run", "type": "background" }],
+  ["EF80F20F", { "name": "King's Guard", "type": "background" }],
+  ["2D27199D", { "name": "Lumberjack", "type": "background" }],
+  ["9F01869F", { "name": "Mason", "type": "background" }],
+  ["8297FEBA", { "name": "Messenger", "type": "background" }],
+  ["AAB09341", { "name": "Militia", "type": "background" }],
+  ["EAD11AC4", { "name": "Miller", "type": "background" }],
+  ["A8E56738", { "name": "Miner", "type": "background" }],
+  ["274CE4B2", { "name": "Minstrel", "type": "background" }],
+  ["EEFBA04C", { "name": "Monk", "type": "background" }],
+  ["60686C60", { "name": "Monk turned Flagellant", "type": "background" }],
+  ["14C7F489", { "name": "Orc Slayer", "type": "background" }],
+  ["DB315732", { "name": "Pacified Flagellant", "type": "background" }],
+  ["C16724D1", { "name": "Peddler", "type": "background" }],
+  ["545302CF", { "name": "Peddler (Southern)", "type": "background" }],
+  ["872280DE", { "name": "Poacher", "type": "background" }],
+  ["0B912487", { "name": "Pimp", "type": "background" }],
+  ["A4BD4435", { "name": "Raider", "type": "background" }],
+  ["9AA50C11", { "name": "Ratcatcher", "type": "background" }],
+  ["7CEF5D75", { "name": "Refugee", "type": "background" }],
+  ["120DA558", { "name": "Regent in Absentia", "type": "background" }],
+  ["21D1CD1C", { "name": "Retired Soldier", "type": "background" }],
+  ["7C6EB7FB", { "name": "Sellsword", "type": "background" }],
+  ["D45B05E3", { "name": "Servant", "type": "background" }],
+  ["33EF85FD", { "name": "Servant (Southern)", "type": "background" }],
+  ["E09EB018", { "name": "Shepherd", "type": "background" }],
+  ["6F7C3275", { "name": "Shepherd (Southern)", "type": "background" }],
+  ["AE7DD55A", { "name": "Squire", "type": "background" }],
+  ["E04D804B", { "name": "Swordmaster", "type": "background" }],
+  ["F8B44DE8", { "name": "Tailor", "type": "background" }],
+  ["E766D491", { "name": "Tailor (Southern)", "type": "background" }],
+  ["15D99E2B", { "name": "Thief", "type": "background" }],
+  ["F83BDAA3", { "name": "Thief (Southern)", "type": "background" }],
+  ["DFABA699", { "name": "Vagabond", "type": "background" }],
+  ["6DF381C6", { "name": "Wildman", "type": "background" }],
+  ["269F1831", { "name": "Witchhunter", "type": "background" }],
+
+  ["8D48C75B", { "name": "Beast Slayer", "type": "background" }],
+  ["CB90AA90", { "name": "Barbarian", "type": "background" }],
+
+  ["3CB03F39", { "name": "Nomad", "type": "background" }],
+  ["7CE83341", { "name": "Nomad (Ranged)", "type": "background" }],
+  ["DBE74EB4", { "name": "Manhunter", "type": "background" }],
+  ["77CC2A7F", { "name": "Indebted (Southern)", "type": "background" }],
+  ["48217ABD", { "name": "Indebted (Northern)", "type": "background" }],
+  ["71888843", { "name": "Indebted", "type": "background" }],
+  ["4D5160C4", { "name": "Belly Dancer", "type": "background" }],
+  ["DFFE0AFE", { "name": "Converted Crusader", "type": "background" }],
+  ["D4D12DEC", { "name": "Oathtaker (Old)", "type": "background" }],
+  ["D2749588", { "name": "Oathtaker (Young)", "type": "background" }],
+  ["99930147", { "name": "Anatomist", "type": "background" }],
+  ["EEC70B5F", { "name": "Lindwurm Slayer", "type": "background" }],
+
+  ["C738AEC4", { "name": "Gladiator (Companion)", "type": "background" }],
+  ["144868A8", { "name": "Gladiator", "type": "background" }],
+  ["C6A73142", { "name": "Old Gladiator", "type": "background" }],
+
+  ["DF6EF729", { "name": "Asthmatic", "type": "trait" }],
+  ["6FF46EFE", { "name": "Athletic", "type": "trait" }],
+  ["A8EF0AC9", { "name": "Bleeder", "type": "trait" }],
+  ["988F2179", { "name": "Bloodthirsty", "type": "trait" }],
+  ["15A02709", { "name": "Brave", "type": "trait" }],
+  ["D1B92F40", { "name": "Bright", "type": "trait" }],
+  ["8F1F3216", { "name": "Brute", "type": "trait" }],
+  ["7CF4C987", { "name": "Clubfooted", "type": "trait" }],
+  ["B65EAFC8", { "name": "Clumsy", "type": "trait" }],
+  ["A6BB1D0B", { "name": "Cocky", "type": "trait" }],
+  ["38B69657", { "name": "Craven", "type": "trait" }],
+  ["9CFA5D8B", { "name": "Dastard", "type": "trait" }],
+  ["62BEC5FA", { "name": "Deathwish", "type": "trait" }],
+  ["8E02892D", { "name": "Determined", "type": "trait" }],
+  ["E8BBE11A", { "name": "Dexterous", "type": "trait" }],
+  ["F21D84F3", { "name": "Disloyal", "type": "trait" }],
+  ["B9DADFBC", { "name": "Dumb", "type": "trait" }],
+  ["A0CF9774", { "name": "Drunkard", "type": "trait" }],
+  ["843D8DD9", { "name": "Eagle Eyes", "type": "trait" }],
+  ["B4A3C9D5", { "name": "Fat", "type": "trait" }],
+  ["5065D234", { "name": "Fainthearted", "type": "trait" }],
+  ["6AD5327F", { "name": "Fearless", "type": "trait" }],
+  ["0B0E08CE", { "name": "Fragile", "type": "trait" }],
+  ["E5EB98D2", { "name": "Gluttonous", "type": "trait" }],
+  ["E54F06E1", { "name": "Greedy", "type": "trait" }],
+  ["494312EC", { "name": "Hesitant", "type": "trait" }],
+  ["1CE5EF83", { "name": "Impatient", "type": "trait" }],
+  ["1F2911A2", { "name": "Insecure", "type": "trait" }],
+  ["F138A2EF", { "name": "Iron Lungs", "type": "trait" }],
+  ["F640E09A", { "name": "Iron Jaw", "type": "trait" }],
+  ["5E1A0586", { "name": "Irrational", "type": "trait" }],
+  ["46ADB947", { "name": "Loyal", "type": "trait" }],
+  ["9CA0EBB9", { "name": "Old", "type": "trait" }],
+  ["9A95BB9E", { "name": "Optimist", "type": "trait" }],
+  ["367B7B71", { "name": "Pessimist", "type": "trait" }],
+  ["C2C1134F", { "name": "Quick", "type": "trait" }],
+  ["70AA50F5", { "name": "Short Sighted", "type": "trait" }],
+  ["124A03A3", { "name": "Spartan", "type": "trait" }],
+  ["1ED3819C", { "name": "Strong", "type": "trait" }],
+  ["880DBD6B", { "name": "Superstitious", "type": "trait" }],
+  ["9D81C274", { "name": "Sure Footing", "type": "trait" }],
+  ["818E0F24", { "name": "Survivor", "type": "trait" }],
+  ["994FE708", { "name": "Tiny", "type": "trait" }],
+  ["B4760E9D", { "name": "Tough", "type": "trait" }],
+
+  ["C5E53A6E", { "name": "Team Player", "type": "trait" }],
+  ["767F08BC", { "name": "Swift", "type": "trait" }],
+  ["E220534E", { "name": "Weasel", "type": "trait" }],
+  ["DA78B736", { "name": "Huge", "type": "trait" }],
+  ["9F4D214B", { "name": "Nightblind", "type": "trait" }],
+  ["FD829D68", { "name": "Ailing", "type": "trait" }],
+  ["ACC46F0E", { "name": "Night Owl", "type": "trait" }],
+  ["0756CE67", { "name": "Paranoid", "type": "trait" }],
+  ["C5B9A3A5", { "name": "Lucky", "type": "trait" }],
+
+  ["5EEFDF76", { "name": "Addict", "type": "trait" }],
+
+  ["DC2B39A5", { "name": "Pit Fighter", "type": "trait" }],
+  ["38B9EBE5", { "name": "Arena Fighter", "type": "trait" }],
+  ["90786E95", { "name": "Arena Veteran", "type": "trait" }],
+
+  ["8C535E47", { "name": "Glorious Resolve", "type": "trait" }],
+  ["C5C522E8", { "name": "Glorious Endurance", "type": "trait" }],
+  ["0625ED75", { "name": "Glorious Quickness", "type": "trait" }],
+
+  ["DA1D1224", { "name": "Player Character", "type": "trait" }],
+
+  ["17B36776", { "name": "Hate of Undead", "type": "trait" }],
+  ["EB251F2F", { "name": "Hate of Greenskins", "type": "trait" }],
+  ["0CF9D3DA", { "name": "Hate of Beasts", "type": "trait" }],
+
+  ["6F2C8614", { "name": "Fear of Undead", "type": "trait" }],
+  ["C3A17B67", { "name": "Fear of Greenskins", "type": "trait" }],
+  ["6472F278", { "name": "Fear of Beasts", "type": "trait" }],
+
+  ["5A92A3F2", { "name": "Cult of Davkul - Fanatic", "type": "trait" }],
+  ["635178DF", { "name": "Cult of Davkul - Zealot", "type": "trait" }],
+  ["35186772", { "name": "Cult of Davkul - Acolyte", "type": "trait" }],
+  ["893869F6", { "name": "Cult of Davkul - Disciple", "type": "trait" }],
+  ["C8944B46", { "name": "Cult of Davkul - Chosen", "type": "trait" }],
+  ["2EBB3F39", { "name": "Cult of Davkul - Prophet", "type": "trait" }],
+  ["80ED057C", { "name": "Voice of Davkul", "type": "internal" }],
+
+  ["4B1B8DF7", { "name": "Mad", "type": "trait" }],
+
+  ["B6885D2E", { "name": "Oath of Wrath", "type": "trait" }],
+  ["15CA117E", { "name": "Oath of Fortification 1", "type": "trait" }],
+  ["0D6FA3A4", { "name": "Oath of Fortification 2", "type": "trait" }],
+  ["59E45E97", { "name": "Oath of Sacrifice", "type": "trait" }],
+  ["8D416008", { "name": "Oath of Humility", "type": "trait" }],
+  ["EC56A980", { "name": "Oath of Valor", "type": "trait" }],
+  ["E8C9ABDD", { "name": "Oath of Distinction", "type": "trait" }],
+  ["6C486AF9", { "name": "Oath of Vengeance", "type": "trait" }],
+  ["33F16C92", { "name": "Oath of Righteousness", "type": "trait" }],
+  ["F92CAF1B", { "name": "Oath of Dominion", "type": "trait" }],
+  ["D6461010", { "name": "Oath of Honor 1", "type": "trait" }],
+  ["B6FBBE7B", { "name": "Oath of Honor 2", "type": "trait" }],
+  ["216F69CF", { "name": "Oath of Endurance", "type": "trait" }],
+  ["1264B27C", { "name": "Oath of Cameraderie", "type": "trait" }],
+
+  ["13C30358", { "name": "Morale", "type": "internal" }],
+  ["C7E3D324", { "name": "Unknown - C7E3D324", "type": "internal" }],
+  ["68DADB2C", { "name": "Unknown - 68DADB2C", "type": "trait" }],
+  ["6D8B77EF", { "name": "Unknown - 6D8B77EF", "type": "internal" }],
+  ["56C676CD", { "name": "Crack the Whip? - 6D8B77EF", "type": "internal" }],
+
+  ["3E7523FA", { "name": "Fast Adaptation", "type": "perk" }],
+  ["F9473B3C", { "name": "Crippling Strikes", "type": "perk" }],
+  ["4C867685", { "name": "Colossus", "type": "perk" }],
+  ["9D82F592", { "name": "Nine Lives", "type": "perk" }],
+  ["A546AF20", { "name": "Bags and Belts", "type": "perk" }],
+  ["565F97BE", { "name": "Pathfinder", "type": "perk" }],
+  ["AB0464F3", { "name": "Adrenaline", "type": "perk" }],
+  ["A3233C22", { "name": "Recover", "type": "perk" }],
+  ["C07D23FB", { "name": "Student", "type": "perk" }],
+  ["059702B2", { "name": "Executioner", "type": "perk" }],
+  ["CA385200", { "name": "Bullseye", "type": "perk" }],
+  ["ECCF150A", { "name": "Dodge", "type": "perk" }],
+  ["2468BB8C", { "name": "Fortified Mind", "type": "perk" }],
+  ["8BDA1308", { "name": "Resilient", "type": "perk" }],
+  ["07AD742B", { "name": "Steel Brow", "type": "perk" }],
+  ["0BADB437", { "name": "Quick Hands", "type": "perk" }],
+  ["9899E380", { "name": "Gifted", "type": "perk" }],
+  ["71C41BDA", { "name": "Backstabber", "type": "perk" }],
+  ["1423C822", { "name": "Anticipation", "type": "perk" }],
+  ["A1DE723D", { "name": "Shield Expert", "type": "perk" }],
+  ["04A8366D", { "name": "Brawny", "type": "perk" }],
+  ["CA7913AA", { "name": "Relentless", "type": "perk" }],
+  ["09E3AD30", { "name": "Rotation", "type": "perk" }],
+  ["E3FC2F93", { "name": "Rally the Troops", "type": "perk" }],
+  ["E1E8D40B", { "name": "Taunt", "type": "perk" }],
+  ["5F1ECE27", { "name": "Mace Mastery", "type": "perk" }],
+  ["F1AB0AC0", { "name": "Flail Mastery", "type": "perk" }],
+  ["53D89DC8", { "name": "Hammer Mastery", "type": "perk" }],
+  ["1B63AB23", { "name": "Axe Mastery", "type": "perk" }],
+  ["CF52B42E", { "name": "Cleaver Mastery", "type": "perk" }],
+  ["D03C87C1", { "name": "Sword Mastery", "type": "perk" }],
+  ["BBA910B8", { "name": "Dagger Mastery", "type": "perk" }],
+  ["1DE5F9FF", { "name": "Polearm Mastery", "type": "perk" }],
+  ["E49B81C1", { "name": "Spear Mastery", "type": "perk" }],
+  ["4BA8F880", { "name": "Crossbow Mastery", "type": "perk" }],
+  ["3967AB23", { "name": "Bow Mastery", "type": "perk" }],
+  ["B7571E54", { "name": "Throwing Mastery", "type": "perk" }],
+  ["BACAD9E4", { "name": "Reach Advantage", "type": "perk" }],
+  ["026F2FA2", { "name": "Overwhelm", "type": "perk" }],
+  ["12CC3EA1", { "name": "Lone Wolf", "type": "perk" }],
+  ["5D8933A5", { "name": "Underdog", "type": "perk" }],
+  ["404C93E1", { "name": "Footwork", "type": "perk" }],
+  ["97CB0D95", { "name": "Berserk", "type": "perk" }],
+  ["80A40871", { "name": "Head Hunter", "type": "perk" }],
+  ["385FD79D", { "name": "Nimble", "type": "perk" }],
+  ["37CEF631", { "name": "Battle Forged", "type": "perk" }],
+  ["ABC22EAE", { "name": "Fearsome", "type": "perk" }],
+  ["C3229207", { "name": "Duelist", "type": "perk" }],
+  ["7C856C1D", { "name": "Killing Frenzy", "type": "perk" }],
+  ["F521E3DD", { "name": "Indomitable", "type": "perk" }],
+
+  ["2C24230B", { "name": "Broken Arm", "type": "injury" }],
+  ["28445DB0", { "name": "Broken Leg", "type": "injury" }],
+  ["09836E27", { "name": "Broken Nose", "type": "injury" }],
+  ["948EC880", { "name": "Broken Ribs", "type": "injury" }],
+  ["E92E68A7", { "name": "Bruised Leg", "type": "injury" }],
+  ["3CA0E901", { "name": "Crushed Finger", "type": "injury" }],
+  ["5509577A", { "name": "Crushed Windpipe", "type": "injury" }],
+  ["3B908417", { "name": "Cut Achilles Tendon", "type": "injury" }],
+  ["7FCC5910", { "name": "Cut Arm", "type": "injury" }],
+  ["E4D3C726", { "name": "Cut Arm Sinew", "type": "injury" }],
+  ["12FE53EA", { "name": "Cut Artery", "type": "injury" }],
+  ["92F052BA", { "name": "Cut Leg Muscles", "type": "injury" }],
+  ["C134425E", { "name": "Cut Neck Vein", "type": "injury" }],
+  ["7F727079", { "name": "Deep Abdominal Cut", "type": "injury" }],
+  ["EF0CD9B6", { "name": "Deep Chest Cut", "type": "injury" }],
+  ["FB7C404A", { "name": "Deep Face Cut", "type": "injury" }],
+  ["C18A973C", { "name": "Dislocated Shoulder", "type": "injury" }],
+  ["EBAA3B93", { "name": "Exposed Ribs", "type": "injury" }],
+  ["7CC6A8A6", { "name": "Fractured Elbow", "type": "injury" }],
+  ["1E99C9E8", { "name": "Fractured Hand", "type": "injury" }],
+  ["B7720040", { "name": "Fractured Ribs", "type": "injury" }],
+  ["46426E44", { "name": "Fractured Skull", "type": "injury" }],
+  ["CF19A6E1", { "name": "Grazed Eye Socket", "type": "injury" }],
+  ["6012EEA7", { "name": "Grazed Kidney", "type": "injury" }],
+  ["55B29B85", { "name": "Grazed Neck", "type": "injury" }],
+  ["4A9EFC1C", { "name": "Injured Knee Cap", "type": "injury" }],
+  ["92E5CC3D", { "name": "Piecred Arm Muscles", "type": "injury" }],
+  ["AFA7F95C", { "name": "Pierced Cheek", "type": "injury" }],
+  ["7215AAAB", { "name": "Pierced Chest", "type": "injury" }],
+  ["6631250A", { "name": "Pierced Hand", "type": "injury" }],
+  ["0EBAC62B", { "name": "Pierced Leg Muscles", "type": "injury" }],
+  ["D50F8C09", { "name": "Pierced Lung", "type": "injury" }],
+  ["560A9411", { "name": "Pierced Shoulder", "type": "injury" }],
+  ["444F995B", { "name": "Pierced Side", "type": "injury" }],
+  ["1B87A90F", { "name": "Ripped Ear", "type": "injury" }],
+  ["D5A23C02", { "name": "Severe Concussion", "type": "injury" }],
+  ["FB987AC6", { "name": "Smashed Hand", "type": "injury" }],
+  ["721925C6", { "name": "Split Hand", "type": "injury" }],
+  ["80E701C4", { "name": "Split Nose", "type": "injury" }],
+  ["B5C70687", { "name": "Split Shoulder", "type": "injury" }],
+  ["E8F6C4D5", { "name": "Sprained Ankle", "type": "injury" }],
+  ["3FD05AAF", { "name": "Stabbed Guts", "type": "injury" }],
+  ["9BEC7D5A", { "name": "Sick", "type": "injury" }],
+  ["929F3696", { "name": "Infected Wound", "type": "injury" }],
+
+  ["02A4686A", { "name": "Drunk", "type": "injury" }],
+  ["083009F5", { "name": "Hungover", "type": "injury" }],
+  ["51994232", { "name": "Exhausted", "type": "injury" }],
+
+  ["AC1BFE37", { "name": "Broken Knee", "type": "permanentInjury" }],
+  ["C93E3963", { "name": "Broken Elbow Joint", "type": "permanentInjury" }],
+  ["83B8CEC7", { "name": "Brain Damage", "type": "permanentInjury" }],
+  ["41052580", { "name": "Maimed Foot", "type": "permanentInjury" }],
+  ["3E2CA5D6", { "name": "Missing Ear", "type": "permanentInjury" }],
+  ["AD97DB01", { "name": "Missing Eye", "type": "permanentInjury" }],
+  ["7D13BB0E", { "name": "Missing Finger", "type": "permanentInjury" }],
+  ["2FDDE79B", { "name": "Missing Nose", "type": "permanentInjury" }],
+  ["97D37685", { "name": "Partly Collapsed Lung", "type": "permanentInjury" }],
+  ["330BF306", { "name": "Traumatized", "type": "permanentInjury" }],
+  ["30184A38", { "name": "Weakened Heart", "type": "permanentInjury" }],
+  ["11AEA18F", { "name": "Afraid", "type": "permanentInjury" }],
+
+  ["A9EB4E01", { "name": "Training Experience", "type": "training" }],
+  ["76AE8904", { "name": "Training Experience", "type": "training" }],
+
+  ["0603DC33", { "name": "Potion of Knowledge (Old)", "type": "knowledge" }],
+  ["8729FD77", { "name": "Enhanced Learning", "type": "learning" }],
+  ["DAE5DF38", { "name": "Iron Will", "type": "potion-effect" }],
+  ["29A7CD69", { "name": "Enhanced Bravery", "type": "potion-effect" }],
+  ["E85B5339", { "name": "Night Vision", "type": "potion-effect" }],
+  ["37E45E7A", { "name": "Hightened Reflexes", "type": "potion-effect" }],
+  ["AA195998", { "name": "Enhanced Stamina", "type": "potion-effect" }],
+
+  ["4DAD521D", { "name": "Reactive Leg Muscles", "type": "potion-effect" }],
+  ["C5DB9449", { "name": "Hyperactive Sweat Glands", "type": "potion-effect" }],
+  ["9C0A2BD2", { "name": "Mutated Cornea", "type": "potion-effect" }],
+  ["E88552E6", { "name": "Kinetic Blows", "type": "potion-effect" }],
+  ["40A6F332", { "name": "Sensory Redundancy", "type": "potion-effect" }],
+  ["7BAC82DB", { "name": "Berserker Rage", "type": "potion-effect" }],
+  ["711D3DC8", { "name": "Font of Strength", "type": "potion-effect" }],
+  ["3D1A5199", { "name": "Locking Joints", "type": "potion-effect" }],
+  ["93A17177", { "name": "Subdermal Stitching", "type": "potion-effect" }],
+  ["8F3B0386", { "name": "Parasitic Blood", "type": "potion-effect" }],
+  ["3B4E4D73", { "name": "Synapse Blockage", "type": "potion-effect" }],
+  ["6FA819F4", { "name": "Subdermal Reactivity", "type": "potion-effect" }],
+  ["5E15A382", { "name": "Reactive Muscle Tissue", "type": "potion-effect" }],
+  ["97C0B763", { "name": "Kinetic Coating", "type": "potion-effect" }],
+  ["14198A54", { "name": "Visions", "type": "potion-effect" }],
+  ["D781484E", { "name": "Elasticized Sinew", "type": "potion-effect" }],
+  ["A5BEDB44", { "name": "Acidic Blood", "type": "potion-effect" }],
+  ["359B8551", { "name": "Stone Skin", "type": "potion-effect" }],
+  ["58FA6E82", { "name": "Enhanced Opportunism", "type": "potion-effect" }],
+  ["E4F5DCD3", { "name": "Subdermal Clotting", "type": "potion-effect" }],
+  [
+    "BAAF3E30",
+    { "name": "Mutated Circulatory System", "type": "potion-effect" }
+  ],
+  ["5DAF6E97", { "name": "Hyperactive Cell Growth", "type": "potion-effect" }],
+  ["34875B62", { "name": "Flexible Ligaments", "type": "potion-effect" }],
+  ["C0501014", { "name": "Enhanced Eye Rods", "type": "potion-effect" }],
+  ["312EF85C", { "name": "Sympathetic Call", "type": "potion-effect" }],
+  [
+    "A95542CE",
+    { "name": "Hyperactive Tissue Growth", "type": "potion-effect" }
+  ],
+  ["ABA39BA5", { "name": "Auspice of the Mad God", "type": "potion-effect" }],
+  ["D15BA05C", { "name": "Lorekeeper's Rib Bone", "type": "potion-effect" }],
+  ["1784DD78", { "name": "Cursed Sight", "type": "potion-effect" }],
+  ["FE0E325A", { "name": "Ghastly Aura", "type": "potion-effect" }],
+  ["F741B943", { "name": "Ascendant Flesh", "type": "potion-effect" }],
+  ["C558285F", { "name": "Bizarre Steroid", "type": "potion-effect" }],
+  ["AD8D2C62", { "name": "Mutated Glands", "type": "potion-effect" }],
+  ["E6B08745", { "name": "Apotheosis", "type": "potion-effect" }],
+
+  [
+    "1DECF1F2",
+    { "name": "Hatchet", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F40E4004",
+    { "name": "Handaxe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "45E0BBBD",
+    { "name": "Fighting Axe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "6CDC5B88",
+    { "name": "Woodcutter's Axe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F645DE8F",
+    { "name": "Longaxe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "11FE31EC",
+    { "name": "Greataxe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["72EC2FAB", { "name": "Lute", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "2DB955CD",
+    { "name": "Wooden Stick", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "0D479170",
+    { "name": "Butcher's Cleaver", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "0368E41B",
+    { "name": "Scramasax", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "4C960354",
+    { "name": "Military Cleaver", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["35F0CABD", { "name": "Knife", "type": "genericWeapon", "slot": "weapon" }],
+  ["AAB1F04F", { "name": "Dagger", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "F99B681D",
+    { "name": "Rondel Dagger", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1F9CDBCB",
+    { "name": "Wooden Flail", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "C3D0BA5D",
+    { "name": "Reinforced Flail", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["743D3ABD", { "name": "Flail", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "35AD91D9",
+    { "name": "Pickaxe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "E54456F6",
+    { "name": "Military Pick", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "C8701E43",
+    { "name": "Warhammer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "BA203F7C",
+    { "name": "Two-Handed Hammer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "24C82415",
+    { "name": "Bludgeon", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "DF851FBA",
+    { "name": "Morningstar", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "4B40B36A",
+    { "name": "Winged Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "8AE27C83",
+    { "name": "Pitchfork", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["6DC232AB", { "name": "Pike", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "55510B91",
+    { "name": "Hooked Blade", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "28F70D26",
+    { "name": "Billhook", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "C6792058",
+    { "name": "Battle Standard", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "7F635B38",
+    { "name": "Militia Spear", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "DA31DCAF",
+    { "name": "Boar Spear", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "7EF1AEA3",
+    { "name": "Fighting Spear", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "A3BB1210",
+    { "name": "Shortsword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "886423C7",
+    { "name": "Falchion", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "BC7A6220",
+    { "name": "Arming Sword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "72039E68",
+    { "name": "Noble Sword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1D4A54A0",
+    { "name": "Warbrand", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "56EA5919",
+    { "name": "Greatsword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "116D93E0",
+    { "name": "Two-handed Mallet", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1E62DD59",
+    { "name": "Two-handed Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "B68ED279",
+    {
+      "name": "Two-handed Flanged Mace",
+      "type": "genericWeapon",
+      "slot": "weapon"
+    }
+  ],
+  [
+    "0D552778",
+    { "name": "Three-headed Flail", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "C63CD8DE",
+    { "name": "Goedendag", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F361A65D",
+    { "name": "Longsword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "CA64D63F",
+    { "name": "Polehammer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "573A189E",
+    {
+      "name": "Two-handed Wooden Flail",
+      "type": "genericWeapon",
+      "slot": "weapon"
+    }
+  ],
+  [
+    "8C763FFC",
+    { "name": "Two-handed Flail", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["5AF69B8F", { "name": "Spetum", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "6020114B",
+    { "name": "Fencing Sword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "B33AFB8A",
+    { "name": "Battle Whip", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "FE4E8776",
+    { "name": "Bardiche", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "5C27AB44",
+    { "name": "Scimitar", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "3F304720",
+    { "name": "Shamshir", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "E05EABE8",
+    { "name": "Warfork", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "B3EAA613",
+    { "name": "Antler Cleaver", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F047F2F7",
+    { "name": "Claw Club", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "10DF4EBA",
+    { "name": "Axehammer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "3A7EBFD3",
+    { "name": "Blunt Cleaver", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F40BF13A",
+    { "name": "Crude Axe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "7920A2A5",
+    { "name": "Spiked Skull Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "4CFA7D7B",
+    { "name": "Skull Hammer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "48F10562",
+    { "name": "Heavy Rusty Axe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "FC3FD8AD",
+    { "name": "Rusty Warblade", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "17E0E8A4",
+    { "name": "Thorned Whip", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "AB80307D",
+    { "name": "Heavy Throwing Axes", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "71AB21D1",
+    { "name": "Heavy Javelins", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "A1CE9CC3",
+    { "name": "Qatal Dagger", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "71B661AB",
+    { "name": "Nomad Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "B9D46A8A",
+    { "name": "Light Southern Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "7E11AB76",
+    { "name": "Heavy Southern Mace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["EC38BEDC", { "name": "Saif", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "80FDC89D",
+    { "name": "Two-handed Saif", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "17962D15",
+    { "name": "Polemace", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "EB9CC0EA",
+    { "name": "Swordlance", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1938B2CD",
+    { "name": "Two-handed Scimitar", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "EEECDDE5",
+    { "name": "Fire Lance", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "4763A24A",
+    { "name": "Handgonne", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "FCF7A3FE",
+    { "name": "Tree Limb", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["7F68C60D", { "name": "Cudgel", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "092AA98C",
+    { "name": "Head Chopper", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F59DDF7D",
+    { "name": "Head Splitter", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "2AE99ABE",
+    { "name": "Man Splitter", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1803EC93",
+    { "name": "Berserk Chain", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "450FE0FD",
+    { "name": "Goblin Skewer", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "73CF9B1B",
+    { "name": "Jagged Pike", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "AA4AFF46",
+    { "name": "Notched Blade", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "2E376C66",
+    { "name": "Cruel Falchion", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "0212E3FD",
+    { "name": "Gnarly Staff", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  ["D040B3C1", { "name": "Falx", "type": "genericWeapon", "slot": "weapon" }],
+  [
+    "5FEC8442",
+    { "name": "Khopesh", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "A8E24050",
+    { "name": "Crypt Cleaver", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "49987BB3",
+    { "name": "Ancient Spear", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "D9D3CFFA",
+    { "name": "Broken Bladed Pike", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "B13235B0",
+    { "name": "Ancient Bladed Pike", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F7323A98",
+    { "name": "Warscythe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1D0869A8",
+    {
+      "name": "Broken Ancient Sword",
+      "type": "genericWeapon",
+      "slot": "weapon"
+    }
+  ],
+  [
+    "353981B3",
+    { "name": "Ancient Sword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "AA37415E",
+    { "name": "Rhomphaia", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "9CB0C3EC",
+    { "name": "Staff Sling", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "4496D3C5",
+    { "name": "Nomad Sling", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "FF5FC55F",
+    {
+      "name": "Wonky Bow",
+      "type": "genericWeapon",
+      "slot": "weapon",
+      "subType": "masterworkBow"
+    }
+  ],
+  [
+    "66E7A159",
+    {
+      "name": "Masterwork Bow",
+      "type": "genericWeapon",
+      "slot": "weapon",
+      "subType": "masterworkBow"
+    }
+  ],
+  [
+    "07490C1C",
+    { "name": "Short Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "E885B64C",
+    { "name": "Hunting Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "FF1476E9",
+    { "name": "Composite Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "EDAFA5E8",
+    { "name": "War Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "EDC9F13A",
+    { "name": "Light Crossbow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "621503AE",
+    { "name": "Crossbow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "1E7C3FB0",
+    { "name": "Heavy Crossbow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "671B0F53",
+    { "name": "Throwing Axes", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "3D810825",
+    { "name": "Bundle of Javelins", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "502AC62D",
+    { "name": "Throwing Spear", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "821C497D",
+    { "name": "Boondock Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "3E918595",
+    { "name": "Reinf. Boondock Bow", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "08E84B4D",
+    { "name": "Spiked Impaler", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "DF5E187F",
+    { "name": "Spiked Bolas", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "EC329C8F",
+    { "name": "Crude Javelins", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
+    "A82D20D2",
+    { "name": "Obsidian Dagger", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
+    "F5D22AB6",
+    {
+      "name": "Reproach of the Old Gods",
+      "type": "genericWeapon",
+      "slot": "weapon"
+    }
+  ],
+
+  [
+    "1D5DA654",
+    {
+      "name": "Wooden Skirmisher Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "2C9724E1",
+    {
+      "name": "Ancient Auxiliary Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "8FDC93A5",
+    { "name": "Buckler", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "AEB3302B",
+    { "name": "Feral Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "99123E9A",
+    { "name": "Old Wooden Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "B6DD7402",
+    {
+      "name": "Reinforced Skirmisher Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "B1541C06",
+    {
+      "name": "Ancient Coffin Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "755D0640",
+    {
+      "name": "Ancient Tower Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "558B33CE",
+    {
+      "name": "Decayed Heater Shield",
+      "type": "genericShield",
+      "slot": "shield"
+    }
+  ],
+  [
+    "65E39516",
+    { "name": "Worn Kite Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "EF2B7FF2",
+    { "name": "Wooden Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "B473558C",
+    { "name": "Heater Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "DC2F4731",
+    { "name": "Kite Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "4734FFD8",
+    { "name": "Heavy Metal Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "FB3D93BC",
+    {
+      "name": "Noble Heater Shield",
+      "type": "genericShield",
+      "slot": "shield",
+      "subType": "nobleShield"
+    }
+  ],
+  [
+    "7B68EE33",
+    {
+      "name": "Noble Kite Shield",
+      "type": "genericShield",
+      "slot": "shield",
+      "subType": "nobleShield"
+    }
+  ],
+
+  [
+    "DB7BE5FD",
+    { "name": "Adarga Shield", "type": "genericShield", "slot": "shield" }
+  ],
+  [
+    "F2B2F734",
+    { "name": "Sipar Shield", "type": "genericShield", "slot": "shield" }
+  ],
+
+  [
+    "7410DA79",
+    {
+      "name": "Lindwurm Shield",
+      "type": "genericShield",
+      "slot": "shield",
+      "icon": "7"
+    }
+  ],
+  [
+    "B7DA0F1A",
+    {
+      "name": "Living Tree Shield",
+      "type": "genericShield",
+      "slot": "shield",
+      "icon": "8"
+    }
+  ],
+  [
+    "C61D714A",
+    {
+      "name": "Kraken Shield",
+      "type": "genericShield",
+      "slot": "shield",
+      "icon": "9"
+    }
+  ],
+
+  [
+    "F1352077",
+    {
+      "name": "Gilder's Embrace",
+      "type": "genericShield",
+      "slot": "shield",
+      "icon": "0"
+    }
+  ],
+
+  [
+    "5397E0FB",
+    {
+      "name": "Mouthpiece",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 10,
+      "fatigue": 0,
+      "icon": 45
+    }
+  ],
+
+  [
+    "B2833142",
+    {
+      "name": "Headscarf",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 42
+    }
+  ],
+
+  [
+    "CCC8DA8E",
+    {
+      "name": "Southern Headwrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 8,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "D3EFB15C",
+    {
+      "name": "Nomad Headwrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 17,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "8AB5B5A3",
+    {
+      "name": "Cultist Hood",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 33
+    }
+  ],
+
+  [
+    "E33EA6AB",
+    {
+      "name": "Hood",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 36
+    }
+  ],
+
+  [
+    "A2235A4A",
+    {
+      "name": "Hunter's Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 87
+    }
+  ],
+
+  [
+    "F9C77536",
+    {
+      "name": "Feathered Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 39
+    }
+  ],
+
+  [
+    "29C439BC",
+    {
+      "name": "Jester's Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 86
+    }
+  ],
+
+  [
+    "52B3BADA",
+    {
+      "name": "Straw Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 34
+    }
+  ],
+
+  [
+    "54ECF71D",
+    {
+      "name": "Leather Headband",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 187
+    }
+  ],
+
+  [
+    "A18D374E",
+    {
+      "name": "Leather Headwrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": -2,
+      "icon": 18,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "EEAB6ED3",
+    {
+      "name": "Aketon Cap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": -1,
+      "icon": 21
+    }
+  ],
+
+  [
+    "EF45CEDA",
+    {
+      "name": "Dark Cowl",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 63
+    }
+  ],
+
+  [
+    "E1B52FD5",
+    {
+      "name": "Assasin's Headwrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 10,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "42C54D12",
+    {
+      "name": "Open Leather Cap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": -2,
+      "icon": 25
+    }
+  ],
+
+  [
+    "46A5E94C",
+    {
+      "name": "Witchhunter's Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 23
+    }
+  ],
+
+  [
+    "228B6077",
+    {
+      "name": "Undertaker's Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 240
+    }
+  ],
+
+  [
+    "8B0B19F3",
+    {
+      "name": "Full Leather Cap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 45,
+      "fatigue": -3,
+      "icon": 27
+    }
+  ],
+
+  [
+    "E6A3C942",
+    {
+      "name": "Bear Headpiece",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 50,
+      "fatigue": -3,
+      "icon": 190
+    }
+  ],
+
+  [
+    "5C66289D",
+    {
+      "name": "Nomad Leather Cap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 50,
+      "fatigue": -2,
+      "icon": 19,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "103E5F16",
+    {
+      "name": "Full Aketon Cap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 50,
+      "fatigue": -2,
+      "icon": 22
+    }
+  ],
+
+  [
+    "AC92E9A1",
+    {
+      "name": "Blade Dancer's Headwrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 60,
+      "fatigue": -1,
+      "icon": 23,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "E76D4A7A",
+    {
+      "name": "Duelist's Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 60,
+      "fatigue": -2,
+      "icon": 82
+    }
+  ],
+
+  [
+    "7A62159F",
+    {
+      "name": "Cultist Leather Hood",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 60,
+      "fatigue": -3,
+      "icon": 236
+    }
+  ],
+
+  [
+    "96430DF9",
+    {
+      "name": "The Fangshire",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 60,
+      "fatigue": -5,
+      "icon": 24
+    }
+  ],
+
+  [
+    "66C6D2B7",
+    {
+      "name": "Rusty Mail Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 70,
+      "fatigue": -4,
+      "icon": 29
+    }
+  ],
+
+  [
+    "CA71B015",
+    {
+      "name": "Nomad Light Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 70,
+      "fatigue": -3,
+      "icon": 20,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "14D752E8",
+    {
+      "name": "Physician's Mask",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 70,
+      "fatigue": -3,
+      "icon": 241
+    }
+  ],
+
+  [
+    "902163CF",
+    {
+      "name": "Mail Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 80,
+      "fatigue": -4,
+      "icon": 5
+    }
+  ],
+
+  [
+    "3D5FAAD9",
+    {
+      "name": "Closed Mail Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 90,
+      "fatigue": -4,
+      "icon": 6
+    }
+  ],
+
+  [
+    "B036ACB2",
+    {
+      "name": "Ancient Household Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 95,
+      "fatigue": -8,
+      "icon": 64
+    }
+  ],
+
+  [
+    "605DC0B6",
+    {
+      "name": "Reinforced Mail Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 100,
+      "fatigue": -5,
+      "icon": 7
+    }
+  ],
+
+  [
+    "3C6AB355",
+    {
+      "name": "Leather Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 105,
+      "fatigue": -6,
+      "icon": 189
+    }
+  ],
+
+  [
+    "2264175D",
+    {
+      "name": "Nasal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 105,
+      "fatigue": -5,
+      "icon": 1
+    }
+  ],
+
+  [
+    "DEA96FAF",
+    {
+      "name": "Wrapped Nasal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 105,
+      "fatigue": -5,
+      "icon": 2,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "FDB6361E",
+    {
+      "name": "Padded Dented Nasal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 110,
+      "fatigue": -7,
+      "icon": 0
+    }
+  ],
+
+  [
+    "4422A715",
+    {
+      "name": "Heavy Mail Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 110,
+      "fatigue": -5,
+      "icon": 237
+    }
+  ],
+
+  [
+    "66418C32",
+    {
+      "name": "Kettle Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 115,
+      "fatigue": -6,
+      "icon": 8
+    }
+  ],
+
+  [
+    "1CF9A62D",
+    {
+      "name": "Sallet Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 120,
+      "fatigue": -5,
+      "icon": 163
+    }
+  ],
+
+  [
+    "545D6575",
+    {
+      "name": "Masked Kettle Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 120,
+      "fatigue": -6,
+      "icon": 242
+    }
+  ],
+
+  [
+    "94EF8498",
+    {
+      "name": "Flat Top Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 125,
+      "fatigue": -7,
+      "icon": 12
+    }
+  ],
+
+  [
+    "323EC213",
+    {
+      "name": "Nordic Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 125,
+      "fatigue": -7,
+      "icon": 228
+    }
+  ],
+
+  [
+    "20910D44",
+    {
+      "name": "Spiked Skull Cap with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 125,
+      "fatigue": -7,
+      "icon": 1,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "FBE99DD7",
+    {
+      "name": "Nomad Reinforced Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 125,
+      "fatigue": -8,
+      "icon": 21,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "83B22AA5",
+    {
+      "name": "Ancient Legionary Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 130,
+      "fatigue": -10,
+      "icon": 66
+    }
+  ],
+
+  [
+    "3BB8A6B6",
+    {
+      "name": "Padded Nasal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 130,
+      "fatigue": -7,
+      "icon": 2
+    }
+  ],
+
+  [
+    "86EBDA42",
+    {
+      "name": "Beastmaster's Headpiece",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 130,
+      "fatigue": -8,
+      "icon": 193
+    }
+  ],
+
+  [
+    "8550A82E",
+    {
+      "name": "Nasal Helmet with Rusty Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 140,
+      "fatigue": -9,
+      "icon": 31
+    }
+  ],
+
+  [
+    "276E2C1C",
+    {
+      "name": "Padded Kettle Hat",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 140,
+      "fatigue": -8,
+      "icon": 9
+    }
+  ],
+
+  [
+    "5C657101",
+    {
+      "name": "Assassin's Face Mask",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 140,
+      "fatigue": -6,
+      "icon": 11,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "18B1FFA4",
+    {
+      "name": "Crude Metal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 145,
+      "fatigue": -11,
+      "icon": 196
+    }
+  ],
+
+  [
+    "29C6F734",
+    {
+      "name": "Padded Flat Top Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 150,
+      "fatigue": -8,
+      "icon": 13
+    }
+  ],
+
+  [
+    "07D0CD68",
+    {
+      "name": "Zweihander's Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 150,
+      "fatigue": -7,
+      "icon": 1
+    }
+  ],
+
+  [
+    "5F0F9C8B",
+    {
+      "name": "Crude Faceguard Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 160,
+      "fatigue": -15,
+      "icon": 191
+    }
+  ],
+
+  [
+    "69BC94D1",
+    {
+      "name": "Closed Flat Top Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 170,
+      "fatigue": -10,
+      "icon": 16
+    }
+  ],
+
+  [
+    "96EDFF02",
+    {
+      "name": "Ancient Honor Guard Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 180,
+      "fatigue": -13,
+      "icon": 74
+    }
+  ],
+
+  [
+    "814E314C",
+    {
+      "name": "Closed and Padded Flat Top",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 180,
+      "fatigue": -12,
+      "icon": 17
+    }
+  ],
+
+  [
+    "64C6D5F5",
+    {
+      "name": "Barbute Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 190,
+      "fatigue": -9,
+      "icon": 158
+    }
+  ],
+
+  [
+    "EFBC261D",
+    {
+      "name": "Closed Scrap Metal Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 190,
+      "fatigue": -18,
+      "icon": 197
+    }
+  ],
+
+  [
+    "87CE5320",
+    {
+      "name": "Southern Helmet with Coif",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 200,
+      "fatigue": -12,
+      "icon": 5,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "4FF64D8A",
+    {
+      "name": "Nasal Helmet with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 200,
+      "fatigue": -12,
+      "icon": 3
+    }
+  ],
+
+  [
+    "4D76633D",
+    {
+      "name": "Steppe Helmet with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 200,
+      "fatigue": -12,
+      "icon": 199
+    }
+  ],
+
+  [
+    "276BE611",
+    {
+      "name": "Bascinet with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 210,
+      "fatigue": -13,
+      "icon": 54
+    }
+  ],
+
+  [
+    "734E6166",
+    {
+      "name": "Kettle Hat with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 215,
+      "fatigue": -14,
+      "icon": 10
+    }
+  ],
+
+  [
+    "7F85FA0A",
+    {
+      "name": "Gladiator Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 225,
+      "fatigue": -11,
+      "icon": 14,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "763C5707",
+    {
+      "name": "Decayed Closed Flat Top With Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 230,
+      "fatigue": -19,
+      "icon": 61
+    }
+  ],
+
+  [
+    "C5DE5B07",
+    {
+      "name": "Covered Decayed Closed Flat Top With Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 230,
+      "fatigue": -19,
+      "icon": 57
+    }
+  ],
+
+  [
+    "E75D1544",
+    {
+      "name": "Flat Top with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 230,
+      "fatigue": -15,
+      "icon": 14
+    }
+  ],
+
+  [
+    "430E8AE0",
+    {
+      "name": "Decayed Full Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 240,
+      "fatigue": -20,
+      "icon": 55
+    }
+  ],
+
+  [
+    "7CA244EB",
+    {
+      "name": "Nasal Helmet with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 240,
+      "fatigue": -16,
+      "icon": 32
+    }
+  ],
+
+  [
+    "50B0ED97",
+    {
+      "name": "Kettle Hat with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 250,
+      "fatigue": -17,
+      "icon": 11
+    }
+  ],
+
+  [
+    "BC512D9D",
+    {
+      "name": "Adorned Closed Flat Top",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 250,
+      "fatigue": -15,
+      "icon": 238
+    }
+  ],
+
+  [
+    "4CEA2BD7",
+    {
+      "name": "Heavy Horned Plate Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 250,
+      "fatigue": -23,
+      "icon": 194
+    }
+  ],
+
+  [
+    "037DEE21",
+    {
+      "name": "Decayed Great Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 255,
+      "fatigue": -22,
+      "icon": 14
+    }
+  ],
+
+  [
+    "3A1AB5E4",
+    {
+      "name": "Heavy Lamellar Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 255,
+      "fatigue": -17,
+      "icon": 3,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "341D9268",
+    {
+      "name": "Flat Top with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 265,
+      "fatigue": -18,
+      "icon": 15
+    }
+  ],
+
+  [
+    "CC32FE3F",
+    {
+      "name": "Nordic Helmet with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 265,
+      "fatigue": -18,
+      "icon": 223
+    }
+  ],
+
+  [
+    "B98E54E7",
+    {
+      "name": "Conic Helmet with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 265,
+      "fatigue": -18,
+      "icon": 219
+    }
+  ],
+
+  [
+    "C81A59AF",
+    {
+      "name": "Closed Flat Top with Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 280,
+      "fatigue": -19,
+      "icon": 18
+    }
+  ],
+
+  [
+    "1F2D0B97",
+    {
+      "name": "Conic Helmet with Faceguard",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 280,
+      "fatigue": -19,
+      "icon": 200
+    }
+  ],
+
+  [
+    "04B99054",
+    {
+      "name": "Turban Helmet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 290,
+      "fatigue": -20,
+      "icon": 4,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "15AD2CF9",
+    {
+      "name": "Full Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 300,
+      "fatigue": -20,
+      "icon": 4
+    }
+  ],
+
+  [
+    "1EF8B5C5",
+    {
+      "name": "Decorated Full Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 300,
+      "fatigue": -20,
+      "icon": 1
+    }
+  ],
+
+  [
+    "09D9B0FB",
+    {
+      "name": "Adorned Full Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 300,
+      "fatigue": -18,
+      "icon": 239
+    }
+  ],
+
+  [
+    "E992CF1E",
+    {
+      "name": "Glimpse of Davkul",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 270,
+      "fatigue": -8,
+      "icon": 85
+    }
+  ],
+
+  [
+    "0D25E40F",
+    {
+      "name": "Helmet of Ijirok",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 310,
+      "fatigue": -20,
+      "icon": 198
+    }
+  ],
+
+  [
+    "820865B7",
+    {
+      "name": "The Emperor's Countenance",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 380,
+      "fatigue": -20,
+      "icon": 84
+    }
+  ],
+
+  [
+    "E0697383",
+    {
+      "name": "Tattered Sackcloth",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 5,
+      "fatigue": 0,
+      "icon": 1
+    }
+  ],
+
+  [
+    "08CE4AD2",
+    {
+      "name": "Sackcloth",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 10,
+      "fatigue": 0,
+      "icon": 2
+    }
+  ],
+
+  [
+    "D119ABC3",
+    {
+      "name": "Leather Wraps",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 18
+    }
+  ],
+
+  [
+    "C807BC4C",
+    {
+      "name": "Linen Tunic",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 6
+    }
+  ],
+
+  [
+    "8576C66B",
+    {
+      "name": "Cloth Sash",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 12,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "E818E0F4",
+    {
+      "name": "Monk's Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 11
+    }
+  ],
+
+  [
+    "16F3BEEE",
+    {
+      "name": "Noble Tunic",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 8
+    }
+  ],
+
+  [
+    "DCAF9DD7",
+    {
+      "name": "Wizard's Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 20,
+      "fatigue": 0,
+      "icon": 12
+    }
+  ],
+
+  [
+    "70522F1A",
+    {
+      "name": "Apron",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 25,
+      "fatigue": 0,
+      "icon": 10
+    }
+  ],
+
+  [
+    "2CFEAD48",
+    {
+      "name": "Butcher's apron",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 25,
+      "fatigue": 0,
+      "icon": 9
+    }
+  ],
+
+  [
+    "07E557C3",
+    {
+      "name": "Leather Tunic",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 13
+    }
+  ],
+
+  [
+    "0F21C711",
+    {
+      "name": "Nomad Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 16,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "4E59CB16",
+    {
+      "name": "Thick Furs",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 30,
+      "fatigue": -1,
+      "icon": 91
+    }
+  ],
+
+  [
+    "D46E9AF6",
+    {
+      "name": "Undertaker's Apron",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 110
+    }
+  ],
+
+  [
+    "560E9C42",
+    {
+      "name": "Dark Thick Tunic",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 35,
+      "fatigue": -2,
+      "icon": 60
+    }
+  ],
+
+  [
+    "31FC8584",
+    {
+      "name": "Thick Tunic",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 35,
+      "fatigue": -2,
+      "icon": 19
+    }
+  ],
+
+  [
+    "7F9E2E1D",
+    {
+      "name": "Gladiator Harness",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 40,
+      "fatigue": -4,
+      "icon": 11,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "333AD799",
+    {
+      "name": "Animal Hide Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 45,
+      "fatigue": -3,
+      "icon": 90
+    }
+  ],
+
+  [
+    "CAD4A50A",
+    {
+      "name": "Padded Surcoat",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 50,
+      "fatigue": -4,
+      "icon": 14
+    }
+  ],
+
+  [
+    "B9631B69",
+    {
+      "name": "Thick Nomad Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 50,
+      "fatigue": -5,
+      "icon": 17,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "9626289F",
+    {
+      "name": "Rugged Surcoat",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 55,
+      "fatigue": -4,
+      "icon": 20
+    }
+  ],
+
+  [
+    "34D4B2C3",
+    {
+      "name": "Padded Vest",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 60,
+      "fatigue": -5,
+      "icon": 6,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "CF3A43CF",
+    {
+      "name": "Dark Rugged Surcoat",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 60,
+      "fatigue": -4,
+      "icon": 61
+    }
+  ],
+
+  [
+    "5F898C33",
+    {
+      "name": "Leather Nomad Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 65,
+      "fatigue": -7,
+      "icon": 13,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "80558097",
+    {
+      "name": "Gambeson",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 65,
+      "fatigue": -6,
+      "icon": 15
+    }
+  ],
+
+  [
+    "E5B155E4",
+    {
+      "name": "Wanderer's Coat",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 65,
+      "fatigue": -5,
+      "icon": 111
+    }
+  ],
+
+  [
+    "77670BFB",
+    {
+      "name": "Reinforced Animal Hide Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 70,
+      "fatigue": -7,
+      "icon": 97
+    }
+  ],
+
+  [
+    "44648F82",
+    {
+      "name": "Blotched Gambeson",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 70,
+      "fatigue": -5,
+      "icon": 21
+    }
+  ],
+
+  [
+    "F5CE15C5",
+    {
+      "name": "Linothorax",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 75,
+      "fatigue": -7,
+      "icon": 9,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "43A71C08",
+    {
+      "name": "Scrap Metal Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 75,
+      "fatigue": -8,
+      "icon": 94
+    }
+  ],
+
+  [
+    "D716B30D",
+    {
+      "name": "Stitched Nomad Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 80,
+      "fatigue": -8,
+      "icon": 14,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "CAD82998",
+    {
+      "name": "Padded Leather",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 80,
+      "fatigue": -8,
+      "icon": 24
+    }
+  ],
+
+  [
+    "2BEB2BE4",
+    {
+      "name": "Cultist Leather Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 88,
+      "fatigue": -9,
+      "icon": 106
+    }
+  ],
+
+  [
+    "F4DB1B2B",
+    {
+      "name": "Patched Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 90,
+      "fatigue": -8,
+      "icon": 22
+    }
+  ],
+
+  [
+    "1FC085C4",
+    {
+      "name": "Hide and Bone Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 95,
+      "fatigue": -10,
+      "icon": 92
+    }
+  ],
+
+  [
+    "1E68F27B",
+    {
+      "name": "Leather Lamellar Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 95,
+      "fatigue": -10,
+      "icon": 25
+    }
+  ],
+
+  [
+    "E9F566FA",
+    {
+      "name": "Ancient Mail",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 100,
+      "fatigue": -14,
+      "icon": 64
+    }
+  ],
+
+  [
+    "64354DC7",
+    {
+      "name": "Direwolf Hide Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 100,
+      "fatigue": -9,
+      "icon": 16
+    }
+  ],
+
+  [
+    "EB81565A",
+    {
+      "name": "Reinforced Leather Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 100,
+      "fatigue": -9,
+      "icon": 112
+    }
+  ],
+
+  [
+    "4FE00606",
+    {
+      "name": "Plated Nomad Mail",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 105,
+      "fatigue": -11,
+      "icon": 15,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "70E90CFB",
+    {
+      "name": "Southern Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 110,
+      "fatigue": -11,
+      "icon": 4,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "3585732B",
+    {
+      "name": "Worn Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 110,
+      "fatigue": -10,
+      "icon": 23
+    }
+  ],
+
+  [
+    "95EC7AD9",
+    {
+      "name": "Basic Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 115,
+      "fatigue": -12,
+      "icon": 26
+    }
+  ],
+
+  [
+    "2B8F3BBF",
+    {
+      "name": "Ancient Double Layer Mail",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 120,
+      "fatigue": -16,
+      "icon": 65
+    }
+  ],
+
+  [
+    "7955A22F",
+    {
+      "name": "Assassin's Robe",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 120,
+      "fatigue": -9,
+      "icon": 3,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "111C74E2",
+    {
+      "name": "Ancient Scale Harness",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 125,
+      "fatigue": -20,
+      "icon": 63
+    }
+  ],
+
+  [
+    "6C583E18",
+    {
+      "name": "Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 130,
+      "fatigue": -14,
+      "icon": 27
+    }
+  ],
+
+  [
+    "810D989C",
+    {
+      "name": "Ancient Breastplate",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 135,
+      "fatigue": -22,
+      "icon": 62
+    }
+  ],
+
+  [
+    "6142BC2C",
+    {
+      "name": "Mail with Lamellar Plating",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 135,
+      "fatigue": -15,
+      "icon": 2,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "B5D9A959",
+    {
+      "name": "Direwolf Mail Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 140,
+      "fatigue": -13,
+      "icon": 17
+    }
+  ],
+
+  [
+    "607F25D4",
+    {
+      "name": "Leather Scale Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 140,
+      "fatigue": -16,
+      "icon": 83
+    }
+  ],
+
+  [
+    "11B5B8FC",
+    {
+      "name": "Rugged Scale Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 140,
+      "fatigue": -18,
+      "icon": 93
+    }
+  ],
+
+  [
+    "40038AF7",
+    {
+      "name": "Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 150,
+      "fatigue": -18,
+      "icon": 28
+    }
+  ],
+
+  [
+    "D08A381C",
+    {
+      "name": "Adorned Mail Shirt",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 150,
+      "fatigue": -16,
+      "icon": 107
+    }
+  ],
+
+  [
+    "FA16E122",
+    {
+      "name": "Noble Mail",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 160,
+      "fatigue": -15,
+      "icon": 87
+    }
+  ],
+
+  [
+    "52D7F04D",
+    {
+      "name": "Decayed Reinforced Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 170,
+      "fatigue": -26,
+      "icon": 50
+    }
+  ],
+
+  [
+    "CFA68910",
+    {
+      "name": "Light Scale Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 170,
+      "fatigue": -21,
+      "icon": 85
+    }
+  ],
+
+  [
+    "402EBFAF",
+    {
+      "name": "Heavy Iron Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 170,
+      "fatigue": -24,
+      "icon": 95
+    }
+  ],
+
+  [
+    "A365EE75",
+    {
+      "name": "Ancient Plated Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 180,
+      "fatigue": -22,
+      "icon": 68
+    }
+  ],
+
+  [
+    "68CC3CA0",
+    {
+      "name": "Ancient Scale Coat",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 190,
+      "fatigue": -25,
+      "icon": 66
+    }
+  ],
+
+  [
+    "C8BE1D21",
+    {
+      "name": "Footman's Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 190,
+      "fatigue": -24,
+      "icon": 84
+    }
+  ],
+
+  [
+    "EBD18811",
+    {
+      "name": "Ancient Plate Harness",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 200,
+      "fatigue": -28,
+      "icon": 67
+    }
+  ],
+
+  [
+    "814489E3",
+    {
+      "name": "Adorned Warrior's Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 200,
+      "fatigue": -22,
+      "icon": 108
+    }
+  ],
+
+  [
+    "5F83672E",
+    {
+      "name": "Southern Long Mail Shirt with Padding",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 200,
+      "fatigue": -25,
+      "icon": 1,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "08F98845",
+    {
+      "name": "Ancient Plated Scale Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 210,
+      "fatigue": -30,
+      "icon": 69
+    }
+  ],
+
+  [
+    "5415D693",
+    {
+      "name": "Reinforced Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 210,
+      "fatigue": -26,
+      "icon": 35
+    }
+  ],
+
+  [
+    "150907FB",
+    {
+      "name": "Lamellar Harness",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 230,
+      "fatigue": -30,
+      "icon": 88
+    }
+  ],
+
+  [
+    "3DB5964B",
+    {
+      "name": "Thick Plated Barbarian Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 230,
+      "fatigue": -35,
+      "icon": 96
+    }
+  ],
+
+  [
+    "FF327CC3",
+    {
+      "name": "Decayed Coat of Scales",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 240,
+      "fatigue": -38,
+      "icon": 49
+    }
+  ],
+
+  [
+    "303C752D",
+    {
+      "name": "Scale Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 240,
+      "fatigue": -28,
+      "icon": 33
+    }
+  ],
+
+  [
+    "2847F403",
+    {
+      "name": "Heraldic Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "subType": "nobleArmor",
+      "durability": 250,
+      "fatigue": -26,
+      "icon": 35
+    }
+  ],
+
+  [
+    "C16D17B8",
+    {
+      "name": "Decayed Coat of Plates",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 260,
+      "fatigue": -42,
+      "icon": 48
+    }
+  ],
+
+  [
+    "E3F404F4",
+    {
+      "name": "Sellsword Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 260,
+      "fatigue": -32,
+      "icon": 86
+    }
+  ],
+
+  [
+    "029A238E",
+    {
+      "name": "Heavy Lamellar Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 285,
+      "fatigue": -40,
+      "icon": 89
+    }
+  ],
+
+  [
+    "BDC4983C",
+    {
+      "name": "Padded Mail and Lamellar Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 290,
+      "fatigue": -36,
+      "icon": 7,
+      "iconSet": "southern"
+    }
+  ],
+
+  [
+    "99354282",
+    {
+      "name": "Coat of Scales",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 300,
+      "fatigue": -38,
+      "icon": 38
+    }
+  ],
+
+  [
+    "409638B4",
+    {
+      "name": "Adorned Heavy Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 300,
+      "fatigue": -34,
+      "icon": 109
+    }
+  ],
+
+  [
+    "5B70DD76",
+    {
+      "name": "Coat of Plates",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 320,
+      "fatigue": -42,
+      "icon": 37
+    }
+  ],
+
+  [
+    "E9857130",
+    {
+      "name": "Aspect of Davkul",
+      "type": "genericArmor",
+      "slot": "body",
+      "subType": "davkul",
+      "durability": 270,
+      "fatigue": -18,
+      "icon": 81
+    }
+  ],
+
+  [
+    "CEB6EC9E",
+    {
+      "name": "Armor of Ijirok",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 320,
+      "fatigue": -32,
+      "icon": 98
+    }
+  ],
+
+  [
+    "6BC4022B",
+    {
+      "name": "The Emperor's Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 380,
+      "fatigue": -30,
+      "icon": 80
+    }
+  ],
+
+  [
+    "00000000",
+    {
+      "name": "Empty",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 0,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "76B57B86",
+    {
+      "name": "Bone Platings",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 0,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "AD82C117",
+    {
+      "name": "Horn Plate",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 30,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "829ABB91",
+    {
+      "name": "Protective Runes and Sigils",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 0,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "9EEC2513",
+    {
+      "name": "Light Padding Replacement",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 0,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "CFE0EA55",
+    {
+      "name": "Unhold Fur Cloak",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 10,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "80DE01B7",
+    {
+      "name": "Additional Fur Padding",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 0,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "BD3B9C99",
+    {
+      "name": "Leather Neckguard",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 10,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "DDAAA63D",
+    {
+      "name": "Leather Shoulderguards",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 10,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "41A6437B",
+    {
+      "name": "Direwolf Pelt Mantle",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 15,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "924E5313",
+    {
+      "name": "Hyena Fur Mantle",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 15,
+      "fatigue": 0
+    }
+  ],
+
+  [
+    "6A59C084",
+    {
+      "name": "Double Mail",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 20,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "DB86B709",
+    {
+      "name": "Mail Patch",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 20,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "7AC1159D",
+    {
+      "name": "Serpent Skin Mantle",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 30,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "82F72108",
+    {
+      "name": "Metal Plates and Rivets",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 30,
+      "fatigue": -3
+    }
+  ],
+
+  [
+    "B7B0DFF0",
+    {
+      "name": "Metal Joint Covers",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 30,
+      "fatigue": -3
+    }
+  ],
+
+  [
+    "679155D7",
+    {
+      "name": "Metal Pauldrons",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 40,
+      "fatigue": -4
+    }
+  ],
+
+  [
+    "9D6DEC64",
+    {
+      "name": "Heraldic Shoulderguards",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 40,
+      "fatigue": -4,
+      "icon": 15
+    }
+  ],
+
+  [
+    "F9A7BAB1",
+    {
+      "name": "Lindwurm Scale Cloak",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 40,
+      "fatigue": -2
+    }
+  ],
+
+  [
+    "1BB3149D",
+    {
+      "name": "Padded Armor Pieces",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 60,
+      "fatigue": -4
+    }
+  ],
+
+  [
+    "90E02ECF",
+    {
+      "name": "Metal Armor Pieces",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 115,
+      "fatigue": -10
+    }
+  ],
+
+  [
+    "FD266F9D",
+    {
+      "name": "Horn and Bone",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 40,
+      "fatigue": -4
+    }
+  ],
+
+  [
+    "3A0711AF",
+    {
+      "name": "Named Dagger",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 50,
+      "fatigue": 0,
+      "damageMin": 20,
+      "damageMax": 40,
+      "damageArmor": 0.7
+    }
+  ],
+
+  [
+    "D83080C4",
+    {
+      "name": "Named Qatal Dagger",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 60,
+      "fatigue": 0,
+      "damageMin": 30,
+      "damageMax": 45,
+      "damageArmor": 0.7
+    }
+  ],
+
+  [
+    "A3D05667",
+    {
+      "name": "Named Sword",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 72,
+      "fatigue": -8,
+      "damageMin": 45,
+      "damageMax": 50,
+      "damageArmor": 0.85
+    }
+  ],
+
+  [
+    "4FBF30D4",
+    {
+      "name": "Named Shamshir",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 72,
+      "fatigue": -8,
+      "damageMin": 45,
+      "damageMax": 50,
+      "damageArmor": 0.75
+    }
+  ],
+
+  [
+    "B0C80CF5",
+    {
+      "name": "Named Fencing Sword",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 48,
+      "fatigue": -4,
+      "damageMin": 35,
+      "damageMax": 50,
+      "damageArmor": 0.75
+    }
+  ],
+
+  [
+    "96393407",
+    {
+      "name": "Named Cruel Falchion",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 52,
+      "fatigue": -2,
+      "damageMin": 35,
+      "damageMax": 45,
+      "damageArmor": 0.7
+    }
+  ],
+
+  [
+    "2DD93D54",
+    {
+      "name": "Named Warbrand",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 64,
+      "fatigue": -10,
+      "damageMin": 50,
+      "damageMax": 75,
+      "damageArmor": 0.75,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "E6F65735",
+    {
+      "name": "Named Greatsword",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 72,
+      "fatigue": -12,
+      "damageMin": 85,
+      "damageMax": 100,
+      "damageArmor": 1.0,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "266485FC",
+    {
+      "name": "Named Axe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 80,
+      "fatigue": -12,
+      "damageMin": 35,
+      "damageMax": 55,
+      "damageArmor": 1.3
+    }
+  ],
+
+  [
+    "5DD57925",
+    {
+      "name": "Named Orc Axe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 64,
+      "fatigue": -22,
+      "damageMin": 35,
+      "damageMax": 65,
+      "damageArmor": 1.3,
+      "fatigueUse": 5
+    }
+  ],
+
+  [
+    "218D1BA0",
+    {
+      "name": "Named Greataxe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 36,
+      "durability": 72,
+      "fatigue": -16,
+      "damageMin": 80,
+      "damageMax": 100,
+      "damageArmor": 1.5
+    }
+  ],
+
+  [
+    "302EF564",
+    {
+      "name": "Named Heavy Axe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 36,
+      "durability": 96,
+      "fatigue": -16,
+      "damageMin": 75,
+      "damageMax": 90,
+      "penetration": 0.1,
+      "damageArmor": 1.5
+    }
+  ],
+  [
+    "0EDE702A",
+    {
+      "name": "Named Bardiche",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 24,
+      "durability": 64,
+      "fatigue": -16,
+      "damageMin": 75,
+      "damageMax": 95,
+      "damageArmor": 1.3
+    }
+  ],
+
+  [
+    "C6A38A4F",
+    {
+      "name": "Named Longaxe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 24,
+      "durability": 72,
+      "fatigue": -14,
+      "damageMin": 70,
+      "damageMax": 95,
+      "damageArmor": 1.1,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "2AD6C1E1",
+    {
+      "name": "Named Cleaver",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 80,
+      "fatigue": -12,
+      "damageMin": 40,
+      "damageMax": 60,
+      "damageArmor": 0.9
+    }
+  ],
+
+  [
+    "830BB396",
+    {
+      "name": "Named Whip",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 40,
+      "fatigue": -6,
+      "damageMin": 15,
+      "damageMax": 30,
+      "damageArmor": 0.25
+    }
+  ],
+
+  [
+    "8EA9D199",
+    {
+      "name": "Named Khopesh",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 42,
+      "fatigue": -10,
+      "damageMin": 35,
+      "damageMax": 55,
+      "damageArmor": 1.2
+    }
+  ],
+
+  [
+    "F1121DF5",
+    {
+      "name": "Named Orc Cleaver",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 52,
+      "fatigue": -18,
+      "damageMin": 40,
+      "damageMax": 70,
+      "damageArmor": 1.1,
+      "fatigueUse": 5
+    }
+  ],
+
+  [
+    "E40F0AAD",
+    {
+      "name": "Named Two-handed Scimitar",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 64,
+      "fatigue": -14,
+      "damageMin": 65,
+      "damageMax": 85,
+      "damageArmor": 1.1
+    }
+  ],
+
+  [
+    "8F8C8D0D",
+    {
+      "name": "Named Crypt Cleaver",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 48,
+      "fatigue": -16,
+      "damageMin": 60,
+      "damageMax": 80,
+      "damageArmor": 1.2
+    }
+  ],
+
+  [
+    "C4E0D061",
+    {
+      "name": "Named Warblade",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 52,
+      "fatigue": -18,
+      "damageMin": 60,
+      "damageMax": 80,
+      "penetration": 0.1,
+      "damageArmor": 1.1
+    }
+  ],
+
+  [
+    "C43FDA65",
+    {
+      "name": "Named Flail",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 72,
+      "fatigue": -8,
+      "damageMin": 25,
+      "damageMax": 55,
+      "damageArmor": 1.0,
+      "headChance": 10
+    }
+  ],
+
+  [
+    "9D7F4210",
+    {
+      "name": "Named Three-headed Flail",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 60,
+      "fatigue": -10,
+      "damageMin": 30,
+      "damageMax": 75,
+      "damageArmor": 1.0,
+      "headChance": 10
+    }
+  ],
+
+  [
+    "9C530563",
+    {
+      "name": "Named Two-handed Flail",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 80,
+      "fatigue": -16,
+      "damageMin": 40,
+      "damageMax": 80,
+      "damageArmor": 1.1,
+      "headChance": 15
+    }
+  ],
+
+  [
+    "181EE043",
+    {
+      "name": "Named Warhammer",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 100,
+      "fatigue": -8,
+      "damageMin": 30,
+      "damageMax": 40,
+      "damageArmor": 2.25
+    }
+  ],
+
+  [
+    "0A14D856",
+    {
+      "name": "Named Two-handed Hammer",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 26,
+      "durability": 120,
+      "fatigue": -18,
+      "damageMin": 60,
+      "damageMax": 90,
+      "damageArmor": 2
+    }
+  ],
+
+  [
+    "E1A952E3",
+    {
+      "name": "Named Skull Hammer",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 26,
+      "durability": 120,
+      "fatigue": -16,
+      "damageMin": 45,
+      "damageMax": 65,
+      "penetration": 0.1,
+      "damageArmor": 1.8
+    }
+  ],
+
+  [
+    "5A71D45B",
+    {
+      "name": "Named Polehammer",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 100,
+      "fatigue": -14,
+      "damageMin": 50,
+      "damageMax": 75,
+      "damageArmor": 1.85,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "F644507F",
+    {
+      "name": "Named Mace",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 80,
+      "fatigue": -10,
+      "damageMin": 35,
+      "damageMax": 55,
+      "damageArmor": 1.1
+    }
+  ],
+
+  [
+    "EE75A45C",
+    {
+      "name": "Named Two-handed Mace",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 26,
+      "durability": 120,
+      "fatigue": -16,
+      "damageMin": 75,
+      "damageMax": 95,
+      "damageArmor": 1.25
+    }
+  ],
+
+  [
+    "41806D40",
+    {
+      "name": "Named Skull Mace",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 20,
+      "durability": 72,
+      "fatigue": -14,
+      "damageMin": 50,
+      "damageMax": 70,
+      "penetration": 0.1,
+      "damageArmor": 1.15
+    }
+  ],
+
+  [
+    "BE031BE0",
+    {
+      "name": "Named Polemace",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 64,
+      "fatigue": -14,
+      "damageMin": 60,
+      "damageMax": 75,
+      "damageArmor": 1.2,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "B72F5167",
+    {
+      "name": "Named Spear",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 72,
+      "fatigue": -10,
+      "damageMin": 35,
+      "damageMax": 40,
+      "damageArmor": 1.0
+    }
+  ],
+
+  [
+    "CDB8A016",
+    {
+      "name": "Named Goblin Skewer",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 36,
+      "fatigue": -2,
+      "damageMin": 25,
+      "damageMax": 35,
+      "damageArmor": 0.7
+    }
+  ],
+
+  [
+    "EA4BBCEE",
+    {
+      "name": "Named Spetum",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 60,
+      "fatigue": -14,
+      "damageMin": 55,
+      "damageMax": 75,
+      "damageArmor": 1.0,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "7DC2527F",
+    {
+      "name": "Named Pike",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 64,
+      "fatigue": -14,
+      "damageMin": 60,
+      "damageMax": 80,
+      "damageArmor": 1.0,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "3886F7D9",
+    {
+      "name": "Named Billhook",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 72,
+      "fatigue": -14,
+      "damageMin": 55,
+      "damageMax": 85,
+      "damageArmor": 1.4,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "FAFE6F1A",
+    {
+      "name": "Named Swordlance",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 52,
+      "fatigue": -14,
+      "damageMin": 60,
+      "damageMax": 80,
+      "damageArmor": 0.9
+    }
+  ],
+
+  [
+    "F033EB20",
+    {
+      "name": "Named Bladed Pike",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 30,
+      "fatigue": -14,
+      "damageMin": 55,
+      "damageMax": 80,
+      "damageArmor": 1.25,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "5BB80F84",
+    {
+      "name": "Named Jagged Pike",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 40,
+      "fatigue": -6,
+      "damageMin": 50,
+      "damageMax": 70,
+      "damageArmor": 0.9,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "4EE39971",
+    {
+      "name": "Named Warscythe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 36,
+      "fatigue": -16,
+      "damageMin": 55,
+      "damageMax": 80,
+      "damageArmor": 1.05,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "426CA1FD",
+    {
+      "name": "Named Bow",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 100,
+      "fatigue": -6,
+      "damageMin": 50,
+      "damageMax": 70,
+      "damageArmor": 0.6
+    }
+  ],
+
+  [
+    "46EA6DD2",
+    {
+      "name": "Named Goblin Bow",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 62,
+      "fatigue": -2,
+      "damageMin": 30,
+      "damageMax": 50,
+      "damageArmor": 0.6
+    }
+  ],
+
+  [
+    "72A4EC61",
+    {
+      "name": "Named Crossbow",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 64,
+      "fatigue": -12,
+      "damageMin": 50,
+      "damageMax": 70,
+      "damageArmor": 0.75
+    }
+  ],
+
+  [
+    "6A3CF39E",
+    {
+      "name": "Named Handgonne",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 60,
+      "fatigue": -12,
+      "damageMin": 35,
+      "damageMax": 75,
+      "damageArmor": 1.0
+    }
+  ],
+
+  [
+    "7749A004",
+    {
+      "name": "Named Throwing Axes",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 1,
+      "fatigue": -4,
+      "damageMin": 25,
+      "damageMax": 40,
+      "damageArmor": 1.1,
+      "headChance": 5,
+      "ammo": 5,
+      "ammoMax": 5
+    }
+  ],
+
+  [
+    "0DDFB4E4",
+    {
+      "name": "Named Javelins",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "subType": "ranged",
+      "durability": 1,
+      "fatigue": -6,
+      "damageMin": 30,
+      "damageMax": 45,
+      "damageArmor": 0.75,
+      "ammo": 5,
+      "ammoMax": 5
+    }
+  ],
+
+  [
+    "F93B5180",
+    {
+      "name": "Named Heater Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 20,
+      "rDef": 15,
+      "fatigue": -14,
+      "fatigueUse": 0,
+      "durability": 32
+    }
+  ],
+
+  [
+    "A9B08AB4",
+    {
+      "name": "Named Kite Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 15,
+      "rDef": 25,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 48
+    }
+  ],
+
+  [
+    "DEBE18B7",
+    {
+      "name": "Norse Kite Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 15,
+      "rDef": 25,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 48
+    }
+  ],
+
+  [
+    "310B3FB3",
+    {
+      "name": "Relic Heater Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 2,
+      "mDef": 20,
+      "rDef": 15,
+      "fatigue": -14,
+      "fatigueUse": 0,
+      "durability": 32
+    }
+  ],
+
+  [
+    "DCAD14EA",
+    {
+      "name": "Winged Heater Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 3,
+      "mDef": 20,
+      "rDef": 15,
+      "fatigue": -14,
+      "fatigueUse": 0,
+      "durability": 32
+    }
+  ],
+
+  [
+    "CFD8CF92",
+    {
+      "name": "Metal Round Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 4,
+      "mDef": 19,
+      "rDef": 17,
+      "fatigue": -18,
+      "fatigueUse": 0,
+      "durability": 60
+    }
+  ],
+
+  [
+    "44B0FCF2",
+    {
+      "name": "Metal Heater Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 5,
+      "mDef": 20,
+      "rDef": 15,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 60
+    }
+  ],
+
+  [
+    "12CF6E98",
+    {
+      "name": "Pavise Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 6,
+      "mDef": 15,
+      "rDef": 25,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 48
+    }
+  ],
+
+  [
+    "259DB6AC",
+    {
+      "name": "Lindwurm Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 7,
+      "mDef": 15,
+      "rDef": 25,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 48
+    }
+  ],
+
+  [
+    "8B6FEAB4",
+    {
+      "name": "Named Orc Metal Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 15,
+      "rDef": 15,
+      "fatigue": -22,
+      "fatigueUse": 5,
+      "durability": 72
+    }
+  ],
+
+  [
+    "249CE79E",
+    {
+      "name": "Named Undead Kite Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 15,
+      "rDef": 25,
+      "fatigue": -16,
+      "fatigueUse": 0,
+      "durability": 48
+    }
+  ],
+
+  [
+    "BC8038CB",
+    {
+      "name": "Named Undead Heater Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 20,
+      "rDef": 15,
+      "fatigue": -14,
+      "fatigueUse": 0,
+      "durability": 32
+    }
+  ],
+
+  [
+    "A69958B5",
+    {
+      "name": "Named Sipar Shield",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 2,
+      "mDef": 18,
+      "rDef": 18,
+      "fatigue": -18,
+      "fatigueUse": 0,
+      "durability": 60
+    }
+  ],
+
+  [
+    "15358CEB",
+    {
+      "name": "Hardened Leather Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 42,
+      "durability": 110,
+      "fatigue": -11
+    }
+  ],
+
+  [
+    "0A201D71",
+    {
+      "name": "Plated Fur Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 104,
+      "durability": 130,
+      "fatigue": -14
+    }
+  ],
+
+  [
+    "A6C30FC8",
+    {
+      "name": "Reinforced Mail Shirt",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 46,
+      "durability": 150,
+      "fatigue": -18
+    }
+  ],
+
+  [
+    "4A1D731A",
+    {
+      "name": "Champion's Noble Mail",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 99,
+      "durability": 160,
+      "fatigue": -15
+    }
+  ],
+
+  [
+    "33051589",
+    {
+      "name": "Skull and Chain Coat",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 102,
+      "durability": 190,
+      "fatigue": -24
+    }
+  ],
+
+  [
+    "667842F2",
+    {
+      "name": "Knightly Mail Hauberk",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 36,
+      "durability": 210,
+      "fatigue": -26
+    }
+  ],
+
+  [
+    "00F41059",
+    {
+      "name": "Scorpion Mail",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 2,
+      "iconSet": "southern",
+      "durability": 210,
+      "fatigue": -25
+    }
+  ],
+
+  [
+    "1C373AC1",
+    {
+      "name": "Golden Scale Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 44,
+      "durability": 230,
+      "fatigue": -30
+    }
+  ],
+
+  [
+    "CA6FB824",
+    {
+      "name": "Mercenary Layered Coat",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 101,
+      "durability": 260,
+      "fatigue": -32
+    }
+  ],
+
+  [
+    "50CC8BAE",
+    {
+      "name": "Alloy Plate Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 103,
+      "durability": 280,
+      "fatigue": -35
+    }
+  ],
+
+  [
+    "82A194B2",
+    {
+      "name": "Golden Lamellar Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 100,
+      "durability": 285,
+      "fatigue": -40
+    }
+  ],
+
+  [
+    "BF3413DE",
+    {
+      "name": "Vizier's Harness",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 1,
+      "iconSet": "southern",
+      "durability": 290,
+      "fatigue": -35
+    }
+  ],
+
+  [
+    "B2FDA1AE",
+    {
+      "name": "Lindwurm Armor",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 82,
+      "durability": 300,
+      "fatigue": -36
+    }
+  ],
+
+  [
+    "6EE95258",
+    {
+      "name": "Plated Mail Hauberk",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 45,
+      "durability": 300,
+      "fatigue": -36
+    }
+  ],
+
+  [
+    "235277B2",
+    {
+      "name": "Enchanced Coat of Plates",
+      "type": "namedArmor",
+      "slot": "body",
+      "icon": 43,
+      "durability": 320,
+      "fatigue": -42
+    }
+  ],
+
+  [
+    "4AD28101",
+    {
+      "name": "Norse Nasal Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 203,
+      "durability": 125,
+      "fatigue": -6
+    }
+  ],
+
+  [
+    "EF82B9B5",
+    {
+      "name": "Wolf Helm",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 48,
+      "durability": 140,
+      "fatigue": -8
+    }
+  ],
+
+  [
+    "EDAD0218",
+    {
+      "name": "Noble Steppe Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 204,
+      "durability": 200,
+      "fatigue": -12
+    }
+  ],
+
+  [
+    "C898FAA1",
+    {
+      "name": "Metal Skull Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 232,
+      "durability": 210,
+      "fatigue": -13
+    }
+  ],
+
+  [
+    "4C5A47B6",
+    {
+      "name": "Pit Fighter Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 234,
+      "durability": 230,
+      "fatigue": -15
+    }
+  ],
+
+  [
+    "F188E9F8",
+    {
+      "name": "Golden Feathered Helm",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 50,
+      "durability": 240,
+      "fatigue": -16
+    }
+  ],
+
+  [
+    "C51784F0",
+    {
+      "name": "Vizier's Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 1,
+      "iconSet": "southern",
+      "durability": 255,
+      "fatigue": -17
+    }
+  ],
+
+  [
+    "0C16415A",
+    {
+      "name": "Hardened Nasal Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 51,
+      "durability": 265,
+      "fatigue": -18
+    }
+  ],
+
+  [
+    "C9C2BF5D",
+    {
+      "name": "Lindwurm Helm",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 152,
+      "durability": 265,
+      "fatigue": -18
+    }
+  ],
+
+  [
+    "EC25DD6B",
+    {
+      "name": "Masked Nordic Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 206,
+      "durability": 265,
+      "fatigue": -18
+    }
+  ],
+
+  [
+    "F40E52FA",
+    {
+      "name": "Ribboned Sallet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 49,
+      "durability": 265,
+      "fatigue": -18
+    }
+  ],
+
+  [
+    "B1294088",
+    {
+      "name": "Knightly Helm",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 53,
+      "durability": 280,
+      "fatigue": -19
+    }
+  ],
+
+  [
+    "BF8A7505",
+    {
+      "name": "Masked Conic Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 205,
+      "durability": 280,
+      "fatigue": -19
+    }
+  ],
+
+  [
+    "C4C1A95E",
+    {
+      "name": "Scorpion Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 2,
+      "iconSet": "southern",
+      "durability": 290,
+      "fatigue": -20
+    }
+  ],
+
+  [
+    "044D0E01",
+    {
+      "name": "Horned Alloy Helmet",
+      "type": "namedHelmet",
+      "slot": "helmet",
+      "icon": 233,
+      "durability": 300,
+      "fatigue": -22
+    }
+  ],
+
+  [
+    "170BAB89",
+    {
+      "name": "Acid Flask",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+  [
+    "F055BDDC",
+    {
+      "name": "Throwing Net",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+  [
+    "C40CE1CF",
+    {
+      "name": "Reinforced Throwing Net",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+  [
+    "9C531274",
+    {
+      "name": "Blessed Water",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+
+  [
+    "1FC72F54",
+    {
+      "name": "Fire Pot",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+  [
+    "080888BE",
+    {
+      "name": "Smoke Pot",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+  [
+    "15447131",
+    {
+      "name": "Flash Pot",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "shield"
+    }
+  ],
+
+  [
+    "E3FA5030",
+    { "name": "Bandage", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "69CCE5EE",
+    { "name": "Antidote", "slot": "consumable", "type": "auxiliary" }
+  ],
+  ["504A794E", { "name": "Falcon", "slot": "consumable", "type": "auxiliary" }],
+  [
+    "6A2830C4",
+    { "name": "Strange Mushrooms", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "FDA9E384",
+    { "name": "Goblin Poison", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "77830EB1",
+    { "name": "Poisoned Oil", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "38F35D22",
+    { "name": "Second Wind Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "34FE28DD",
+    { "name": "Iron Will Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "BE59C9B5",
+    { "name": "Night Owl Elixir", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "7D96B7E4",
+    { "name": "Cat Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "5FBD8193",
+    { "name": "Lionheart Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "37F3AF58",
+    {
+      "name": "Apothecary's Miracle",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "077A3DC8",
+    { "name": "Happy Powder", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "F5A982DC",
+    { "name": "Potion of Knowledge", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "7F716ED5",
+    { "name": "Potion of Oblivion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "AA71A8EA",
+    { "name": "Water of Youth", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "6374D332",
+    { "name": "Mysterious Jug", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "388FF536",
+    { "name": "Mysterious Jug", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "8F745EF5",
+    { "name": "Blue Vial", "type": "auxiliary", "slot": "consumable" }
+  ],
+
+  [
+    "0F4023C9",
+    { "name": "Apotheosis Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "803A3954",
+    {
+      "name": "Potion of Blade Dancing",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "C1007B1D",
+    { "name": "Bloodgate Brew", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "5D9AD529",
+    { "name": "Quickfang Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "8A8BA2A9",
+    {
+      "name": "Potion of Flesh Knitting",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "57C38F4B",
+    { "name": "Venomblood Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "7A0985A5",
+    { "name": "Potion of Stoneskin", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "B58FD73F",
+    { "name": "Nightking's Draft", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "4E603CCD",
+    {
+      "name": "Fool's Treasure Potion",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "FD10D9DA",
+    {
+      "name": "Draught of Godtree Roots",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "DA45F06D",
+    {
+      "name": "Potion of Malevolence",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "352F9B6C",
+    { "name": "Kineticist's Draft", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "D0B6B5C7",
+    { "name": "Rose Philter", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "D53AC2D0",
+    { "name": "Ironhead Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "6E08F1E3",
+    { "name": "Font of Strength", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "76E287D5",
+    { "name": "Potion of Fleetfoot", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "E18FC6BB",
+    { "name": "Deadeye's Draught", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "2AB54884",
+    { "name": "Greasejar Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "6898122F",
+    {
+      "name": "Potion of Leather Skin",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "23B9AE48",
+    {
+      "name": "Elixir of Perseverance",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "ACB3C900",
+    { "name": "Deadman's Drink", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "C9252167",
+    { "name": "The King in Chains", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "76AD0F29",
+    {
+      "name": "Potion of the Sleepless",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "606FAFA1",
+    { "name": "Elixir of Boneflesh", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "BCCDF0BA",
+    {
+      "name": "Potion of the Nightstalker",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "7CD368B3",
+    { "name": "Dastard's Valor", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "E7931D34",
+    { "name": "Knife's Edge Potion", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "F2F54F31",
+    {
+      "name": "Potion of Inner Sanctum",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "FE4D5C07",
+    {
+      "name": "Tincture of Emberblood",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "4C773E88",
+    {
+      "name": "Elixir of the Mad God",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "78629320",
+    { "name": "Bog King's Draught", "slot": "consumable", "type": "auxiliary" }
+  ],
+
+  [
+    "26057CC4",
+    { "name": "Potion of Change", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "AA6CBDB0",
+    { "name": "Potion of Progress", "slot": "consumable", "type": "auxiliary" }
+  ],
+  [
+    "CC6B8184",
+    {
+      "name": "Elixir of Enlightenment",
+      "slot": "consumable",
+      "type": "auxiliary"
+    }
+  ],
+
+  ["74EC8730", { "name": "Wardog Armor", "type": "auxiliary" }],
+  ["80C9AF1F", { "name": "Heavy Wardog Armor", "type": "auxiliary" }],
+
+  [
+    "98FF91E9",
+    { "name": "Sergeants Sash", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "99C519AE",
+    {
+      "name": "Wardog",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "0EADB11B",
+    {
+      "name": "Armored Wardog",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "07197EEF",
+    {
+      "name": "Heavily Armored Wardog",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "D1552B2D",
+    {
+      "name": "Wolf",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "BDD56DA5",
+    {
+      "name": "Northern Hound",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "6A96C2B6",
+    {
+      "name": "Armored Northern Hound",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "FBFCEF56",
+    {
+      "name": "Heavily Armored Northern Hound",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+  [
+    "DA673336",
+    {
+      "name": "Orc Slayer's Necklace",
+      "type": "auxiliary",
+      "slot": "trinket",
+      "subType": "canine"
+    }
+  ],
+
+  [
+    "E675A937",
+    { "name": "Cursed Crystal Skull", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "11490A31",
+    { "name": "Goblin Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "1E517AFD",
+    { "name": "Orc Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "3F7A5176",
+    { "name": "Undead Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "ED4D7672",
+    { "name": "Nachzehrer Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "3FF4678E",
+    { "name": "Alp Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "AA50E303",
+    { "name": "Hexen Trophy", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "9C6E203C",
+    { "name": "Arena Collar", "type": "auxiliary", "slot": "trinket" }
+  ],
+
+  [
+    "8E6BFC1C",
+    { "name": "Young Anselm's Skull", "type": "auxiliary", "slot": "trinket" }
+  ],
+  [
+    "63861E21",
+    {
+      "name": "Young Anselm's Skull and Jawbone",
+      "type": "auxiliary",
+      "slot": "trinket"
+    }
+  ],
+
+  [
+    "14A735E7",
+    {
+      "name": "Quiver of Bolts",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "A29DA4EF",
+    {
+      "name": "Large Quiver of Bolts",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "5A5FF966",
+    {
+      "name": "Quiver of Arrows",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "E001039F",
+    {
+      "name": "Large Quiver of Arrows",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "DF84B080",
+    {
+      "name": "Powder Bag",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "352CC6EA",
+    {
+      "name": "Large Powder Bag",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+  [
+    "7BB3D276",
+    {
+      "name": "Bloodletter's Reach",
+      "type": "auxiliary",
+      "subType": "ammo",
+      "slot": "quiver"
+    }
+  ],
+
+  [
+    "5CF62FD5",
+    {
+      "name": "Bread",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "B00ED5D2",
+    {
+      "name": "Ground Grains",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "C2B26825",
+    {
+      "name": "Roots and Berries",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "0E34DFA7",
+    {
+      "name": "Cured Venison",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "FE5BC3E2",
+    {
+      "name": "Smoked Ham",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "3DB4B010",
+    {
+      "name": "Goat Cheese",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "2785CAAE",
+    {
+      "name": "Dried Fish",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "56B75F72",
+    {
+      "name": "Mushrooms",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "FE7B18D4",
+    {
+      "name": "Dried Fruits",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "9CCC1671",
+    {
+      "name": "Beer",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "85D72217",
+    {
+      "name": "Wine",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "7DA17FC4",
+    {
+      "name": "Mead",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "80AABE6A",
+    {
+      "name": "Masterfuly Cured Rations",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "884E5D5D",
+    {
+      "name": "Fermented Unhold Heart",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "ECA59BF1",
+    {
+      "name": "Strange Meat",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+  [
+    "E3DAC721",
+    {
+      "name": "Black Marsh Stew",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
+
+  [
+    "7DD07674",
+    { "name": "Rice", "type": "auxiliary", "subType": "provisions" }
+  ],
+  [
+    "5128E90D",
+    { "name": "Dried Lamb", "type": "auxiliary", "subType": "provisions" }
+  ],
+  [
+    "D793C057",
+    { "name": "Dates", "type": "auxiliary", "subType": "provisions" }
+  ],
+
+  [
+    "240CCCC9",
+    {
+      "name": "Unusualy Large Wolf Pelt",
+      "slot": "monsterloot",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "C1A46F24",
+    { "name": "Adrenaline Gland", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "8E4AB21A",
+    { "name": "Gossamer", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "16199ED0",
+    { "name": "Venom Gland", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "5A98AFCC",
+    { "name": "Webbed Valuables", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "E959A65F",
+    { "name": "Jagged Fangs", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "D2E8B2EC",
+    { "name": "Nachzehrer's Horn", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "2336D9B1",
+    { "name": "Nachzehrer's Brain", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "68F25E8D",
+    { "name": "Growth Pearls", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "53533EA0",
+    { "name": "Poisoned Apple", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "0B5A9CFB",
+    { "name": "Witch Hair", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "8034FF0C",
+    { "name": "Mysterious Herbs", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "20EB2ADB",
+    { "name": "Shimmering Ashes", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "783B7F1B",
+    { "name": "Unhold Hide", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "EE489D83",
+    { "name": "Unhold Heart", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "397B3EBF",
+    { "name": "Unhold Bones", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "78B04DE2",
+    { "name": "Unhold Fur", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "C737D46A",
+    { "name": "Deformed Valuables", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "C68E9DA8",
+    { "name": "Third Eye", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "E864A6DF",
+    { "name": "Parched Skin", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "A70FE462",
+    { "name": "Petrified Scream", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "3EF30EAA",
+    { "name": "Soul Splinter", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "6C685A45",
+    { "name": "Severed Tentacle", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "F0D064E8",
+    { "name": "Horn Plate", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "BF016E9A",
+    {
+      "name": "Heart of the Forest",
+      "slot": "monsterloot",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "D0F8855A",
+    { "name": "Glowing Resin", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "D772692B",
+    { "name": "Ancient Wood", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "03ABCF2A",
+    { "name": "Ancient Amber", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "796CB69D",
+    { "name": "Lindwurm Scales", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "EAED22EF",
+    { "name": "Lindwurm Blood", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "2174BB89",
+    { "name": "Lindwurm Bones", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "0E806F32",
+    { "name": "Sabertooth", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "553DC531",
+    { "name": "Acidic Saliva", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "7EA0DDCD",
+    { "name": "Raging Hyena Hide", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "CEF58DDD",
+    { "name": "Glittering Rock", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "66D91E95",
+    { "name": "Sulfurous Rocks", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  [
+    "D2665123",
+    { "name": "Serpent Skin", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "873EF4D3",
+    { "name": "Glistening Scales", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "603F11DE",
+    { "name": "Rainbow Scale", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+  [
+    "4A40C20E",
+    { "name": "Snake Oil", "slot": "monsterloot", "type": "auxiliary" }
+  ],
+
+  ["246E61C6", { "name": "Paint Set", "slot": "paint", "type": "auxiliary" }],
+  [
+    "F4C46A6C",
+    { "name": "White and Blue Paint", "slot": "paint", "type": "auxiliary" }
+  ],
+  ["C743DE69", { "name": "Red Paint", "slot": "paint", "type": "auxiliary" }],
+  [
+    "9E09B547",
+    { "name": "Orange and Red Paint", "slot": "paint", "type": "auxiliary" }
+  ],
+  [
+    "64F7291C",
+    {
+      "name": "White, Green and Yellow Paint",
+      "slot": "paint",
+      "type": "auxiliary"
+    }
+  ],
+  ["D15060BB", { "name": "Black Paint", "slot": "paint", "type": "auxiliary" }],
+  [
+    "98833651",
+    { "name": "Paint Remover", "slot": "paint", "type": "auxiliary" }
+  ],
+
+  [
+    "3FEECFEC",
+    { "name": "Silverware", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "E38E45E0",
+    { "name": "Silver Bowl", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "4C91DD93",
+    { "name": "Signet Ring", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "7ACA635A",
+    { "name": "White Pearls", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "148C9CFF",
+    { "name": "Gemstones", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "38F8CB94",
+    { "name": "Ornate Tome", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "D9D37F09",
+    { "name": "Ancient Gold Coins", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "7CD731D9",
+    { "name": "Golden Chalice", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "265CE51E",
+    { "name": "Lindwurm Hoard", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "57437B32",
+    { "name": "Jeweled Crown", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "55EDF97C",
+    { "name": "Jade Brooch", "slot": "treasure", "type": "auxiliary" }
+  ],
+
+  [
+    "FEDD1C7C",
+    { "name": "Bone Figurines", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "EC8B028D",
+    { "name": "Bead Necklace", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "5E733A5A",
+    { "name": "Valuable Furs", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "402B575A",
+    { "name": "Looted Valuables", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "8FF8C845",
+    { "name": "Marble Bust", "slot": "treasure", "type": "auxiliary" }
+  ],
+
+  [
+    "225E1FD6",
+    {
+      "name": "Carved Ivory Iconographs",
+      "slot": "treasure",
+      "type": "auxiliary"
+    }
+  ],
+  [
+    "75112138",
+    { "name": "Minted Silver Coins", "slot": "treasure", "type": "auxiliary" }
+  ],
+  [
+    "E68A2242",
+    { "name": "Golden Rank Insignia", "slot": "treasure", "type": "auxiliary" }
+  ],
+
+  [
+    "23E13AA3",
+    { "name": "Golden Goose", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "03E314EB",
+    { "name": "Broken Ritual Armor", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "CA9A13FB",
+    { "name": "Sword Blade", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "D51D7A41",
+    { "name": "The Black Book", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "12C1F263",
+    { "name": "Tome of Beasts", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "D5167DD7",
+    {
+      "name": "Greenskin Research Notes",
+      "slot": "questitem",
+      "type": "auxiliary"
+    }
+  ],
+
+  [
+    "81A3AA91",
+    { "name": "Ledger of the Dead", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "33181866",
+    { "name": "Book of Legends", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "858E9802",
+    {
+      "name": "Furs",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "98CBC25F",
+    {
+      "name": "Amber",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "0D95B5F2",
+    {
+      "name": "Salt",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "829F07AE",
+    {
+      "name": "Quality Wood",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "48BC97A1",
+    {
+      "name": "Peat",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "69A6AB62",
+    {
+      "name": "Copper",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "478865B1",
+    {
+      "name": "Uncut Gems",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "F221C461",
+    {
+      "name": "Dyes",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "429780E1",
+    {
+      "name": "Cloth",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+
+  [
+    "FC8AE49A",
+    {
+      "name": "Spices",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "42620707",
+    {
+      "name": "Incense",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+  [
+    "F88B8EA0",
+    {
+      "name": "Silk",
+      "slot": "commodity",
+      "type": "auxiliary",
+      "subType": "commodity"
+    }
+  ],
+
+  ["TOOL0000", { "name": "Add/Remove Traits", "type": "gui" }],
+  ["TOOL0001", { "name": "copy character to clipboard", "type": "gui" }],
+  ["TOOL0002", { "name": "replace current character", "type": "gui" }]
+]

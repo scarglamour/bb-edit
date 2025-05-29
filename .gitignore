@@ -1,21 +1,20 @@
-# Node artifacts
-node_modules/
-dist/
-release/
-
-# Build outputs, OS files
-*.log
-.DS_Store
-
-# Game data (not part of the editor source)
-game-art/
-
-# Everything else except the files we want
-# We'll explicitly include src/, tools/, package.json, README.md
+# ignore everything by default
 *
+
+# but don't ignore these top-level files
 !/.gitignore
-!/src/
-!/tools/
+!/.gitattributes
 !/package.json
 !/package-lock.json
 !/README.md
+
+# un-ignore the src folder and everything beneath it
+!/src/
+!/src/**
+
+# un-ignore the tools folder and everything beneath it
+!/tools/
+!/tools/**
+
+# (optionally) un-ignore .gitattributes itself
+!/.gitattributes

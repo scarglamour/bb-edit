@@ -1,0 +1,5401 @@
+/*			Perks			*/
+
+[data-hex="3E7523FA"] {
+  background: url("../../game-art/perks/fast-adaptation.png");
+}
+[data-hex="F9473B3C"] {
+  background: url("../../game-art/perks/crippling-strikes.png");
+}
+[data-hex="4C867685"] {
+  background: url("../../game-art/perks/colossus.png");
+}
+[data-hex="9D82F592"] {
+  background: url("../../game-art/perks/nine-lives.png");
+}
+[data-hex="A546AF20"] {
+  background: url("../../game-art/perks/bags-and-belts.png");
+}
+[data-hex="565F97BE"] {
+  background: url("../../game-art/perks/pathfinder.png");
+}
+[data-hex="AB0464F3"] {
+  background: url("../../game-art/perks/adrenaline.png");
+}
+[data-hex="A3233C22"] {
+  background: url("../../game-art/perks/recover.png");
+}
+[data-hex="C07D23FB"] {
+  background: url("../../game-art/perks/student.png");
+}
+[data-hex="059702B2"] {
+  background: url("../../game-art/perks/executioner.png");
+}
+[data-hex="CA385200"] {
+  background: url("../../game-art/perks/bullseye.png");
+}
+[data-hex="ECCF150A"] {
+  background: url("../../game-art/perks/dodge.png");
+}
+[data-hex="2468BB8C"] {
+  background: url("../../game-art/perks/fortified-mind.png");
+}
+[data-hex="8BDA1308"] {
+  background: url("../../game-art/perks/resilient.png");
+}
+[data-hex="07AD742B"] {
+  background: url("../../game-art/perks/steel-brow.png");
+}
+[data-hex="0BADB437"] {
+  background: url("../../game-art/perks/quick-hands.png");
+}
+[data-hex="9899E380"] {
+  background: url("../../game-art/perks/gifted.png");
+}
+[data-hex="71C41BDA"] {
+  background: url("../../game-art/perks/backstabber.png");
+}
+[data-hex="1423C822"] {
+  background: url("../../game-art/perks/anticipation.png");
+}
+[data-hex="A1DE723D"] {
+  background: url("../../game-art/perks/shield-expert.png");
+}
+[data-hex="04A8366D"] {
+  background: url("../../game-art/perks/brawny.png");
+}
+[data-hex="CA7913AA"] {
+  background: url("../../game-art/perks/relentless.png");
+}
+[data-hex="09E3AD30"] {
+  background: url("../../game-art/perks/rotation.png");
+}
+[data-hex="E3FC2F93"] {
+  background: url("../../game-art/perks/rally-troops.png");
+}
+[data-hex="E1E8D40B"] {
+  background: url("../../game-art/perks/taunt.png");
+}
+[data-hex="5F1ECE27"] {
+  background: url("../../game-art/perks/mace-mastery.png");
+}
+[data-hex="F1AB0AC0"] {
+  background: url("../../game-art/perks/flail-mastery.png");
+}
+[data-hex="53D89DC8"] {
+  background: url("../../game-art/perks/hammer-mastery.png");
+}
+[data-hex="1B63AB23"] {
+  background: url("../../game-art/perks/axe-mastery.png");
+}
+[data-hex="CF52B42E"] {
+  background: url("../../game-art/perks/cleaver-mastery.png");
+}
+[data-hex="D03C87C1"] {
+  background: url("../../game-art/perks/sword-mastery.png");
+}
+[data-hex="BBA910B8"] {
+  background: url("../../game-art/perks/dagger-mastery.png");
+}
+[data-hex="1DE5F9FF"] {
+  background: url("../../game-art/perks/polearm-mastery.png");
+}
+[data-hex="E49B81C1"] {
+  background: url("../../game-art/perks/spear-mastery.png");
+}
+[data-hex="4BA8F880"] {
+  background: url("../../game-art/perks/crossbow-mastery.png");
+}
+[data-hex="3967AB23"] {
+  background: url("../../game-art/perks/bow-mastery.png");
+}
+[data-hex="B7571E54"] {
+  background: url("../../game-art/perks/throwing-mastery.png");
+}
+[data-hex="BACAD9E4"] {
+  background: url("../../game-art/perks/reach-advantage.png");
+}
+[data-hex="026F2FA2"] {
+  background: url("../../game-art/perks/overwhelm.png");
+}
+[data-hex="12CC3EA1"] {
+  background: url("../../game-art/perks/lone-wolf.png");
+}
+[data-hex="5D8933A5"] {
+  background: url("../../game-art/perks/underdog.png");
+}
+[data-hex="404C93E1"] {
+  background: url("../../game-art/perks/footwork.png");
+}
+[data-hex="97CB0D95"] {
+  background: url("../../game-art/perks/berserk.png");
+}
+[data-hex="80A40871"] {
+  background: url("../../game-art/perks/head-hunter.png");
+}
+[data-hex="385FD79D"] {
+  background: url("../../game-art/perks/nimble.png");
+}
+[data-hex="37CEF631"] {
+  background: url("../../game-art/perks/battle-forged.png");
+}
+[data-hex="ABC22EAE"] {
+  background: url("../../game-art/perks/fearsome.png");
+}
+[data-hex="C3229207"] {
+  background: url("../../game-art/perks/duelist.png");
+}
+[data-hex="7C856C1D"] {
+  background: url("../../game-art/perks/killing-frenzy.png");
+}
+[data-hex="F521E3DD"] {
+  background: url("../../game-art/perks/indomitable.png");
+}
+
+/*			Traits			*/
+
+[data-hex="5EEFDF76"] {
+  background: url("../../game-art/traits/addict.png");
+}
+[data-hex="FD829D68"] {
+  background: url("../../game-art/traits/ailing.png");
+}
+[data-hex="DF6EF729"] {
+  background: url("../../game-art/traits/asthmatic.png");
+}
+[data-hex="6FF46EFE"] {
+  background: url("../../game-art/traits/athletic.png");
+}
+[data-hex="A8EF0AC9"] {
+  background: url("../../game-art/traits/bleeder.png");
+}
+[data-hex="988F2179"] {
+  background: url("../../game-art/traits/bloodthirsty.png");
+}
+[data-hex="15A02709"] {
+  background: url("../../game-art/traits/brave.png");
+}
+[data-hex="D1B92F40"] {
+  background: url("../../game-art/traits/bright.png");
+}
+[data-hex="8F1F3216"] {
+  background: url("../../game-art/traits/brute.png");
+}
+[data-hex="7CF4C987"] {
+  background: url("../../game-art/traits/clubfooted.png");
+}
+[data-hex="B65EAFC8"] {
+  background: url("../../game-art/traits/clumsy.png");
+}
+[data-hex="A6BB1D0B"] {
+  background: url("../../game-art/traits/cocky.png");
+}
+[data-hex="38B69657"] {
+  background: url("../../game-art/traits/craven.png");
+}
+[data-hex="9CFA5D8B"] {
+  background: url("../../game-art/traits/dastard.png");
+}
+[data-hex="62BEC5FA"] {
+  background: url("../../game-art/traits/deathwish.png");
+}
+[data-hex="8E02892D"] {
+  background: url("../../game-art/traits/determined.png");
+}
+[data-hex="E8BBE11A"] {
+  background: url("../../game-art/traits/dexterous.png");
+}
+[data-hex="F21D84F3"] {
+  background: url("../../game-art/traits/disloyal.png");
+}
+[data-hex="B9DADFBC"] {
+  background: url("../../game-art/traits/dumb.png");
+}
+[data-hex="A0CF9774"] {
+  background: url("../../game-art/traits/drunkard.png");
+}
+[data-hex="843D8DD9"] {
+  background: url("../../game-art/traits/eagle-eyes.png");
+}
+[data-hex="B4A3C9D5"] {
+  background: url("../../game-art/traits/fat.png");
+}
+[data-hex="5065D234"] {
+  background: url("../../game-art/traits/fainthearted.png");
+}
+[data-hex="6AD5327F"] {
+  background: url("../../game-art/traits/fearless.png");
+}
+[data-hex="0B0E08CE"] {
+  background: url("../../game-art/traits/fragile.png");
+}
+[data-hex="E5EB98D2"] {
+  background: url("../../game-art/traits/gluttonous.png");
+}
+[data-hex="E54F06E1"] {
+  background: url("../../game-art/traits/greedy.png");
+}
+[data-hex="494312EC"] {
+  background: url("../../game-art/traits/hesitant.png");
+}
+[data-hex="DA78B736"] {
+  background: url("../../game-art/traits/huge.png");
+}
+[data-hex="1CE5EF83"] {
+  background: url("../../game-art/traits/impatient.png");
+}
+[data-hex="1F2911A2"] {
+  background: url("../../game-art/traits/insecure.png");
+}
+[data-hex="F138A2EF"] {
+  background: url("../../game-art/traits/iron-lungs.png");
+}
+[data-hex="F640E09A"] {
+  background: url("../../game-art/traits/iron-jaw.png");
+}
+[data-hex="5E1A0586"] {
+  background: url("../../game-art/traits/irrational.png");
+}
+[data-hex="46ADB947"] {
+  background: url("../../game-art/traits/loyal.png");
+}
+[data-hex="C5B9A3A5"] {
+  background: url("../../game-art/traits/lucky.png");
+}
+[data-hex="4B1B8DF7"] {
+  background: url("../../game-art/traits/mad.png");
+}
+[data-hex="ACC46F0E"] {
+  background: url("../../game-art/traits/night-owl.png");
+}
+[data-hex="9F4D214B"] {
+  background: url("../../game-art/traits/nightblind.png");
+}
+[data-hex="9CA0EBB9"] {
+  background: url("../../game-art/traits/old.png");
+}
+[data-hex="9A95BB9E"] {
+  background: url("../../game-art/traits/optimist.png");
+}
+[data-hex="0756CE67"] {
+  background: url("../../game-art/traits/paranoid.png");
+}
+[data-hex="367B7B71"] {
+  background: url("../../game-art/traits/pessimist.png");
+}
+[data-hex="C2C1134F"] {
+  background: url("../../game-art/traits/quick.png");
+}
+[data-hex="70AA50F5"] {
+  background: url("../../game-art/traits/short-sighted.png");
+}
+[data-hex="124A03A3"] {
+  background: url("../../game-art/traits/spartan.png");
+}
+[data-hex="1ED3819C"] {
+  background: url("../../game-art/traits/strong.png");
+}
+[data-hex="880DBD6B"] {
+  background: url("../../game-art/traits/superstitious.png");
+}
+[data-hex="9D81C274"] {
+  background: url("../../game-art/traits/sure-footed.png");
+}
+[data-hex="818E0F24"] {
+  background: url("../../game-art/traits/survivor.png");
+}
+[data-hex="C5E53A6E"] {
+  background: url("../../game-art/traits/team-player.png");
+}
+[data-hex="994FE708"] {
+  background: url("../../game-art/traits/tiny.png");
+}
+[data-hex="B4760E9D"] {
+  background: url("../../game-art/traits/tough.png");
+}
+[data-hex="767F08BC"] {
+  background: url("../../game-art/traits/swift.png");
+}
+[data-hex="E220534E"] {
+  background: url("../../game-art/traits/weasel.png");
+}
+
+[data-hex="17B36776"] {
+  background: url("../../game-art/traits/hate-of-undead.png");
+}
+[data-hex="EB251F2F"] {
+  background: url("../../game-art/traits/hate-of-greenskins.png");
+}
+[data-hex="0CF9D3DA"] {
+  background: url("../../game-art/traits/hate-of-beasts.png");
+}
+[data-hex="6F2C8614"] {
+  background: url("../../game-art/traits/fear-of-undead.png");
+}
+[data-hex="C3A17B67"] {
+  background: url("../../game-art/traits/fear-of-greenskins.png");
+}
+[data-hex="6472F278"] {
+  background: url("../../game-art/traits/fear-of-beasts.png");
+}
+
+[data-hex="DA1D1224"] {
+  background: url("../../game-art/traits/avatar.png");
+}
+
+[data-hex="6C486AF9"] {
+  background: url("../../game-art/traits/vengeance-oath.png");
+}
+[data-hex="33F16C92"] {
+  background: url("../../game-art/traits/righteousness-oath.png");
+}
+[data-hex="F92CAF1B"] {
+  background: url("../../game-art/traits/dominion-oath.png");
+}
+[data-hex="B6885D2E"] {
+  background: url("../../game-art/traits/wrath-oath.png");
+}
+[data-hex="8D416008"] {
+  background: url("../../game-art/traits/humility-oath.png");
+}
+[data-hex="D6461010"],
+[data-hex="B6FBBE7B"] {
+  background: url("../../game-art/traits/honor-oath.png");
+}
+[data-hex="EC56A980"] {
+  background: url("../../game-art/traits/valor-oath.png");
+}
+[data-hex="216F69CF"] {
+  background: url("../../game-art/traits/endurance-oath.png");
+}
+[data-hex="1264B27C"] {
+  background: url("../../game-art/traits/camaraderie-oath.png");
+}
+[data-hex="0D6FA3A4"],
+[data-hex="15CA117E"] {
+  background: url("../../game-art/traits/fortification-oath.png");
+}
+[data-hex="59E45E97"] {
+  background: url("../../game-art/traits/sacrifice-oath.png");
+}
+[data-hex="E8C9ABDD"] {
+  background: url("../../game-art/traits/distinction-oath.png");
+}
+
+/*			Blazing Deserts		*/
+
+[data-hex="DC2B39A5"] {
+  background: url("../../game-art/traits/pit-fighter.png");
+}
+[data-hex="38B9EBE5"] {
+  background: url("../../game-art/traits/arena-fighter.png");
+}
+[data-hex="90786E95"] {
+  background: url("../../game-art/traits/arena-veteran.png");
+}
+[data-hex="C5C522E8"] {
+  background: url("../../game-art/traits/glorious-endurance.png");
+}
+[data-hex="0625ED75"] {
+  background: url("../../game-art/traits/glorious-quickness.png");
+}
+[data-hex="8C535E47"] {
+  background: url("../../game-art/traits/glorious-resolve.png");
+}
+
+/*			Cult of Davkul		*/
+
+[data-hex="5A92A3F2"] {
+  background: url("../../game-art/traits/cultist-1.png");
+}
+[data-hex="635178DF"] {
+  background: url("../../game-art/traits/cultist-2.png");
+}
+[data-hex="35186772"] {
+  background: url("../../game-art/traits/cultist-3.png");
+}
+[data-hex="893869F6"] {
+  background: url("../../game-art/traits/cultist-4.png");
+}
+[data-hex="C8944B46"] {
+  background: url("../../game-art/traits/cultist-5.png");
+}
+[data-hex="2EBB3F39"] {
+  background: url("../../game-art/traits/cultist-6.png");
+}
+
+[data-hex="13C30358"] {
+  background: url("../../game-art/traits/morale.png");
+}
+[data-hex="C7E3D324"] {
+  background: url("assets/ui/unknown-trait.png");
+}
+[data-hex="68DADB2C"] {
+  background: url("assets/ui/unknown-trait.png");
+}
+[data-hex="6D8B77EF"] {
+  background: url("assets/ui/unknown-trait.png");
+}
+
+/*			Backgrounds			*/
+
+[data-hex="140AD17E"],
+[data-hex="120DA558"] {
+  background: url("../../game-art/backgrounds/adventurous-noble.png");
+}
+[data-hex="3C1774B5"] {
+  background: url("../../game-art/backgrounds/apprentice.png");
+}
+[data-hex="52330AD5"],
+[data-hex="A96F7125"] {
+  background: url("../../game-art/backgrounds/assassin.png");
+}
+[data-hex="CB90AA90"] {
+  background: url("../../game-art/backgrounds/barbarian.png");
+}
+[data-hex="2AAE8559"] {
+  background: url("../../game-art/backgrounds/bastard.png");
+}
+[data-hex="8D48C75B"] {
+  background: url("../../game-art/backgrounds/beast-slayer.png");
+}
+[data-hex="513CA7C5"],
+[data-hex="24623B29"] {
+  background: url("../../game-art/backgrounds/beggar.png");
+}
+[data-hex="2128342F"] {
+  background: url("../../game-art/backgrounds/bowyer.png");
+}
+[data-hex="4C95ED0E"] {
+  background: url("../../game-art/backgrounds/brawler.png");
+}
+[data-hex="9E3EE827"],
+[data-hex="25863EEB"] {
+  background: url("../../game-art/backgrounds/butcher.png");
+}
+[data-hex="BB0CBBB3"],
+[data-hex="36AD2550"] {
+  background: url("../../game-art/backgrounds/caravan-hand.png");
+}
+[data-hex="F1D4D64F"],
+[data-hex="C23261F9"],
+[data-hex="D1B9D2CC"],
+[data-hex="44EDF915"],
+[data-hex="D9846B5C"],
+[data-hex="A49582A7"] {
+  background: url("../../game-art/backgrounds/companion.png");
+}
+[data-hex="7EF5172D"] {
+  background: url("../../game-art/backgrounds/crusader.png");
+}
+[data-hex="71648BCF"] {
+  background: url("../../game-art/backgrounds/cultist.png");
+}
+[data-hex="02F755E2"] {
+  background: url("../../game-art/backgrounds/cultist.png");
+}
+[data-hex="6C9CE698"],
+[data-hex="2BEEF2DE"] {
+  background: url("../../game-art/backgrounds/cripple.png");
+}
+[data-hex="7B9A3CF7"],
+[data-hex="F6D131D4"] {
+  background: url("../../game-art/backgrounds/daytaler.png");
+}
+[data-hex="0746329A"] {
+  background: url("../../game-art/backgrounds/deserter.png");
+}
+[data-hex="71BA80F4"] {
+  background: url("../../game-art/backgrounds/disowned-noble.png");
+}
+[data-hex="29A78F2E"],
+[data-hex="5CD45309"] {
+  background: url("../../game-art/backgrounds/eunuch.png");
+}
+[data-hex="C6DD9695"] {
+  background: url("../../game-art/backgrounds/farmhand.png");
+}
+[data-hex="FA656BC3"],
+[data-hex="F1D086E6"] {
+  background: url("../../game-art/backgrounds/fisherman.png");
+}
+[data-hex="B36261EF"],
+[data-hex="DB315732"],
+[data-hex="60686C60"] {
+  background: url("../../game-art/backgrounds/flagellant.png");
+}
+[data-hex="33311369"],
+[data-hex="8ECF4795"] {
+  background: url("../../game-art/backgrounds/gambler.png");
+}
+[data-hex="24ACB273"] {
+  background: url("../../game-art/backgrounds/gravedigger.png");
+}
+[data-hex="EA19650F"] {
+  background: url("../../game-art/backgrounds/graverobber.png");
+}
+[data-hex="3A157B3E"] {
+  background: url("../../game-art/backgrounds/hedge-knight.png");
+}
+[data-hex="AEF7C74B"],
+[data-hex="754B3FBD"] {
+  background: url("../../game-art/backgrounds/historian.png");
+}
+[data-hex="3B540890"] {
+  background: url("../../game-art/backgrounds/houndmaster.png");
+}
+[data-hex="3B7D9408"] {
+  background: url("../../game-art/backgrounds/hunter.png");
+}
+[data-hex="B5DD9094"] {
+  background: url("../../game-art/backgrounds/juggler.png");
+}
+[data-hex="B47205E5"] {
+  background: url("../../game-art/backgrounds/killer-on-the-run.png");
+}
+[data-hex="EF80F20F"] {
+  background: url("../../game-art/backgrounds/kings-guard.png");
+}
+[data-hex="2D27199D"] {
+  background: url("../../game-art/backgrounds/lumberjack.png");
+}
+[data-hex="9F01869F"] {
+  background: url("../../game-art/backgrounds/mason.png");
+}
+[data-hex="8297FEBA"] {
+  background: url("../../game-art/backgrounds/messenger.png");
+}
+[data-hex="AAB09341"] {
+  background: url("../../game-art/backgrounds/militia.png");
+}
+[data-hex="EAD11AC4"] {
+  background: url("../../game-art/backgrounds/miller.png");
+}
+[data-hex="A8E56738"] {
+  background: url("../../game-art/backgrounds/miner.png");
+}
+[data-hex="274CE4B2"] {
+  background: url("../../game-art/backgrounds/minstrel.png");
+}
+[data-hex="EEFBA04C"] {
+  background: url("../../game-art/backgrounds/monk.png");
+}
+[data-hex="14C7F489"] {
+  background: url("../../game-art/backgrounds/orc-slayer.png");
+}
+[data-hex="C16724D1"],
+[data-hex="545302CF"] {
+  background: url("../../game-art/backgrounds/peddler.png");
+}
+[data-hex="872280DE"] {
+  background: url("../../game-art/backgrounds/poacher.png");
+}
+[data-hex="0B912487"] {
+  background: url("../../game-art/backgrounds/pimp.png");
+}
+[data-hex="A4BD4435"] {
+  background: url("../../game-art/backgrounds/raider.png");
+}
+[data-hex="9AA50C11"] {
+  background: url("../../game-art/backgrounds/ratcatcher.png");
+}
+[data-hex="7CEF5D75"] {
+  background: url("../../game-art/backgrounds/refugee.png");
+}
+[data-hex="21D1CD1C"] {
+  background: url("../../game-art/backgrounds/retired-soldier.png");
+}
+[data-hex="7C6EB7FB"] {
+  background: url("../../game-art/backgrounds/sellsword.png");
+}
+[data-hex="D45B05E3"],
+[data-hex="33EF85FD"] {
+  background: url("../../game-art/backgrounds/servant.png");
+}
+[data-hex="E09EB018"],
+[data-hex="6F7C3275"] {
+  background: url("../../game-art/backgrounds/shepherd.png");
+}
+[data-hex="AE7DD55A"] {
+  background: url("../../game-art/backgrounds/squire.png");
+}
+[data-hex="E04D804B"] {
+  background: url("../../game-art/backgrounds/swordmaster.png");
+}
+[data-hex="F8B44DE8"],
+[data-hex="E766D491"] {
+  background: url("../../game-art/backgrounds/tailor.png");
+}
+[data-hex="15D99E2B"],
+[data-hex="F83BDAA3"] {
+  background: url("../../game-art/backgrounds/thief.png");
+}
+[data-hex="DFABA699"] {
+  background: url("../../game-art/backgrounds/vagabond.png");
+}
+[data-hex="6DF381C6"] {
+  background: url("../../game-art/backgrounds/wildman.png");
+}
+[data-hex="269F1831"] {
+  background: url("../../game-art/backgrounds/witchhunter.png");
+}
+[data-hex="C738AEC4"],
+[data-hex="144868A8"],
+[data-hex="C6A73142"] {
+  background: url("../../game-art/backgrounds/gladiator.png");
+}
+[data-hex="DBE74EB4"] {
+  background: url("../../game-art/backgrounds/manhunter.png");
+}
+[data-hex="77CC2A7F"],
+[data-hex="48217ABD"],
+[data-hex="71888843"] {
+  background: url("../../game-art/backgrounds/indebted.png");
+}
+[data-hex="3CB03F39"],
+[data-hex="7CE83341"] {
+  background: url("../../game-art/backgrounds/nomad.png");
+}
+[data-hex="4D5160C4"] {
+  background: url("../../game-art/backgrounds/belly-dancer.png");
+}
+[data-hex="DFFE0AFE"] {
+  background: url("../../game-art/backgrounds/converted-crusader.png");
+}
+[data-hex="D4D12DEC"],
+[data-hex="D2749588"] {
+  background: url("../../game-art/backgrounds/oathtaker.png");
+}
+[data-hex="99930147"] {
+  background: url("../../game-art/backgrounds/anatomist.png");
+}
+[data-hex="EEC70B5F"] {
+  background: url("../../game-art/backgrounds/lindwurm-slayer.png");
+}
+
+/* 			Injuries			*/
+[data-hex="2C24230B"]:after {
+  background: url("../../game-art/injury/broken-arm.png");
+}
+[data-hex="28445DB0"]:after {
+  background: url("../../game-art/injury/broken-leg.png");
+}
+[data-hex="09836E27"]:after {
+  background: url("../../game-art/injury/broken-nose.png");
+}
+[data-hex="948EC880"]:after {
+  background: url("../../game-art/injury/broken-ribs.png");
+}
+[data-hex="E92E68A7"]:after {
+  background: url("../../game-art/injury/bruised-leg.png");
+}
+[data-hex="3CA0E901"]:after {
+  background: url("../../game-art/injury/crushed-finger.png");
+}
+[data-hex="5509577A"]:after {
+  background: url("../../game-art/injury/crushed-windpipe.png");
+}
+[data-hex="3B908417"]:after {
+  background: url("../../game-art/injury/cut-achilles-tendon.png");
+}
+[data-hex="7FCC5910"]:after {
+  background: url("../../game-art/injury/cut-arm.png");
+}
+[data-hex="E4D3C726"]:after {
+  background: url("../../game-art/injury/cut-arm-sinew.png");
+}
+[data-hex="12FE53EA"]:after {
+  background: url("../../game-art/injury/cut-artery.png");
+}
+[data-hex="92F052BA"]:after {
+  background: url("../../game-art/injury/cut-leg-muscles.png");
+}
+[data-hex="C134425E"]:after {
+  background: url("../../game-art/injury/cut-neck-vein.png");
+}
+[data-hex="7F727079"]:after {
+  background: url("../../game-art/injury/deep-abdominal-cut.png");
+}
+[data-hex="EF0CD9B6"]:after {
+  background: url("../../game-art/injury/deep-chest-cut.png");
+}
+[data-hex="FB7C404A"]:after {
+  background: url("../../game-art/injury/deep-face-cut.png");
+}
+[data-hex="C18A973C"]:after {
+  background: url("../../game-art/injury/dislocated-shoulder.png");
+}
+[data-hex="EBAA3B93"]:after {
+  background: url("../../game-art/injury/exposed-ribs.png");
+}
+[data-hex="7CC6A8A6"]:after {
+  background: url("../../game-art/injury/fractured-elbow.png");
+}
+[data-hex="1E99C9E8"]:after {
+  background: url("../../game-art/injury/fractured-hand.png");
+}
+[data-hex="B7720040"]:after {
+  background: url("../../game-art/injury/fractured-ribs.png");
+}
+[data-hex="46426E44"]:after {
+  background: url("../../game-art/injury/fractured-skull.png");
+}
+[data-hex="CF19A6E1"]:after {
+  background: url("../../game-art/injury/grazed-eye-socket.png");
+}
+[data-hex="6012EEA7"]:after {
+  background: url("../../game-art/injury/grazed-kidney.png");
+}
+[data-hex="55B29B85"]:after {
+  background: url("../../game-art/injury/grazed-neck.png");
+}
+[data-hex="4A9EFC1C"]:after {
+  background: url("../../game-art/injury/injured-knee-cap.png");
+}
+[data-hex="92E5CC3D"]:after {
+  background: url("../../game-art/injury/pierced-arm-muscles.png");
+}
+[data-hex="AFA7F95C"]:after {
+  background: url("../../game-art/injury/pierced-cheek.png");
+}
+[data-hex="7215AAAB"]:after {
+  background: url("../../game-art/injury/pierced-chest.png");
+}
+[data-hex="6631250A"]:after {
+  background: url("../../game-art/injury/pierced-hand.png");
+}
+[data-hex="0EBAC62B"]:after {
+  background: url("../../game-art/injury/pierced-leg-muscles.png");
+}
+[data-hex="D50F8C09"]:after {
+  background: url("../../game-art/injury/pierced-lung.png");
+}
+[data-hex="560A9411"]:after {
+  background: url("../../game-art/injury/pierced-shoulder.png");
+}
+[data-hex="444F995B"]:after {
+  background: url("../../game-art/injury/pierced-side.png");
+}
+[data-hex="1B87A90F"]:after {
+  background: url("../../game-art/injury/ripped-ear.png");
+}
+[data-hex="D5A23C02"]:after {
+  background: url("../../game-art/injury/severe-concussion.png");
+}
+[data-hex="FB987AC6"]:after {
+  background: url("../../game-art/injury/smashed-hand.png");
+}
+[data-hex="721925C6"]:after {
+  background: url("../../game-art/injury/split-hand.png");
+}
+[data-hex="80E701C4"]:after {
+  background: url("../../game-art/injury/split-nose.png");
+}
+[data-hex="B5C70687"]:after {
+  background: url("../../game-art/injury/split-shoulder.png");
+}
+[data-hex="E8F6C4D5"]:after {
+  background: url("../../game-art/injury/sprained-ankle.png");
+}
+[data-hex="3FD05AAF"]:after {
+  background: url("../../game-art/injury/stabbed-guts.png");
+}
+[data-hex="9BEC7D5A"]:after {
+  background: url("../../game-art/injury/sick.png");
+}
+[data-hex="929F3696"]:after {
+  background: url("../../game-art/injury/infected-wound.png");
+}
+
+/* 			Permanent injuries			*/
+[data-hex="AC1BFE37"] {
+  background: url("../../game-art/injury/permanent-broken-knee.png");
+}
+[data-hex="C93E3963"] {
+  background: url("../../game-art/injury/permanent-broken-elbow-joint.png");
+}
+[data-hex="83B8CEC7"] {
+  background: url("../../game-art/injury/permanent-brain-damage.png");
+}
+[data-hex="41052580"] {
+  background: url("../../game-art/injury/permanent-maimed-foot.png");
+}
+[data-hex="3E2CA5D6"] {
+  background: url("../../game-art/injury/permanent-missing-ear.png");
+}
+[data-hex="AD97DB01"] {
+  background: url("../../game-art/injury/permanent-missing-eye.png");
+}
+[data-hex="7D13BB0E"] {
+  background: url("../../game-art/injury/permanent-missing-finger.png");
+}
+[data-hex="2FDDE79B"] {
+  background: url("../../game-art/injury/permanent-missing-nose.png");
+}
+[data-hex="97D37685"] {
+  background: url("../../game-art/injury/permanent-partly-collapsed-lung.png");
+}
+[data-hex="330BF306"] {
+  background: url("../../game-art/injury/permanent-traumatized.png");
+}
+[data-hex="30184A38"] {
+  background: url("../../game-art/injury/permanent-weakened-heart.png");
+}
+
+/* 			Temporary effects			*/
+[data-hex="11AEA18F"] {
+  background: url("../../game-art/skills/afraid.png");
+}
+[data-hex="02A4686A"] {
+  background: url("../../game-art/skills/drunk.png");
+}
+[data-hex="51994232"] {
+  background: url("../../game-art/skills/exhausted.png");
+}
+[data-hex="083009F5"] {
+  background: url("../../game-art/skills/hungover.png");
+}
+[data-hex="0603DC33"],
+[data-hex="8729FD77"] {
+  background: url("../../game-art/skills/knowledge.png");
+}
+[data-hex="A9EB4E01"],
+[data-hex="76AE8904"] {
+  background: url("../../game-art/skills/training-experience.png");
+}
+
+/* 			Anatomist potion effects 			*/
+[data-hex="4DAD521D"] {
+  background: url("../../game-art/skills/reactive-leg-muscles.png");
+}
+[data-hex="C5DB9449"] {
+  background: url("../../game-art/skills/hyperactive-sweat-glands.png");
+}
+[data-hex="9C0A2BD2"] {
+  background: url("../../game-art/skills/mutated-cornea.png");
+}
+[data-hex="E88552E6"] {
+  background: url("../../game-art/skills/kinetic-blows.png");
+}
+[data-hex="40A6F332"] {
+  background: url("../../game-art/skills/sensory-redundancy.png");
+}
+[data-hex="7BAC82DB"] {
+  background: url("../../game-art/skills/berserker-rage.png");
+}
+[data-hex="711D3DC8"] {
+  background: url("../../game-art/skills/font-of-strength.png");
+}
+[data-hex="3D1A5199"] {
+  background: url("../../game-art/skills/locking-joints.png");
+}
+[data-hex="93A17177"] {
+  background: url("../../game-art/skills/subdermal-stitching.png");
+}
+[data-hex="8F3B0386"] {
+  background: url("../../game-art/skills/parasitic-blood.png");
+}
+[data-hex="3B4E4D73"] {
+  background: url("../../game-art/skills/synapse-blockage.png");
+}
+[data-hex="6FA819F4"] {
+  background: url("../../game-art/skills/subdermal-reactivity.png");
+}
+[data-hex="5E15A382"] {
+  background: url("../../game-art/skills/reactive-muscle-tissue.png");
+}
+[data-hex="97C0B763"] {
+  background: url("../../game-art/skills/kinetic-coating.png");
+}
+[data-hex="14198A54"] {
+  background: url("../../game-art/skills/visions.png");
+}
+[data-hex="D781484E"] {
+  background: url("../../game-art/skills/elasticized-sinew.png");
+}
+[data-hex="A5BEDB44"] {
+  background: url("../../game-art/skills/acidic-blood.png");
+}
+[data-hex="359B8551"] {
+  background: url("../../game-art/skills/stone-skin.png");
+}
+[data-hex="58FA6E82"] {
+  background: url("../../game-art/skills/enhanced-opportunism.png");
+}
+[data-hex="E4F5DCD3"] {
+  background: url("../../game-art/skills/subdermal-clotting.png");
+}
+[data-hex="BAAF3E30"] {
+  background: url("../../game-art/skills/mutated-circulatory-system.png");
+}
+[data-hex="5DAF6E97"] {
+  background: url("../../game-art/skills/hyperactive-cell-growth.png");
+}
+[data-hex="34875B62"] {
+  background: url("../../game-art/skills/flexible-ligaments.png");
+}
+[data-hex="C0501014"] {
+  background: url("../../game-art/skills/enhanced-eye-rods.png");
+}
+[data-hex="312EF85C"] {
+  background: url("../../game-art/skills/sympathetic-call.png");
+}
+[data-hex="A95542CE"] {
+  background: url("../../game-art/skills/hyperactive-tissue-growth.png");
+}
+[data-hex="ABA39BA5"] {
+  background: url("../../game-art/skills/mad-god-auspice.png");
+}
+[data-hex="D15BA05C"] {
+  background: url("../../game-art/skills/lorekeeper-rib-bone.png");
+}
+[data-hex="1784DD78"] {
+  background: url("../../game-art/skills/cursed-sight.png");
+}
+[data-hex="FE0E325A"] {
+  background: url("../../game-art/skills/ghastly-aura.png");
+}
+[data-hex="F741B943"] {
+  background: url("../../game-art/skills/ascendant-flesh.png");
+}
+[data-hex="C558285F"] {
+  background: url("../../game-art/skills/bizarre-steroid.png");
+}
+[data-hex="AD8D2C62"] {
+  background: url("../../game-art/skills/mutated-glands.png");
+}
+[data-hex="E6B08745"] {
+  background: url("../../game-art/skills/apotheosis.png");
+}
+
+/* 			Armors 			*/
+
+[data-slot="body"][data-icon="1"] {
+  background-image: url("../../game-art/armor/body-armor-01.png");
+}
+[data-slot="body"][data-icon="2"] {
+  background-image: url("../../game-art/armor/body-armor-02.png");
+}
+[data-slot="body"][data-icon="3"] {
+  background-image: url("../../game-art/armor/body-armor-03.png");
+}
+[data-slot="body"][data-icon="4"] {
+  background-image: url("../../game-art/armor/body-armor-04.png");
+}
+[data-slot="body"][data-icon="5"] {
+  background-image: url("../../game-art/armor/body-armor-05.png");
+}
+[data-slot="body"][data-icon="6"] {
+  background-image: url("../../game-art/armor/body-armor-06.png");
+}
+[data-slot="body"][data-icon="7"] {
+  background-image: url("../../game-art/armor/body-armor-07.png");
+}
+[data-slot="body"][data-icon="8"] {
+  background-image: url("../../game-art/armor/body-armor-08.png");
+}
+[data-slot="body"][data-icon="9"] {
+  background-image: url("../../game-art/armor/body-armor-09.png");
+}
+[data-slot="body"][data-icon="10"] {
+  background-image: url("../../game-art/armor/body-armor-10.png");
+}
+[data-slot="body"][data-icon="11"] {
+  background-image: url("../../game-art/armor/body-armor-11.png");
+}
+[data-slot="body"][data-icon="12"] {
+  background-image: url("../../game-art/armor/body-armor-12.png");
+}
+[data-slot="body"][data-icon="13"] {
+  background-image: url("../../game-art/armor/body-armor-13.png");
+}
+[data-slot="body"][data-icon="14"] {
+  background-image: url("../../game-art/armor/body-armor-14.png");
+}
+[data-slot="body"][data-icon="15"] {
+  background-image: url("../../game-art/armor/body-armor-15.png");
+}
+[data-slot="body"][data-icon="16"] {
+  background-image: url("../../game-art/armor/body-armor-16.png");
+}
+[data-slot="body"][data-icon="17"] {
+  background-image: url("../../game-art/armor/body-armor-17.png");
+}
+[data-slot="body"][data-icon="18"] {
+  background-image: url("../../game-art/armor/body-armor-18.png");
+}
+[data-slot="body"][data-icon="19"] {
+  background-image: url("../../game-art/armor/body-armor-19.png");
+}
+[data-slot="body"][data-icon="20"] {
+  background-image: url("../../game-art/armor/body-armor-20.png");
+}
+[data-slot="body"][data-icon="21"] {
+  background-image: url("../../game-art/armor/body-armor-21.png");
+}
+[data-slot="body"][data-icon="22"] {
+  background-image: url("../../game-art/armor/body-armor-22.png");
+}
+[data-slot="body"][data-icon="23"] {
+  background-image: url("../../game-art/armor/body-armor-23.png");
+}
+[data-slot="body"][data-icon="24"] {
+  background-image: url("../../game-art/armor/body-armor-24.png");
+}
+[data-slot="body"][data-icon="25"] {
+  background-image: url("../../game-art/armor/body-armor-25.png");
+}
+[data-slot="body"][data-icon="26"] {
+  background-image: url("../../game-art/armor/body-armor-26.png");
+}
+[data-slot="body"][data-icon="27"] {
+  background-image: url("../../game-art/armor/body-armor-27.png");
+}
+[data-slot="body"][data-icon="28"] {
+  background-image: url("../../game-art/armor/body-armor-28.png");
+}
+[data-slot="body"][data-icon="29"] {
+  background-image: url("../../game-art/armor/body-armor-29.png");
+}
+[data-slot="body"][data-icon="30"] {
+  background-image: url("../../game-art/armor/body-armor-30.png");
+}
+[data-slot="body"][data-icon="31"] {
+  background-image: url("../../game-art/armor/body-armor-31.png");
+}
+[data-slot="body"][data-icon="32"] {
+  background-image: url("../../game-art/armor/body-armor-32.png");
+}
+[data-slot="body"][data-icon="33"] {
+  background-image: url("../../game-art/armor/body-armor-33.png");
+}
+[data-slot="body"][data-icon="34"] {
+  background-image: url("../../game-art/armor/body-armor-34.png");
+}
+[data-slot="body"][data-icon="35"] {
+  background-image: url("../../game-art/armor/body-armor-35.png");
+}
+[data-slot="body"][data-icon="36"] {
+  background-image: url("../../game-art/armor/body-armor-36.png");
+}
+[data-slot="body"][data-icon="37"] {
+  background-image: url("../../game-art/armor/body-armor-37.png");
+}
+[data-slot="body"][data-icon="38"] {
+  background-image: url("../../game-art/armor/body-armor-38.png");
+}
+[data-slot="body"][data-icon="39"] {
+  background-image: url("../../game-art/armor/body-armor-39.png");
+}
+[data-slot="body"][data-icon="40"] {
+  background-image: url("../../game-art/armor/body-armor-40.png");
+}
+[data-slot="body"][data-icon="41"] {
+  background-image: url("../../game-art/armor/body-armor-41.png");
+}
+[data-slot="body"][data-icon="42"] {
+  background-image: url("../../game-art/armor/body-armor-42.png");
+}
+[data-slot="body"][data-icon="43"] {
+  background-image: url("../../game-art/armor/body-armor-43.png");
+}
+[data-slot="body"][data-icon="44"] {
+  background-image: url("../../game-art/armor/body-armor-44.png");
+}
+[data-slot="body"][data-icon="45"] {
+  background-image: url("../../game-art/armor/body-armor-45.png");
+}
+[data-slot="body"][data-icon="46"] {
+  background-image: url("../../game-art/armor/body-armor-46.png");
+}
+[data-slot="body"][data-icon="48"] {
+  background-image: url("../../game-art/armor/body-armor-48.png");
+}
+[data-slot="body"][data-icon="49"] {
+  background-image: url("../../game-art/armor/body-armor-49.png");
+}
+[data-slot="body"][data-icon="50"] {
+  background-image: url("../../game-art/armor/body-armor-50.png");
+}
+[data-slot="body"][data-icon="51"] {
+  background-image: url("../../game-art/armor/body-armor-51.png");
+}
+[data-slot="body"][data-icon="52"] {
+  background-image: url("../../game-art/armor/body-armor-52.png");
+}
+[data-slot="body"][data-icon="53"] {
+  background-image: url("../../game-art/armor/body-armor-53.png");
+}
+[data-slot="body"][data-icon="54"] {
+  background-image: url("../../game-art/armor/body-armor-54.png");
+}
+[data-slot="body"][data-icon="55"] {
+  background-image: url("../../game-art/armor/body-armor-55.png");
+}
+[data-slot="body"][data-icon="56"] {
+  background-image: url("../../game-art/armor/body-armor-56.png");
+}
+[data-slot="body"][data-icon="57"] {
+  background-image: url("../../game-art/armor/body-armor-57.png");
+}
+[data-slot="body"][data-icon="58"] {
+  background-image: url("../../game-art/armor/body-armor-58.png");
+}
+[data-slot="body"][data-icon="59"] {
+  background-image: url("../../game-art/armor/body-armor-59.png");
+}
+[data-slot="body"][data-icon="60"] {
+  background-image: url("../../game-art/armor/body-armor-60.png");
+}
+[data-slot="body"][data-icon="61"] {
+  background-image: url("../../game-art/armor/body-armor-61.png");
+}
+[data-slot="body"][data-icon="62"] {
+  background-image: url("../../game-art/armor/body-armor-62.png");
+}
+[data-slot="body"][data-icon="63"] {
+  background-image: url("../../game-art/armor/body-armor-63.png");
+}
+[data-slot="body"][data-icon="64"] {
+  background-image: url("../../game-art/armor/body-armor-64.png");
+}
+[data-slot="body"][data-icon="65"] {
+  background-image: url("../../game-art/armor/body-armor-65.png");
+}
+[data-slot="body"][data-icon="66"] {
+  background-image: url("../../game-art/armor/body-armor-66.png");
+}
+[data-slot="body"][data-icon="67"] {
+  background-image: url("../../game-art/armor/body-armor-67.png");
+}
+[data-slot="body"][data-icon="68"] {
+  background-image: url("../../game-art/armor/body-armor-68.png");
+}
+[data-slot="body"][data-icon="69"] {
+  background-image: url("../../game-art/armor/body-armor-69.png");
+}
+
+[data-slot="body"][data-icon="80"] {
+  background-image: url("../../game-art/armor/body-armor-80.png");
+}
+[data-slot="body"][data-icon="81"] {
+  background-image: url("../../game-art/armor/body-armor-81.png");
+}
+[data-slot="body"][data-icon="82"] {
+  background-image: url("../../game-art/armor/body-armor-82.png");
+}
+[data-slot="body"][data-icon="83"] {
+  background-image: url("../../game-art/armor/body-armor-83.png");
+}
+[data-slot="body"][data-icon="84"] {
+  background-image: url("../../game-art/armor/body-armor-84.png");
+}
+[data-slot="body"][data-icon="85"] {
+  background-image: url("../../game-art/armor/body-armor-85.png");
+}
+[data-slot="body"][data-icon="86"] {
+  background-image: url("../../game-art/armor/body-armor-86.png");
+}
+[data-slot="body"][data-icon="87"] {
+  background-image: url("../../game-art/armor/body-armor-87.png");
+}
+[data-slot="body"][data-icon="88"] {
+  background-image: url("../../game-art/armor/body-armor-88.png");
+}
+[data-slot="body"][data-icon="89"] {
+  background-image: url("../../game-art/armor/body-armor-89.png");
+}
+[data-slot="body"][data-icon="90"] {
+  background-image: url("../../game-art/armor/body-armor-90.png");
+}
+[data-slot="body"][data-icon="91"] {
+  background-image: url("../../game-art/armor/body-armor-91.png");
+}
+[data-slot="body"][data-icon="92"] {
+  background-image: url("../../game-art/armor/body-armor-92.png");
+}
+[data-slot="body"][data-icon="93"] {
+  background-image: url("../../game-art/armor/body-armor-93.png");
+}
+[data-slot="body"][data-icon="94"] {
+  background-image: url("../../game-art/armor/body-armor-94.png");
+}
+[data-slot="body"][data-icon="95"] {
+  background-image: url("../../game-art/armor/body-armor-95.png");
+}
+[data-slot="body"][data-icon="96"] {
+  background-image: url("../../game-art/armor/body-armor-96.png");
+}
+[data-slot="body"][data-icon="97"] {
+  background-image: url("../../game-art/armor/body-armor-97.png");
+}
+[data-slot="body"][data-icon="98"] {
+  background-image: url("../../game-art/armor/body-armor-98.png");
+}
+[data-slot="body"][data-icon="99"] {
+  background-image: url("../../game-art/armor/body-armor-99.png");
+}
+[data-slot="body"][data-icon="100"] {
+  background-image: url("../../game-art/armor/body-armor-100.png");
+}
+[data-slot="body"][data-icon="101"] {
+  background-image: url("../../game-art/armor/body-armor-101.png");
+}
+[data-slot="body"][data-icon="102"] {
+  background-image: url("../../game-art/armor/body-armor-102.png");
+}
+[data-slot="body"][data-icon="103"] {
+  background-image: url("../../game-art/armor/body-armor-103.png");
+}
+[data-slot="body"][data-icon="104"] {
+  background-image: url("../../game-art/armor/body-armor-104.png");
+}
+[data-slot="body"][data-icon="106"] {
+  background-image: url("../../game-art/armor/body-armor-106.png");
+}
+[data-slot="body"][data-icon="107"] {
+  background-image: url("../../game-art/armor/body-armor-107.png");
+}
+[data-slot="body"][data-icon="108"] {
+  background-image: url("../../game-art/armor/body-armor-108.png");
+}
+[data-slot="body"][data-icon="109"] {
+  background-image: url("../../game-art/armor/body-armor-109.png");
+}
+[data-slot="body"][data-icon="110"] {
+  background-image: url("../../game-art/armor/body-armor-110.png");
+}
+[data-slot="body"][data-icon="111"] {
+  background-image: url("../../game-art/armor/body-armor-111.png");
+}
+[data-slot="body"][data-icon="112"] {
+  background-image: url("../../game-art/armor/body-armor-112.png");
+}
+[data-slot="body"][data-icon="113"] {
+  background-image: url("../../game-art/armor/body-armor-113.png");
+}
+
+[data-slot="body"][data-icon="1"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-01.png");
+}
+[data-slot="body"][data-icon="2"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-02.png");
+}
+[data-slot="body"][data-icon="3"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-03.png");
+}
+[data-slot="body"][data-icon="4"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-04.png");
+}
+[data-slot="body"][data-icon="5"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-05.png");
+}
+[data-slot="body"][data-icon="6"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-06.png");
+}
+[data-slot="body"][data-icon="7"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-07.png");
+}
+[data-slot="body"][data-icon="8"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-08.png");
+}
+[data-slot="body"][data-icon="9"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-09.png");
+}
+[data-slot="body"][data-icon="10"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-10.png");
+}
+[data-slot="body"][data-icon="11"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-11.png");
+}
+[data-slot="body"][data-icon="12"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-12.png");
+}
+[data-slot="body"][data-icon="13"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-13.png");
+}
+[data-slot="body"][data-icon="14"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-14.png");
+}
+[data-slot="body"][data-icon="15"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-15.png");
+}
+[data-slot="body"][data-icon="16"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-16.png");
+}
+[data-slot="body"][data-icon="17"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-17.png");
+}
+[data-slot="body"][data-icon="18"][data-icon-set="southern"] {
+  background-image: url("../../game-art/armor/southern-body-armor-18.png");
+}
+
+[data-slot="body"][data-icon="1"][data-hex="BF3413DE"] {
+  background-image: url("../../game-art/armor/named-southern-body-armor-01.png");
+}
+[data-slot="body"][data-icon="2"][data-hex="BF3413DE"] {
+  background-image: url("../../game-art/armor/named-southern-body-armor-02.png");
+}
+
+[data-slot="body"][data-icon="1"][data-hex="00F41059"] {
+  background-image: url("../../game-art/armor/named-southern-body-armor-01.png");
+}
+[data-slot="body"][data-icon="2"][data-hex="00F41059"] {
+  background-image: url("../../game-art/armor/named-southern-body-armor-02.png");
+}
+
+[data-slot="body"][data-hex="2847F403"][data-house="1"] {
+  background-image: url("../../game-art/armor/faction-armor-01.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="2"] {
+  background-image: url("../../game-art/armor/faction-armor-02.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="3"] {
+  background-image: url("../../game-art/armor/faction-armor-03.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="4"] {
+  background-image: url("../../game-art/armor/faction-armor-04.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="5"] {
+  background-image: url("../../game-art/armor/faction-armor-05.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="6"] {
+  background-image: url("../../game-art/armor/faction-armor-06.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="7"] {
+  background-image: url("../../game-art/armor/faction-armor-07.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="8"] {
+  background-image: url("../../game-art/armor/faction-armor-08.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="9"] {
+  background-image: url("../../game-art/armor/faction-armor-09.png");
+}
+[data-slot="body"][data-hex="2847F403"][data-house="10"] {
+  background-image: url("../../game-art/armor/faction-armor-10.png");
+}
+
+/* 			Armor Upgrades 			*/
+
+[data-slot="body"][data-attachment="76B57B86"]::before {
+  background-image: url("../../game-art/armor-upgrades/bone-plating.png");
+}
+[data-slot="body"][data-attachment="41A6437B"]::before {
+  background-image: url("../../game-art/armor-upgrades/direwolf-mantle.png");
+}
+[data-slot="body"][data-attachment="BD3B9C99"]::before {
+  background-image: url("../../game-art/armor-upgrades/leather-neckguard.png");
+}
+[data-slot="body"][data-attachment="DDAAA63D"]::before {
+  background-image: url("../../game-art/armor-upgrades/leather-shoulderguards.png");
+}
+[data-slot="body"][data-attachment="6A59C084"]::before {
+  background-image: url("../../game-art/armor-upgrades/double-mail.png");
+}
+[data-slot="body"][data-attachment="DB86B709"]::before {
+  background-image: url("../../game-art/armor-upgrades/mail-patch.png");
+}
+[data-slot="body"][data-attachment="679155D7"]::before {
+  background-image: url("../../game-art/armor-upgrades/metal-pauldrons.png");
+}
+[data-slot="body"][data-attachment="82F72108"]::before {
+  background-image: url("../../game-art/armor-upgrades/metal-plating.png");
+}
+[data-slot="body"][data-attachment="B7B0DFF0"]::before {
+  background-image: url("../../game-art/armor-upgrades/metal-plates.png");
+}
+[data-slot="body"][data-attachment="829ABB91"]::before {
+  background-image: url("../../game-art/armor-upgrades/protective-sigils.png");
+}
+[data-slot="body"][data-attachment="CFE0EA55"]::before {
+  background-image: url("../../game-art/armor-upgrades/unhold-mantle.png");
+}
+[data-slot="body"][data-attachment="9EEC2513"]::before {
+  background-image: url("../../game-art/armor-upgrades/light-padding.png");
+}
+[data-slot="body"][data-attachment="AD82C117"]::before {
+  background-image: url("../../game-art/armor-upgrades/horn-plating.png");
+}
+[data-slot="body"][data-attachment="F9A7BAB1"]::before {
+  background-image: url("../../game-art/armor-upgrades/lindwurm-mantle.png");
+}
+[data-slot="body"][data-attachment="80DE01B7"]::before {
+  background-image: url("../../game-art/armor-upgrades/fur-padding.png");
+}
+
+[data-slot="body"][data-attachment="924E5313"]::before {
+  background-image: url("../../game-art/armor-upgrades/hyena-fur-mantle.png");
+}
+[data-slot="body"][data-attachment="7AC1159D"]::before {
+  background-image: url("../../game-art/armor-upgrades/serpent-skin-mantle.png");
+}
+[data-slot="body"][data-attachment="1BB3149D"]::before {
+  background-image: url("../../game-art/armor-upgrades/padded-armpiece.png");
+}
+[data-slot="body"][data-attachment="90E02ECF"]::before {
+  background-image: url("../../game-art/armor-upgrades/metal-armguard.png");
+}
+
+[data-slot="body"][data-attachment="9D6DEC64"][data-attachment-icon="14"]::before {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-1.png");
+}
+[data-slot="body"][data-attachment="9D6DEC64"][data-attachment-icon="15"]::before {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-2.png");
+}
+[data-slot="body"][data-attachment="9D6DEC64"][data-attachment-icon="16"]::before {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-3.png");
+}
+[data-slot="body"][data-attachment="9D6DEC64"][data-attachment-icon="17"]::before {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-4.png");
+}
+[data-slot="body"][data-attachment="9D6DEC64"][data-attachment-icon="18"]::before {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-5.png");
+}
+[data-slot="body"][data-attachment="FD266F9D"]::before {
+  background-image: url("../../game-art/armor-upgrades/ceremonial-horns.png");
+}
+
+[data-hex="76B57B86"] {
+  background-image: url("../../game-art/armor-upgrades/bone-plating-upgrade.png");
+}
+[data-hex="41A6437B"] {
+  background-image: url("../../game-art/armor-upgrades/direwolf-mantle-upgrade.png");
+}
+[data-hex="BD3B9C99"] {
+  background-image: url("../../game-art/armor-upgrades/leather-neckguard-upgrade.png");
+}
+[data-hex="DDAAA63D"] {
+  background-image: url("../../game-art/armor-upgrades/leather-shoulderguards-upgrade.png");
+}
+[data-hex="6A59C084"] {
+  background-image: url("../../game-art/armor-upgrades/double-mail-upgrade.png");
+}
+[data-hex="DB86B709"] {
+  background-image: url("../../game-art/armor-upgrades/mail-patch-upgrade.png");
+}
+[data-hex="679155D7"] {
+  background-image: url("../../game-art/armor-upgrades/metal-pauldrons-upgrade.png");
+}
+[data-hex="82F72108"] {
+  background-image: url("../../game-art/armor-upgrades/metal-plating-upgrade.png");
+}
+[data-hex="B7B0DFF0"] {
+  background-image: url("../../game-art/armor-upgrades/metal-plates-upgrade.png");
+}
+[data-hex="829ABB91"] {
+  background-image: url("../../game-art/armor-upgrades/protective-sigils-upgrade.png");
+}
+[data-hex="CFE0EA55"] {
+  background-image: url("../../game-art/armor-upgrades/unhold-mantle-upgrade.png");
+}
+[data-hex="9EEC2513"] {
+  background-image: url("../../game-art/armor-upgrades/light-padding-upgrade.png");
+}
+[data-hex="AD82C117"] {
+  background-image: url("../../game-art/armor-upgrades/horn-plating-upgrade.png");
+}
+[data-hex="F9A7BAB1"] {
+  background-image: url("../../game-art/armor-upgrades/lindwurm-mantle-upgrade.png");
+}
+[data-hex="80DE01B7"] {
+  background-image: url("../../game-art/armor-upgrades/fur-padding-upgrade.png");
+}
+
+[data-hex="924E5313"] {
+  background-image: url("../../game-art/armor-upgrades/hyena-fur-mantle-upgrade.png");
+}
+[data-hex="7AC1159D"] {
+  background-image: url("../../game-art/armor-upgrades/serpent-skin-mantle-upgrade.png");
+}
+[data-hex="1BB3149D"] {
+  background-image: url("../../game-art/armor-upgrades/padded-armpiece-upgrade.png");
+}
+[data-hex="90E02ECF"] {
+  background-image: url("../../game-art/armor-upgrades/metal-armguard-upgrade.png");
+}
+
+[data-icon="14"][data-hex="9D6DEC64"] {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-upgrade-1.png");
+}
+[data-icon="15"][data-hex="9D6DEC64"] {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-upgrade-2.png");
+}
+[data-icon="16"][data-hex="9D6DEC64"] {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-upgrade-3.png");
+}
+[data-icon="17"][data-hex="9D6DEC64"] {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-upgrade-4.png");
+}
+[data-icon="18"][data-hex="9D6DEC64"] {
+  background-image: url("../../game-art/armor-upgrades/heraldic-shoulderguards-upgrade-5.png");
+}
+[data-hex="FD266F9D"] {
+  background-image: url("../../game-art/armor-upgrades/ceremonial-horns-upgrade.png");
+}
+
+[data-hex="74EC8730"] {
+  background-image: url("../../game-art/armor-upgrades/dog-armor-upgrade.png");
+}
+[data-hex="80C9AF1F"] {
+  background-image: url("../../game-art/armor-upgrades/heavy-dog-armor-upgrade.png");
+}
+
+/* 			Helmets 			*/
+
+[data-slot="helmet"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/helmet-01.png");
+}
+[data-slot="helmet"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/helmet-02.png");
+}
+[data-slot="helmet"][data-icon="3"] {
+  background-image: url("../../game-art/helmets/helmet-03.png");
+}
+[data-slot="helmet"][data-icon="4"] {
+  background-image: url("../../game-art/helmets/helmet-04.png");
+}
+[data-slot="helmet"][data-icon="5"] {
+  background-image: url("../../game-art/helmets/helmet-05.png");
+}
+[data-slot="helmet"][data-icon="6"] {
+  background-image: url("../../game-art/helmets/helmet-06.png");
+}
+[data-slot="helmet"][data-icon="7"] {
+  background-image: url("../../game-art/helmets/helmet-07.png");
+}
+[data-slot="helmet"][data-icon="8"] {
+  background-image: url("../../game-art/helmets/helmet-08.png");
+}
+[data-slot="helmet"][data-icon="9"] {
+  background-image: url("../../game-art/helmets/helmet-09.png");
+}
+[data-slot="helmet"][data-icon="10"] {
+  background-image: url("../../game-art/helmets/helmet-10.png");
+}
+[data-slot="helmet"][data-icon="11"] {
+  background-image: url("../../game-art/helmets/helmet-11.png");
+}
+[data-slot="helmet"][data-icon="12"] {
+  background-image: url("../../game-art/helmets/helmet-12.png");
+}
+[data-slot="helmet"][data-icon="13"] {
+  background-image: url("../../game-art/helmets/helmet-13.png");
+}
+[data-slot="helmet"][data-icon="14"] {
+  background-image: url("../../game-art/helmets/helmet-14.png");
+}
+[data-slot="helmet"][data-icon="15"] {
+  background-image: url("../../game-art/helmets/helmet-15.png");
+}
+[data-slot="helmet"][data-icon="16"] {
+  background-image: url("../../game-art/helmets/helmet-16.png");
+}
+[data-slot="helmet"][data-icon="17"] {
+  background-image: url("../../game-art/helmets/helmet-17.png");
+}
+[data-slot="helmet"][data-icon="18"] {
+  background-image: url("../../game-art/helmets/helmet-18.png");
+}
+[data-slot="helmet"][data-icon="19"] {
+  background-image: url("../../game-art/helmets/helmet-19.png");
+}
+[data-slot="helmet"][data-icon="20"] {
+  background-image: url("../../game-art/helmets/helmet-20.png");
+}
+[data-slot="helmet"][data-icon="21"] {
+  background-image: url("../../game-art/helmets/helmet-21.png");
+}
+[data-slot="helmet"][data-icon="22"] {
+  background-image: url("../../game-art/helmets/helmet-22.png");
+}
+[data-slot="helmet"][data-icon="23"] {
+  background-image: url("../../game-art/helmets/helmet-23.png");
+}
+[data-slot="helmet"][data-icon="24"] {
+  background-image: url("../../game-art/helmets/helmet-24.png");
+}
+[data-slot="helmet"][data-icon="25"] {
+  background-image: url("../../game-art/helmets/helmet-25.png");
+}
+[data-slot="helmet"][data-icon="26"] {
+  background-image: url("../../game-art/helmets/helmet-26.png");
+}
+[data-slot="helmet"][data-icon="27"] {
+  background-image: url("../../game-art/helmets/helmet-27.png");
+}
+[data-slot="helmet"][data-icon="28"] {
+  background-image: url("../../game-art/helmets/helmet-28.png");
+}
+[data-slot="helmet"][data-icon="29"] {
+  background-image: url("../../game-art/helmets/helmet-29.png");
+}
+[data-slot="helmet"][data-icon="30"] {
+  background-image: url("../../game-art/helmets/helmet-30.png");
+}
+[data-slot="helmet"][data-icon="31"] {
+  background-image: url("../../game-art/helmets/helmet-31.png");
+}
+[data-slot="helmet"][data-icon="32"] {
+  background-image: url("../../game-art/helmets/helmet-32.png");
+}
+[data-slot="helmet"][data-icon="33"] {
+  background-image: url("../../game-art/helmets/helmet-33.png");
+}
+[data-slot="helmet"][data-icon="34"] {
+  background-image: url("../../game-art/helmets/helmet-34.png");
+}
+[data-slot="helmet"][data-icon="35"] {
+  background-image: url("../../game-art/helmets/helmet-35.png");
+}
+[data-slot="helmet"][data-icon="36"] {
+  background-image: url("../../game-art/helmets/helmet-36.png");
+}
+[data-slot="helmet"][data-icon="37"] {
+  background-image: url("../../game-art/helmets/helmet-37.png");
+}
+[data-slot="helmet"][data-icon="38"] {
+  background-image: url("../../game-art/helmets/helmet-38.png");
+}
+[data-slot="helmet"][data-icon="39"] {
+  background-image: url("../../game-art/helmets/helmet-39.png");
+}
+[data-slot="helmet"][data-icon="40"] {
+  background-image: url("../../game-art/helmets/helmet-40.png");
+}
+[data-slot="helmet"][data-icon="41"] {
+  background-image: url("../../game-art/helmets/helmet-41.png");
+}
+[data-slot="helmet"][data-icon="42"] {
+  background-image: url("../../game-art/helmets/helmet-42.png");
+}
+[data-slot="helmet"][data-icon="43"] {
+  background-image: url("../../game-art/helmets/helmet-43.png");
+}
+[data-slot="helmet"][data-icon="44"] {
+  background-image: url("../../game-art/helmets/helmet-44.png");
+}
+[data-slot="helmet"][data-icon="45"] {
+  background-image: url("../../game-art/helmets/helmet-45.png");
+}
+[data-slot="helmet"][data-icon="46"] {
+  background-image: url("../../game-art/helmets/helmet-46.png");
+}
+[data-slot="helmet"][data-icon="47"] {
+  background-image: url("../../game-art/helmets/helmet-47.png");
+}
+[data-slot="helmet"][data-icon="48"] {
+  background-image: url("../../game-art/helmets/helmet-48.png");
+}
+[data-slot="helmet"][data-icon="49"] {
+  background-image: url("../../game-art/helmets/helmet-49.png");
+}
+[data-slot="helmet"][data-icon="50"] {
+  background-image: url("../../game-art/helmets/helmet-50.png");
+}
+[data-slot="helmet"][data-icon="51"] {
+  background-image: url("../../game-art/helmets/helmet-51.png");
+}
+[data-slot="helmet"][data-icon="52"] {
+  background-image: url("../../game-art/helmets/helmet-52.png");
+}
+[data-slot="helmet"][data-icon="53"] {
+  background-image: url("../../game-art/helmets/helmet-53.png");
+}
+[data-slot="helmet"][data-icon="54"] {
+  background-image: url("../../game-art/helmets/helmet-54.png");
+}
+[data-slot="helmet"][data-icon="55"] {
+  background-image: url("../../game-art/helmets/helmet-55.png");
+}
+[data-slot="helmet"][data-icon="56"] {
+  background-image: url("../../game-art/helmets/helmet-56.png");
+}
+[data-slot="helmet"][data-icon="57"] {
+  background-image: url("../../game-art/helmets/helmet-57.png");
+}
+[data-slot="helmet"][data-icon="58"] {
+  background-image: url("../../game-art/helmets/helmet-58.png");
+}
+[data-slot="helmet"][data-icon="59"] {
+  background-image: url("../../game-art/helmets/helmet-59.png");
+}
+[data-slot="helmet"][data-icon="60"] {
+  background-image: url("../../game-art/helmets/helmet-60.png");
+}
+[data-slot="helmet"][data-icon="61"] {
+  background-image: url("../../game-art/helmets/helmet-61.png");
+}
+[data-slot="helmet"][data-icon="62"] {
+  background-image: url("../../game-art/helmets/helmet-62.png");
+}
+[data-slot="helmet"][data-icon="63"] {
+  background-image: url("../../game-art/helmets/helmet-63.png");
+}
+[data-slot="helmet"][data-icon="64"] {
+  background-image: url("../../game-art/helmets/helmet-64.png");
+}
+[data-slot="helmet"][data-icon="65"] {
+  background-image: url("../../game-art/helmets/helmet-65.png");
+}
+[data-slot="helmet"][data-icon="66"] {
+  background-image: url("../../game-art/helmets/helmet-66.png");
+}
+[data-slot="helmet"][data-icon="67"] {
+  background-image: url("../../game-art/helmets/helmet-67.png");
+}
+[data-slot="helmet"][data-icon="68"] {
+  background-image: url("../../game-art/helmets/helmet-68.png");
+}
+[data-slot="helmet"][data-icon="69"] {
+  background-image: url("../../game-art/helmets/helmet-69.png");
+}
+[data-slot="helmet"][data-icon="70"] {
+  background-image: url("../../game-art/helmets/helmet-70.png");
+}
+[data-slot="helmet"][data-icon="71"] {
+  background-image: url("../../game-art/helmets/helmet-71.png");
+}
+[data-slot="helmet"][data-icon="72"] {
+  background-image: url("../../game-art/helmets/helmet-72.png");
+}
+[data-slot="helmet"][data-icon="73"] {
+  background-image: url("../../game-art/helmets/helmet-73.png");
+}
+[data-slot="helmet"][data-icon="74"] {
+  background-image: url("../../game-art/helmets/helmet-74.png");
+}
+[data-slot="helmet"][data-icon="75"] {
+  background-image: url("../../game-art/helmets/helmet-75.png");
+}
+[data-slot="helmet"][data-icon="76"] {
+  background-image: url("../../game-art/helmets/helmet-76.png");
+}
+[data-slot="helmet"][data-icon="77"] {
+  background-image: url("../../game-art/helmets/helmet-77.png");
+}
+[data-slot="helmet"][data-icon="78"] {
+  background-image: url("../../game-art/helmets/helmet-78.png");
+}
+
+[data-slot="helmet"][data-icon="82"] {
+  background-image: url("../../game-art/helmets/helmet-82.png");
+}
+[data-slot="helmet"][data-icon="83"] {
+  background-image: url("../../game-art/helmets/helmet-83.png");
+}
+[data-slot="helmet"][data-icon="84"] {
+  background-image: url("../../game-art/helmets/helmet-84.png");
+}
+[data-slot="helmet"][data-icon="85"] {
+  background-image: url("../../game-art/helmets/helmet-85.png");
+}
+[data-slot="helmet"][data-icon="86"] {
+  background-image: url("../../game-art/helmets/helmet-86.png");
+}
+[data-slot="helmet"][data-icon="87"] {
+  background-image: url("../../game-art/helmets/helmet-87.png");
+}
+[data-slot="helmet"][data-icon="88"] {
+  background-image: url("../../game-art/helmets/helmet-88.png");
+}
+[data-slot="helmet"][data-icon="89"] {
+  background-image: url("../../game-art/helmets/helmet-89.png");
+}
+[data-slot="helmet"][data-icon="90"] {
+  background-image: url("../../game-art/helmets/helmet-90.png");
+}
+[data-slot="helmet"][data-icon="91"] {
+  background-image: url("../../game-art/helmets/helmet-91.png");
+}
+[data-slot="helmet"][data-icon="92"] {
+  background-image: url("../../game-art/helmets/helmet-92.png");
+}
+[data-slot="helmet"][data-icon="93"] {
+  background-image: url("../../game-art/helmets/helmet-93.png");
+}
+[data-slot="helmet"][data-icon="94"] {
+  background-image: url("../../game-art/helmets/helmet-94.png");
+}
+[data-slot="helmet"][data-icon="95"] {
+  background-image: url("../../game-art/helmets/helmet-95.png");
+}
+[data-slot="helmet"][data-icon="96"] {
+  background-image: url("../../game-art/helmets/helmet-96.png");
+}
+[data-slot="helmet"][data-icon="97"] {
+  background-image: url("../../game-art/helmets/helmet-97.png");
+}
+[data-slot="helmet"][data-icon="98"] {
+  background-image: url("../../game-art/helmets/helmet-98.png");
+}
+[data-slot="helmet"][data-icon="99"] {
+  background-image: url("../../game-art/helmets/helmet-99.png");
+}
+[data-slot="helmet"][data-icon="100"] {
+  background-image: url("../../game-art/helmets/helmet-100.png");
+}
+[data-slot="helmet"][data-icon="101"] {
+  background-image: url("../../game-art/helmets/helmet-101.png");
+}
+[data-slot="helmet"][data-icon="102"] {
+  background-image: url("../../game-art/helmets/helmet-102.png");
+}
+[data-slot="helmet"][data-icon="103"] {
+  background-image: url("../../game-art/helmets/helmet-103.png");
+}
+[data-slot="helmet"][data-icon="104"] {
+  background-image: url("../../game-art/helmets/helmet-104.png");
+}
+[data-slot="helmet"][data-icon="105"] {
+  background-image: url("../../game-art/helmets/helmet-105.png");
+}
+[data-slot="helmet"][data-icon="106"] {
+  background-image: url("../../game-art/helmets/helmet-106.png");
+}
+[data-slot="helmet"][data-icon="107"] {
+  background-image: url("../../game-art/helmets/helmet-107.png");
+}
+[data-slot="helmet"][data-icon="108"] {
+  background-image: url("../../game-art/helmets/helmet-108.png");
+}
+[data-slot="helmet"][data-icon="109"] {
+  background-image: url("../../game-art/helmets/helmet-109.png");
+}
+[data-slot="helmet"][data-icon="110"] {
+  background-image: url("../../game-art/helmets/helmet-110.png");
+}
+[data-slot="helmet"][data-icon="111"] {
+  background-image: url("../../game-art/helmets/helmet-111.png");
+}
+[data-slot="helmet"][data-icon="112"] {
+  background-image: url("../../game-art/helmets/helmet-112.png");
+}
+[data-slot="helmet"][data-icon="113"] {
+  background-image: url("../../game-art/helmets/helmet-113.png");
+}
+[data-slot="helmet"][data-icon="114"] {
+  background-image: url("../../game-art/helmets/helmet-114.png");
+}
+[data-slot="helmet"][data-icon="115"] {
+  background-image: url("../../game-art/helmets/helmet-115.png");
+}
+[data-slot="helmet"][data-icon="116"] {
+  background-image: url("../../game-art/helmets/helmet-116.png");
+}
+[data-slot="helmet"][data-icon="117"] {
+  background-image: url("../../game-art/helmets/helmet-117.png");
+}
+[data-slot="helmet"][data-icon="118"] {
+  background-image: url("../../game-art/helmets/helmet-118.png");
+}
+[data-slot="helmet"][data-icon="119"] {
+  background-image: url("../../game-art/helmets/helmet-119.png");
+}
+[data-slot="helmet"][data-icon="120"] {
+  background-image: url("../../game-art/helmets/helmet-120.png");
+}
+[data-slot="helmet"][data-icon="121"] {
+  background-image: url("../../game-art/helmets/helmet-121.png");
+}
+[data-slot="helmet"][data-icon="122"] {
+  background-image: url("../../game-art/helmets/helmet-122.png");
+}
+[data-slot="helmet"][data-icon="123"] {
+  background-image: url("../../game-art/helmets/helmet-123.png");
+}
+[data-slot="helmet"][data-icon="124"] {
+  background-image: url("../../game-art/helmets/helmet-124.png");
+}
+[data-slot="helmet"][data-icon="125"] {
+  background-image: url("../../game-art/helmets/helmet-125.png");
+}
+[data-slot="helmet"][data-icon="126"] {
+  background-image: url("../../game-art/helmets/helmet-126.png");
+}
+[data-slot="helmet"][data-icon="127"] {
+  background-image: url("../../game-art/helmets/helmet-127.png");
+}
+[data-slot="helmet"][data-icon="128"] {
+  background-image: url("../../game-art/helmets/helmet-128.png");
+}
+[data-slot="helmet"][data-icon="129"] {
+  background-image: url("../../game-art/helmets/helmet-129.png");
+}
+[data-slot="helmet"][data-icon="130"] {
+  background-image: url("../../game-art/helmets/helmet-130.png");
+}
+[data-slot="helmet"][data-icon="131"] {
+  background-image: url("../../game-art/helmets/helmet-131.png");
+}
+[data-slot="helmet"][data-icon="132"] {
+  background-image: url("../../game-art/helmets/helmet-132.png");
+}
+[data-slot="helmet"][data-icon="133"] {
+  background-image: url("../../game-art/helmets/helmet-133.png");
+}
+[data-slot="helmet"][data-icon="134"] {
+  background-image: url("../../game-art/helmets/helmet-134.png");
+}
+[data-slot="helmet"][data-icon="135"] {
+  background-image: url("../../game-art/helmets/helmet-135.png");
+}
+[data-slot="helmet"][data-icon="136"] {
+  background-image: url("../../game-art/helmets/helmet-136.png");
+}
+[data-slot="helmet"][data-icon="137"] {
+  background-image: url("../../game-art/helmets/helmet-137.png");
+}
+[data-slot="helmet"][data-icon="138"] {
+  background-image: url("../../game-art/helmets/helmet-138.png");
+}
+[data-slot="helmet"][data-icon="139"] {
+  background-image: url("../../game-art/helmets/helmet-139.png");
+}
+[data-slot="helmet"][data-icon="140"] {
+  background-image: url("../../game-art/helmets/helmet-140.png");
+}
+[data-slot="helmet"][data-icon="141"] {
+  background-image: url("../../game-art/helmets/helmet-141.png");
+}
+[data-slot="helmet"][data-icon="142"] {
+  background-image: url("../../game-art/helmets/helmet-142.png");
+}
+[data-slot="helmet"][data-icon="143"] {
+  background-image: url("../../game-art/helmets/helmet-143.png");
+}
+[data-slot="helmet"][data-icon="144"] {
+  background-image: url("../../game-art/helmets/helmet-144.png");
+}
+[data-slot="helmet"][data-icon="145"] {
+  background-image: url("../../game-art/helmets/helmet-145.png");
+}
+[data-slot="helmet"][data-icon="146"] {
+  background-image: url("../../game-art/helmets/helmet-146.png");
+}
+[data-slot="helmet"][data-icon="147"] {
+  background-image: url("../../game-art/helmets/helmet-147.png");
+}
+[data-slot="helmet"][data-icon="148"] {
+  background-image: url("../../game-art/helmets/helmet-148.png");
+}
+[data-slot="helmet"][data-icon="149"] {
+  background-image: url("../../game-art/helmets/helmet-149.png");
+}
+[data-slot="helmet"][data-icon="150"] {
+  background-image: url("../../game-art/helmets/helmet-150.png");
+}
+[data-slot="helmet"][data-icon="151"] {
+  background-image: url("../../game-art/helmets/helmet-151.png");
+}
+[data-slot="helmet"][data-icon="152"] {
+  background-image: url("../../game-art/helmets/helmet-152.png");
+}
+
+[data-slot="helmet"][data-icon="154"] {
+  background-image: url("../../game-art/helmets/helmet-154.png");
+}
+[data-slot="helmet"][data-icon="155"] {
+  background-image: url("../../game-art/helmets/helmet-155.png");
+}
+[data-slot="helmet"][data-icon="156"] {
+  background-image: url("../../game-art/helmets/helmet-156.png");
+}
+[data-slot="helmet"][data-icon="157"] {
+  background-image: url("../../game-art/helmets/helmet-157.png");
+}
+[data-slot="helmet"][data-icon="158"] {
+  background-image: url("../../game-art/helmets/helmet-158.png");
+}
+[data-slot="helmet"][data-icon="159"] {
+  background-image: url("../../game-art/helmets/helmet-159.png");
+}
+[data-slot="helmet"][data-icon="160"] {
+  background-image: url("../../game-art/helmets/helmet-160.png");
+}
+[data-slot="helmet"][data-icon="161"] {
+  background-image: url("../../game-art/helmets/helmet-161.png");
+}
+[data-slot="helmet"][data-icon="162"] {
+  background-image: url("../../game-art/helmets/helmet-162.png");
+}
+[data-slot="helmet"][data-icon="163"] {
+  background-image: url("../../game-art/helmets/helmet-163.png");
+}
+[data-slot="helmet"][data-icon="164"] {
+  background-image: url("../../game-art/helmets/helmet-164.png");
+}
+[data-slot="helmet"][data-icon="165"] {
+  background-image: url("../../game-art/helmets/helmet-165.png");
+}
+[data-slot="helmet"][data-icon="166"] {
+  background-image: url("../../game-art/helmets/helmet-166.png");
+}
+[data-slot="helmet"][data-icon="167"] {
+  background-image: url("../../game-art/helmets/helmet-167.png");
+}
+[data-slot="helmet"][data-icon="168"] {
+  background-image: url("../../game-art/helmets/helmet-168.png");
+}
+[data-slot="helmet"][data-icon="169"] {
+  background-image: url("../../game-art/helmets/helmet-169.png");
+}
+[data-slot="helmet"][data-icon="170"] {
+  background-image: url("../../game-art/helmets/helmet-170.png");
+}
+[data-slot="helmet"][data-icon="171"] {
+  background-image: url("../../game-art/helmets/helmet-171.png");
+}
+[data-slot="helmet"][data-icon="172"] {
+  background-image: url("../../game-art/helmets/helmet-172.png");
+}
+[data-slot="helmet"][data-icon="173"] {
+  background-image: url("../../game-art/helmets/helmet-173.png");
+}
+[data-slot="helmet"][data-icon="174"] {
+  background-image: url("../../game-art/helmets/helmet-174.png");
+}
+[data-slot="helmet"][data-icon="175"] {
+  background-image: url("../../game-art/helmets/helmet-175.png");
+}
+[data-slot="helmet"][data-icon="176"] {
+  background-image: url("../../game-art/helmets/helmet-176.png");
+}
+[data-slot="helmet"][data-icon="177"] {
+  background-image: url("../../game-art/helmets/helmet-177.png");
+}
+[data-slot="helmet"][data-icon="178"] {
+  background-image: url("../../game-art/helmets/helmet-178.png");
+}
+[data-slot="helmet"][data-icon="179"] {
+  background-image: url("../../game-art/helmets/helmet-179.png");
+}
+[data-slot="helmet"][data-icon="180"] {
+  background-image: url("../../game-art/helmets/helmet-180.png");
+}
+[data-slot="helmet"][data-icon="181"] {
+  background-image: url("../../game-art/helmets/helmet-181.png");
+}
+[data-slot="helmet"][data-icon="182"] {
+  background-image: url("../../game-art/helmets/helmet-182.png");
+}
+[data-slot="helmet"][data-icon="183"] {
+  background-image: url("../../game-art/helmets/helmet-183.png");
+}
+[data-slot="helmet"][data-icon="184"] {
+  background-image: url("../../game-art/helmets/helmet-184.png");
+}
+[data-slot="helmet"][data-icon="185"] {
+  background-image: url("../../game-art/helmets/helmet-185.png");
+}
+[data-slot="helmet"][data-icon="186"] {
+  background-image: url("../../game-art/helmets/helmet-186.png");
+}
+[data-slot="helmet"][data-icon="187"] {
+  background-image: url("../../game-art/helmets/helmet-187.png");
+}
+[data-slot="helmet"][data-icon="188"] {
+  background-image: url("../../game-art/helmets/helmet-188.png");
+}
+[data-slot="helmet"][data-icon="189"] {
+  background-image: url("../../game-art/helmets/helmet-189.png");
+}
+[data-slot="helmet"][data-icon="190"] {
+  background-image: url("../../game-art/helmets/helmet-190.png");
+}
+[data-slot="helmet"][data-icon="191"] {
+  background-image: url("../../game-art/helmets/helmet-191.png");
+}
+[data-slot="helmet"][data-icon="192"] {
+  background-image: url("../../game-art/helmets/helmet-192.png");
+}
+[data-slot="helmet"][data-icon="193"] {
+  background-image: url("../../game-art/helmets/helmet-193.png");
+}
+[data-slot="helmet"][data-icon="194"] {
+  background-image: url("../../game-art/helmets/helmet-194.png");
+}
+[data-slot="helmet"][data-icon="195"] {
+  background-image: url("../../game-art/helmets/helmet-195.png");
+}
+[data-slot="helmet"][data-icon="196"] {
+  background-image: url("../../game-art/helmets/helmet-196.png");
+}
+[data-slot="helmet"][data-icon="197"] {
+  background-image: url("../../game-art/helmets/helmet-197.png");
+}
+[data-slot="helmet"][data-icon="198"] {
+  background-image: url("../../game-art/helmets/helmet-198.png");
+}
+[data-slot="helmet"][data-icon="199"] {
+  background-image: url("../../game-art/helmets/helmet-199.png");
+}
+[data-slot="helmet"][data-icon="200"] {
+  background-image: url("../../game-art/helmets/helmet-200.png");
+}
+[data-slot="helmet"][data-icon="201"] {
+  background-image: url("../../game-art/helmets/helmet-201.png");
+}
+[data-slot="helmet"][data-icon="202"] {
+  background-image: url("../../game-art/helmets/helmet-202.png");
+}
+[data-slot="helmet"][data-icon="203"] {
+  background-image: url("../../game-art/helmets/helmet-203.png");
+}
+[data-slot="helmet"][data-icon="204"] {
+  background-image: url("../../game-art/helmets/helmet-204.png");
+}
+[data-slot="helmet"][data-icon="205"] {
+  background-image: url("../../game-art/helmets/helmet-205.png");
+}
+[data-slot="helmet"][data-icon="206"] {
+  background-image: url("../../game-art/helmets/helmet-206.png");
+}
+[data-slot="helmet"][data-icon="207"] {
+  background-image: url("../../game-art/helmets/helmet-207.png");
+}
+[data-slot="helmet"][data-icon="208"] {
+  background-image: url("../../game-art/helmets/helmet-208.png");
+}
+[data-slot="helmet"][data-icon="209"] {
+  background-image: url("../../game-art/helmets/helmet-209.png");
+}
+[data-slot="helmet"][data-icon="210"] {
+  background-image: url("../../game-art/helmets/helmet-210.png");
+}
+[data-slot="helmet"][data-icon="211"] {
+  background-image: url("../../game-art/helmets/helmet-211.png");
+}
+[data-slot="helmet"][data-icon="212"] {
+  background-image: url("../../game-art/helmets/helmet-212.png");
+}
+[data-slot="helmet"][data-icon="213"] {
+  background-image: url("../../game-art/helmets/helmet-213.png");
+}
+[data-slot="helmet"][data-icon="214"] {
+  background-image: url("../../game-art/helmets/helmet-214.png");
+}
+[data-slot="helmet"][data-icon="215"] {
+  background-image: url("../../game-art/helmets/helmet-215.png");
+}
+[data-slot="helmet"][data-icon="216"] {
+  background-image: url("../../game-art/helmets/helmet-216.png");
+}
+[data-slot="helmet"][data-icon="217"] {
+  background-image: url("../../game-art/helmets/helmet-217.png");
+}
+[data-slot="helmet"][data-icon="218"] {
+  background-image: url("../../game-art/helmets/helmet-218.png");
+}
+[data-slot="helmet"][data-icon="219"] {
+  background-image: url("../../game-art/helmets/helmet-219.png");
+}
+[data-slot="helmet"][data-icon="220"] {
+  background-image: url("../../game-art/helmets/helmet-220.png");
+}
+[data-slot="helmet"][data-icon="221"] {
+  background-image: url("../../game-art/helmets/helmet-221.png");
+}
+[data-slot="helmet"][data-icon="222"] {
+  background-image: url("../../game-art/helmets/helmet-222.png");
+}
+[data-slot="helmet"][data-icon="223"] {
+  background-image: url("../../game-art/helmets/helmet-223.png");
+}
+[data-slot="helmet"][data-icon="224"] {
+  background-image: url("../../game-art/helmets/helmet-224.png");
+}
+[data-slot="helmet"][data-icon="225"] {
+  background-image: url("../../game-art/helmets/helmet-225.png");
+}
+[data-slot="helmet"][data-icon="226"] {
+  background-image: url("../../game-art/helmets/helmet-226.png");
+}
+[data-slot="helmet"][data-icon="227"] {
+  background-image: url("../../game-art/helmets/helmet-227.png");
+}
+[data-slot="helmet"][data-icon="228"] {
+  background-image: url("../../game-art/helmets/helmet-228.png");
+}
+[data-slot="helmet"][data-icon="229"] {
+  background-image: url("../../game-art/helmets/helmet-229.png");
+}
+[data-slot="helmet"][data-icon="230"] {
+  background-image: url("../../game-art/helmets/helmet-230.png");
+}
+[data-slot="helmet"][data-icon="231"] {
+  background-image: url("../../game-art/helmets/helmet-231.png");
+}
+[data-slot="helmet"][data-icon="232"] {
+  background-image: url("../../game-art/helmets/helmet-232.png");
+}
+[data-slot="helmet"][data-icon="233"] {
+  background-image: url("../../game-art/helmets/helmet-233.png");
+}
+[data-slot="helmet"][data-icon="234"] {
+  background-image: url("../../game-art/helmets/helmet-234.png");
+}
+
+[data-slot="helmet"][data-icon="236"] {
+  background-image: url("../../game-art/helmets/helmet-236.png");
+}
+[data-slot="helmet"][data-icon="237"] {
+  background-image: url("../../game-art/helmets/helmet-237.png");
+}
+[data-slot="helmet"][data-icon="238"] {
+  background-image: url("../../game-art/helmets/helmet-238.png");
+}
+[data-slot="helmet"][data-icon="239"] {
+  background-image: url("../../game-art/helmets/helmet-239.png");
+}
+[data-slot="helmet"][data-icon="240"] {
+  background-image: url("../../game-art/helmets/helmet-240.png");
+}
+[data-slot="helmet"][data-icon="241"] {
+  background-image: url("../../game-art/helmets/helmet-241.png");
+}
+[data-slot="helmet"][data-icon="242"] {
+  background-image: url("../../game-art/helmets/helmet-242.png");
+}
+
+[data-slot="helmet"][data-icon-set="southern"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/southern-helmet-01.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/southern-helmet-02.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="3"] {
+  background-image: url("../../game-art/helmets/southern-helmet-03.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="4"] {
+  background-image: url("../../game-art/helmets/southern-helmet-04.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="5"] {
+  background-image: url("../../game-art/helmets/southern-helmet-05.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="6"] {
+  background-image: url("../../game-art/helmets/southern-helmet-06.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="7"] {
+  background-image: url("../../game-art/helmets/southern-helmet-07.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="8"] {
+  background-image: url("../../game-art/helmets/southern-helmet-08.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="9"] {
+  background-image: url("../../game-art/helmets/southern-helmet-09.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="10"] {
+  background-image: url("../../game-art/helmets/southern-helmet-10.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="11"] {
+  background-image: url("../../game-art/helmets/southern-helmet-11.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="12"] {
+  background-image: url("../../game-art/helmets/southern-helmet-12.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="13"] {
+  background-image: url("../../game-art/helmets/southern-helmet-13.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="14"] {
+  background-image: url("../../game-art/helmets/southern-helmet-14.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="15"] {
+  background-image: url("../../game-art/helmets/southern-helmet-15.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="16"] {
+  background-image: url("../../game-art/helmets/southern-helmet-16.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="17"] {
+  background-image: url("../../game-art/helmets/southern-helmet-17.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="18"] {
+  background-image: url("../../game-art/helmets/southern-helmet-18.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="19"] {
+  background-image: url("../../game-art/helmets/southern-helmet-19.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="20"] {
+  background-image: url("../../game-art/helmets/southern-helmet-20.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="21"] {
+  background-image: url("../../game-art/helmets/southern-helmet-21.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="22"] {
+  background-image: url("../../game-art/helmets/southern-helmet-22.png");
+}
+[data-slot="helmet"][data-icon-set="southern"][data-icon="23"] {
+  background-image: url("../../game-art/helmets/southern-helmet-23.png");
+}
+
+[data-slot="helmet"][data-hex="C51784F0"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/southern-helmet-named-1.png");
+}
+[data-slot="helmet"][data-hex="C51784F0"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/southern-helmet-named-2.png");
+}
+
+[data-slot="helmet"][data-hex="C4C1A95E"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/southern-helmet-named-1.png");
+}
+[data-slot="helmet"][data-hex="C4C1A95E"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/southern-helmet-named-2.png");
+}
+
+[data-slot="helmet"][data-hex="66C6D2B7"] {
+  background-image: url("../../game-art/helmets/helmet-29.png");
+}
+[data-slot="helmet"][data-hex="FDB6361E"] {
+  background-image: url("../../game-art/helmets/helmet-30.png");
+}
+[data-slot="helmet"][data-hex="8550A82E"] {
+  background-image: url("../../game-art/helmets/helmet-31.png");
+}
+
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="1"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/faction-helmet-01.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="2"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/faction-helmet-02.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="3"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="3"] {
+  background-image: url("../../game-art/helmets/faction-helmet-03.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="4"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="4"] {
+  background-image: url("../../game-art/helmets/faction-helmet-04.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="5"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="5"] {
+  background-image: url("../../game-art/helmets/faction-helmet-05.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="6"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="6"] {
+  background-image: url("../../game-art/helmets/faction-helmet-06.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="7"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="7"] {
+  background-image: url("../../game-art/helmets/faction-helmet-07.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="8"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="8"] {
+  background-image: url("../../game-art/helmets/faction-helmet-08.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="9"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="9"] {
+  background-image: url("../../game-art/helmets/faction-helmet-09.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="10"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="10"] {
+  background-image: url("../../game-art/helmets/faction-helmet-10.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="11"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="11"] {
+  background-image: url("../../game-art/helmets/faction-helmet-11.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="12"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="12"] {
+  background-image: url("../../game-art/helmets/faction-helmet-12.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="13"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="13"] {
+  background-image: url("../../game-art/helmets/faction-helmet-13.png");
+}
+[data-slot="helmet"][data-hex="1EF8B5C5"][data-icon="14"],
+[data-slot="helmet"][data-hex="037DEE21"][data-icon="14"] {
+  background-image: url("../../game-art/helmets/faction-helmet-14.png");
+}
+
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="1"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-01.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-02.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="3"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-03.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="4"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-04.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="5"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-05.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="6"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-06.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="7"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-07.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="8"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-08.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="9"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-09.png");
+}
+[data-slot="helmet"][data-hex="07D0CD68"][data-icon="10"] {
+  background-image: url("../../game-art/helmets/faction-helmet-2-10.png");
+}
+
+/* 			Weapons 			*/
+
+/* 			One-handed axes 			*/
+[data-hex="1DECF1F2"] {
+  background-image: url("../../game-art/weapons/melee/axe-01.png");
+}
+.pouch[data-hex="1DECF1F2"] {
+  background-image: url("../../game-art/weapons/melee/axe-01-inv.png");
+}
+[data-hex="F40E4004"] {
+  background-image: url("../../game-art/weapons/melee/axe-02.png");
+}
+.pouch[data-hex="F40E4004"] {
+  background-image: url("../../game-art/weapons/melee/axe-02-inv.png");
+}
+[data-hex="45E0BBBD"] {
+  background-image: url("../../game-art/weapons/melee/axe-03.png");
+}
+.pouch[data-hex="45E0BBBD"] {
+  background-image: url("../../game-art/weapons/melee/axe-03-inv.png");
+}
+
+/* 			Two-handed axes 			*/
+[data-hex="11FE31EC"] {
+  background-image: url("../../game-art/weapons/melee/axe-two-handed-01.png");
+}
+.pouch[data-hex="11FE31EC"] {
+  background-image: url("../../game-art/weapons/melee/axe-two-handed-02-inv.png");
+}
+[data-hex="6CDC5B88"] {
+  background-image: url("../../game-art/weapons/melee/axe-two-handed-02.png");
+}
+.pouch[data-hex="6CDC5B88"] {
+  background-image: url("../../game-art/weapons/melee/axe-two-handed-02-inv.png");
+}
+[data-hex="F645DE8F"] {
+  background-image: url("../../game-art/weapons/melee/longaxe.png");
+}
+.pouch[data-hex="F645DE8F"] {
+  background-image: url("../../game-art/weapons/melee/longaxe-inv.png");
+}
+
+/* 			One-handed cleavers 			*/
+[data-hex="0D479170"] {
+  background-image: url("../../game-art/weapons/melee/butcher-cleaver.png");
+}
+.pouch[data-hex="0D479170"] {
+  background-image: url("../../game-art/weapons/melee/butcher-cleaver-inv.png");
+}
+[data-hex="0368E41B"] {
+  background-image: url("../../game-art/weapons/melee/scramasax.png");
+}
+.pouch[data-hex="0368E41B"] {
+  background-image: url("../../game-art/weapons/melee/scramasax-inv.png");
+}
+[data-hex="4C960354"] {
+  background-image: url("../../game-art/weapons/melee/military-cleaver.png");
+}
+.pouch[data-hex="4C960354"] {
+  background-image: url("../../game-art/weapons/melee/military-cleaver-inv.png");
+}
+
+/* 			Daggers 			*/
+[data-hex="35F0CABD"] {
+  background-image: url("../../game-art/weapons/melee/knife.png");
+}
+.pouch[data-hex="35F0CABD"] {
+  background-image: url("../../game-art/weapons/melee/knife-inv.png");
+}
+[data-hex="AAB1F04F"] {
+  background-image: url("../../game-art/weapons/melee/dagger.png");
+}
+.pouch[data-hex="AAB1F04F"] {
+  background-image: url("../../game-art/weapons/melee/dagger-inv.png");
+}
+[data-hex="F99B681D"] {
+  background-image: url("../../game-art/weapons/melee/rondel-dagger.png");
+}
+.pouch[data-hex="F99B681D"] {
+  background-image: url("../../game-art/weapons/melee/rondel-dagger-inv.png");
+}
+
+/* 			One-handed flails 			*/
+[data-hex="1F9CDBCB"] {
+  background-image: url("../../game-art/weapons/melee/wooden-flail.png");
+}
+.pouch[data-hex="1F9CDBCB"] {
+  background-image: url("../../game-art/weapons/melee/wooden-flail-inv.png");
+}
+[data-hex="C3D0BA5D"] {
+  background-image: url("../../game-art/weapons/melee/reinforced-flail.png");
+}
+.pouch[data-hex="C3D0BA5D"] {
+  background-image: url("../../game-art/weapons/melee/reinforced-flail-inv.png");
+}
+[data-hex="743D3ABD"] {
+  background-image: url("../../game-art/weapons/melee/flail.png");
+}
+.pouch[data-hex="743D3ABD"] {
+  background-image: url("../../game-art/weapons/melee/flail-inv.png");
+}
+[data-hex="0D552778"] {
+  background-image: url("../../game-art/weapons/melee/flail-three-headed.png");
+}
+.pouch[data-hex="0D552778"] {
+  background-image: url("../../game-art/weapons/melee/flail-three-headed-inv.png");
+}
+
+/* 			One-handed hammers 			*/
+[data-hex="35AD91D9"] {
+  background-image: url("../../game-art/weapons/melee/pickaxe.png");
+}
+.pouch[data-hex="35AD91D9"] {
+  background-image: url("../../game-art/weapons/melee/pickaxe-inv.png");
+}
+[data-hex="E54456F6"] {
+  background-image: url("../../game-art/weapons/melee/military-pick.png");
+}
+.pouch[data-hex="E54456F6"] {
+  background-image: url("../../game-art/weapons/melee/military-pick-inv.png");
+}
+[data-hex="C8701E43"] {
+  background-image: url("../../game-art/weapons/melee/warhammer.png");
+}
+.pouch[data-hex="C8701E43"] {
+  background-image: url("../../game-art/weapons/melee/warhammer-inv.png");
+}
+
+/* 			Two-handed hammers 			*/
+[data-hex="116D93E0"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-mallet.png");
+}
+.pouch[data-hex="116D93E0"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-mallet-inv.png");
+}
+[data-hex="BA203F7C"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-hammer.png");
+}
+.pouch[data-hex="BA203F7C"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-hammer-inv.png");
+}
+
+/* 			One-handed maces 			*/
+[data-hex="72EC2FAB"] {
+  background-image: url("../../game-art/weapons/melee/lute.png");
+}
+.pouch[data-hex="72EC2FAB"] {
+  background-image: url("../../game-art/weapons/melee/lute-inv.png");
+}
+[data-hex="2DB955CD"] {
+  background-image: url("../../game-art/weapons/melee/club.png");
+}
+.pouch[data-hex="2DB955CD"] {
+  background-image: url("../../game-art/weapons/melee/club-inv.png");
+}
+[data-hex="24C82415"] {
+  background-image: url("../../game-art/weapons/melee/bludgeon.png");
+}
+.pouch[data-hex="24C82415"] {
+  background-image: url("../../game-art/weapons/melee/bludgeon-inv.png");
+}
+[data-hex="DF851FBA"] {
+  background-image: url("../../game-art/weapons/melee/morning-star.png");
+}
+.pouch[data-hex="DF851FBA"] {
+  background-image: url("../../game-art/weapons/melee/morning-star-inv.png");
+}
+[data-hex="4B40B36A"] {
+  background-image: url("../../game-art/weapons/melee/winged-mace.png");
+}
+.pouch[data-hex="4B40B36A"] {
+  background-image: url("../../game-art/weapons/melee/winged-mace-inv.png");
+}
+
+/* 			Polearms 			*/
+[data-hex="8AE27C83"] {
+  background-image: url("../../game-art/weapons/melee/pitchfork.png");
+}
+.pouch[data-hex="8AE27C83"] {
+  background-image: url("../../game-art/weapons/melee/pitchfork-inv.png");
+}
+[data-hex="6DC232AB"] {
+  background-image: url("../../game-art/weapons/melee/pike.png");
+}
+.pouch[data-hex="6DC232AB"] {
+  background-image: url("../../game-art/weapons/melee/pike-inv.png");
+}
+[data-hex="55510B91"] {
+  background-image: url("../../game-art/weapons/melee/hooked-blade.png");
+}
+.pouch[data-hex="55510B91"] {
+  background-image: url("../../game-art/weapons/melee/hooked-blade-inv.png");
+}
+[data-hex="28F70D26"] {
+  background-image: url("../../game-art/weapons/melee/billhook.png");
+}
+.pouch[data-hex="28F70D26"] {
+  background-image: url("../../game-art/weapons/melee/billhook-inv.png");
+}
+
+/* 			One-handed spears 			*/
+[data-hex="7F635B38"] {
+  background-image: url("../../game-art/weapons/melee/militia-spear.png");
+}
+.pouch[data-hex="7F635B38"] {
+  background-image: url("../../game-art/weapons/melee/militia-spear-inv.png");
+}
+[data-hex="DA31DCAF"] {
+  background-image: url("../../game-art/weapons/melee/boar-spear.png");
+}
+.pouch[data-hex="DA31DCAF"] {
+  background-image: url("../../game-art/weapons/melee/boar-spear-inv.png");
+}
+[data-hex="7EF1AEA3"] {
+  background-image: url("../../game-art/weapons/melee/fighting-spear.png");
+}
+.pouch[data-hex="7EF1AEA3"] {
+  background-image: url("../../game-art/weapons/melee/fighting-spear-inv.png");
+}
+
+/* 			One-handed swords 			*/
+[data-hex="A3BB1210"] {
+  background-image: url("../../game-art/weapons/melee/shortsword.png");
+}
+.pouch[data-hex="A3BB1210"] {
+  background-image: url("../../game-art/weapons/melee/shortsword-inv.png");
+}
+[data-hex="886423C7"] {
+  background-image: url("../../game-art/weapons/melee/falchion.png");
+}
+.pouch[data-hex="886423C7"] {
+  background-image: url("../../game-art/weapons/melee/falchion-inv.png");
+}
+[data-hex="BC7A6220"] {
+  background-image: url("../../game-art/weapons/melee/arming-sword.png");
+}
+.pouch[data-hex="BC7A6220"] {
+  background-image: url("../../game-art/weapons/melee/arming-sword-inv.png");
+}
+[data-hex="72039E68"] {
+  background-image: url("../../game-art/weapons/melee/noble-sword.png");
+}
+.pouch[data-hex="72039E68"] {
+  background-image: url("../../game-art/weapons/melee/noble-sword-inv.png");
+}
+
+/* 			Two-handed swords 			*/
+[data-hex="1D4A54A0"] {
+  background-image: url("../../game-art/weapons/melee/warbrand.png");
+}
+.pouch[data-hex="1D4A54A0"] {
+  background-image: url("../../game-art/weapons/melee/warbrand-inv.png");
+}
+[data-hex="56EA5919"] {
+  background-image: url("../../game-art/weapons/melee/greatsword.png");
+}
+.pouch[data-hex="56EA5919"] {
+  background-image: url("../../game-art/weapons/melee/greatsword-inv.png");
+}
+
+/* 			Bows 			*/
+[data-hex="FF5FC55F"] {
+  background-image: url("../../game-art/weapons/ranged/wonky-bow.png");
+}
+.pouch[data-hex="FF5FC55F"] {
+  background-image: url("../../game-art/weapons/ranged/wonky-bow-inv.png");
+}
+[data-hex="07490C1C"] {
+  background-image: url("../../game-art/weapons/ranged/short-bow.png");
+}
+.pouch[data-hex="07490C1C"] {
+  background-image: url("../../game-art/weapons/ranged/short-bow-inv.png");
+}
+[data-hex="E885B64C"] {
+  background-image: url("../../game-art/weapons/ranged/hunting-bow.png");
+}
+.pouch[data-hex="E885B64C"] {
+  background-image: url("../../game-art/weapons/ranged/hunting-bow-inv.png");
+}
+[data-hex="FF1476E9"] {
+  background-image: url("../../game-art/weapons/ranged/composite-bow.png");
+}
+.pouch[data-hex="FF1476E9"] {
+  background-image: url("../../game-art/weapons/ranged/composite-bow-inv.png");
+}
+[data-hex="EDAFA5E8"] {
+  background-image: url("../../game-art/weapons/ranged/war-bow.png");
+}
+.pouch[data-hex="EDAFA5E8"] {
+  background-image: url("../../game-art/weapons/ranged/war-bow-inv.png");
+}
+[data-hex="66E7A159"] {
+  background-image: url("../../game-art/weapons/ranged/masterwork-bow.png");
+}
+.pouch[data-hex="66E7A159"] {
+  background-image: url("../../game-art/weapons/ranged/masterwork-bow-inv.png");
+}
+
+/* 			Crossbows 			*/
+[data-hex="EDC9F13A"] {
+  background-image: url("../../game-art/weapons/ranged/crossbow.png");
+}
+.pouch[data-hex="EDC9F13A"] {
+  background-image: url("../../game-art/weapons/ranged/crossbow-inv.png");
+}
+[data-hex="621503AE"] {
+  background-image: url("../../game-art/weapons/ranged/light-crossbow.png");
+}
+.pouch[data-hex="621503AE"] {
+  background-image: url("../../game-art/weapons/ranged/light-crossbow-inv.png");
+}
+[data-hex="1E7C3FB0"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-crossbow.png");
+}
+.pouch[data-hex="1E7C3FB0"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-crossbow-inv.png");
+}
+
+/* 			Throwing weapons 			*/
+[data-hex="671B0F53"] {
+  background-image: url("../../game-art/weapons/ranged/throwing-axes.png");
+}
+.pouch[data-hex="671B0F53"] {
+  background-image: url("../../game-art/weapons/ranged/throwing-axes-inv.png");
+}
+[data-hex="3D810825"] {
+  background-image: url("../../game-art/weapons/ranged/javelins.png");
+}
+.pouch[data-hex="3D810825"] {
+  background-image: url("../../game-art/weapons/ranged/javelins-inv.png");
+}
+
+/* 			Banners 			*/
+.pouch[data-hex="C6792058"] {
+  background-position-y: -30px;
+}
+[data-hex="C6792058"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/banner/banner-01.png");
+}
+[data-hex="C6792058"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/banner/banner-02.png");
+}
+[data-hex="C6792058"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/banner/banner-03.png");
+}
+[data-hex="C6792058"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/banner/banner-04.png");
+}
+[data-hex="C6792058"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/banner/banner-05.png");
+}
+[data-hex="C6792058"][data-icon="6"] {
+  background-image: url("../../game-art/weapons/banner/banner-06.png");
+}
+[data-hex="C6792058"][data-icon="7"] {
+  background-image: url("../../game-art/weapons/banner/banner-07.png");
+}
+[data-hex="C6792058"][data-icon="8"] {
+  background-image: url("../../game-art/weapons/banner/banner-08.png");
+}
+[data-hex="C6792058"][data-icon="9"] {
+  background-image: url("../../game-art/weapons/banner/banner-09.png");
+}
+[data-hex="C6792058"][data-icon="10"] {
+  background-image: url("../../game-art/weapons/banner/banner-10.png");
+}
+[data-hex="C6792058"][data-icon="11"] {
+  background-image: url("../../game-art/weapons/banner/banner-11.png");
+}
+[data-hex="C6792058"][data-icon="12"] {
+  background-image: url("../../game-art/weapons/banner/banner-12.png");
+}
+[data-hex="C6792058"][data-icon="13"] {
+  background-image: url("../../game-art/weapons/banner/banner-13.png");
+}
+[data-hex="C6792058"][data-icon="14"] {
+  background-image: url("../../game-art/weapons/banner/banner-14.png");
+}
+[data-hex="C6792058"][data-icon="15"] {
+  background-image: url("../../game-art/weapons/banner/banner-15.png");
+}
+[data-hex="C6792058"][data-icon="16"] {
+  background-image: url("../../game-art/weapons/banner/banner-16.png");
+}
+[data-hex="C6792058"][data-icon="17"] {
+  background-image: url("../../game-art/weapons/banner/banner-17.png");
+}
+[data-hex="C6792058"][data-icon="18"] {
+  background-image: url("../../game-art/weapons/banner/banner-18.png");
+}
+[data-hex="C6792058"][data-icon="19"] {
+  background-image: url("../../game-art/weapons/banner/banner-19.png");
+}
+[data-hex="C6792058"][data-icon="20"] {
+  background-image: url("../../game-art/weapons/banner/banner-20.png");
+}
+[data-hex="C6792058"][data-icon="21"] {
+  background-image: url("../../game-art/weapons/banner/banner-21.png");
+}
+[data-hex="C6792058"][data-icon="22"] {
+  background-image: url("../../game-art/weapons/banner/banner-22.png");
+}
+[data-hex="C6792058"][data-icon="23"] {
+  background-image: url("../../game-art/weapons/banner/banner-23.png");
+}
+[data-hex="C6792058"][data-icon="24"] {
+  background-image: url("../../game-art/weapons/banner/banner-24.png");
+}
+[data-hex="C6792058"][data-icon="25"] {
+  background-image: url("../../game-art/weapons/banner/banner-25.png");
+}
+[data-hex="C6792058"][data-icon="26"] {
+  background-image: url("../../game-art/weapons/banner/banner-26.png");
+}
+[data-hex="C6792058"][data-icon="27"] {
+  background-image: url("../../game-art/weapons/banner/banner-27.png");
+}
+[data-hex="C6792058"][data-icon="28"] {
+  background-image: url("../../game-art/weapons/banner/banner-28.png");
+}
+[data-hex="C6792058"][data-icon="29"] {
+  background-image: url("../../game-art/weapons/banner/banner-29.png");
+}
+[data-hex="C6792058"][data-icon="30"] {
+  background-image: url("../../game-art/weapons/banner/banner-30.png");
+}
+[data-hex="C6792058"][data-icon="31"] {
+  background-image: url("../../game-art/weapons/banner/banner-31.png");
+}
+[data-hex="C6792058"][data-icon="32"] {
+  background-image: url("../../game-art/weapons/banner/banner-32.png");
+}
+[data-hex="C6792058"][data-icon="33"] {
+  background-image: url("../../game-art/weapons/banner/banner-33.png");
+}
+[data-hex="C6792058"][data-icon="34"] {
+  background-image: url("../../game-art/weapons/banner/banner-34.png");
+}
+
+/* 			Ancient Dead weapons 			*/
+[data-hex="D040B3C1"] {
+  background-image: url("../../game-art/weapons/melee/falx.png");
+}
+.pouch[data-hex="D040B3C1"] {
+  background-image: url("../../game-art/weapons/melee/flail-inv.png");
+}
+[data-hex="5FEC8442"] {
+  background-image: url("../../game-art/weapons/melee/khopesh.png");
+}
+.pouch[data-hex="5FEC8442"] {
+  background-image: url("../../game-art/weapons/melee/khopesh-inv.png");
+}
+[data-hex="A8E24050"] {
+  background-image: url("../../game-art/weapons/melee/crypt-cleaver.png");
+}
+.pouch[data-hex="A8E24050"] {
+  background-image: url("../../game-art/weapons/melee/crypt-cleaver-inv.png");
+}
+[data-hex="49987BB3"] {
+  background-image: url("../../game-art/weapons/melee/ancient-spear.png");
+}
+.pouch[data-hex="49987BB3"] {
+  background-image: url("../../game-art/weapons/melee/ancient-spear-inv.png");
+}
+[data-hex="D9D3CFFA"] {
+  background-image: url("../../game-art/weapons/melee/ancient-broken-pike.png");
+}
+.pouch[data-hex="D9D3CFFA"] {
+  background-image: url("../../game-art/weapons/melee/ancient-broken-pike-inv.png");
+}
+[data-hex="B13235B0"] {
+  background-image: url("../../game-art/weapons/melee/ancient-bladed-pike.png");
+}
+.pouch[data-hex="B13235B0"] {
+  background-image: url("../../game-art/weapons/melee/ancient-bladed-pike-inv.png");
+}
+[data-hex="F7323A98"] {
+  background-image: url("../../game-art/weapons/melee/warscythe.png");
+}
+.pouch[data-hex="F7323A98"] {
+  background-image: url("../../game-art/weapons/melee/warscythe-inv.png");
+}
+[data-hex="1D0869A8"] {
+  background-image: url("../../game-art/weapons/melee/ancient-broken-sword.png");
+}
+.pouch[data-hex="1D0869A8"] {
+  background-image: url("../../game-art/weapons/melee/ancient-broken-sword-inv.png");
+}
+[data-hex="353981B3"] {
+  background-image: url("../../game-art/weapons/melee/ancient-sword.png");
+}
+.pouch[data-hex="353981B3"] {
+  background-image: url("../../game-art/weapons/melee/ancient-sword-inv.png");
+}
+[data-hex="AA37415E"] {
+  background-image: url("../../game-art/weapons/melee/romphaia.png");
+}
+.pouch[data-hex="AA37415E"] {
+  background-image: url("../../game-art/weapons/melee/romphaia-inv.png");
+}
+
+/* 			Orc weapons  			*/
+[data-hex="FCF7A3FE"] {
+  background-image: url("../../game-art/weapons/melee/tree-limb.png");
+}
+.pouch[data-hex="FCF7A3FE"] {
+  background-image: url("../../game-art/weapons/melee/tree-limb-inv.png");
+}
+[data-hex="7F68C60D"] {
+  background-image: url("../../game-art/weapons/melee/cudgel.png");
+}
+.pouch[data-hex="7F68C60D"] {
+  background-image: url("../../game-art/weapons/melee/cudgel-inv.png");
+}
+[data-hex="092AA98C"] {
+  background-image: url("../../game-art/weapons/melee/head-chopper.png");
+}
+.pouch[data-hex="092AA98C"] {
+  background-image: url("../../game-art/weapons/melee/head-chopper-inv.png");
+}
+[data-hex="F59DDF7D"] {
+  background-image: url("../../game-art/weapons/melee/head-splitter.png");
+}
+.pouch[data-hex="F59DDF7D"] {
+  background-image: url("../../game-art/weapons/melee/head-splitter-inv.png");
+}
+[data-hex="2AE99ABE"] {
+  background-image: url("../../game-art/weapons/melee/man-splitter.png");
+}
+.pouch[data-hex="2AE99ABE"] {
+  background-image: url("../../game-art/weapons/melee/man-splitter-inv.png");
+}
+[data-hex="1803EC93"] {
+  background-image: url("../../game-art/weapons/melee/berserk-chain.png");
+}
+.pouch[data-hex="1803EC93"] {
+  background-image: url("../../game-art/weapons/melee/berserk-chain-inv.png");
+}
+[data-hex="EC329C8F"] {
+  background-image: url("../../game-art/weapons/ranged/orc-javelins.png");
+}
+.pouch[data-hex="EC329C8F"] {
+  background-image: url("../../game-art/weapons/ranged/orc-javelins-inv.png");
+}
+
+/* 			Goblin weapons 			*/
+[data-hex="450FE0FD"] {
+  background-image: url("../../game-art/weapons/melee/goblin-skewer.png");
+}
+.pouch[data-hex="450FE0FD"] {
+  background-image: url("../../game-art/weapons/melee/goblin-skewer-inv.png");
+}
+[data-hex="73CF9B1B"] {
+  background-image: url("../../game-art/weapons/melee/jagged-pike.png");
+}
+.pouch[data-hex="73CF9B1B"] {
+  background-image: url("../../game-art/weapons/melee/jagged-pike-inv.png");
+}
+[data-hex="AA4AFF46"] {
+  background-image: url("../../game-art/weapons/melee/notched-blade.png");
+}
+.pouch[data-hex="AA4AFF46"] {
+  background-image: url("../../game-art/weapons/melee/notched-blade-inv.png");
+}
+[data-hex="2E376C66"] {
+  background-image: url("../../game-art/weapons/melee/cruel-falchion.png");
+}
+.pouch[data-hex="2E376C66"] {
+  background-image: url("../../game-art/weapons/melee/cruel-falchion-inv.png");
+}
+[data-hex="0212E3FD"] {
+  background-image: url("../../game-art/weapons/melee/gnarly-staff.png");
+}
+.pouch[data-hex="0212E3FD"] {
+  background-image: url("../../game-art/weapons/melee/gnarly-staff-inv.png");
+}
+[data-hex="821C497D"] {
+  background-image: url("../../game-art/weapons/ranged/boondock-bow.png");
+}
+.pouch[data-hex="821C497D"] {
+  background-image: url("../../game-art/weapons/ranged/boondock-bow-inv.png");
+}
+[data-hex="3E918595"] {
+  background-image: url("../../game-art/weapons/ranged/reinforced-boondock-bow.png");
+}
+.pouch[data-hex="3E918595"] {
+  background-image: url("../../game-art/weapons/ranged/reinforced-boondock-bow-inv.png");
+}
+[data-hex="08E84B4D"] {
+  background-image: url("../../game-art/weapons/ranged/spiked-impaler.png");
+}
+.pouch[data-hex="08E84B4D"] {
+  background-image: url("../../game-art/weapons/ranged/spiked-impaler-inv.png");
+}
+[data-hex="DF5E187F"] {
+  background-image: url("../../game-art/weapons/ranged/spiked-bolas.png");
+}
+.pouch[data-hex="DF5E187F"] {
+  background-image: url("../../game-art/weapons/ranged/spiked-bolas-inv.png");
+}
+
+/* 			Beasts & Exploration weapons 			*/
+[data-hex="573A189E"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-wooden-flail.png");
+}
+.pouch[data-hex="573A189E"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-wooden-flail-inv.png");
+}
+[data-hex="8C763FFC"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-flail.png");
+}
+.pouch[data-hex="8C763FFC"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-flail-inv.png");
+}
+[data-hex="C63CD8DE"] {
+  background-image: url("../../game-art/weapons/melee/goedendag.png");
+}
+.pouch[data-hex="C63CD8DE"] {
+  background-image: url("../../game-art/weapons/melee/goedendag-inv.png");
+}
+[data-hex="5AF69B8F"] {
+  background-image: url("../../game-art/weapons/melee/spetum.png");
+}
+.pouch[data-hex="5AF69B8F"] {
+  background-image: url("../../game-art/weapons/melee/spetum-inv.png");
+}
+[data-hex="CA64D63F"] {
+  background-image: url("../../game-art/weapons/melee/polehammer.png");
+}
+.pouch[data-hex="CA64D63F"] {
+  background-image: url("../../game-art/weapons/melee/polehammer-inv.png");
+}
+[data-hex="1E62DD59"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-mace.png");
+}
+.pouch[data-hex="1E62DD59"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-mace-inv.png");
+}
+[data-hex="B68ED279"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-flanged-mace.png");
+}
+.pouch[data-hex="B68ED279"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-flanged-mace-inv.png");
+}
+[data-hex="F361A65D"] {
+  background-image: url("../../game-art/weapons/melee/longsword.png");
+}
+.pouch[data-hex="F361A65D"] {
+  background-image: url("../../game-art/weapons/melee/longsword-inv.png");
+}
+[data-hex="6020114B"] {
+  background-image: url("../../game-art/weapons/melee/fencing-sword.png");
+}
+.pouch[data-hex="6020114B"] {
+  background-image: url("../../game-art/weapons/melee/fencing-sword-inv.png");
+}
+[data-hex="A82D20D2"] {
+  background-image: url("../../game-art/weapons/melee/obsidian-dagger.png");
+}
+.pouch[data-hex="A82D20D2"] {
+  background-image: url("../../game-art/weapons/melee/obsidian-dagger-inv.png");
+}
+[data-hex="F5D22AB6"] {
+  background-image: url("../../game-art/weapons/melee/old-gods-reproach.png");
+}
+.pouch[data-hex="F5D22AB6"] {
+  background-image: url("../../game-art/weapons/melee/old-gods-reproach-inv.png");
+}
+[data-hex="502AC62D"] {
+  background-image: url("../../game-art/weapons/ranged/throwing-spear.png");
+}
+.pouch[data-hex="502AC62D"] {
+  background-image: url("../../game-art/weapons/ranged/throwing-spear-inv.png");
+}
+
+/* 			Warriors of the North weapons 			*/
+[data-hex="F40BF13A"] {
+  background-image: url("../../game-art/weapons/melee/crude-axe.png");
+}
+.pouch[data-hex="F40BF13A"] {
+  background-image: url("../../game-art/weapons/melee/crude-axe-inv.png");
+}
+[data-hex="10DF4EBA"] {
+  background-image: url("../../game-art/weapons/melee/axehammer.png");
+}
+.pouch[data-hex="10DF4EBA"] {
+  background-image: url("../../game-art/weapons/melee/axehammer-inv.png");
+}
+[data-hex="48F10562"] {
+  background-image: url("../../game-art/weapons/melee/heavy-rusty-axe.png");
+}
+.pouch[data-hex="48F10562"] {
+  background-image: url("../../game-art/weapons/melee/heavy-rusty-axe-inv.png");
+}
+[data-hex="FE4E8776"] {
+  background-image: url("../../game-art/weapons/melee/bardiche.png");
+}
+.pouch[data-hex="FE4E8776"] {
+  background-image: url("../../game-art/weapons/melee/bardiche-inv.png");
+}
+[data-hex="B3EAA613"] {
+  background-image: url("../../game-art/weapons/melee/antler-cleaver.png");
+}
+.pouch[data-hex="B3EAA613"] {
+  background-image: url("../../game-art/weapons/melee/antler-cleaver-inv.png");
+}
+[data-hex="3A7EBFD3"] {
+  background-image: url("../../game-art/weapons/melee/blunt-cleaver.png");
+}
+.pouch[data-hex="3A7EBFD3"] {
+  background-image: url("../../game-art/weapons/melee/blunt-cleaver-inv.png");
+}
+[data-hex="B33AFB8A"] {
+  background-image: url("../../game-art/weapons/melee/battle-whip.png");
+}
+.pouch[data-hex="B33AFB8A"] {
+  background-image: url("../../game-art/weapons/melee/battle-whip-inv.png");
+}
+[data-hex="17E0E8A4"] {
+  background-image: url("../../game-art/weapons/melee/thorned-whip.png");
+}
+.pouch[data-hex="17E0E8A4"] {
+  background-image: url("../../game-art/weapons/melee/thorned-whip-inv.png");
+}
+[data-hex="FC3FD8AD"] {
+  background-image: url("../../game-art/weapons/melee/rusty-warblade.png");
+}
+.pouch[data-hex="FC3FD8AD"] {
+  background-image: url("../../game-art/weapons/melee/rusty-warblade-inv.png");
+}
+[data-hex="F047F2F7"] {
+  background-image: url("../../game-art/weapons/melee/claw-club.png");
+}
+.pouch[data-hex="F047F2F7"] {
+  background-image: url("../../game-art/weapons/melee/claw-club-inv.png");
+}
+[data-hex="7920A2A5"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-spiked-mace.png");
+}
+.pouch[data-hex="7920A2A5"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-spiked-mace-inv.png");
+}
+[data-hex="4CFA7D7B"] {
+  background-image: url("../../game-art/weapons/melee/skull-hammer.png");
+}
+.pouch[data-hex="4CFA7D7B"] {
+  background-image: url("../../game-art/weapons/melee/skull-hammer-inv.png");
+}
+[data-hex="E05EABE8"] {
+  background-image: url("../../game-art/weapons/melee/warfork.png");
+}
+.pouch[data-hex="E05EABE8"] {
+  background-image: url("../../game-art/weapons/melee/warbrand-inv.png");
+}
+[data-hex="9CB0C3EC"] {
+  background-image: url("../../game-art/weapons/ranged/staff-sling.png");
+}
+.pouch[data-hex="9CB0C3EC"] {
+  background-image: url("../../game-art/weapons/ranged/staff-sling-inv.png");
+}
+[data-hex="AB80307D"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-throwing-axes.png");
+}
+.pouch[data-hex="AB80307D"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-throwing-axes-inv.png");
+}
+[data-hex="71AB21D1"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-javelins.png");
+}
+.pouch[data-hex="71AB21D1"] {
+  background-image: url("../../game-art/weapons/ranged/heavy-javelins-inv.png");
+}
+
+/* 			Blazing Desert weapons 			*/
+[data-hex="A1CE9CC3"] {
+  background-image: url("../../game-art/weapons/melee/qatal-dagger.png");
+}
+.pouch[data-hex="A1CE9CC3"] {
+  background-image: url("../../game-art/weapons/melee/qatal-dagger-inv.png");
+}
+[data-hex="EC38BEDC"] {
+  background-image: url("../../game-art/weapons/melee/saif.png");
+}
+.pouch[data-hex="EC38BEDC"] {
+  background-image: url("../../game-art/weapons/melee/saif-inv.png");
+}
+[data-hex="5C27AB44"] {
+  background-image: url("../../game-art/weapons/melee/scimitar.png");
+}
+.pouch[data-hex="5C27AB44"] {
+  background-image: url("../../game-art/weapons/melee/scimitar-inv.png");
+}
+[data-hex="3F304720"] {
+  background-image: url("../../game-art/weapons/melee/shamshir.png");
+}
+.pouch[data-hex="3F304720"] {
+  background-image: url("../../game-art/weapons/melee/shamshir-inv.png");
+}
+[data-hex="71B661AB"] {
+  background-image: url("../../game-art/weapons/melee/nomad-mace.png");
+}
+.pouch[data-hex="71B661AB"] {
+  background-image: url("../../game-art/weapons/melee/nomad-mace-inv.png");
+}
+[data-hex="B9D46A8A"] {
+  background-image: url("../../game-art/weapons/melee/light-southern-mace.png");
+}
+.pouch[data-hex="B9D46A8A"] {
+  background-image: url("../../game-art/weapons/melee/light-southern-mace-inv.png");
+}
+[data-hex="7E11AB76"] {
+  background-image: url("../../game-art/weapons/melee/heavy-southern-mace.png");
+}
+.pouch[data-hex="7E11AB76"] {
+  background-image: url("../../game-art/weapons/melee/heavy-southern-mace-inv.png");
+}
+[data-hex="17962D15"] {
+  background-image: url("../../game-art/weapons/melee/polemace.png");
+}
+.pouch[data-hex="17962D15"] {
+  background-image: url("../../game-art/weapons/melee/polemace-inv.png");
+}
+[data-hex="80FDC89D"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-saif.png");
+}
+.pouch[data-hex="80FDC89D"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-saif-inv.png");
+}
+[data-hex="1938B2CD"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-scimitar.png");
+}
+.pouch[data-hex="1938B2CD"] {
+  background-image: url("../../game-art/weapons/melee/two-handed-scimitar-inv.png");
+}
+[data-hex="EB9CC0EA"] {
+  background-image: url("../../game-art/weapons/melee/swordlance.png");
+}
+.pouch[data-hex="EB9CC0EA"] {
+  background-image: url("../../game-art/weapons/melee/swordlance-inv.png");
+}
+[data-hex="EEECDDE5"] {
+  background-image: url("../../game-art/weapons/ranged/fire-lance.png");
+}
+.pouch[data-hex="EEECDDE5"] {
+  background-image: url("../../game-art/weapons/ranged/fire-lance-inv.png");
+}
+[data-hex="4496D3C5"] {
+  background-image: url("../../game-art/weapons/ranged/nomad-sling.png");
+}
+.pouch[data-hex="4496D3C5"] {
+  background-image: url("../../game-art/weapons/ranged/nomad-sling-inv.png");
+}
+[data-hex="4763A24A"] {
+  background-image: url("../../game-art/weapons/ranged/handgonne.png");
+}
+.pouch[data-hex="4763A24A"] {
+  background-image: url("../../game-art/weapons/ranged/handgonne-inv.png");
+}
+
+/* 			Named weapons 			*/
+
+[data-hex="266485FC"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-1.png");
+}
+.pouch[data-hex="266485FC"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-1-inv.png");
+}
+[data-hex="266485FC"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-2.png");
+}
+.pouch[data-hex="266485FC"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-2-inv.png");
+}
+[data-hex="266485FC"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-3.png");
+}
+.pouch[data-hex="266485FC"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-3-inv.png");
+}
+[data-hex="266485FC"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-4.png");
+}
+.pouch[data-hex="266485FC"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-4-inv.png");
+}
+[data-hex="266485FC"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-5.png");
+}
+.pouch[data-hex="266485FC"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-5-inv.png");
+}
+[data-hex="266485FC"][data-icon="6"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-6.png");
+}
+.pouch[data-hex="266485FC"][data-icon="6"] {
+  background-image: url("../../game-art/weapons/melee/named-axe-6-inv.png");
+}
+
+[data-hex="218D1BA0"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-1.png");
+}
+.pouch[data-hex="218D1BA0"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-1-inv.png");
+}
+[data-hex="218D1BA0"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-2.png");
+}
+.pouch[data-hex="218D1BA0"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-2-inv.png");
+}
+[data-hex="218D1BA0"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-3.png");
+}
+.pouch[data-hex="218D1BA0"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-3-inv.png");
+}
+[data-hex="218D1BA0"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-4.png");
+}
+.pouch[data-hex="218D1BA0"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-4-inv.png");
+}
+[data-hex="218D1BA0"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-5.png");
+}
+.pouch[data-hex="218D1BA0"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-axe-5-inv.png");
+}
+
+[data-hex="2AD6C1E1"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-1.png");
+}
+.pouch[data-hex="2AD6C1E1"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-1-inv.png");
+}
+[data-hex="2AD6C1E1"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-2.png");
+}
+.pouch[data-hex="2AD6C1E1"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-2-inv.png");
+}
+[data-hex="2AD6C1E1"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-3.png");
+}
+.pouch[data-hex="2AD6C1E1"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-cleaver-3-inv.png");
+}
+
+[data-hex="3A0711AF"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-1.png");
+}
+.pouch[data-hex="3A0711AF"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-1-inv.png");
+}
+[data-hex="3A0711AF"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-2.png");
+}
+.pouch[data-hex="3A0711AF"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-2-inv.png");
+}
+[data-hex="3A0711AF"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-3.png");
+}
+.pouch[data-hex="3A0711AF"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-dagger-3-inv.png");
+}
+
+[data-hex="C43FDA65"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-1.png");
+}
+.pouch[data-hex="C43FDA65"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-1-inv.png");
+}
+[data-hex="C43FDA65"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-2.png");
+}
+.pouch[data-hex="C43FDA65"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-2-inv.png");
+}
+[data-hex="C43FDA65"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-3.png");
+}
+.pouch[data-hex="C43FDA65"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-flail-3-inv.png");
+}
+
+[data-hex="181EE043"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-1.png");
+}
+.pouch[data-hex="181EE043"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-1-inv.png");
+}
+[data-hex="181EE043"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-2.png");
+}
+.pouch[data-hex="181EE043"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-2-inv.png");
+}
+[data-hex="181EE043"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-3.png");
+}
+.pouch[data-hex="181EE043"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-warhammer-3-inv.png");
+}
+
+[data-hex="0A14D856"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-1.png");
+}
+.pouch[data-hex="0A14D856"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-1-inv.png");
+}
+[data-hex="0A14D856"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-2.png");
+}
+.pouch[data-hex="0A14D856"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-2-inv.png");
+}
+[data-hex="0A14D856"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-3.png");
+}
+.pouch[data-hex="0A14D856"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-hammer-3-inv.png");
+}
+
+[data-hex="C6A38A4F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-1.png");
+}
+.pouch[data-hex="C6A38A4F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-1-inv.png");
+}
+[data-hex="C6A38A4F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-2.png");
+}
+.pouch[data-hex="C6A38A4F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-2-inv.png");
+}
+[data-hex="C6A38A4F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-3.png");
+}
+.pouch[data-hex="C6A38A4F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-longaxe-3-inv.png");
+}
+
+[data-hex="F644507F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-1.png");
+}
+.pouch[data-hex="F644507F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-1-inv.png");
+}
+[data-hex="F644507F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-2.png");
+}
+.pouch[data-hex="F644507F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-2-inv.png");
+}
+[data-hex="F644507F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-3.png");
+}
+.pouch[data-hex="F644507F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-3-inv.png");
+}
+[data-hex="F644507F"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-4.png");
+}
+.pouch[data-hex="F644507F"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-4-inv.png");
+}
+[data-hex="F644507F"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-5.png");
+}
+.pouch[data-hex="F644507F"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-mace-5-inv.png");
+}
+
+[data-hex="B72F5167"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-1.png");
+}
+.pouch[data-hex="B72F5167"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-1-inv.png");
+}
+[data-hex="B72F5167"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-2.png");
+}
+.pouch[data-hex="B72F5167"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-2-inv.png");
+}
+[data-hex="B72F5167"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-3.png");
+}
+.pouch[data-hex="B72F5167"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-spear-3-inv.png");
+}
+
+[data-hex="7DC2527F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-1.png");
+}
+.pouch[data-hex="7DC2527F"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-1-inv.png");
+}
+[data-hex="7DC2527F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-2.png");
+}
+.pouch[data-hex="7DC2527F"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-2-inv.png");
+}
+[data-hex="7DC2527F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-3.png");
+}
+.pouch[data-hex="7DC2527F"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-pike-3-inv.png");
+}
+
+[data-hex="3886F7D9"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-1.png");
+}
+.pouch[data-hex="3886F7D9"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-1-inv.png");
+}
+[data-hex="3886F7D9"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-2.png");
+}
+.pouch[data-hex="3886F7D9"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-2-inv.png");
+}
+[data-hex="3886F7D9"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-3.png");
+}
+.pouch[data-hex="3886F7D9"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-billhook-3-inv.png");
+}
+
+[data-hex="A3D05667"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-1.png");
+}
+.pouch[data-hex="A3D05667"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-1-inv.png");
+}
+[data-hex="A3D05667"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-2.png");
+}
+.pouch[data-hex="A3D05667"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-2-inv.png");
+}
+[data-hex="A3D05667"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-3.png");
+}
+.pouch[data-hex="A3D05667"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-3-inv.png");
+}
+[data-hex="A3D05667"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-4.png");
+}
+.pouch[data-hex="A3D05667"][data-icon="4"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-4-inv.png");
+}
+[data-hex="A3D05667"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-5.png");
+}
+.pouch[data-hex="A3D05667"][data-icon="5"] {
+  background-image: url("../../game-art/weapons/melee/named-sword-5-inv.png");
+}
+
+[data-hex="2DD93D54"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-1.png");
+}
+.pouch[data-hex="2DD93D54"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-1-inv.png");
+}
+[data-hex="2DD93D54"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-2.png");
+}
+.pouch[data-hex="2DD93D54"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-2-inv.png");
+}
+[data-hex="2DD93D54"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-3.png");
+}
+.pouch[data-hex="2DD93D54"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-military-scythe-3-inv.png");
+}
+
+[data-hex="E6F65735"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-1.png");
+}
+.pouch[data-hex="E6F65735"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-1-inv.png");
+}
+[data-hex="E6F65735"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-2.png");
+}
+.pouch[data-hex="E6F65735"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-2-inv.png");
+}
+[data-hex="E6F65735"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-3.png");
+}
+.pouch[data-hex="E6F65735"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-greatsword-3-inv.png");
+}
+
+[data-hex="5DD57925"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-1.png");
+}
+.pouch[data-hex="5DD57925"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-1-inv.png");
+}
+[data-hex="5DD57925"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-2.png");
+}
+.pouch[data-hex="5DD57925"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-2-inv.png");
+}
+[data-hex="5DD57925"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-3.png");
+}
+.pouch[data-hex="5DD57925"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-axe-3-inv.png");
+}
+
+[data-hex="F1121DF5"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-1.png");
+}
+.pouch[data-hex="F1121DF5"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-1-inv.png");
+}
+[data-hex="F1121DF5"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-2.png");
+}
+.pouch[data-hex="F1121DF5"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-2-inv.png");
+}
+[data-hex="F1121DF5"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-3.png");
+}
+.pouch[data-hex="F1121DF5"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/melee/named-orc-cleaver-3-inv.png");
+}
+
+[data-hex="426CA1FD"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-1.png");
+}
+.pouch[data-hex="426CA1FD"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-1-inv.png");
+}
+[data-hex="426CA1FD"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-2.png");
+}
+.pouch[data-hex="426CA1FD"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-2-inv.png");
+}
+[data-hex="426CA1FD"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-3.png");
+}
+.pouch[data-hex="426CA1FD"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-bow-3-inv.png");
+}
+
+[data-hex="72A4EC61"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-1.png");
+}
+.pouch[data-hex="72A4EC61"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-1-inv.png");
+}
+[data-hex="72A4EC61"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-2.png");
+}
+.pouch[data-hex="72A4EC61"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-2-inv.png");
+}
+[data-hex="72A4EC61"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-3.png");
+}
+.pouch[data-hex="72A4EC61"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-crossbow-3-inv.png");
+}
+
+[data-hex="7749A004"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-1.png");
+}
+.pouch[data-hex="7749A004"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-1-inv.png");
+}
+[data-hex="7749A004"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-2.png");
+}
+.pouch[data-hex="7749A004"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-2-inv.png");
+}
+[data-hex="7749A004"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-3.png");
+}
+.pouch[data-hex="7749A004"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-throwing-axes-3-inv.png");
+}
+
+[data-hex="0DDFB4E4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-1.png");
+}
+.pouch[data-hex="0DDFB4E4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-1-inv.png");
+}
+[data-hex="0DDFB4E4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-2.png");
+}
+.pouch[data-hex="0DDFB4E4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-2-inv.png");
+}
+[data-hex="0DDFB4E4"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-3.png");
+}
+.pouch[data-hex="0DDFB4E4"][data-icon="3"] {
+  background-image: url("../../game-art/weapons/ranged/named-javelins-3-inv.png");
+}
+
+[data-hex="9D7F4210"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-three-headed-flail-1.png");
+}
+.pouch[data-hex="9D7F4210"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-three-headed-flail-1-inv.png");
+}
+[data-hex="9D7F4210"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-three-headed-flail-2.png");
+}
+.pouch[data-hex="9D7F4210"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-three-headed-flail-2-inv.png");
+}
+
+[data-hex="9C530563"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-flail-1.png");
+}
+.pouch[data-hex="9C530563"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-flail-1-inv.png");
+}
+[data-hex="9C530563"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-flail-2.png");
+}
+.pouch[data-hex="9C530563"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-flail-2-inv.png");
+}
+
+[data-hex="5A71D45B"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-polehammer-1.png");
+}
+.pouch[data-hex="5A71D45B"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-polehammer-1-inv.png");
+}
+[data-hex="5A71D45B"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-polehammer-2.png");
+}
+.pouch[data-hex="5A71D45B"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-polehammer-2-inv.png");
+}
+
+[data-hex="B0C80CF5"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-fencing-sword-1.png");
+}
+.pouch[data-hex="B0C80CF5"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-fencing-sword-1-inv.png");
+}
+[data-hex="B0C80CF5"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-fencing-sword-2.png");
+}
+.pouch[data-hex="B0C80CF5"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-fencing-sword-2-inv.png");
+}
+
+[data-hex="EE75A45C"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-mace-1.png");
+}
+.pouch[data-hex="EE75A45C"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-mace-1-inv.png");
+}
+[data-hex="EE75A45C"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-mace-2.png");
+}
+.pouch[data-hex="EE75A45C"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-mace-2-inv.png");
+}
+
+[data-hex="EA4BBCEE"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-spetum-1.png");
+}
+.pouch[data-hex="EA4BBCEE"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-spetum-1-inv.png");
+}
+[data-hex="EA4BBCEE"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-spetum-2.png");
+}
+.pouch[data-hex="EA4BBCEE"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-spetum-2-inv.png");
+}
+
+[data-hex="830BB396"] {
+  background-image: url("../../game-art/weapons/melee/named-whip.png");
+}
+.pouch[data-hex="830BB396"] {
+  background-image: url("../../game-art/weapons/melee/named-whip-inv.png");
+}
+
+[data-hex="0EDE702A"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-bardiche-1.png");
+}
+.pouch[data-hex="0EDE702A"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-bardiche-1-inv.png");
+}
+[data-hex="0EDE702A"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-bardiche-2.png");
+}
+.pouch[data-hex="0EDE702A"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-bardiche-2-inv.png");
+}
+
+[data-hex="4FBF30D4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-scimitar-1.png");
+}
+.pouch[data-hex="4FBF30D4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-scimitar-1-inv.png");
+}
+[data-hex="4FBF30D4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-scimitar-2.png");
+}
+.pouch[data-hex="4FBF30D4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-scimitar-2-inv.png");
+}
+
+[data-hex="302EF564"] {
+  background-image: url("../../game-art/weapons/melee/named-heavy-axe.png");
+}
+.pouch[data-hex="302EF564"] {
+  background-image: url("../../game-art/weapons/melee/named-heavy-axe-inv.png");
+}
+[data-hex="C4E0D061"] {
+  background-image: url("../../game-art/weapons/melee/named-warblade.png");
+}
+.pouch[data-hex="C4E0D061"] {
+  background-image: url("../../game-art/weapons/melee/named-warblade-inv.png");
+}
+[data-hex="41806D40"] {
+  background-image: url("../../game-art/weapons/melee/named-skull-mace.png");
+}
+.pouch[data-hex="41806D40"] {
+  background-image: url("../../game-art/weapons/melee/named-skull-mace-inv.png");
+}
+[data-hex="E1A952E3"] {
+  background-image: url("../../game-art/weapons/melee/named-skull-hammer.png");
+}
+.pouch[data-hex="E1A952E3"] {
+  background-image: url("../../game-art/weapons/melee/named-skull-hammer-inv.png");
+}
+
+[data-hex="4EE39971"] {
+  background-image: url("../../game-art/weapons/melee/named-warscythe.png");
+}
+.pouch[data-hex="4EE39971"] {
+  background-image: url("../../game-art/weapons/melee/named-warscythe-inv.png");
+}
+[data-hex="8F8C8D0D"] {
+  background-image: url("../../game-art/weapons/melee/named-crypt-cleaver.png");
+}
+.pouch[data-hex="8F8C8D0D"] {
+  background-image: url("../../game-art/weapons/melee/named-crypt-cleaver-inv.png");
+}
+[data-hex="8EA9D199"] {
+  background-image: url("../../game-art/weapons/melee/named-khopesh.png");
+}
+.pouch[data-hex="8EA9D199"] {
+  background-image: url("../../game-art/weapons/melee/named-khopesh-inv.png");
+}
+[data-hex="F033EB20"] {
+  background-image: url("../../game-art/weapons/melee/named-ancient-bladed-pike.png");
+}
+.pouch[data-hex="F033EB20"] {
+  background-image: url("../../game-art/weapons/melee/named-ancient-bladed-pike-inv.png");
+}
+
+[data-hex="96393407"] {
+  background-image: url("../../game-art/weapons/melee/named-cruel-falchion.png");
+}
+.pouch[data-hex="96393407"] {
+  background-image: url("../../game-art/weapons/melee/named-cruel-falchion-inv.png");
+}
+[data-hex="5BB80F84"] {
+  background-image: url("../../game-art/weapons/melee/named-jagged-pike.png");
+}
+.pouch[data-hex="5BB80F84"] {
+  background-image: url("../../game-art/weapons/melee/named-jagged-pike-inv.png");
+}
+[data-hex="CDB8A016"] {
+  background-image: url("../../game-art/weapons/melee/named-goblin-skewer.png");
+}
+.pouch[data-hex="CDB8A016"] {
+  background-image: url("../../game-art/weapons/melee/named-goblin-skewer-inv.png");
+}
+[data-hex="46EA6DD2"] {
+  background-image: url("../../game-art/weapons/ranged/named-goblin-bow.png");
+}
+.pouch[data-hex="46EA6DD2"] {
+  background-image: url("../../game-art/weapons/ranged/named-goblin-bow-inv.png");
+}
+
+[data-hex="E40F0AAD"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-scimitar-1.png");
+}
+.pouch[data-hex="E40F0AAD"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-scimitar-1-inv.png");
+}
+[data-hex="E40F0AAD"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-scimitar-2.png");
+}
+.pouch[data-hex="E40F0AAD"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-two-handed-scimitar-2-inv.png");
+}
+
+[data-hex="FAFE6F1A"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-swordlance-1.png");
+}
+.pouch[data-hex="FAFE6F1A"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-swordlance-1-inv.png");
+}
+[data-hex="FAFE6F1A"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-swordlance-2.png");
+}
+.pouch[data-hex="FAFE6F1A"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-swordlance-2-inv.png");
+}
+
+[data-hex="BE031BE0"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-polemace-1.png");
+}
+.pouch[data-hex="BE031BE0"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-polemace-1-inv.png");
+}
+[data-hex="BE031BE0"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-polemace-2.png");
+}
+.pouch[data-hex="BE031BE0"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-polemace-2-inv.png");
+}
+
+[data-hex="D83080C4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-qatal-dagger-1.png");
+}
+.pouch[data-hex="D83080C4"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-qatal-dagger-1-inv.png");
+}
+[data-hex="D83080C4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-qatal-dagger-2.png");
+}
+.pouch[data-hex="D83080C4"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-qatal-dagger-2-inv.png");
+}
+
+[data-hex="6A3CF39E"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-handgonne-1.png");
+}
+.pouch[data-hex="6A3CF39E"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/ranged/named-handgonne-1-inv.png");
+}
+[data-hex="6A3CF39E"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-handgonne-2.png");
+}
+.pouch[data-hex="6A3CF39E"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/ranged/named-handgonne-2-inv.png");
+}
+
+/* 			Shields 			*/
+
+.pouch[data-slot="shield"] {
+  background-size: 70%;
+  background-position: center !important;
+}
+
+[data-hex="8FDC93A5"] {
+  background-image: url("../../game-art/shields/buckler.png");
+}
+[data-hex="99123E9A"] {
+  background-image: url("../../game-art/shields/round-shield-enemy.png");
+}
+[data-hex="65E39516"] {
+  background-image: url("../../game-art/shields/kite-shield-enemy.png");
+}
+
+[data-hex="EF2B7FF2"][data-icon="0"] {
+  background-image: url("../../game-art/shields/round-shield-00.png");
+}
+[data-hex="EF2B7FF2"][data-icon="1"] {
+  background-image: url("../../game-art/shields/round-shield-01.png");
+}
+[data-hex="EF2B7FF2"][data-icon="2"] {
+  background-image: url("../../game-art/shields/round-shield-02.png");
+}
+[data-hex="EF2B7FF2"][data-icon="3"] {
+  background-image: url("../../game-art/shields/round-shield-03.png");
+}
+[data-hex="EF2B7FF2"][data-icon="4"] {
+  background-image: url("../../game-art/shields/round-shield-04.png");
+}
+[data-hex="EF2B7FF2"][data-icon="5"] {
+  background-image: url("../../game-art/shields/round-shield-05.png");
+}
+[data-hex="EF2B7FF2"][data-icon="6"] {
+  background-image: url("../../game-art/shields/round-shield-06.png");
+}
+[data-hex="EF2B7FF2"][data-icon="7"] {
+  background-image: url("../../game-art/shields/round-shield-07.png");
+}
+[data-hex="EF2B7FF2"][data-icon="8"] {
+  background-image: url("../../game-art/shields/round-shield-08.png");
+}
+[data-hex="EF2B7FF2"][data-icon="9"] {
+  background-image: url("../../game-art/shields/round-shield-09.png");
+}
+[data-hex="EF2B7FF2"][data-icon="11"] {
+  background-image: url("../../game-art/shields/round-shield-11.png");
+}
+[data-hex="EF2B7FF2"][data-icon="12"] {
+  background-image: url("../../game-art/shields/round-shield-12.png");
+}
+[data-hex="EF2B7FF2"][data-icon="13"] {
+  background-image: url("../../game-art/shields/round-shield-13.png");
+}
+[data-hex="EF2B7FF2"][data-icon="14"] {
+  background-image: url("../../game-art/shields/round-shield-14.png");
+}
+[data-hex="EF2B7FF2"][data-icon="15"] {
+  background-image: url("../../game-art/shields/round-shield-15.png");
+}
+[data-hex="EF2B7FF2"][data-icon="16"] {
+  background-image: url("../../game-art/shields/round-shield-16.png");
+}
+[data-hex="EF2B7FF2"][data-icon="17"] {
+  background-image: url("../../game-art/shields/round-shield-17.png");
+}
+[data-hex="EF2B7FF2"][data-icon="18"] {
+  background-image: url("../../game-art/shields/round-shield-18.png");
+}
+[data-hex="EF2B7FF2"][data-icon="19"] {
+  background-image: url("../../game-art/shields/round-shield-19.png");
+}
+[data-hex="EF2B7FF2"][data-icon="20"] {
+  background-image: url("../../game-art/shields/round-shield-20.png");
+}
+[data-hex="EF2B7FF2"][data-icon="21"] {
+  background-image: url("../../game-art/shields/round-shield-21.png");
+}
+[data-hex="EF2B7FF2"][data-icon="22"] {
+  background-image: url("../../game-art/shields/round-shield-22.png");
+}
+[data-hex="EF2B7FF2"][data-icon="23"] {
+  background-image: url("../../game-art/shields/round-shield-23.png");
+}
+[data-hex="EF2B7FF2"][data-icon="24"] {
+  background-image: url("../../game-art/shields/round-shield-24.png");
+}
+[data-hex="EF2B7FF2"][data-icon="25"] {
+  background-image: url("../../game-art/shields/round-shield-25.png");
+}
+[data-hex="EF2B7FF2"][data-icon="26"] {
+  background-image: url("../../game-art/shields/round-shield-26.png");
+}
+[data-hex="EF2B7FF2"][data-icon="27"] {
+  background-image: url("../../game-art/shields/round-shield-27.png");
+}
+[data-hex="EF2B7FF2"][data-icon="28"] {
+  background-image: url("../../game-art/shields/round-shield-28.png");
+}
+[data-hex="EF2B7FF2"][data-icon="29"] {
+  background-image: url("../../game-art/shields/round-shield-29.png");
+}
+[data-hex="EF2B7FF2"][data-icon="30"] {
+  background-image: url("../../game-art/shields/round-shield-30.png");
+}
+[data-hex="EF2B7FF2"][data-icon="31"] {
+  background-image: url("../../game-art/shields/round-shield-31.png");
+}
+[data-hex="EF2B7FF2"][data-icon="32"] {
+  background-image: url("../../game-art/shields/round-shield-32.png");
+}
+[data-hex="EF2B7FF2"][data-icon="33"] {
+  background-image: url("../../game-art/shields/round-shield-33.png");
+}
+[data-hex="EF2B7FF2"][data-icon="34"] {
+  background-image: url("../../game-art/shields/round-shield-34.png");
+}
+[data-hex="EF2B7FF2"][data-icon="35"] {
+  background-image: url("../../game-art/shields/round-shield-35.png");
+}
+[data-hex="EF2B7FF2"][data-icon="36"] {
+  background-image: url("../../game-art/shields/round-shield-36.png");
+}
+[data-hex="EF2B7FF2"][data-icon="37"] {
+  background-image: url("../../game-art/shields/round-shield-37.png");
+}
+[data-hex="EF2B7FF2"][data-icon="38"] {
+  background-image: url("../../game-art/shields/round-shield-38.png");
+}
+[data-hex="EF2B7FF2"][data-icon="39"] {
+  background-image: url("../../game-art/shields/round-shield-39.png");
+}
+[data-hex="EF2B7FF2"][data-icon="40"] {
+  background-image: url("../../game-art/shields/round-shield-40.png");
+}
+[data-hex="EF2B7FF2"][data-icon="41"] {
+  background-image: url("../../game-art/shields/round-shield-41.png");
+}
+[data-hex="EF2B7FF2"][data-icon="42"] {
+  background-image: url("../../game-art/shields/round-shield-42.png");
+}
+[data-hex="EF2B7FF2"][data-icon="43"] {
+  background-image: url("../../game-art/shields/round-shield-43.png");
+}
+[data-hex="EF2B7FF2"][data-icon="44"] {
+  background-image: url("../../game-art/shields/round-shield-44.png");
+}
+
+[data-hex="B473558C"][data-icon="1"] {
+  background-image: url("../../game-art/shields/heater-shield-01.png");
+}
+[data-hex="B473558C"][data-icon="2"] {
+  background-image: url("../../game-art/shields/heater-shield-02.png");
+}
+[data-hex="B473558C"][data-icon="3"] {
+  background-image: url("../../game-art/shields/heater-shield-03.png");
+}
+[data-hex="B473558C"][data-icon="4"] {
+  background-image: url("../../game-art/shields/heater-shield-04.png");
+}
+[data-hex="B473558C"][data-icon="5"] {
+  background-image: url("../../game-art/shields/heater-shield-05.png");
+}
+[data-hex="B473558C"][data-icon="6"] {
+  background-image: url("../../game-art/shields/heater-shield-06.png");
+}
+[data-hex="B473558C"][data-icon="7"] {
+  background-image: url("../../game-art/shields/heater-shield-07.png");
+}
+[data-hex="B473558C"][data-icon="8"] {
+  background-image: url("../../game-art/shields/heater-shield-08.png");
+}
+[data-hex="B473558C"][data-icon="9"] {
+  background-image: url("../../game-art/shields/heater-shield-09.png");
+}
+[data-hex="B473558C"][data-icon="10"] {
+  background-image: url("../../game-art/shields/heater-shield-10.png");
+}
+[data-hex="B473558C"][data-icon="11"] {
+  background-image: url("../../game-art/shields/heater-shield-11.png");
+}
+[data-hex="B473558C"][data-icon="12"] {
+  background-image: url("../../game-art/shields/heater-shield-12.png");
+}
+[data-hex="B473558C"][data-icon="13"] {
+  background-image: url("../../game-art/shields/heater-shield-13.png");
+}
+[data-hex="B473558C"][data-icon="14"] {
+  background-image: url("../../game-art/shields/heater-shield-14.png");
+}
+[data-hex="B473558C"][data-icon="15"] {
+  background-image: url("../../game-art/shields/heater-shield-15.png");
+}
+[data-hex="B473558C"][data-icon="16"] {
+  background-image: url("../../game-art/shields/heater-shield-16.png");
+}
+[data-hex="B473558C"][data-icon="17"] {
+  background-image: url("../../game-art/shields/heater-shield-17.png");
+}
+[data-hex="B473558C"][data-icon="18"] {
+  background-image: url("../../game-art/shields/heater-shield-18.png");
+}
+[data-hex="B473558C"][data-icon="19"] {
+  background-image: url("../../game-art/shields/heater-shield-19.png");
+}
+[data-hex="B473558C"][data-icon="20"] {
+  background-image: url("../../game-art/shields/heater-shield-20.png");
+}
+[data-hex="B473558C"][data-icon="21"] {
+  background-image: url("../../game-art/shields/heater-shield-21.png");
+}
+[data-hex="B473558C"][data-icon="22"] {
+  background-image: url("../../game-art/shields/heater-shield-22.png");
+}
+[data-hex="B473558C"][data-icon="23"] {
+  background-image: url("../../game-art/shields/heater-shield-23.png");
+}
+[data-hex="B473558C"][data-icon="24"] {
+  background-image: url("../../game-art/shields/heater-shield-24.png");
+}
+[data-hex="B473558C"][data-icon="25"] {
+  background-image: url("../../game-art/shields/heater-shield-25.png");
+}
+[data-hex="B473558C"][data-icon="26"] {
+  background-image: url("../../game-art/shields/heater-shield-26.png");
+}
+[data-hex="B473558C"][data-icon="27"] {
+  background-image: url("../../game-art/shields/heater-shield-27.png");
+}
+[data-hex="B473558C"][data-icon="28"] {
+  background-image: url("../../game-art/shields/heater-shield-28.png");
+}
+[data-hex="B473558C"][data-icon="29"] {
+  background-image: url("../../game-art/shields/heater-shield-29.png");
+}
+[data-hex="B473558C"][data-icon="30"] {
+  background-image: url("../../game-art/shields/heater-shield-30.png");
+}
+[data-hex="B473558C"][data-icon="31"] {
+  background-image: url("../../game-art/shields/heater-shield-31.png");
+}
+[data-hex="B473558C"][data-icon="32"] {
+  background-image: url("../../game-art/shields/heater-shield-32.png");
+}
+[data-hex="B473558C"][data-icon="33"] {
+  background-image: url("../../game-art/shields/heater-shield-33.png");
+}
+[data-hex="B473558C"][data-icon="34"] {
+  background-image: url("../../game-art/shields/heater-shield-34.png");
+}
+[data-hex="B473558C"][data-icon="35"] {
+  background-image: url("../../game-art/shields/heater-shield-35.png");
+}
+[data-hex="B473558C"][data-icon="36"] {
+  background-image: url("../../game-art/shields/heater-shield-36.png");
+}
+[data-hex="B473558C"][data-icon="37"] {
+  background-image: url("../../game-art/shields/heater-shield-37.png");
+}
+[data-hex="B473558C"][data-icon="38"] {
+  background-image: url("../../game-art/shields/heater-shield-38.png");
+}
+[data-hex="B473558C"][data-icon="39"] {
+  background-image: url("../../game-art/shields/heater-shield-39.png");
+}
+[data-hex="B473558C"][data-icon="40"] {
+  background-image: url("../../game-art/shields/heater-shield-40.png");
+}
+[data-hex="B473558C"][data-icon="41"] {
+  background-image: url("../../game-art/shields/heater-shield-41.png");
+}
+[data-hex="B473558C"][data-icon="42"] {
+  background-image: url("../../game-art/shields/heater-shield-42.png");
+}
+[data-hex="B473558C"][data-icon="43"] {
+  background-image: url("../../game-art/shields/heater-shield-43.png");
+}
+[data-hex="B473558C"][data-icon="44"] {
+  background-image: url("../../game-art/shields/heater-shield-44.png");
+}
+[data-hex="B473558C"][data-icon="45"] {
+  background-image: url("../../game-art/shields/heater-shield-45.png");
+}
+
+[data-hex="DC2F4731"][data-icon="0"] {
+  background-image: url("../../game-art/shields/kite-shield-00.png");
+}
+[data-hex="DC2F4731"][data-icon="1"] {
+  background-image: url("../../game-art/shields/kite-shield-01.png");
+}
+[data-hex="DC2F4731"][data-icon="2"] {
+  background-image: url("../../game-art/shields/kite-shield-02.png");
+}
+[data-hex="DC2F4731"][data-icon="3"] {
+  background-image: url("../../game-art/shields/kite-shield-03.png");
+}
+[data-hex="DC2F4731"][data-icon="4"] {
+  background-image: url("../../game-art/shields/kite-shield-04.png");
+}
+[data-hex="DC2F4731"][data-icon="5"] {
+  background-image: url("../../game-art/shields/kite-shield-05.png");
+}
+[data-hex="DC2F4731"][data-icon="6"] {
+  background-image: url("../../game-art/shields/kite-shield-06.png");
+}
+[data-hex="DC2F4731"][data-icon="7"] {
+  background-image: url("../../game-art/shields/kite-shield-07.png");
+}
+[data-hex="DC2F4731"][data-icon="8"] {
+  background-image: url("../../game-art/shields/kite-shield-08.png");
+}
+[data-hex="DC2F4731"][data-icon="9"] {
+  background-image: url("../../game-art/shields/kite-shield-09.png");
+}
+[data-hex="DC2F4731"][data-icon="12"] {
+  background-image: url("../../game-art/shields/kite-shield-12.png");
+}
+[data-hex="DC2F4731"][data-icon="13"] {
+  background-image: url("../../game-art/shields/kite-shield-13.png");
+}
+[data-hex="DC2F4731"][data-icon="14"] {
+  background-image: url("../../game-art/shields/kite-shield-14.png");
+}
+[data-hex="DC2F4731"][data-icon="15"] {
+  background-image: url("../../game-art/shields/kite-shield-15.png");
+}
+[data-hex="DC2F4731"][data-icon="16"] {
+  background-image: url("../../game-art/shields/kite-shield-16.png");
+}
+[data-hex="DC2F4731"][data-icon="17"] {
+  background-image: url("../../game-art/shields/kite-shield-17.png");
+}
+[data-hex="DC2F4731"][data-icon="18"] {
+  background-image: url("../../game-art/shields/kite-shield-18.png");
+}
+[data-hex="DC2F4731"][data-icon="19"] {
+  background-image: url("../../game-art/shields/kite-shield-19.png");
+}
+[data-hex="DC2F4731"][data-icon="20"] {
+  background-image: url("../../game-art/shields/kite-shield-20.png");
+}
+[data-hex="DC2F4731"][data-icon="21"] {
+  background-image: url("../../game-art/shields/kite-shield-21.png");
+}
+[data-hex="DC2F4731"][data-icon="22"] {
+  background-image: url("../../game-art/shields/kite-shield-22.png");
+}
+[data-hex="DC2F4731"][data-icon="23"] {
+  background-image: url("../../game-art/shields/kite-shield-23.png");
+}
+[data-hex="DC2F4731"][data-icon="24"] {
+  background-image: url("../../game-art/shields/kite-shield-24.png");
+}
+[data-hex="DC2F4731"][data-icon="25"] {
+  background-image: url("../../game-art/shields/kite-shield-25.png");
+}
+[data-hex="DC2F4731"][data-icon="26"] {
+  background-image: url("../../game-art/shields/kite-shield-26.png");
+}
+[data-hex="DC2F4731"][data-icon="27"] {
+  background-image: url("../../game-art/shields/kite-shield-27.png");
+}
+[data-hex="DC2F4731"][data-icon="28"] {
+  background-image: url("../../game-art/shields/kite-shield-28.png");
+}
+[data-hex="DC2F4731"][data-icon="29"] {
+  background-image: url("../../game-art/shields/kite-shield-29.png");
+}
+[data-hex="DC2F4731"][data-icon="30"] {
+  background-image: url("../../game-art/shields/kite-shield-30.png");
+}
+[data-hex="DC2F4731"][data-icon="31"] {
+  background-image: url("../../game-art/shields/kite-shield-31.png");
+}
+[data-hex="DC2F4731"][data-icon="32"] {
+  background-image: url("../../game-art/shields/kite-shield-32.png");
+}
+[data-hex="DC2F4731"][data-icon="33"] {
+  background-image: url("../../game-art/shields/kite-shield-33.png");
+}
+[data-hex="DC2F4731"][data-icon="34"] {
+  background-image: url("../../game-art/shields/kite-shield-34.png");
+}
+[data-hex="DC2F4731"][data-icon="35"] {
+  background-image: url("../../game-art/shields/kite-shield-35.png");
+}
+[data-hex="DC2F4731"][data-icon="36"] {
+  background-image: url("../../game-art/shields/kite-shield-36.png");
+}
+[data-hex="DC2F4731"][data-icon="37"] {
+  background-image: url("../../game-art/shields/kite-shield-37.png");
+}
+[data-hex="DC2F4731"][data-icon="38"] {
+  background-image: url("../../game-art/shields/kite-shield-38.png");
+}
+[data-hex="DC2F4731"][data-icon="39"] {
+  background-image: url("../../game-art/shields/kite-shield-39.png");
+}
+[data-hex="DC2F4731"][data-icon="40"] {
+  background-image: url("../../game-art/shields/kite-shield-40.png");
+}
+[data-hex="DC2F4731"][data-icon="41"] {
+  background-image: url("../../game-art/shields/kite-shield-41.png");
+}
+[data-hex="DC2F4731"][data-icon="42"] {
+  background-image: url("../../game-art/shields/kite-shield-42.png");
+}
+[data-hex="DC2F4731"][data-icon="43"] {
+  background-image: url("../../game-art/shields/kite-shield-43.png");
+}
+[data-hex="DC2F4731"][data-icon="44"] {
+  background-image: url("../../game-art/shields/kite-shield-44.png");
+}
+[data-hex="DC2F4731"][data-icon="45"] {
+  background-image: url("../../game-art/shields/kite-shield-45.png");
+}
+
+[data-hex="DB7BE5FD"][data-icon="1"] {
+  background-image: url("../../game-art/shields/adarga-shield-1.png");
+}
+[data-hex="DB7BE5FD"][data-icon="2"] {
+  background-image: url("../../game-art/shields/adarga-shield-2.png");
+}
+[data-hex="DB7BE5FD"][data-icon="3"] {
+  background-image: url("../../game-art/shields/adarga-shield-3.png");
+}
+
+[data-hex="F2B2F734"][data-icon="1"] {
+  background-image: url("../../game-art/shields/sipar-shield-1.png");
+}
+[data-hex="F2B2F734"][data-icon="2"] {
+  background-image: url("../../game-art/shields/sipar-shield-2.png");
+}
+[data-hex="F2B2F734"][data-icon="3"] {
+  background-image: url("../../game-art/shields/sipar-shield-3.png");
+}
+
+[data-hex="FB3D93BC"][data-icon="1"][data-house="1"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-1.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="2"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-2.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="3"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-3.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="4"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-4.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="5"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-5.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="6"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-6.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="7"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-7.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="8"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-8.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="9"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-9.png");
+}
+[data-hex="FB3D93BC"][data-icon="1"][data-house="10"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-1-10.png");
+}
+
+[data-hex="FB3D93BC"][data-icon="2"][data-house="1"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-1.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="2"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-2.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="3"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-3.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="4"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-4.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="5"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-5.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="6"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-6.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="7"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-7.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="8"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-8.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="9"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-9.png");
+}
+[data-hex="FB3D93BC"][data-icon="2"][data-house="10"] {
+  background-image: url("../../game-art/shields/noble-heater-shield-2-10.png");
+}
+
+[data-hex="7B68EE33"][data-icon="1"][data-house="1"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-1.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="2"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-2.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="3"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-3.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="4"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-4.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="5"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-5.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="6"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-6.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="7"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-7.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="8"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-8.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="9"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-9.png");
+}
+[data-hex="7B68EE33"][data-icon="1"][data-house="10"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-1-10.png");
+}
+
+[data-hex="7B68EE33"][data-icon="2"][data-house="1"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-1.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="2"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-2.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="3"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-3.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="4"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-4.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="5"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-5.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="6"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-6.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="7"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-7.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="8"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-8.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="9"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-9.png");
+}
+[data-hex="7B68EE33"][data-icon="2"][data-house="10"] {
+  background-image: url("../../game-art/shields/noble-kite-shield-2-10.png");
+}
+
+[data-hex="2C9724E1"][data-icon="1"] {
+  background-image: url("../../game-art/shields/ancient-auxiliary-shield-1.png");
+}
+[data-hex="2C9724E1"][data-icon="2"] {
+  background-image: url("../../game-art/shields/ancient-auxiliary-shield-2.png");
+}
+[data-hex="2C9724E1"][data-icon="3"] {
+  background-image: url("../../game-art/shields/ancient-auxiliary-shield-3.png");
+}
+[data-hex="2C9724E1"][data-icon="4"] {
+  background-image: url("../../game-art/shields/ancient-auxiliary-shield-4.png");
+}
+
+[data-hex="B1541C06"][data-icon="1"] {
+  background-image: url("../../game-art/shields/ancient-coffin-shield-1.png");
+}
+[data-hex="B1541C06"][data-icon="2"] {
+  background-image: url("../../game-art/shields/ancient-coffin-shield-2.png");
+}
+[data-hex="B1541C06"][data-icon="3"] {
+  background-image: url("../../game-art/shields/ancient-coffin-shield-3.png");
+}
+[data-hex="B1541C06"][data-icon="4"] {
+  background-image: url("../../game-art/shields/ancient-coffin-shield-4.png");
+}
+
+[data-hex="755D0640"][data-icon="1"] {
+  background-image: url("../../game-art/shields/ancient-tower-shield-1.png");
+}
+[data-hex="755D0640"][data-icon="2"] {
+  background-image: url("../../game-art/shields/ancient-tower-shield-2.png");
+}
+[data-hex="755D0640"][data-icon="3"] {
+  background-image: url("../../game-art/shields/ancient-tower-shield-3.png");
+}
+[data-hex="755D0640"][data-icon="4"] {
+  background-image: url("../../game-art/shields/ancient-tower-shield-4.png");
+}
+[data-hex="755D0640"][data-icon="5"] {
+  background-image: url("../../game-art/shields/ancient-tower-shield-5.png");
+}
+
+[data-hex="558B33CE"][data-icon="1"] {
+  background-image: url("../../game-art/shields/decayed-heater-shield-1.png");
+}
+[data-hex="558B33CE"][data-icon="2"] {
+  background-image: url("../../game-art/shields/decayed-heater-shield-2.png");
+}
+[data-hex="558B33CE"][data-icon="3"] {
+  background-image: url("../../game-art/shields/decayed-heater-shield-3.png");
+}
+[data-hex="558B33CE"][data-icon="4"] {
+  background-image: url("../../game-art/shields/decayed-heater-shield-4.png");
+}
+[data-hex="558B33CE"][data-icon="5"] {
+  background-image: url("../../game-art/shields/decayed-heater-shield-5.png");
+}
+
+[data-hex="AEB3302B"] {
+  background-image: url("../../game-art/shields/feral-shield.png");
+}
+[data-hex="4734FFD8"] {
+  background-image: url("../../game-art/shields/orc-iron-shield.png");
+}
+
+[data-hex="1D5DA654"][data-icon="1"] {
+  background-image: url("../../game-art/shields/wooden-skirmisher-shield-1.png");
+}
+[data-hex="1D5DA654"][data-icon="2"] {
+  background-image: url("../../game-art/shields/wooden-skirmisher-shield-2.png");
+}
+[data-hex="B6DD7402"][data-icon="1"] {
+  background-image: url("../../game-art/shields/reinforced-skirmisher-shield-1.png");
+}
+[data-hex="B6DD7402"][data-icon="2"] {
+  background-image: url("../../game-art/shields/reinforced-skirmisher-shield-2.png");
+}
+
+[data-hex="F93B5180"][data-icon="1"] {
+  background-image: url("../../game-art/shields/bandits-shield-01-named-01.png");
+}
+[data-hex="F93B5180"][data-icon="2"] {
+  background-image: url("../../game-art/shields/bandits-shield-01-named-02.png");
+}
+[data-hex="F93B5180"][data-icon="3"] {
+  background-image: url("../../game-art/shields/bandits-shield-01-named-03.png");
+}
+
+[data-hex="A9B08AB4"] {
+  background-image: url("../../game-art/shields/bandits-shield-02-named-01.png");
+}
+
+[data-hex="DEBE18B7"] {
+  background-image: url("../../game-art/shields/named-shield-1.png");
+}
+[data-hex="310B3FB3"] {
+  background-image: url("../../game-art/shields/named-shield-2.png");
+}
+[data-hex="DCAD14EA"] {
+  background-image: url("../../game-art/shields/named-shield-3.png");
+}
+[data-hex="CFD8CF92"] {
+  background-image: url("../../game-art/shields/named-shield-4.png");
+}
+[data-hex="44B0FCF2"] {
+  background-image: url("../../game-art/shields/named-shield-5.png");
+}
+[data-hex="12CF6E98"] {
+  background-image: url("../../game-art/shields/named-shield-6.png");
+}
+[data-hex="259DB6AC"] {
+  background-image: url("../../game-art/shields/named-shield-7.png");
+} /* Named Lindwurm */
+
+[data-hex="7410DA79"] {
+  background-image: url("../../game-art/shields/named-shield-7.png");
+} /* generic craft! Lindwurm */
+[data-hex="B7DA0F1A"] {
+  background-image: url("../../game-art/shields/named-shield-8.png");
+} /* generic craft! Living Tree */
+[data-hex="C61D714A"] {
+  background-image: url("../../game-art/shields/named-shield-9.png");
+} /* generic craft! Kraken Horn */
+
+[data-hex="F1352077"] {
+  background-image: url("../../game-art/shields/legendary-shield-01.png");
+} /* Gilder's Embrace */
+
+[data-hex="8B6FEAB4"][data-icon="1"] {
+  background-image: url("../../game-art/shields/named-orc-iron-shield-1.png");
+}
+[data-hex="8B6FEAB4"][data-icon="2"] {
+  background-image: url("../../game-art/shields/named-orc-iron-shield-2.png");
+}
+[data-hex="8B6FEAB4"][data-icon="3"] {
+  background-image: url("../../game-art/shields/named-orc-iron-shield-3.png");
+}
+
+[data-hex="249CE79E"][data-icon="1"] {
+  background-image: url("../../game-art/shields/undead-shield-2-named-1.png");
+}
+[data-hex="249CE79E"][data-icon="2"] {
+  background-image: url("../../game-art/shields/undead-shield-2-named-2.png");
+}
+[data-hex="249CE79E"][data-icon="3"] {
+  background-image: url("../../game-art/shields/undead-shield-2-named-3.png");
+}
+
+[data-hex="BC8038CB"][data-icon="1"] {
+  background-image: url("../../game-art/shields/undead-shield-1-named-1.png");
+}
+[data-hex="BC8038CB"][data-icon="2"] {
+  background-image: url("../../game-art/shields/undead-shield-1-named-2.png");
+}
+[data-hex="BC8038CB"][data-icon="3"] {
+  background-image: url("../../game-art/shields/undead-shield-1-named-3.png");
+}
+
+[data-hex="A69958B5"][data-icon="1"] {
+  background-image: url("../../game-art/shields/named-sipar-shield-1.png");
+}
+[data-hex="A69958B5"][data-icon="2"] {
+  background-image: url("../../game-art/shields/named-sipar-shield-2.png");
+}
+
+/* 			Tools 			*/
+
+[data-hex="170BAB89"] {
+  background-image: url("../../game-art/tools/acid-flask.png");
+}
+[data-hex="9C531274"] {
+  background-image: url("../../game-art/tools/blessed-water.png");
+}
+[data-hex="1FC72F54"] {
+  background-image: url("../../game-art/tools/fire-pot.png");
+}
+[data-hex="080888BE"] {
+  background-image: url("../../game-art/tools/smoke-pot.png");
+}
+[data-hex="15447131"] {
+  background-image: url("../../game-art/tools/flash-pot.png");
+}
+
+[data-hex="F055BDDC"] {
+  background-image: url("../../game-art/tools/throwing-net.png");
+}
+.pouch[data-hex="F055BDDC"] {
+  background-image: url("../../game-art/tools/throwing-net-icon.png");
+}
+[data-hex="C40CE1CF"] {
+  background-image: url("../../game-art/tools/reinforced-throwing-net.png");
+}
+.pouch[data-hex="C40CE1CF"] {
+  background-image: url("../../game-art/tools/reinforced-throwing-net-icon.png");
+}
+
+[data-hex="504A794E"] {
+  background-image: url("../../game-art/tools/falcon.png");
+}
+
+[data-hex="99C519AE"][data-icon="1"] {
+  background-image: url("../../game-art/tools/wardog-1.png");
+}
+[data-hex="99C519AE"][data-icon="2"] {
+  background-image: url("../../game-art/tools/wardog-2.png");
+}
+[data-hex="99C519AE"][data-icon="3"] {
+  background-image: url("../../game-art/tools/wardog-3.png");
+}
+[data-hex="99C519AE"][data-icon="4"] {
+  background-image: url("../../game-art/tools/wardog-4.png");
+}
+
+[data-hex="0EADB11B"][data-icon="1"] {
+  background-image: url("../../game-art/tools/armored-wardog-1.png");
+}
+[data-hex="0EADB11B"][data-icon="2"] {
+  background-image: url("../../game-art/tools/armored-wardog-2.png");
+}
+[data-hex="0EADB11B"][data-icon="3"] {
+  background-image: url("../../game-art/tools/armored-wardog-3.png");
+}
+[data-hex="0EADB11B"][data-icon="4"] {
+  background-image: url("../../game-art/tools/armored-wardog-4.png");
+}
+
+[data-hex="07197EEF"][data-icon="1"] {
+  background-image: url("../../game-art/tools/heavily-armored-wardog-1.png");
+}
+[data-hex="07197EEF"][data-icon="2"] {
+  background-image: url("../../game-art/tools/heavily-armored-wardog-2.png");
+}
+[data-hex="07197EEF"][data-icon="3"] {
+  background-image: url("../../game-art/tools/heavily-armored-wardog-3.png");
+}
+[data-hex="07197EEF"][data-icon="4"] {
+  background-image: url("../../game-art/tools/heavily-armored-wardog-4.png");
+}
+
+[data-hex="BDD56DA5"][data-icon="1"] {
+  background-image: url("../../game-art/tools/hound-1.png");
+}
+[data-hex="BDD56DA5"][data-icon="2"] {
+  background-image: url("../../game-art/tools/hound-2.png");
+}
+[data-hex="6A96C2B6"][data-icon="1"] {
+  background-image: url("../../game-art/tools/armored-hound-1.png");
+}
+[data-hex="6A96C2B6"][data-icon="2"] {
+  background-image: url("../../game-art/tools/armored-hound-2.png");
+}
+[data-hex="FBFCEF56"][data-icon="1"] {
+  background-image: url("../../game-art/tools/heavily-armored-hound-1.png");
+}
+[data-hex="FBFCEF56"][data-icon="2"] {
+  background-image: url("../../game-art/tools/heavily-armored-hound-2.png");
+}
+
+[data-hex="D1552B2D"] {
+  background-image: url("../../game-art/tools/wolf-1.png");
+}
+
+/* 			Consumables 			*/
+
+[data-hex="69CCE5EE"] {
+  background-image: url("../../game-art/consumables/antidote.png");
+}
+[data-hex="E3FA5030"] {
+  background-image: url("../../game-art/consumables/bandage.png");
+}
+[data-hex="FDA9E384"] {
+  background-image: url("../../game-art/consumables/goblin-poison.png");
+}
+[data-hex="6A2830C4"] {
+  background-image: url("../../game-art/consumables/strange-mushrooms.png");
+}
+[data-hex="77830EB1"] {
+  background-image: url("../../game-art/consumables/poisoned-oil.png");
+}
+[data-hex="38F35D22"] {
+  background-image: url("../../game-art/consumables/second-wind-potion.png");
+}
+[data-hex="34FE28DD"] {
+  background-image: url("../../game-art/consumables/iron-will-potion.png");
+}
+[data-hex="BE59C9B5"] {
+  background-image: url("../../game-art/consumables/night-owl-elixir.png");
+}
+[data-hex="7D96B7E4"] {
+  background-image: url("../../game-art/consumables/cat-potion.png");
+}
+[data-hex="5FBD8193"] {
+  background-image: url("../../game-art/consumables/lionheart-potion.png");
+}
+[data-hex="37F3AF58"] {
+  background-image: url("../../game-art/consumables/apothecary-miracle.png");
+}
+[data-hex="077A3DC8"] {
+  background-image: url("../../game-art/consumables/happy-powder.png");
+}
+[data-hex="F5A982DC"] {
+  background-image: url("../../game-art/consumables/knowledge-potion.png");
+}
+[data-hex="7F716ED5"] {
+  background-image: url("../../game-art/consumables/oblivion-potion.png");
+}
+[data-hex="AA71A8EA"] {
+  background-image: url("../../game-art/consumables/youth-water.png");
+}
+[data-hex="6374D332"] {
+  background-image: url("../../game-art/consumables/mysterious-jug-1.png");
+}
+[data-hex="388FF536"] {
+  background-image: url("../../game-art/consumables/mysterious-jug-2.png");
+}
+[data-hex="8F745EF5"] {
+  background-image: url("../../game-art/consumables/blue-vial.png");
+}
+
+/* 			Paints 			*/
+[data-hex="246E61C6"] {
+  background-image: url("../../game-art/consumables/paint-set.png");
+}
+[data-hex="F4C46A6C"] {
+  background-image: url("../../game-art/consumables/paint-white-blue.png");
+}
+[data-hex="C743DE69"] {
+  background-image: url("../../game-art/consumables/paint-red.png");
+}
+[data-hex="D15060BB"] {
+  background-image: url("../../game-art/consumables/paint-black.png");
+}
+[data-hex="64F7291C"] {
+  background-image: url("../../game-art/consumables/paint-green-white-orange.png");
+}
+[data-hex="9E09B547"] {
+  background-image: url("../../game-art/consumables/paint-orange-red.png");
+}
+[data-hex="98833651"] {
+  background-image: url("../../game-art/consumables/paint-remover.png");
+}
+
+/* 			Anatomist potions 			*/
+[data-hex="0F4023C9"] {
+  background-image: url("../../game-art/consumables/apotheosis-potion.png");
+}
+[data-hex="803A3954"] {
+  background-image: url("../../game-art/consumables/blade-dancing-potion.png");
+}
+[data-hex="C1007B1D"] {
+  background-image: url("../../game-art/consumables/bloodgate-brew.png");
+}
+[data-hex="78629320"] {
+  background-image: url("../../game-art/consumables/bog-king-draught.png");
+}
+[data-hex="606FAFA1"] {
+  background-image: url("../../game-art/consumables/boneflesh-elixir.png");
+}
+[data-hex="26057CC4"] {
+  background-image: url("../../game-art/consumables/change-potion.png");
+}
+[data-hex="7CD368B3"] {
+  background-image: url("../../game-art/consumables/dastard-valor.png");
+}
+[data-hex="E18FC6BB"] {
+  background-image: url("../../game-art/consumables/deadeye-draft.png");
+}
+[data-hex="ACB3C900"] {
+  background-image: url("../../game-art/consumables/deadman-drink.png");
+}
+[data-hex="FE4D5C07"] {
+  background-image: url("../../game-art/consumables/emberblood-tincture.png");
+}
+[data-hex="CC6B8184"] {
+  background-image: url("../../game-art/consumables/enlightenment-elixir.png");
+}
+[data-hex="76E287D5"] {
+  background-image: url("../../game-art/consumables/fleetfoot-potion.png");
+}
+[data-hex="8A8BA2A9"] {
+  background-image: url("../../game-art/consumables/flesh-knitting-potion.png");
+}
+[data-hex="4E603CCD"] {
+  background-image: url("../../game-art/consumables/fool-treasure-potion.png");
+}
+[data-hex="FD10D9DA"] {
+  background-image: url("../../game-art/consumables/godtree-roots-draught.png");
+}
+[data-hex="2AB54884"] {
+  background-image: url("../../game-art/consumables/greasejar-potion.png");
+}
+[data-hex="F2F54F31"] {
+  background-image: url("../../game-art/consumables/inner-sanctum-potion.png");
+}
+[data-hex="D53AC2D0"] {
+  background-image: url("../../game-art/consumables/ironhead-potion.png");
+}
+[data-hex="352F9B6C"] {
+  background-image: url("../../game-art/consumables/kineticist-draft.png");
+}
+[data-hex="C9252167"] {
+  background-image: url("../../game-art/consumables/king-in-chains.png");
+}
+[data-hex="E7931D34"] {
+  background-image: url("../../game-art/consumables/knife-edge-potion.png");
+}
+[data-hex="6898122F"] {
+  background-image: url("../../game-art/consumables/leather-skin-potion.png");
+}
+[data-hex="4C773E88"] {
+  background-image: url("../../game-art/consumables/mad-god-elixir.png");
+}
+[data-hex="DA45F06D"] {
+  background-image: url("../../game-art/consumables/malevolence-potion.png");
+}
+[data-hex="B58FD73F"] {
+  background-image: url("../../game-art/consumables/nightking-draft.png");
+}
+[data-hex="BCCDF0BA"] {
+  background-image: url("../../game-art/consumables/nightstalker-potion.png");
+}
+[data-hex="23B9AE48"] {
+  background-image: url("../../game-art/consumables/perseverance-elixir.png");
+}
+[data-hex="5D9AD529"] {
+  background-image: url("../../game-art/consumables/quickfang-potion.png");
+}
+[data-hex="AA6CBDB0"] {
+  background-image: url("../../game-art/consumables/progress-potion.png");
+}
+[data-hex="D0B6B5C7"] {
+  background-image: url("../../game-art/consumables/rose-philter.png");
+}
+[data-hex="76AD0F29"] {
+  background-image: url("../../game-art/consumables/sleepless-potion.png");
+}
+[data-hex="7A0985A5"] {
+  background-image: url("../../game-art/consumables/stoneskin-potion.png");
+}
+[data-hex="6E08F1E3"] {
+  background-image: url("../../game-art/consumables/strength-font.png");
+}
+[data-hex="57C38F4B"] {
+  background-image: url("../../game-art/consumables/venomblood-potion.png");
+}
+
+/* 			Accessories 			*/
+
+[data-hex="98FF91E9"] {
+  background-image: url("../../game-art/accessory/sergeant-sash.png");
+}
+[data-hex="E675A937"] {
+  background-image: url("../../game-art/accessory/cursed-crystal-skull.png");
+}
+[data-hex="11490A31"] {
+  background-image: url("../../game-art/accessory/goblin-trophy.png");
+}
+[data-hex="1E517AFD"],
+[data-hex="DA673336"] {
+  background-image: url("../../game-art/accessory/orc-trophy.png");
+}
+[data-hex="3F7A5176"] {
+  background-image: url("../../game-art/accessory/undead-trophy.png");
+}
+[data-hex="ED4D7672"] {
+  background-image: url("../../game-art/accessory/nachzehrer-trophy.png");
+}
+[data-hex="3FF4678E"] {
+  background-image: url("../../game-art/accessory/alp-trophy.png");
+}
+[data-hex="AA50E303"] {
+  background-image: url("../../game-art/accessory/hexe-trophy.png");
+}
+
+[data-hex="9C6E203C"] {
+  background-image: url("../../game-art/accessory/arena-collar.png");
+}
+
+[data-hex="8E6BFC1C"] {
+  background-image: url("../../game-art/accessory/young-anselm-skull-1.png");
+}
+[data-hex="63861E21"] {
+  background-image: url("../../game-art/accessory/young-anselm-skull-2.png");
+}
+
+/* 			Ammo 			*/
+
+[data-hex="14A735E7"] {
+  background-image: url("../../game-art/ammo/quiver-of-bolts.png");
+}
+[data-hex="A29DA4EF"] {
+  background-image: url("../../game-art/ammo/large-quiver-of-bolts.png");
+}
+[data-hex="5A5FF966"] {
+  background-image: url("../../game-art/ammo/quiver-of-arrows.png");
+}
+[data-hex="E001039F"] {
+  background-image: url("../../game-art/ammo/large-quiver-of-arrows.png");
+}
+[data-hex="DF84B080"] {
+  background-image: url("../../game-art/ammo/powder-bag.png");
+}
+[data-hex="352CC6EA"] {
+  background-image: url("../../game-art/ammo/large-powder-bag.png");
+}
+[data-hex="7BB3D276"] {
+  background-image: url("../../game-art/ammo/bloodletter-reach.png");
+}
+
+/* 			Trade 			*/
+
+[data-hex="858E9802"] {
+  background-image: url("../../game-art/trade/furs.png");
+}
+[data-hex="98CBC25F"] {
+  background-image: url("../../game-art/trade/amber.png");
+}
+[data-hex="0D95B5F2"] {
+  background-image: url("../../game-art/trade/salt.png");
+}
+[data-hex="429780E1"] {
+  background-image: url("../../game-art/trade/cloth.png");
+}
+[data-hex="69A6AB62"] {
+  background-image: url("../../game-art/trade/copper.png");
+}
+[data-hex="F221C461"] {
+  background-image: url("../../game-art/trade/dyes.png");
+}
+[data-hex="478865B1"] {
+  background-image: url("../../game-art/trade/gems.png");
+}
+[data-hex="48BC97A1"] {
+  background-image: url("../../game-art/trade/peat.png");
+}
+[data-hex="829F07AE"] {
+  background-image: url("../../game-art/trade/wood.png");
+}
+
+[data-hex="FC8AE49A"] {
+  background-image: url("../../game-art/trade/spices.png");
+}
+[data-hex="42620707"] {
+  background-image: url("../../game-art/trade/incense.png");
+}
+[data-hex="F88B8EA0"] {
+  background-image: url("../../game-art/trade/silk.png");
+}
+
+/* 			Loot 			*/
+
+[data-hex="3FEECFEC"] {
+  background-image: url("../../game-art/loot/silverware.png");
+}
+[data-hex="E38E45E0"] {
+  background-image: url("../../game-art/loot/silver-bowl.png");
+}
+[data-hex="4C91DD93"] {
+  background-image: url("../../game-art/loot/signet-ring.png");
+}
+[data-hex="7ACA635A"] {
+  background-image: url("../../game-art/loot/white-pearls.png");
+}
+[data-hex="38F8CB94"] {
+  background-image: url("../../game-art/loot/ornate-tome.png");
+}
+[data-hex="D9D37F09"] {
+  background-image: url("../../game-art/loot/ancient-coins.png");
+}
+[data-hex="265CE51E"] {
+  background-image: url("../../game-art/loot/lindwurm-hoard.png");
+}
+[data-hex="148C9CFF"] {
+  background-image: url("../../game-art/loot/gemstones.png");
+}
+[data-hex="7CD731D9"] {
+  background-image: url("../../game-art/loot/golden-chalice.png");
+}
+[data-hex="57437B32"] {
+  background-image: url("../../game-art/loot/jeweled-crown.png");
+}
+[data-hex="23E13AA3"] {
+  background-image: url("../../game-art/loot/golden-goose.png");
+}
+[data-hex="55EDF97C"] {
+  background-image: url("../../game-art/loot/jade-brooch.png");
+}
+
+[data-hex="68F25E8D"] {
+  background-image: url("../../game-art/loot/nachzehrer-pearls.png");
+}
+[data-hex="0E806F32"] {
+  background-image: url("../../game-art/loot/sabertooth.png");
+}
+[data-hex="603F11DE"] {
+  background-image: url("../../game-art/loot/rainbow-scale.png");
+}
+[data-hex="CEF58DDD"] {
+  background-image: url("../../game-art/loot/glittering-rock.png");
+}
+[data-hex="C737D46A"] {
+  background-image: url("../../game-art/loot/unhold-valuables.png");
+}
+[data-hex="3EF30EAA"] {
+  background-image: url("../../game-art/loot/alp-soul.png");
+}
+[data-hex="5A98AFCC"] {
+  background-image: url("../../game-art/loot/webknecht-valuables.png");
+}
+[data-hex="03ABCF2A"] {
+  background-image: url("../../game-art/loot/schrat-amber.png");
+}
+[data-hex="7EA0DDCD"] {
+  background-image: url("../../game-art/loot/raging-hyena-hide.png");
+}
+[data-hex="66D91E95"] {
+  background-image: url("../../game-art/loot/sulfurous-rocks.png");
+}
+[data-hex="553DC531"] {
+  background-image: url("../../game-art/loot/acidic-saliva.png");
+}
+[data-hex="D2665123"] {
+  background-image: url("../../game-art/loot/serpent-skin.png");
+}
+[data-hex="873EF4D3"] {
+  background-image: url("../../game-art/loot/glistening-scales.png");
+}
+
+[data-hex="FEDD1C7C"] {
+  background-image: url("../../game-art/loot/bone-figurines.png");
+}
+[data-hex="EC8B028D"] {
+  background-image: url("../../game-art/loot/bead-necklace.png");
+}
+[data-hex="5E733A5A"] {
+  background-image: url("../../game-art/loot/valuable-furs.png");
+}
+[data-hex="402B575A"] {
+  background-image: url("../../game-art/loot/looted-valuables.png");
+}
+
+[data-hex="225E1FD6"] {
+  background-image: url("../../game-art/loot/carved-ivory-iconographs.png");
+}
+[data-hex="75112138"] {
+  background-image: url("../../game-art/loot/minted-silver-coins.png");
+}
+[data-hex="E68A2242"] {
+  background-image: url("../../game-art/loot/golden-rank-insignia.png");
+}
+[data-hex="8FF8C845"] {
+  background-image: url("../../game-art/loot/marble-bust.png");
+}
+
+/* 			Misc 			*/
+
+[data-hex="C68E9DA8"] {
+  background-image: url("../../game-art/misc/alp-eye-trophy.png");
+}
+[data-hex="E864A6DF"] {
+  background-image: url("../../game-art/misc/alp-skin-trophy.png");
+}
+[data-hex="A70FE462"] {
+  background-image: url("../../game-art/misc/alp-scream-trophy.png");
+}
+
+[data-hex="12C1F263"] {
+  background-image: url("../../game-art/misc/anatomists-book-1.png");
+}
+[data-hex="D5167DD7"] {
+  background-image: url("../../game-art/misc/anatomists-book-2.png");
+}
+[data-hex="81A3AA91"] {
+  background-image: url("../../game-art/misc/anatomists-book-3.png");
+}
+[data-hex="33181866"] {
+  background-image: url("../../game-art/misc/anatomists-book-4.png");
+}
+
+[data-hex="03E314EB"] {
+  background-image: url("../../game-art/misc/broken-ritual-armor.png");
+}
+
+[data-hex="53533EA0"] {
+  background-image: url("../../game-art/misc/hexe-apple-trophy.png");
+}
+[data-hex="0B5A9CFB"] {
+  background-image: url("../../game-art/misc/hexe-hair-trophy.png");
+}
+[data-hex="8034FF0C"] {
+  background-image: url("../../game-art/misc/hexe-herbs-trophy.png");
+}
+
+[data-hex="6C685A45"] {
+  background-image: url("../../game-art/misc/kraken-tentacle-trophy.png");
+}
+[data-hex="F0D064E8"] {
+  background-image: url("../../game-art/misc/kraken-plate-trophy.png");
+}
+
+[data-hex="796CB69D"] {
+  background-image: url("../../game-art/misc/lindwurm-scales-trophy.png");
+}
+[data-hex="EAED22EF"] {
+  background-image: url("../../game-art/misc/lindwurm-blood-trophy.png");
+}
+[data-hex="2174BB89"] {
+  background-image: url("../../game-art/misc/lindwurm-bones-trophy.png");
+}
+
+[data-hex="2336D9B1"] {
+  background-image: url("../../game-art/misc/nachzehrer-brain-trophy.png");
+}
+[data-hex="E959A65F"] {
+  background-image: url("../../game-art/misc/nachzehrer-teeth-trophy.png");
+}
+[data-hex="D2E8B2EC"] {
+  background-image: url("../../game-art/misc/nachzehrer-horn-trophy.png");
+}
+
+[data-hex="D51D7A41"] {
+  background-image: url("../../game-art/misc/necronomicon.png");
+}
+
+[data-hex="BF016E9A"] {
+  background-image: url("../../game-art/misc/schrat-heart-trophy.png");
+}
+[data-hex="D0F8855A"] {
+  background-image: url("../../game-art/misc/schrat-resin-trophy.png");
+}
+[data-hex="D772692B"] {
+  background-image: url("../../game-art/misc/schrat-wood-trophy.png");
+}
+
+[data-hex="20EB2ADB"] {
+  background-image: url("../../game-art/misc/shimmering-ashes-trophy.png");
+}
+
+[data-hex="4A40C20E"] {
+  background-image: url("../../game-art/misc/snake-oil-trophy.png");
+}
+
+[data-hex="CA9A13FB"] {
+  background-image: url("../../game-art/misc/sword-blade.png");
+}
+
+[data-hex="783B7F1B"] {
+  background-image: url("../../game-art/misc/unhold-hide-trophy.png");
+}
+[data-hex="EE489D83"] {
+  background-image: url("../../game-art/misc/unhold-heart-trophy.png");
+}
+[data-hex="397B3EBF"] {
+  background-image: url("../../game-art/misc/unhold-bones-trophy.png");
+}
+[data-hex="78B04DE2"] {
+  background-image: url("../../game-art/misc/unhold-fur-trophy.png");
+}
+
+[data-hex="8E4AB21A"] {
+  background-image: url("../../game-art/misc/webknecht-gossamer-trophy.png");
+}
+[data-hex="16199ED0"] {
+  background-image: url("../../game-art/misc/webknecht-gland-trophy.png");
+}
+
+[data-hex="240CCCC9"] {
+  background-image: url("../../game-art/misc/wolf-pelt-trophy.png");
+}
+[data-hex="C1A46F24"] {
+  background-image: url("../../game-art/misc/wolf-gland-trophy.png");
+}
+
+/* 			Provisions 			*/
+
+[data-hex="9CCC1671"] {
+  background-image: url("../../game-art/supplies/beer.png");
+}
+[data-hex="5CF62FD5"] {
+  background-image: url("../../game-art/supplies/bread.png");
+}
+[data-hex="2785CAAE"] {
+  background-image: url("../../game-art/supplies/dried-fish.png");
+}
+[data-hex="FE7B18D4"] {
+  background-image: url("../../game-art/supplies/dried-fruit.png");
+}
+[data-hex="3DB4B010"] {
+  background-image: url("../../game-art/supplies/goat-cheese.png");
+}
+[data-hex="B00ED5D2"] {
+  background-image: url("../../game-art/supplies/grains.png");
+}
+[data-hex="7DA17FC4"] {
+  background-image: url("../../game-art/supplies/mead.png");
+}
+[data-hex="56B75F72"] {
+  background-image: url("../../game-art/supplies/mushrooms.png");
+}
+[data-hex="C2B26825"] {
+  background-image: url("../../game-art/supplies/roots.png");
+}
+[data-hex="FE5BC3E2"] {
+  background-image: url("../../game-art/supplies/smoked-ham.png");
+}
+[data-hex="ECA59BF1"] {
+  background-image: url("../../game-art/supplies/strange-meat.png");
+}
+[data-hex="0E34DFA7"] {
+  background-image: url("../../game-art/supplies/venison.png");
+}
+[data-hex="85D72217"] {
+  background-image: url("../../game-art/supplies/wine.png");
+}
+
+[data-hex="E3DAC721"] {
+  background-image: url("../../game-art/supplies/black-stew.png");
+}
+[data-hex="D793C057"] {
+  background-image: url("../../game-art/supplies/dates.png");
+}
+[data-hex="5128E90D"] {
+  background-image: url("../../game-art/supplies/dried-lamb.png");
+}
+[data-hex="80AABE6A"] {
+  background-image: url("../../game-art/supplies/rations.png");
+}
+[data-hex="7DD07674"] {
+  background-image: url("../../game-art/supplies/rice.png");
+}
+[data-hex="884E5D5D"] {
+  background-image: url("../../game-art/supplies/unhold-heart.png");
+}

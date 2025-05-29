@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      charset="UTF-8"
+      http-equiv="Content-Security-Policy"
+      content="
+				default-src 'self';
+				script-src  'self' 'sha256-j9lUAmS6ngP3DfkJoJniRJJqpLNyo6fffCB6SWAHxfk=';
+				style-src   'self' 'unsafe-inline';
+				img-src     'self' data:;
+				font-src    'self';
+				connect-src 'self';
+			"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="hex.css" />
+  </head>
+  <body>
+    <div id="name-inputs">
+      <input
+        type="text"
+        maxlength="16"
+        data-bind="brother.name"
+        id="brother-name"
+      />
+      <input
+        type="text"
+        maxlength="16"
+        data-bind="brother.title"
+        id="brother-title"
+      />
+    </div>
+
+    <div id="inventory">
+      <div class="slot" data-pos="0" id="weapon"></div>
+      <div class="slot" data-pos="1" id="shield"></div>
+      <div class="slot" data-pos="2" id="body"></div>
+      <div class="slot" data-pos="3" id="helmet"></div>
+      <div class="slot" data-pos="4" id="trinket"></div>
+      <div class="slot" data-pos="5" id="quiver"></div>
+      <div id="pouches">
+        <div class="slot pouch" data-pos="6"></div>
+        <div class="slot pouch" data-pos="7"></div>
+        <div class="slot pouch" data-pos="8"></div>
+        <div class="slot pouch" data-pos="9"></div>
+      </div>
+    </div>
+
+    <div id="traits"></div>
+
+    <div id="attributes">
+      <div class="star-field" data-bind="starHealth">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon health"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.health"
+        id="health"
+        placeholder="Health"
+      />
+
+      <div class="star-field" data-bind="starMeleeSkill">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon melee-skill"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.meleeSkill"
+        id="melee-skill"
+        placeholder="Melee Skill"
+      />
+
+      <div class="star-field" data-bind="starFatigue">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon fatigue"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.fatigue"
+        id="fatigue"
+        placeholder="Fatigue"
+      />
+
+      <div class="star-field" data-bind="starRangedSkill">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon ranged-skill"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.rangedSkill"
+        id="ranged-skill"
+        placeholder="Ranged Skill"
+      />
+
+      <div class="star-field" data-bind="starResolve">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon resolve"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.resolve"
+        id="resolve"
+        placeholder="Resolve"
+      />
+
+      <div class="star-field" data-bind="starMeleeDefense">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon melee-defense"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="-5"
+        data-max="32767"
+        data-bind="brother.meleeDefense"
+        id="melee-defense"
+        placeholder="Melee Def."
+      />
+
+      <div class="star-field" data-bind="starInitiative">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon initiative"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="1"
+        data-max="32767"
+        data-bind="brother.initiative"
+        id="initiative"
+        placeholder="Initiative"
+      />
+
+      <div class="star-field" data-bind="starRangedDefense">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </div>
+      <div class="icon ranged-defense"></div>
+      <input
+        type="number"
+        class="attribute"
+        data-min="-5"
+        data-max="32767"
+        data-bind="brother.rangedDefense"
+        id="ranged-defense"
+        placeholder="Ranged Def."
+      />
+    </div>
+
+    <div id="save-inputs">
+      <input
+        type="text"
+        id="hex-string"
+        placeholder="this hex string will replace current character"
+      />
+      <input
+        type="button"
+        id="copy-character"
+        value="copy hex"
+        data-hex="TOOL0001"
+      />
+      <input
+        type="button"
+        id="replace-character"
+        value="replace hex"
+        data-hex="TOOL0002"
+      />
+      <input type="button" id="save-character" value="save brother" />
+    </div>
+
+    <div id="tabs">
+      <div id="tab-buttons">
+        <input
+          type="button"
+          data-tab="perk-page"
+          value="perks"
+          class="active"
+        />
+        <input type="button" data-tab="editor-page" value="value editor" />
+        <input type="button" data-tab="visuals-page" value="visual layers" />
+        <input type="button" data-tab="stash-page" value="stash" />
+      </div>
+      <div class="tab active" id="perk-page">
+        <div id="perk-line-1" class="perk-line">
+          <div class="perk" data-hex="3E7523FA"></div>
+          <div class="perk" data-hex="F9473B3C"></div>
+          <div class="perk" data-hex="4C867685"></div>
+          <div class="perk" data-hex="9D82F592"></div>
+          <div class="perk" data-hex="A546AF20"></div>
+          <div class="perk" data-hex="565F97BE"></div>
+          <div class="perk" data-hex="AB0464F3"></div>
+          <div class="perk" data-hex="A3233C22"></div>
+          <div class="perk" data-hex="C07D23FB"></div>
+        </div>
+        <div id="perk-line-2" class="perk-line">
+          <div class="perk" data-hex="059702B2"></div>
+          <div class="perk" data-hex="CA385200"></div>
+          <div class="perk" data-hex="ECCF150A"></div>
+          <div class="perk" data-hex="2468BB8C"></div>
+          <div class="perk" data-hex="8BDA1308"></div>
+          <div class="perk" data-hex="07AD742B"></div>
+          <div class="perk" data-hex="0BADB437"></div>
+          <div class="perk" data-hex="9899E380"></div>
+        </div>
+        <div id="perk-line-3" class="perk-line">
+          <div class="perk" data-hex="71C41BDA"></div>
+          <div class="perk" data-hex="1423C822"></div>
+          <div class="perk" data-hex="A1DE723D"></div>
+          <div class="perk" data-hex="04A8366D"></div>
+          <div class="perk" data-hex="CA7913AA"></div>
+          <div class="perk" data-hex="09E3AD30"></div>
+          <div class="perk" data-hex="E3FC2F93"></div>
+          <div class="perk" data-hex="E1E8D40B"></div>
+        </div>
+        <div id="perk-line-4" class="perk-line">
+          <div class="perk" data-hex="5F1ECE27"></div>
+          <div class="perk" data-hex="F1AB0AC0"></div>
+          <div class="perk" data-hex="53D89DC8"></div>
+          <div class="perk" data-hex="1B63AB23"></div>
+          <div class="perk" data-hex="CF52B42E"></div>
+          <div class="perk" data-hex="D03C87C1"></div>
+          <div class="perk" data-hex="BBA910B8"></div>
+          <div class="perk" data-hex="1DE5F9FF"></div>
+          <div class="perk" data-hex="E49B81C1"></div>
+          <div class="perk" data-hex="4BA8F880"></div>
+          <div class="perk" data-hex="3967AB23"></div>
+          <div class="perk" data-hex="B7571E54"></div>
+        </div>
+        <div id="perk-line-5" class="perk-line">
+          <div class="perk" data-hex="BACAD9E4"></div>
+          <div class="perk" data-hex="026F2FA2"></div>
+          <div class="perk" data-hex="12CC3EA1"></div>
+          <div class="perk" data-hex="5D8933A5"></div>
+          <div class="perk" data-hex="404C93E1"></div>
+        </div>
+        <div id="perk-line-6" class="perk-line">
+          <div class="perk" data-hex="97CB0D95"></div>
+          <div class="perk" data-hex="80A40871"></div>
+          <div class="perk" data-hex="385FD79D"></div>
+          <div class="perk" data-hex="37CEF631"></div>
+        </div>
+        <div id="perk-line-7" class="perk-line">
+          <div class="perk" data-hex="ABC22EAE"></div>
+          <div class="perk" data-hex="C3229207"></div>
+          <div class="perk" data-hex="7C856C1D"></div>
+          <div class="perk" data-hex="F521E3DD"></div>
+        </div>
+      </div>
+      <div class="tab" id="editor-page">
+        <div>
+          <textarea
+            name=""
+            data-bind="brother.description"
+            id="description"
+          ></textarea>
+          <textarea
+            name=""
+            data-bind="brother.descriptionTemplate"
+            id="description-template"
+          ></textarea>
+        </div>
+        <div>
+          <label
+            >Salary Multiplier (F):
+            <input
+              type="number"
+              data-min="0"
+              data-max="9"
+              data-float="true"
+              id="salary-mult"
+              data-bind="brother.salaryMultiplier"
+          /></label>
+          <label
+            >Light Wound (F):
+            <input
+              type="number"
+              data-min="0"
+              data-max="1"
+              data-float="true"
+              id="light-wound"
+              data-bind="brother.lightWound"
+          /></label>
+          <label
+            >Experience Total :
+            <input
+              type="number"
+              data-min="0"
+              data-max="390000"
+              id="experience"
+              data-bind="brother.experience"
+          /></label>
+          <label
+            >Character Level :
+            <input
+              type="number"
+              data-min="1"
+              data-max="33"
+              id="level-total"
+              data-bind="brother.levelTotal"
+          /></label>
+          <label
+            >Level Up Points :
+            <input
+              type="number"
+              data-min="0"
+              data-max="255"
+              id="level-points"
+              data-bind="brother.levelPoints"
+          /></label>
+          <label
+            >Morale (6.95 = 100%) :
+            <input
+              type="number"
+              data-min="0"
+              data-max="6.95"
+              data-float="true"
+              id="morale"
+              data-bind="brother.morale"
+          /></label>
+          <label
+            >Stat Potential Bytes :
+            <input
+              type="number"
+              data-min="0"
+              data-max="11"
+              id="stat-potential"
+              data-bind="brother.talentPoints"
+          /></label>
+
+          <div class="icon health"></div>
+          <input type="text" data-bind="brother.talentHealth" />
+          <div class="icon fatigue"></div>
+          <input type="text" data-bind="brother.talentFatigue" />
+          <div class="icon resolve"></div>
+          <input type="text" data-bind="brother.talentResolve" />
+          <div class="icon initiative"></div>
+          <input type="text" data-bind="brother.talentInitiative" />
+          <div class="icon melee-skill"></div>
+          <input type="text" data-bind="brother.talentMeleeSkill" />
+          <div class="icon ranged-skill"></div>
+          <input type="text" data-bind="brother.talentRangedSkill" />
+          <div class="icon melee-defense"></div>
+          <input type="text" data-bind="brother.talentMeleeDefense" />
+          <div class="icon ranged-defense"></div>
+          <input type="text" data-bind="brother.talentRangedDefense" />
+        </div>
+      </div>
+      <div class="tab" id="visuals-page">
+        <label
+          >Head Tattoo:
+          <select
+            data-bind="brother.visual.tattoo_head"
+            id="tattoo-head-select"
+          >
+            <option value="000000000000000003100000">None</option>
+            <option value="35917C0A46CAF10007100000">Wildman Tattoo</option>
+            <option value="AEBDDB98AFB5C7CE07100000">Cultist Tattoo</option>
+            <option value="27A5B9E2FC8055F607100000">Barbarian Tattoo 1</option>
+            <option value="6A8134A084FCC42407100000">Barbarian Tattoo 2</option>
+            <option value="A9E260B6AC28F5BF07100000">Barbarian Tattoo 3</option>
+            <option value="E8438DCCD454255B07100000">Death Tattoo</option>
+            <option value="7F8CB2113C28257F07100000">Scars</option>
+          </select>
+        </label>
+        <label
+          >Body Tattoo:
+          <select
+            data-bind="brother.visual.tattoo_body"
+            id="tattoo-body-select"
+          >
+            <option value="000000000000000007100000">None</option>
+            <option value="4040FEF8338A305907100000">Wildman Tattoo</option>
+            <option value="773DECBD52B3BA3207100000">Cultist Tattoo</option>
+            <option value="73909DD4ABA38FB207100000">Death Tattoo</option>
+            <option value="B43BF18E95679AD207100000">Barbarian Tattoo 2</option>
+            <option value="F5E644497F2BA5F207100000">Barbarian Tattoo 3</option>
+            <option value="8A988D56FF8A6D5207100000">Scars</option>
+          </select>
+        </label>
+
+        <label
+          >Surcoat:
+          <select data-bind="brother.visual.surcoat" id="surcoat-select">
+            <option value="000000000000000003100000">None</option>
+            <option value="D1081533388EE5D407100000">
+              Tabard 1 (Red/Blue)
+            </option>
+            <option value="D2081533388EE5D407100000">
+              Tabard 2 (Dark Blue)
+            </option>
+            <option value="D3081533388EE5D407100000">
+              Tabard 3 (White/Black)
+            </option>
+            <option value="D4081533388EE5D407100000">Tabard 4 (Crimson)</option>
+            <option value="D5081533388EE5D407100000">
+              Tabard 5 (Green/White)
+            </option>
+            <option value="D6081533388EE5D407100000">
+              Tabard 6 (White/Blue)
+            </option>
+            <option value="D7081533388EE5D407100000">
+              Tabard 7 (Green/Gold/Blue)
+            </option>
+            <option value="D8081533388EE5D407100000">Tabard 8 (Black)</option>
+            <option value="D9081533388EE5D407100000">
+              Tabard 9 (Gold/Red)
+            </option>
+            <option value="0F091633388EE5D407100000">
+              Tabard 10 (Green/Gold)
+            </option>
+
+            <option value="BF1E2AB642D9DD9A07100000">Cloak</option>
+            <option value="C01E2AB642D9DD9A07100000">Cloak Noble</option>
+            <option value="AF76520CEED39C1507100000">Cloak Grey</option>
+            <option value="B176520CEED39C1507100000">Cloak Green</option>
+            <option value="B276520CEED39C1507100000">Cloak Torn</option>
+
+            <option value="B376520CEED39C1507100000">Rags 1</option>
+            <option value="B476520CEED39C1507100000">Rags 2</option>
+
+            <option value="F61E2BB642D9DD9A07100000">Golden Chain 1</option>
+          </select>
+        </label>
+
+        <label
+          >Brain Damage:
+          <select
+            data-bind="brother.visual.permanent_injury_1"
+            id="brain-damage-select"
+          >
+            <option value="000000000000000003100000">None</option>
+            <option value="9832626C5F863EEC07100000">Active</option>
+          </select>
+        </label>
+        <label
+          >Missing Ear:
+          <select
+            data-bind="brother.visual.permanent_injury_2"
+            id="missing-ear-select"
+          >
+            <option value="000000000000000003100000">None</option>
+            <option value="9932626C5F863EEC07100000">Active</option>
+          </select>
+        </label>
+        <label
+          >Missing Nose:
+          <select
+            data-bind="brother.visual.permanent_injury_3"
+            id="missing-nose-select"
+          >
+            <option value="000000000000000003100000">None</option>
+            <option value="9A32626C5F863EEC07100000">Active</option>
+          </select>
+        </label>
+        <label
+          >Missing Eye:
+          <select
+            data-bind="brother.visual.permanent_injury_4"
+            id="missing-eye-select"
+          >
+            <option value="000000000000000003100000">None</option>
+            <option value="9B32626C5F863EEC07100000">Active</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="tab" id="stash-page">
+        <div class="container"></div>
+        <input type="button" id="save-stash" value="save stash" />
+        <label
+          >Stash capacity:
+          <input
+            type="number"
+            data-bind="stash.capacity"
+            data-min="0"
+            data-max="999"
+        /></label>
+      </div>
+    </div>
+
+    <div id="parse-inputs">
+      <input
+        type="text"
+        data-bind="gui.filepath"
+        id="save-location"
+        placeholder="Press CTRL + L, choose a save, and press PARSE"
+      />
+      <input type="button" id="parse-file" value="parse" />
+      <input type="file" id="load-file" />
+    </div>
+
+    <div id="brother-list"></div>
+
+    <!-- Overlays! -->
+
+    <div id="background-list" class="overlay">
+      <div class="container">
+        <label
+          >Normal backgrounds
+          <br />
+          <div data-hex="140AD17E"></div>
+          <!-- Adventurous Noble -->
+          <div data-hex="3C1774B5"></div>
+          <!-- Apprentice -->
+          <div data-hex="99930147"></div>
+          <!-- Anatomist -->
+          <div data-hex="52330AD5"></div>
+          <!-- Assassin -->
+          <div data-hex="CB90AA90"></div>
+          <!-- Barbarian -->
+          <div data-hex="2AAE8559"></div>
+          <!-- Bastard -->
+          <div data-hex="8D48C75B"></div>
+          <!-- Beastslayer -->
+          <div data-hex="2128342F"></div>
+          <!-- Bowyer -->
+          <div data-hex="71648BCF"></div>
+          <!-- Cultist -->
+          <div data-hex="0746329A"></div>
+          <!-- Deserter -->
+          <div data-hex="71BA80F4"></div>
+          <!-- Disowned Noble -->
+          <div data-hex="29A78F2E"></div>
+          <!-- Eunuch -->
+          <div data-hex="B36261EF"></div>
+          <!-- Flagellant -->
+          <div data-hex="33311369"></div>
+          <!-- Gambler -->
+          <div data-hex="144868A8"></div>
+          <!-- Gladiator (Hired) -->
+          <div data-hex="3A157B3E"></div>
+          <!-- Hedge Knight -->
+          <div data-hex="AEF7C74B"></div>
+          <!-- Historian -->
+          <div data-hex="3B540890"></div>
+          <!-- Houndmaster -->
+          <div data-hex="3B7D9408"></div>
+          <!-- Hunter -->
+          <div data-hex="B5DD9094"></div>
+          <!-- Juggler -->
+          <div data-hex="B47205E5"></div>
+          <!-- Killer on the Run -->
+          <div data-hex="9F01869F"></div>
+          <!-- Mason -->
+          <div data-hex="8297FEBA"></div>
+          <!-- Messenger -->
+          <div data-hex="274CE4B2"></div>
+          <!-- Minstrel -->
+          <div data-hex="EEFBA04C"></div>
+          <!-- Monk -->
+          <div data-hex="7CE83341"></div>
+          <!-- Nomad -->
+          <div data-hex="D2749588"></div>
+          <!-- Oathtaker -->
+          <div data-hex="A4BD4435"></div>
+          <!-- Raider -->
+          <div data-hex="21D1CD1C"></div>
+          <!-- Retired Soldier -->
+          <div data-hex="7C6EB7FB"></div>
+          <!-- Sellsword -->
+          <div data-hex="D45B05E3"></div>
+          <!-- Servant -->
+          <div data-hex="E04D804B"></div>
+          <!-- Swordmaster -->
+          <div data-hex="AE7DD55A"></div>
+          <!-- Squire -->
+          <div data-hex="6DF381C6"></div>
+          <!-- Wildman -->
+          <div data-hex="269F1831"></div>
+          <!-- Witch Hunter -->
+        </label>
+        <br /><br />
+        <label
+          >Lowborn backgrounds
+          <br />
+          <div data-hex="513CA7C5"></div>
+          <!-- Beggar -->
+          <div data-hex="9E3EE827"></div>
+          <!-- Butcher -->
+          <div data-hex="4C95ED0E"></div>
+          <!-- Brawler -->
+          <div data-hex="6C9CE698"></div>
+          <!-- Cripple -->
+          <div data-hex="7B9A3CF7"></div>
+          <!-- Daytaler -->
+          <div data-hex="C6DD9695"></div>
+          <!-- Farmer -->
+          <div data-hex="FA656BC3"></div>
+          <!-- Fisherman -->
+          <div data-hex="24ACB273"></div>
+          <!-- Gravedigger -->
+          <div data-hex="EA19650F"></div>
+          <!-- Grave Robber -->
+          <div data-hex="77CC2A7F"></div>
+          <!-- Indebted -->
+          <div data-hex="2D27199D"></div>
+          <!-- Lumberjack -->
+          <div data-hex="DBE74EB4"></div>
+          <!-- Manhunter -->
+          <div data-hex="AAB09341"></div>
+          <!-- Militiman -->
+          <div data-hex="EAD11AC4"></div>
+          <!-- Miller -->
+          <div data-hex="A8E56738"></div>
+          <!-- Miner -->
+          <div data-hex="C16724D1"></div>
+          <!-- Peddler -->
+          <div data-hex="872280DE"></div>
+          <!-- Poacher -->
+          <div data-hex="9AA50C11"></div>
+          <!-- Ratcatcher -->
+          <div data-hex="7CEF5D75"></div>
+          <!-- Refugee -->
+          <div data-hex="E09EB018"></div>
+          <!-- Shepherd -->
+          <div data-hex="F8B44DE8"></div>
+          <!-- Tailor -->
+          <div data-hex="15D99E2B"></div>
+          <!-- Thief -->
+          <div data-hex="DFABA699"></div>
+          <!-- Vagabond -->
+        </label>
+        <br /><br />
+        <label
+          >Non-hirable backgrounds
+          <br />
+          <div data-hex="4D5160C4"></div>
+          <!-- Belly Dancer -->
+          <div data-hex="F1D4D64F"></div>
+          <!-- Companion Spear -->
+          <div data-hex="C23261F9"></div>
+          <!-- Companion Axe -->
+          <div data-hex="D1B9D2CC"></div>
+          <!-- Companion Crossbow -->
+          <div data-hex="DFFE0AFE"></div>
+          <!-- Converted Crusader -->
+          <div data-hex="7EF5172D"></div>
+          <!-- Crusader -->
+          <div data-hex="C738AEC4"></div>
+          <!-- Gladiator (Companion) -->
+          <div data-hex="EF80F20F"></div>
+          <!-- King's Guard -->
+          <div data-hex="EEC70B5F"></div>
+          <!-- Regent in Absentia -->
+          <div data-hex="14C7F489"></div>
+          <!-- Orc Slayer -->
+          <div data-hex="DB315732"></div>
+          <!-- Pacified Flagellant -->
+          <div data-hex="0B912487"></div>
+          <!-- Pimp -->
+          <div data-hex="120DA558"></div>
+          <!-- Regent in Absentia -->
+        </label>
+      </div>
+    </div>
+    <div id="trait-list" class="overlay">
+      <div class="container">
+        <!-- Positive -->
+        <div data-hex="6FF46EFE"></div>
+        <!-- Athletic -->
+        <div data-hex="988F2179"></div>
+        <!-- Bloodthirsty -->
+        <div data-hex="15A02709"></div>
+        <!-- Brave -->
+        <div data-hex="D1B92F40"></div>
+        <!-- Bright -->
+        <div data-hex="8F1F3216"></div>
+        <!-- Brute -->
+        <div data-hex="62BEC5FA"></div>
+        <!-- Deathwish -->
+        <div data-hex="8E02892D"></div>
+        <!-- Determined -->
+        <div data-hex="E8BBE11A"></div>
+        <!-- Dexterous -->
+        <div data-hex="843D8DD9"></div>
+        <!-- Eagle Eyes -->
+        <div data-hex="DA78B736"></div>
+        <!-- Huge -->
+        <div data-hex="6AD5327F"></div>
+        <!-- Fearless -->
+        <div data-hex="1CE5EF83"></div>
+        <!-- Impatient -->
+        <div data-hex="F138A2EF"></div>
+        <!-- Iron Lungs -->
+        <div data-hex="F640E09A"></div>
+        <!-- Iron Jaw -->
+        <div data-hex="46ADB947"></div>
+        <!-- Loyal -->
+        <div data-hex="C5B9A3A5"></div>
+        <!-- Lucky -->
+        <div data-hex="ACC46F0E"></div>
+        <!-- Night Owl -->
+        <div data-hex="9A95BB9E"></div>
+        <!-- Optimist -->
+        <div data-hex="C2C1134F"></div>
+        <!-- Quick -->
+        <div data-hex="124A03A3"></div>
+        <!-- Spartan -->
+        <div data-hex="1ED3819C"></div>
+        <!-- Strong -->
+        <div data-hex="9D81C274"></div>
+        <!-- Sure-footed -->
+        <div data-hex="818E0F24"></div>
+        <!-- Survivor -->
+        <div data-hex="767F08BC"></div>
+        <!-- Swift -->
+        <div data-hex="994FE708"></div>
+        <!-- Tiny -->
+        <div data-hex="B4760E9D"></div>
+        <!-- Tough -->
+        <div data-hex="C5E53A6E"></div>
+        <!-- Team Player -->
+        <div data-hex="E220534E"></div>
+        <!-- Weasel -->
+        <br /><br />
+        <!-- Blazing Deserts -->
+        <div data-hex="DC2B39A5"></div>
+        <!-- Pit Fighter -->
+        <div data-hex="38B9EBE5"></div>
+        <!-- Arena Fighter -->
+        <div data-hex="90786E95"></div>
+        <!-- Arena Veteran -->
+        <div data-hex="8C535E47"></div>
+        <!-- Glorious Resolve -->
+        <div data-hex="C5C522E8"></div>
+        <!-- Glorious Endurance -->
+        <div data-hex="0625ED75"></div>
+        <!-- Glorious Quickness -->
+        <br /><br />
+        <!-- Hates and Fears -->
+        <div data-hex="17B36776"></div>
+        <!-- Hate of Undead -->
+        <div data-hex="EB251F2F"></div>
+        <!-- Hate of Greenskins -->
+        <div data-hex="0CF9D3DA"></div>
+        <!-- Hate of Beasts -->
+        <div data-hex="6F2C8614"></div>
+        <!-- Fear of Undead -->
+        <div data-hex="C3A17B67"></div>
+        <!-- Fear of Greenskins -->
+        <div data-hex="6472F278"></div>
+        <!-- Fear of Beasts -->
+        <br /><br />
+        <!-- Cult of Davkul -->
+        <div data-hex="5A92A3F2"></div>
+        <!-- Fanatic -->
+        <div data-hex="635178DF"></div>
+        <!-- Zealot -->
+        <div data-hex="35186772"></div>
+        <!-- Acolyte -->
+        <div data-hex="893869F6"></div>
+        <!-- Disciple -->
+        <div data-hex="C8944B46"></div>
+        <!-- Chosen -->
+        <div data-hex="2EBB3F39"></div>
+        <!-- Prophet -->
+        <br /><br />
+        <!-- Negative -->
+        <div data-hex="5EEFDF76"></div>
+        <!-- Addict -->
+        <div data-hex="FD829D68"></div>
+        <!-- Ailing -->
+        <div data-hex="DF6EF729"></div>
+        <!-- Asthmatic -->
+        <div data-hex="A8EF0AC9"></div>
+        <!-- Bleeder -->
+        <div data-hex="7CF4C987"></div>
+        <!-- Clubfooted -->
+        <div data-hex="B65EAFC8"></div>
+        <!-- Clumsy -->
+        <div data-hex="A6BB1D0B"></div>
+        <!-- Cocky -->
+        <div data-hex="38B69657"></div>
+        <!-- Craven -->
+        <div data-hex="9CFA5D8B"></div>
+        <!-- Dastard -->
+        <div data-hex="F21D84F3"></div>
+        <!-- Disloyal -->
+        <div data-hex="B4A3C9D5"></div>
+        <!-- Fat -->
+        <div data-hex="B9DADFBC"></div>
+        <!-- Dumb -->
+        <div data-hex="A0CF9774"></div>
+        <!-- Drunkard -->
+        <div data-hex="5065D234"></div>
+        <!-- Fainthearted -->
+        <div data-hex="0B0E08CE"></div>
+        <!-- Fragile -->
+        <div data-hex="E5EB98D2"></div>
+        <!-- Gluttonous -->
+        <div data-hex="E54F06E1"></div>
+        <!-- Greedy -->
+        <div data-hex="494312EC"></div>
+        <!-- Hesitant -->
+        <div data-hex="1F2911A2"></div>
+        <!-- Insecure -->
+        <div data-hex="5E1A0586"></div>
+        <!-- Irrational -->
+        <div data-hex="4B1B8DF7"></div>
+        <!-- Mad -->
+        <div data-hex="9F4D214B"></div>
+        <!-- Nightblind -->
+        <div data-hex="9CA0EBB9"></div>
+        <!-- Old -->
+        <div data-hex="0756CE67"></div>
+        <!-- Paranoid -->
+        <div data-hex="367B7B71"></div>
+        <!-- Pessimist -->
+        <div data-hex="70AA50F5"></div>
+        <!-- Short Sighted -->
+        <div data-hex="880DBD6B"></div>
+        <!-- Superstitious -->
+        <br /><br />
+        <div data-hex="AC1BFE37"></div>
+        <!-- Broken Knee -->
+        <div data-hex="C93E3963"></div>
+        <!-- Broken Elbow Joint -->
+        <div data-hex="83B8CEC7"></div>
+        <!-- Brain Damage -->
+        <div data-hex="41052580"></div>
+        <!-- Maimed Foot -->
+        <div data-hex="3E2CA5D6"></div>
+        <!-- Missing Ear -->
+        <div data-hex="AD97DB01"></div>
+        <!-- Missing Eye -->
+        <div data-hex="97D37685"></div>
+        <!-- Partly Collapsed Lung -->
+        <div data-hex="330BF306"></div>
+        <!-- Traumatized -->
+        <div data-hex="30184A38"></div>
+        <!-- Weakened Heart -->
+      </div>
+    </div>
+
+    <div id="item-editor" class="overlay">
+      <div class="container">
+        <div id="item-editor-header">
+          <label
+            ><span>ID:</span> <input type="text" data-bind="item.id"
+          /></label>
+          <input type="button" id="picker-button" value="id picker" />
+          <span id="item-type">Just Some Item, Mate</span>
+          <label
+            ><span>Name:</span> <input type="text" data-bind="item.name"
+          /></label>
+          <label>
+            <textarea name="" data-bind="item.description"></textarea>
+          </label>
+
+          <label
+            ><span>Attachment:</span
+            ><input
+              type="button"
+              data-bind="item.attachment"
+              id="attachment-select"
+              value="attachment button"
+          /></label>
+          <label
+            ><span> — Icon:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="99"
+              size="3"
+              data-bind="item.attachmentIcon"
+          /></label>
+        </div>
+        <div id="item-editor-column-1">
+          <label
+            ><span>Item Icon:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="65000"
+              data-bind="item.icon"
+          /></label>
+          <label
+            ><span>Noble House:</span>
+            <input
+              type="number"
+              data-min="1"
+              data-max="10"
+              data-bind="item.house"
+          /></label>
+          <label
+            ><span>Fatigue Malus:</span>
+            <input
+              type="number"
+              data-min="-128"
+              data-max="0"
+              data-bind="item.fatigue"
+          /></label>
+          <label
+            ><span>Fatigue Usage:</span>
+            <input
+              type="number"
+              data-min="-128"
+              data-max="127"
+              data-bind="item.fatigueUse"
+          /></label>
+          <label
+            ><span>Durability:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="1000"
+              data-bind="item.durability"
+          /></label>
+          <!-- <label><span>Total Durability:</span>		<input type="number"	data-min="0" data-max="1000"						data-bind="item.maxDurability"></label> -->
+          <label
+            ><span>Melee Defence:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="100"
+              data-bind="item.mDef"
+          /></label>
+          <label
+            ><span>Ranged Defence:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="100"
+              data-bind="item.rDef"
+          /></label>
+          <label
+            ><span>Amount:</span>
+            <input
+              type="number"
+              data-min="1"
+              data-max="999"
+              data-float="true"
+              data-bind="item.amount"
+          /></label>
+          <label
+            ><span>Expiration Date:</span>
+            <input type="number" data-float="true" data-bind="item.expiry"
+          /></label>
+          <label
+            ><span>Ammo:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="100"
+              data-bind="item.ammo"
+          /></label>
+        </div>
+        <div id="item-editor-column-2">
+          <label
+            ><span>Damage Min:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="1000"
+              data-bind="item.damageMin"
+          /></label>
+          <label
+            ><span>Damage Max:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="1000"
+              data-bind="item.damageMax"
+          /></label>
+          <label
+            ><span>Armor Ignore Bonus (F):</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="10"
+              data-float="true"
+              data-bind="item.penetration"
+          /></label>
+          <label
+            ><span>Damage to Armor (F):</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="10"
+              data-float="true"
+              data-bind="item.damageArmor"
+          /></label>
+          <label
+            ><span>Shield Damage:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="200"
+              data-bind="item.damageShield"
+          /></label>
+          <label
+            ><span>Head Chance Bonus:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="100"
+              data-bind="item.headChance"
+          /></label>
+          <label
+            ><span>Hit Chance Bonus:</span>
+            <input
+              type="number"
+              data-min="0"
+              data-max="100"
+              data-bind="item.hitBonus"
+          /></label>
+        </div>
+        <div id="item-editor-footer"></div>
+      </div>
+    </div>
+
+    <div id="help" class="overlay active">
+      <div class="container">
+        <h1>The BB-Edit Help Overlay!™</h1>
+
+        <p>
+          Press CTRL + L, choose a savefile, and press PARSE<br /><br />
+          If everything went well, the buttons with brothers' names and titles
+          should appear below the path input. Press those to load your mercs and
+          edit all kinds of stuff. But, if no mercs loaded, it means that they
+          (or just one of them) have items that are not present in hex
+          dictionary.
+        </p>
+        <p>
+          To edit perks - click on relevant perk icon.<br />
+          To edit traits click on trait icon to remove it, or on +- icon to open
+          trait list.<br />
+          To change brother's background click on first icon in the trait
+          field.<br />
+          To edit an item click on it's icon in inventory field.
+        </p>
+        <ul>
+          <span>Hotkeys:</span>
+          <li><span>F1</span> - - open this overlay.</li>
+          <li>
+            <span>ESC</span> - - close topmost overlay (including this one).
+          </li>
+          <li><span>CTRL + L</span> - - open file selection dialog.</li>
+          <li><span>CTRL + S</span> - - save current brother.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="item-picker" class="overlay"><div class="container"></div></div>
+
+    <div id="warning" class="overlay">
+      <div id="warning-box">
+        <span id="caption">blank</span>
+        <span id="message">blankest</span>
+        <input type="button" value="OK" />
+      </div>
+    </div>
+
+    <div id="tooltip"></div>
+
+    <template>
+      <div class="trait" data-hex="" data-name="trait"></div>
+      <input type="button" class="fill-info" data-name="info" />
+      <div class="faux-select" data-name="select">
+        <div class="arrow"></div>
+        <div class="faux-option-list"></div>
+      </div>
+      <div class="faux-option" data-name="option"></div>
+    </template>
+
+    <script>
+      const { Interface, battleBrother } = require("./js/classes.js");
+
+      var saveData;
+      var sigOffsets = [];
+
+      var gui = new Interface();
+
+      let selectList = document.getElementsByTagName("select");
+
+      for (let select of selectList) gui.processSelectElement(select);
+
+      gui.initEventListeners();
+    </script>
+  </body>
+</html>
