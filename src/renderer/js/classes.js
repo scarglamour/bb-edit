@@ -1214,8 +1214,15 @@ class Interface {
     }
     for (let icon of this.tabMap.get("perk-icons"))
       icon.classList.remove("active");
-    for (var i = 0; i < this.traitList.firstChild.children.length; i++)
-      this.traitList.firstChild.children[i].classList.remove("active");
+
+    // new clear out background‐trait circles
+    const traitContainer = this.traitList.firstElementChild;
+    if (traitContainer) {
+      for (let i = 0; i < traitContainer.children.length; i++) {
+        traitContainer.children[i].classList.remove("active");
+      }
+    }
+
     for (var i = 0; i < this.stars.length; i++)
       this.stars[i].classList.remove("active");
 
@@ -1241,7 +1248,8 @@ class Interface {
 
     for (var i = 0; i < 8; i++) {
       let binding = this.starFields[i].dataset.bind;
-      let starDivs = this.starFields[i].childNodes;
+      // grab only element-node children
+      let starDivs = this.starFields[i].children;
 
       for (var j = 0; j < brother[binding]; j++) {
         starDivs[j].classList.add("active");

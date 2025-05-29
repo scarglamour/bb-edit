@@ -687,7 +687,9 @@
 }
 [data-hex="E92E68A7"]:after {
   background: url("../../game-art/injury/bruised-leg.png");
+  /*missing here are hexes for burnt-face.png, burnt-hands.png, burnt-legs.png*/
 }
+
 [data-hex="3CA0E901"]:after {
   background: url("../../game-art/injury/crushed-finger.png");
 }
@@ -710,7 +712,8 @@
   background: url("../../game-art/injury/cut-leg-muscles.png");
 }
 [data-hex="C134425E"]:after {
-  background: url("../../game-art/injury/cut-neck-vein.png");
+  /* Cut Neck Vein */
+  background: url("../../game-art/injury/cut-throat.png");
 }
 [data-hex="7F727079"]:after {
   background: url("../../game-art/injury/deep-abdominal-cut.png");
@@ -748,8 +751,15 @@
 [data-hex="55B29B85"]:after {
   background: url("../../game-art/injury/grazed-neck.png");
 }
+[data-hex="929F3696"]:after {
+  background: url("../../game-art/injury/infected-wound.png");
+  /*missing here is hex for inhaled-flames.png*/
+}
 [data-hex="4A9EFC1C"]:after {
   background: url("../../game-art/injury/injured-knee-cap.png");
+}
+[data-hex="560A9411"]:after {
+  background: url("../../game-art/injury/injured-shoulder.png");
 }
 [data-hex="92E5CC3D"]:after {
   background: url("../../game-art/injury/pierced-arm-muscles.png");
@@ -769,9 +779,6 @@
 [data-hex="D50F8C09"]:after {
   background: url("../../game-art/injury/pierced-lung.png");
 }
-[data-hex="560A9411"]:after {
-  background: url("../../game-art/injury/pierced-shoulder.png");
-}
 [data-hex="444F995B"]:after {
   background: url("../../game-art/injury/pierced-side.png");
 }
@@ -780,6 +787,9 @@
 }
 [data-hex="D5A23C02"]:after {
   background: url("../../game-art/injury/severe-concussion.png");
+}
+[data-hex="9BEC7D5A"]:after {
+  background: url("../../game-art/injury/sickness.png");
 }
 [data-hex="FB987AC6"]:after {
   background: url("../../game-art/injury/smashed-hand.png");
@@ -799,22 +809,20 @@
 [data-hex="3FD05AAF"]:after {
   background: url("../../game-art/injury/stabbed-guts.png");
 }
-[data-hex="9BEC7D5A"]:after {
-  background: url("../../game-art/injury/sick.png");
-}
-[data-hex="929F3696"]:after {
-  background: url("../../game-art/injury/infected-wound.png");
-}
 
 /* 			Permanent injuries			*/
-[data-hex="AC1BFE37"] {
-  background: url("../../game-art/injury/permanent-broken-knee.png");
+[data-hex="83B8CEC7"] {
+  background: url("../../game-art/injury/permanent-brain-damage.png");
 }
 [data-hex="C93E3963"] {
   background: url("../../game-art/injury/permanent-broken-elbow-joint.png");
 }
-[data-hex="83B8CEC7"] {
-  background: url("../../game-art/injury/permanent-brain-damage.png");
+[data-hex="AC1BFE37"] {
+  background: url("../../game-art/injury/permanent-broken-knee.png");
+}
+[data-hex="97D37685"] {
+  /* Partly Collapsed Lung */
+  background: url("../../game-art/injury/permanent-collapsed-lung.png");
 }
 [data-hex="41052580"] {
   background: url("../../game-art/injury/permanent-maimed-foot.png");
@@ -827,12 +835,10 @@
 }
 [data-hex="7D13BB0E"] {
   background: url("../../game-art/injury/permanent-missing-finger.png");
+  /*missing here is hex for missing-hand.png*/
 }
 [data-hex="2FDDE79B"] {
   background: url("../../game-art/injury/permanent-missing-nose.png");
-}
-[data-hex="97D37685"] {
-  background: url("../../game-art/injury/permanent-partly-collapsed-lung.png");
 }
 [data-hex="330BF306"] {
   background: url("../../game-art/injury/permanent-traumatized.png");
@@ -1275,58 +1281,80 @@
 }
 
 [data-slot="body"][data-icon="1"][data-icon-set="southern"] {
+  /* Southern Long Mail Shirt with Padding */
   background-image: url("../../game-art/armor/southern-body-armor-01.png");
 }
 [data-slot="body"][data-icon="2"][data-icon-set="southern"] {
+  /* Mail with Lamellar Plating */
   background-image: url("../../game-art/armor/southern-body-armor-02.png");
 }
 [data-slot="body"][data-icon="3"][data-icon-set="southern"] {
+  /* Assassin's Robe */
   background-image: url("../../game-art/armor/southern-body-armor-03.png");
 }
 [data-slot="body"][data-icon="4"][data-icon-set="southern"] {
+  /* Southern Mail Shirt */
   background-image: url("../../game-art/armor/southern-body-armor-04.png");
 }
 [data-slot="body"][data-icon="5"][data-icon-set="southern"] {
+  /* Linothorax */
   background-image: url("../../game-art/armor/southern-body-armor-05.png");
 }
 [data-slot="body"][data-icon="6"][data-icon-set="southern"] {
+  /* Padded Vest */
   background-image: url("../../game-art/armor/southern-body-armor-06.png");
 }
 [data-slot="body"][data-icon="7"][data-icon-set="southern"] {
+  /* Padded Mail and Lamellar Hauberk */
   background-image: url("../../game-art/armor/southern-body-armor-07.png");
 }
 [data-slot="body"][data-icon="8"][data-icon-set="southern"] {
+  /* Conscript Linothorax v1*/
   background-image: url("../../game-art/armor/southern-body-armor-08.png");
 }
 [data-slot="body"][data-icon="9"][data-icon-set="southern"] {
+  /* Conscript Linothorax v2*/
   background-image: url("../../game-art/armor/southern-body-armor-09.png");
 }
 [data-slot="body"][data-icon="10"][data-icon-set="southern"] {
+  /* Conscript Linothorax v3*/
   background-image: url("../../game-art/armor/southern-body-armor-10.png");
 }
 [data-slot="body"][data-icon="11"][data-icon-set="southern"] {
+  /* Gladiator Harness */
   background-image: url("../../game-art/armor/southern-body-armor-11.png");
 }
 [data-slot="body"][data-icon="12"][data-icon-set="southern"] {
+  /* Cloth Sash v1 */
   background-image: url("../../game-art/armor/southern-body-armor-12.png");
 }
 [data-slot="body"][data-icon="13"][data-icon-set="southern"] {
+  /* Leather Nomad Robe */
   background-image: url("../../game-art/armor/southern-body-armor-13.png");
 }
 [data-slot="body"][data-icon="14"][data-icon-set="southern"] {
+  /* Stitched Nomad Armor */
   background-image: url("../../game-art/armor/southern-body-armor-14.png");
 }
 [data-slot="body"][data-icon="15"][data-icon-set="southern"] {
+  /* Plated Nomad Mail */
   background-image: url("../../game-art/armor/southern-body-armor-15.png");
 }
 [data-slot="body"][data-icon="16"][data-icon-set="southern"] {
+  /* Nomad Robe */
   background-image: url("../../game-art/armor/southern-body-armor-16.png");
 }
 [data-slot="body"][data-icon="17"][data-icon-set="southern"] {
+  /* Thick Nomad Robe */
   background-image: url("../../game-art/armor/southern-body-armor-17.png");
 }
 [data-slot="body"][data-icon="18"][data-icon-set="southern"] {
+  /* Cloth Sash v2 */
   background-image: url("../../game-art/armor/southern-body-armor-18.png");
+}
+[data-slot="body"][data-icon="19"][data-icon-set="southern"] {
+  /* Cloth Sash v3 */
+  background-image: url("../../game-art/armor/southern-body-armor-19.png");
 }
 
 [data-slot="body"][data-icon="1"][data-hex="BF3413DE"] {
@@ -2465,7 +2493,7 @@
   background-image: url("../../game-art/weapons/melee/axe-two-handed-01.png");
 }
 .pouch[data-hex="11FE31EC"] {
-  background-image: url("../../game-art/weapons/melee/axe-two-handed-02-inv.png");
+  background-image: url("../../game-art/weapons/melee/axe-two-handed-01-inv.png");
 }
 [data-hex="6CDC5B88"] {
   background-image: url("../../game-art/weapons/melee/axe-two-handed-02.png");
@@ -2882,7 +2910,7 @@
   background-image: url("../../game-art/weapons/melee/falx.png");
 }
 .pouch[data-hex="D040B3C1"] {
-  background-image: url("../../game-art/weapons/melee/flail-inv.png");
+  background-image: url("../../game-art/weapons/melee/falx-inv.png");
 }
 [data-hex="5FEC8442"] {
   background-image: url("../../game-art/weapons/melee/khopesh.png");
@@ -3190,7 +3218,7 @@
   background-image: url("../../game-art/weapons/melee/warfork.png");
 }
 .pouch[data-hex="E05EABE8"] {
-  background-image: url("../../game-art/weapons/melee/warbrand-inv.png");
+  background-image: url("../../game-art/weapons/melee/warfork-inv.png");
 }
 [data-hex="9CB0C3EC"] {
   background-image: url("../../game-art/weapons/ranged/staff-sling.png");
@@ -5309,7 +5337,7 @@
 }
 
 [data-hex="CA9A13FB"] {
-  background-image: url("../../game-art/misc/sword-blade.png");
+  background-image: url("../../game-art/misc/legendary-sword-blade.png");
 }
 
 [data-hex="783B7F1B"] {
