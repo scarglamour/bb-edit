@@ -30,13 +30,22 @@
    npm install
    ```
 
-3. Run in development mode:
+3. Extract game assets **before** running the app:
+
+   ```bash
+   python tools/extract_and_map.py \
+     --dat "/path/to/Battle Brothers/data/data_001.dat" \
+     --out game-art \
+     --map tools/asset-map.json
+   ```
+
+   This will populate the `game-art/` folder with the images required by BB-Edit.
+
+4. Run in development mode:
 
    ```bash
    npm start
    ```
-
----
 
 ## Packaging
 
@@ -48,7 +57,7 @@ npm run dist
 
 This will produce:
 
-- `release/BB-Edit-<version>-portable.exe` (self-extracting)
+- `release/BB-Edit-<version>-portable.exe` (self-contained executable build)
 - `release/BB-Edit-<version>.zip` (compressed archive)
 
 ---
