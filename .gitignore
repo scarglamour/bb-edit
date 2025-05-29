@@ -1,0 +1,21 @@
+# Node artifacts
+node_modules/
+dist/
+release/
+
+# Build outputs, OS files
+*.log
+.DS_Store
+
+# Game data (not part of the editor source)
+game-art/
+
+# Everything else except the files we want
+# We'll explicitly include src/, tools/, package.json, README.md
+*
+!/.gitignore
+!/src/
+!/tools/
+!/package.json
+!/package-lock.json
+!/README.md

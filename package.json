@@ -1,0 +1,54 @@
+{
+  "name": "bb-edit",
+  "productName": "BB-Edit",
+  "version": "1.7.2",
+  "description": "Battle Brothers save editor for Battle Brothers v1.5.1.x",
+  "author": "9th King of Lies",
+  "contributors": [
+    {
+      "name": "ScarGlamour"
+    }
+  ],
+  "keywords": [
+    "battle-brothers",
+    "save-editor",
+    "hex",
+    "bb-edit"
+  ],
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "electron": ">=23.0.0"
+  },
+  "devDependencies": {
+    "electron": "^36.3.1",
+    "electron-builder": "^26.0.12"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@electron/remote": "^2.1.2"
+  },
+  "build": {
+    "appId": "com.scarglamour.bbedit",
+    "productName": "BB-Edit",
+    "asar": true,
+    "files": [
+      "src/main.js",
+      "src/renderer/**",
+      "game-art/**",
+      "!tools/**"
+    ],
+    "forceCodeSigning": false,
+    "win": {
+      "target": [
+        "portable",
+        "zip"
+      ],
+      "icon": "assets/bbedit.ico"
+    }
+  }
+}
