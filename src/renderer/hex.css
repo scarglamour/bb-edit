@@ -427,13 +427,13 @@
   background: url("../../game-art/traits/morale.png");
 }
 [data-hex="C7E3D324"] {
-  background: url("assets/ui/unknown-trait.png");
+  background: url("assets/unknown-trait.png");
 }
 [data-hex="68DADB2C"] {
-  background: url("assets/ui/unknown-trait.png");
+  background: url("assets/unknown-trait.png");
 }
 [data-hex="6D8B77EF"] {
-  background: url("assets/ui/unknown-trait.png");
+  background: url("assets/unknown-trait.png");
 }
 
 /*			Backgrounds			*/

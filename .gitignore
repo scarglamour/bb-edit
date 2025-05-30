@@ -8,6 +8,10 @@
 !/package-lock.json
 !/README.md
 
+# un-ignore the build folder and everything beneath it
+!/build/
+!/build/**
+
 # un-ignore the src folder and everything beneath it
 !/src/
 !/src/**

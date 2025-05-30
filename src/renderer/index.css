@@ -1,16 +1,16 @@
 @font-face {
   font-family: CinzelDecorative;
-  src: url("assets/ui/CinzelDecorative-Bold.otf");
+  src: url("assets/CinzelDecorative-Bold.otf");
 }
 
 @font-face {
   font-family: CinzelRegular;
-  src: url("assets/ui/Cinzel-Regular.otf");
+  src: url("assets/Cinzel-Regular.otf");
 }
 
 @font-face {
   font-family: CinzelBold;
-  src: url("assets/ui/Cinzel-Bold.otf");
+  src: url("assets/Cinzel-Bold.otf");
 }
 
 .hidden {
@@ -18,7 +18,7 @@
 }
 
 body {
-  background: url("assets/ui/background.png");
+  background: url("assets/background.png");
   margin: 0;
   font: normal 16px Arial;
   display: flex;
@@ -442,7 +442,7 @@ input#load-file {
   width: 20px;
   height: 24px;
   display: inline-block;
-  background: url("assets/ui/icon-special.png");
+  background: url("assets/icon-special.png");
   filter: grayscale() contrast(1.5);
   opacity: 0.2;
   cursor: pointer;
@@ -465,28 +465,28 @@ input#load-file {
   margin-left: 18px;
 }
 .icon.health {
-  background: url("assets/ui/icon-health.png");
+  background: url("assets/icon-health.png");
 }
 .icon.melee-skill {
-  background: url("assets/ui/icon-mSkill.png");
+  background: url("assets/icon-mSkill.png");
 }
 .icon.fatigue {
-  background: url("assets/ui/icon-fatigue.png");
+  background: url("assets/icon-fatigue.png");
 }
 .icon.ranged-skill {
-  background: url("assets/ui/icon-rSkill.png");
+  background: url("assets/icon-rSkill.png");
 }
 .icon.resolve {
-  background: url("assets/ui/icon-resolve.png");
+  background: url("assets/icon-resolve.png");
 }
 .icon.melee-defense {
-  background: url("assets/ui/icon-mDefense.png");
+  background: url("assets/icon-mDefense.png");
 }
 .icon.initiative {
-  background: url("assets/ui/icon-initiative.png");
+  background: url("assets/icon-initiative.png");
 }
 .icon.ranged-defense {
-  background: url("assets/ui/icon-rDefense.png");
+  background: url("assets/icon-rDefense.png");
 }
 
 div#save-inputs {
@@ -610,7 +610,7 @@ div#traits {
   cursor: default;
 } /* can't remove morale and unknown traits and your mother is a nice lady */
 [data-hex="TOOL0000"] {
-  background: url("assets/ui/plus-minus-traits.png");
+  background: url("assets/plus-minus-traits.png");
 }
 
 .trait.injury:after {
@@ -644,7 +644,7 @@ div.perk::after {
   width: 56px;
   height: 56px;
   border-radius: 56px;
-  background: url("assets/ui/selection-frame-active.png");
+  background: url("assets/selection-frame-active.png");
 }
 
 div.perk:hover::after {
@@ -794,8 +794,8 @@ input.fill-info {
   text-shadow: 1px 1px 1px rgba(255, 242, 221, 0.5),
     0px 0px 12px rgba(255, 242, 221, 0.5);
   text-align: left;
-  background: url("assets/ui/tooltip-top.png") center -2px no-repeat,
-    url("assets/ui/tooltip-background.png") bottom center;
+  background: url("assets/tooltip-top.png") center -2px no-repeat,
+    url("assets/tooltip-background.png") bottom center;
   position: relative;
 }
 
