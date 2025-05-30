@@ -57,8 +57,8 @@ npm run dist
 
 This will produce:
 
-- `release/BB-Edit-<version>-portable.exe` (self-contained executable build)
-- `release/BB-Edit-<version>.zip` (compressed archive)
+- `dist/BB-Edit-<version>-portable.exe` (self-contained executable build)
+- `dist/BB-Edit-<version>.zip` (compressed archive)
 
 ---
 
@@ -71,6 +71,8 @@ bb-edit/
 │   └── renderer/     # BrowserWindow UI, HTML/CSS/JS
 └── tools/            # Development utility scripts (not shipped)
     ├── asset-map.json
+    ├── check_png_usage.py
+    ├── compare_assets.py
     ├── extract_and_map.py
     └── generate_asset_map.py
 ```
@@ -79,7 +81,7 @@ bb-edit/
 
 ## Tools Directory
 
-The `tools/` folder contains helper scripts and mapping data used during development to extract and remap game assets. These files are **not** packaged into the distributed app.
+The `tools/` folder contains helper scripts and mapping data used during development to extract, remap, and check game assets. These files are **not** packaged into the distributed app.
 
 ### asset-map.json
 
