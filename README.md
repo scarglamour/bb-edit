@@ -20,7 +20,7 @@
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/<your-username>/bb-edit.git
+   git clone https://github.com/scarglamour/bb-edit.git
    ```
 
 2. Install dependencies:
@@ -73,6 +73,7 @@ bb-edit/
     ├── asset-map.json
     ├── check_png_usage.py
     ├── compare_assets.py
+    ├── convert_dict.py
     ├── extract_and_map.py
     └── generate_asset_map.py
 ```
@@ -91,6 +92,40 @@ A JSON mapping of archive entries to the desired local filenames.
 - **Value:** Relative path under `tools/game-art/` (e.g. `accessory/young-anselm-skull-1.png`).
 
 Used by `extract_and_map.py` to know exactly which files to extract and how to rename them.
+
+### check_png_usage.py
+
+`check_png_usage.py` scans `.nut` script files to determine which PNG assets listed in an `asset_report.txt` (under the section `== Unused .png files ==`) are actually referenced in those scripts. It reports both “found” (used) and “not found” (unused) PNG filenames.
+
+**Usage:**
+
+```bash
+python3 check_png_usage.py --script-dir /path/to/nut-scripts --report-file /path/to/asset_report.txt
+```
+
+### compare_assets.py
+
+`compare_assets.py` scans your project’s HTML and CSS files to detect all referenced PNG assets and compares that set against the PNG files actually present in designated asset directories. It generates a report listing:
+
+1. **Missing .png references** – PNG filenames referenced in HTML/CSS but not found on disk.
+2. **Unused .png files** – PNG files present in asset directories but never referenced by any HTML/CSS.
+   This helps you quickly identify broken links (missing images) and orphaned assets (unused images) in the project.
+
+**Usage:**
+
+```bash
+python3 compare_assets.py
+```
+
+### convert_dict.py
+
+`convert_dict.py` reads a JSON file (expected to be an array of [hex_code, info] entries), groups those items by their “type” field in info, and writes a human-readable text file listing each item under its category header.
+
+**Usage:**
+
+```bash
+python3 convert_dict.py /path/to/dictionary.json -o /path/to/items_grouped.txt
+```
 
 ### extract_and_map.py
 
