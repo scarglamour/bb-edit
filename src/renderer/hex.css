@@ -687,9 +687,19 @@
 }
 [data-hex="E92E68A7"]:after {
   background: url("../../game-art/injury/bruised-leg.png");
-  /*missing here are hexes for burnt-face.png, burnt-hands.png, burnt-legs.png*/
 }
-
+[data-hex="B1EE9B89"]:after {
+  background: url("../../game-art/injury/burnt-face.png");
+}
+[data-hex="ACBC18B5"]:after {
+  background: url("../../game-art/injury/burnt-hands.png");
+}
+[data-hex="55BAFB4C"]:after {
+  background: url("../../game-art/injury/burnt-legs.png");
+}
+[data-hex="90926FBB"]:after {
+  background: url("../../game-art/injury/inhaled-flames.png");
+}
 [data-hex="3CA0E901"]:after {
   background: url("../../game-art/injury/crushed-finger.png");
 }
@@ -1278,6 +1288,14 @@
 }
 [data-slot="body"][data-icon="113"] {
   background-image: url("../../game-art/armor/body-armor-113.png");
+}
+[data-slot="body"][data-icon="114"] {
+  /* Robes of Divination */
+  background-image: url("../../game-art/armor/body-armor-114.png");
+}
+[data-slot="body"][data-icon="115"] {
+  /* Occult Robes */
+  background-image: url("../../game-art/armor/body-armor-115.png");
 }
 
 [data-slot="body"][data-icon="1"][data-icon-set="southern"] {
@@ -2283,6 +2301,18 @@
 [data-slot="helmet"][data-icon="242"] {
   background-image: url("../../game-art/helmets/helmet-242.png");
 }
+[data-slot="helmet"][data-icon="243"] {
+  background-image: url("../../game-art/helmets/helmet-243.png");
+}
+[data-slot="helmet"][data-icon="244"] {
+  background-image: url("../../game-art/helmets/helmet-244.png");
+}
+[data-slot="helmet"][data-icon="245"] {
+  background-image: url("../../game-art/helmets/helmet-245.png");
+}
+[data-slot="helmet"][data-icon="246"] {
+  background-image: url("../../game-art/helmets/helmet-246.png");
+}
 
 [data-slot="helmet"][data-icon-set="southern"][data-icon="1"] {
   background-image: url("../../game-art/helmets/southern-helmet-01.png");
@@ -3133,6 +3163,12 @@
 }
 .pouch[data-hex="F5D22AB6"] {
   background-image: url("../../game-art/weapons/melee/old-gods-reproach-inv.png");
+}
+[data-hex="01BE0537"] {
+  background-image: url("../../game-art/weapons/melee/miasma-flail.png");
+}
+.pouch[data-hex="01BE0537"] {
+  background-image: url("../../game-art/weapons/melee/miasma-flail-inv.png");
 }
 [data-hex="502AC62D"] {
   background-image: url("../../game-art/weapons/ranged/throwing-spear.png");
@@ -4719,7 +4755,7 @@
 } /* generic craft! Kraken Horn */
 
 [data-hex="F1352077"] {
-  background-image: url("../../game-art/shields/legendary-shield-01.png");
+  background-image: url("../../game-art/shields/legendary-shield-1.png");
 } /* Gilder's Embrace */
 
 [data-hex="8B6FEAB4"][data-icon="1"] {
@@ -4911,6 +4947,9 @@
 }
 [data-hex="8F745EF5"] {
   background-image: url("../../game-art/consumables/blue-vial.png");
+}
+[data-hex="39CC532F"] {
+  background-image: url("../../game-art/consumables/green-vial.png");
 }
 
 /* 			Paints 			*/
@@ -5273,6 +5312,10 @@
   background-image: url("../../game-art/misc/anatomists-book-4.png");
 }
 
+[data-hex="A8851AE9"] {
+  background-image: url("../../game-art/misc/manhunters-ledger.png");
+}
+
 [data-hex="03E314EB"] {
   background-image: url("../../game-art/misc/broken-ritual-armor.png");
 }
@@ -5338,6 +5381,9 @@
 
 [data-hex="CA9A13FB"] {
   background-image: url("../../game-art/misc/legendary-sword-blade.png");
+}
+[data-hex="7C1244E5"] {
+  background-image: url("../../game-art/misc/legendary-sword-grip.png");
 }
 
 [data-hex="783B7F1B"] {
@@ -5426,4 +5472,8 @@
 }
 [data-hex="884E5D5D"] {
   background-image: url("../../game-art/supplies/unhold-heart.png");
+}
+
+[data-hex="B0D8E9D6"] {
+  background-image: url("../../game-art/supplies/preserved-mead.png");
 }

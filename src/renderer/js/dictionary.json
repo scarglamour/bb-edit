@@ -262,6 +262,10 @@
   ["09836E27", { "name": "Broken Nose", "type": "injury" }],
   ["948EC880", { "name": "Broken Ribs", "type": "injury" }],
   ["E92E68A7", { "name": "Bruised Leg", "type": "injury" }],
+  ["B1EE9B89", { "name": "Burnt Face", "type": "injury" }],
+  ["ACBC18B5", { "name": "Burnt Hands", "type": "injury" }],
+  ["55BAFB4C", { "name": "Burnt Legs", "type": "injury" }],
+  ["90926FBB", { "name": "Inhaled Flames", "type": "injury" }],
   ["3CA0E901", { "name": "Crushed Finger", "type": "injury" }],
   ["5509577A", { "name": "Crushed Windpipe", "type": "injury" }],
   ["3B908417", { "name": "Cut Achilles Tendon", "type": "injury" }],
@@ -852,6 +856,14 @@
     "F5D22AB6",
     {
       "name": "Reproach of the Old Gods",
+      "type": "genericWeapon",
+      "slot": "weapon"
+    }
+  ],
+  [
+    "01BE0537",
+    {
+      "name": "Censer of the Diviner",
       "type": "genericWeapon",
       "slot": "weapon"
     }
@@ -2039,13 +2051,47 @@
   ],
 
   [
+    "89863858",
+    {
+      "name": "Temple of Knowledge",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 10,
+      "fatigue": 0,
+      "icon": 244
+    }
+  ],
+  [
+    "1B44227A",
+    {
+      "name": "Occult Eye Mask",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 245
+    }
+  ],
+  [
+    "4221A636",
+    {
+      "name": "Leather Facewrap",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 30,
+      "fatigue": 0,
+      "icon": 246
+    }
+  ],
+
+  [
     "E992CF1E",
     {
       "name": "Glimpse of Davkul",
       "type": "genericHelmet",
       "slot": "helmet",
       "durability": 270,
-      "fatigue": -8,
+      "fatigue": -10,
       "icon": 85
     }
   ],
@@ -2063,12 +2109,24 @@
   ],
 
   [
+    "E9AAD871",
+    {
+      "name": "Cowl of Divination",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 75,
+      "fatigue": -2,
+      "icon": 243
+    }
+  ],
+
+  [
     "820865B7",
     {
       "name": "The Emperor's Countenance",
       "type": "genericHelmet",
       "slot": "helmet",
-      "durability": 380,
+      "durability": 400,
       "fatigue": -20,
       "icon": 84
     }
@@ -3026,6 +3084,18 @@
   ],
 
   [
+    "87762F18",
+    {
+      "name": "Occult Robes",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 75,
+      "fatigue": -7,
+      "icon": 115
+    }
+  ],
+
+  [
     "E9857130",
     {
       "name": "Aspect of Davkul",
@@ -3056,9 +3126,20 @@
       "name": "The Emperor's Armor",
       "type": "genericArmor",
       "slot": "body",
-      "durability": 380,
+      "durability": 400,
       "fatigue": -30,
       "icon": 80
+    }
+  ],
+  [
+    "90120347",
+    {
+      "name": "Robes of Divination",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 125,
+      "fatigue": -9,
+      "icon": 114
     }
   ],
 
@@ -4708,6 +4789,10 @@
     "8F745EF5",
     { "name": "Blue Vial", "type": "auxiliary", "slot": "consumable" }
   ],
+  [
+    "39CC532F",
+    { "name": "Green Vial", "type": "auxiliary", "slot": "consumable" }
+  ],
 
   [
     "0F4023C9",
@@ -5233,6 +5318,15 @@
       "subType": "provisions"
     }
   ],
+  [
+    "B0D8E9D6",
+    {
+      "name": "Preserved Mead",
+      "slot": "provisions",
+      "type": "auxiliary",
+      "subType": "provisions"
+    }
+  ],
 
   [
     "7DD07674",
@@ -5549,6 +5643,10 @@
     "CA9A13FB",
     { "name": "Sword Blade", "slot": "questitem", "type": "auxiliary" }
   ],
+  [
+    "7C1244E5",
+    { "name": "Sword Grip", "slot": "questitem", "type": "auxiliary" }
+  ],
 
   [
     "D51D7A41",
@@ -5577,6 +5675,11 @@
   [
     "33181866",
     { "name": "Book of Legends", "slot": "questitem", "type": "auxiliary" }
+  ],
+
+  [
+    "A8851AE9",
+    { "name": "Company Ledger", "slot": "questitem", "type": "auxiliary" }
   ],
 
   [

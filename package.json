@@ -1,8 +1,8 @@
 {
   "name": "bb-edit",
   "productName": "BB-Edit",
-  "version": "1.7.2",
-  "description": "Battle Brothers save editor for Battle Brothers v1.5.1.x",
+  "version": "1.7.3",
+  "description": "Battle Brothers save editor for Battle Brothers v1.5.1+",
   "author": "9th King of Lies",
   "contributors": [
     {
@@ -44,16 +44,17 @@
       "src/main.js",
       "src/renderer/**",
       "game-art/**",
-      "!tools/**"
+      "!tools/**",
+      "!build/**"
     ],
     "forceCodeSigning": false,
     "win": {
-      "artifactName": "${productName}-v${version}-portable.${ext}",
+      "artifactName": "${productName}-v${version}.${ext}",
       "target": [
         "portable",
         "zip"
       ],
-      "icon": "bbedit.ico"
+      "icon": "build/bbedit.ico"
     }
   }
 }

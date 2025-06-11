@@ -1554,13 +1554,19 @@ class Interface {
 
   handleStarChange(target) {
     if (!target.classList.contains("star") || !this.currentBrother) return;
-    let binding = target.parentElement.dataset.bind;
-    let stars = Array.from(target.parentElement.childNodes);
+
+    // Grab only the .star DIVs
+    let stars = Array.from(target.parentElement.querySelectorAll(".star"));
     let index = stars.indexOf(target);
+    // Determine which binding (e.g. "starHealth")
+    let binding = target.parentElement.dataset.bind;
     let type = binding.replace("star", "");
 
-    for (var i = 0; i < 3; i++) stars[i].classList.remove("active");
-
+    // Clear all three stars
+    for (let i = 0; i < stars.length; i++) {
+      stars[i].classList.remove("active");
+    }
+    // Toggle-off‐case: if it was already 1 and you clicked the first star
     if (this.currentBrother[binding] === 1 && index === 0) {
       this.currentBrother[binding] = 0;
       this.currentBrother["talent" + type] =
@@ -1568,12 +1574,15 @@ class Interface {
       this.updateTalentBytes(type);
       return;
     }
-
+    // Otherwise set to (index + 1) stars
     this.currentBrother[binding] = index + 1;
     this.currentBrother["talent" + type] =
       this.currentBrother.generateTalentString(type);
     this.updateTalentBytes(type);
-    for (var i = 0; i <= index; i++) stars[i].classList.add("active");
+    // Light up exactly (index + 1) stars in the UI
+    for (let i = 0; i <= index; i++) {
+      stars[i].classList.add("active");
+    }
   }
 
   handleTalentPointChange(points) {

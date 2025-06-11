@@ -34,7 +34,7 @@ function createWindow() {
   );
 
   // show DEBUG
-  // win.webContents.openDevTools({ mode: "bottom" });
+  win.webContents.openDevTools({ mode: "bottom" });
 
   // Emitted when the window is closed.
   win.on("closed", () => {
