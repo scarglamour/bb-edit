@@ -916,6 +916,13 @@ input.fill-info {
   width: 50px;
 }
 
+.slot[data-unknown-item="true"] {
+  background-image: url("assets/unknown-trait.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 56px 56px;
+}
+
 #background-list .container div,
 #trait-list .container div {
   width: 56px;

@@ -435,6 +435,9 @@
 [data-hex="6D8B77EF"] {
   background: url("assets/unknown-trait.png");
 }
+[data-unknown-circle="true"] {
+  background: url("assets/unknown-trait.png");
+}
 
 /*			Backgrounds			*/
 
