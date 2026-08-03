@@ -920,7 +920,7 @@ class battleBrother extends Entity {
     this.perks = [];
     this.background = "";
     int1 = this.readBytes(2, true, "readUInt16LE");
-    logParseIssue(
+    logParseIssue( 
       "Reading traits/backgrounds | brother: " +
         this.parseIndex +
         " | count: " +
@@ -936,16 +936,27 @@ class battleBrother extends Entity {
       this.readOffset += 2; //skip isNew byte for skill serialization
 
       if (!hexDictionary.has(circleHex)) {
-        throw new Error(
-          "Unknown trait/background while seeking background | brother: " +
-            this.parseIndex +
-            " | index: " +
-            i +
-            " | relativeOffset: " +
-            circleOffset +
-            " | id: " +
-            circleHex
-        );
+        if (record.type === "background") {
+          throw new Error(
+            "Background was not found before the circle section ended | brother: " +
+              this.parseIndex +
+              " | count: " +
+              int1 +
+              " | relativeOffset: " +
+              this.readOffset
+          );
+        } else {
+          logParseIssue(
+            "Unknown non-background perk while seeking | brother: " +
+              this.parseIndex +
+              " | index: " +
+              i +
+              " | relativeOffset: " +
+              circleOffset +
+              " | id: " +
+              circleHex
+          );
+        }
       }
 
       if (record.type === "background") {
@@ -971,8 +982,8 @@ class battleBrother extends Entity {
       trait.id = this.readBytes(4).toUpperCase();
       let record = getCircleRecord(trait.id);
 
-      if (!hexDictionary.has(trait.id))
-        throw new Error(
+      if (!hexDictionary.has(trait.id)) {
+        logParseIssue(
           "Unknown trait | brother: " +
             this.parseIndex +
             " | index: " +
@@ -982,6 +993,7 @@ class battleBrother extends Entity {
             " | id: " +
             trait.id
         );
+      }
 
       if (record.type !== "injury") this.readOffset += 2; //accomodating "isNew" property of some traits
 
