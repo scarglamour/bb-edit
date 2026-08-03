@@ -42,11 +42,6 @@ const SlotNames = [
   "quiver",
   "pouch",
 ];
-const unknownItemRecord = {
-  name: "Unknown Item",
-  type: "unknownItem",
-  slot: "pouch",
-};
 const unknownCircleRecord = {
   name: "Unknown",
   type: "internal",
@@ -54,10 +49,6 @@ const unknownCircleRecord = {
 
 function itemSlotName(slot) {
   return SlotNames[slot] || "unknown";
-}
-
-function isInventorySlot(slot) {
-  return Number.isInteger(slot) && slot >= 0 && slot < SlotNames.length;
 }
 
 function getCircleRecord(hex) {
@@ -458,44 +449,6 @@ const Forge = {
     } else if (subType === "commodity")
       item.bought = entity.readBytes(2, true, "readInt16LE");
   },
-  unknownItem: (entity, item) => {
-    item.unknown = true;
-    item.name = "Unknown Item - " + item.id;
-    if (item.slot === 0) {
-      item.unknownLayout = "genericWeapon";
-      Forge.generic(entity, item);
-      item.ammo = entity.readBytes(2, true, "readUInt16LE");
-    } else if (item.slot === 1) {
-      item.unknownLayout = "genericShield";
-      Forge.generic(entity, item);
-    } else if (item.slot === 2) {
-      item.unknownLayout = "genericBodyArmor";
-      item.attachment = entity.readBytes(4).toUpperCase();
-      if (item.attachment !== "00000000") {
-        entity.readOffset += 2;
-        item.attachmentIcon = entity.readBytes(2, true, "readUInt16LE");
-        entity.readOffset += 22;
-        item.baseDurability = entity.readBytes(4, true, "readFloatLE");
-        item.baseFatigue = entity.readBytes(2, true, "readInt16LE");
-      }
-      Forge.generic(entity, item);
-      item.durability = entity.readBytes(4, true, "readFloatLE");
-      item.fatigue = entity.readBytes(4, true, "readFloatLE");
-      if (item.baseDurability === undefined) item.baseDurability = item.durability;
-      if (item.baseFatigue === undefined) item.baseFatigue = item.fatigue;
-    } else if (item.slot === 3) {
-      item.unknownLayout = "genericHelmet";
-      Forge.generic(entity, item);
-      item.durability = entity.readBytes(4, true, "readFloatLE");
-    } else if (item.slot === 5) {
-      item.unknownLayout = "genericAmmo";
-      Forge.generic(entity, item);
-      item.ammo = entity.readBytes(2, true, "readUInt16LE");
-    } else {
-      item.unknownLayout = "generic";
-      Forge.generic(entity, item);
-    }
-  },
 };
 
 const Meltdown = {
@@ -666,46 +619,6 @@ const Meltdown = {
 
     return itemHex;
   },
-  unknownItem: (item) => {
-    if (item.unknownLayout === "genericWeapon") {
-      let itemHex = Meltdown.generic(item);
-      itemHex += toBytes(item.ammo || 0, "writeUInt16LE");
-      return itemHex;
-    }
-
-    if (item.unknownLayout === "genericBodyArmor") {
-      let itemHex = "";
-      itemHex += "0" + item.slot;
-      itemHex += item.id;
-      itemHex += item.attachment || "00000000";
-      if (item.attachment && item.attachment !== "00000000") {
-        itemHex += "00";
-        itemHex += toBytes(item.attachmentIcon || 0, "writeUInt16LE");
-        itemHex += quantityHex.repeat(2) + toBytes(item.magicNumber || 99, "writeUInt8");
-        itemHex += "0000";
-        itemHex += toBytes(item.baseDurability || item.durability, "writeFloatLE");
-        itemHex += toBytes(item.baseFatigue || item.fatigue || 0, "writeInt16LE");
-      }
-      itemHex += Meltdown.generic(item, false);
-      itemHex += toBytes(item.durability || 1, "writeFloatLE");
-      itemHex += toBytes(item.fatigue || 0, "writeFloatLE");
-      return itemHex;
-    }
-
-    if (item.unknownLayout === "genericHelmet") {
-      let itemHex = Meltdown.generic(item);
-      itemHex += toBytes(item.durability || 1, "writeFloatLE");
-      return itemHex;
-    }
-
-    if (item.unknownLayout === "genericAmmo") {
-      let itemHex = Meltdown.generic(item);
-      itemHex += toBytes(item.ammo || 0, "writeUInt16LE");
-      return itemHex;
-    }
-
-    return Meltdown.generic(item);
-  },
 };
 
 class Entity {
@@ -869,7 +782,21 @@ class battleBrother extends Entity {
       let itemStart = this.readOffset;
       item.slot = this.readBytes(1, true);
       item.id = this.readBytes(4).toUpperCase();
-      let record = hexDictionary.get(item.id) || unknownItemRecord;
+      let record = hexDictionary.get(item.id);
+      if (!record) {
+        throw new Error(
+          "Unknown item equipped | brother: " +
+            this.parseIndex +
+            " | item: " +
+            i +
+            " | relativeOffset: " +
+            itemStart +
+            " | slot: " +
+            itemSlotName(item.slot) +
+            " | id: " +
+            item.id
+        );
+      }
       logParseIssue(
         "Reading brother item | brother: " +
           this.parseIndex +
@@ -885,16 +812,6 @@ class battleBrother extends Entity {
           record.type
       );
 
-      if (!hexDictionary.has(item.id)) {
-        item.unknown = true;
-        logParseIssue(
-          "Unknown item equipped | slot: " +
-            itemSlotName(item.slot) +
-            " | id: " +
-            item.id
-        );
-      }
-
       item.type = record.type;
       Forge[item.type](this, item);
       logParseIssue(
@@ -906,12 +823,7 @@ class battleBrother extends Entity {
           this.readOffset
       );
 
-      if (
-        !isInventorySlot(item.slot) ||
-        item.slot === 6 ||
-        item.slot >= this.inventory.size
-      )
-        this.inventory.push(item);
+      if (item.slot === 6) this.inventory.push(item);
       else this.inventory.assign(item.slot, item);
     }
 
@@ -1173,11 +1085,15 @@ class Stash extends Entity {
         continue;
 
       item.id = this.readBytes(4).toUpperCase();
-      let record = hexDictionary.get(item.id) || unknownItemRecord;
-      if (!hexDictionary.has(item.id)) {
-        item.unknown = true;
-        logParseIssue(
-          "Unknown item in stash | id: " + item.id + " | using placeholder"
+      let record = hexDictionary.get(item.id);
+      if (!record) {
+        throw new Error(
+          "Unknown item in stash | index: " +
+            i +
+            " | relativeOffset: " +
+            this.readOffset +
+            " | id: " +
+            item.id
         );
       }
 
@@ -1320,7 +1236,7 @@ class Interface {
   }
 
   populateSlot(slot, item) {
-    let record = hexDictionary.get(item.id) || unknownItemRecord;
+    let record = hexDictionary.get(item.id);
 
     if (item.isEmpty) {
       if (item.origin === "brother" && slot.classList.contains("pouch"))
@@ -1334,7 +1250,6 @@ class Interface {
     slot.dataset.hex = item.id;
 
     if (item.icon !== undefined) slot.dataset.icon = item.icon;
-    if (item.unknown) slot.dataset.unknownItem = "true";
 
     if (record.iconSet) slot.dataset.iconSet = record.iconSet;
     else delete slot.dataset.iconSet;
@@ -1664,7 +1579,7 @@ class Interface {
   populateItemEditor() {
     let item = this.inventory.cItem;
     let slot = this.inventory.cSlot;
-    let record = hexDictionary.get(item.id) || unknownItemRecord;
+    let record = hexDictionary.get(item.id);
 
     this.inventory.type.textContent = item.id
       ? record.name
@@ -1843,7 +1758,7 @@ class Interface {
   handleItemID(input) {
     let value = input.value.toUpperCase();
     let item = this.inventory.cItem;
-    let recordOld = hexDictionary.get(item.id) || unknownItemRecord;
+    let recordOld = hexDictionary.get(item.id);
     let recordNew = hexDictionary.get(value);
 
     if (value.search(/[^a-f0-9]/gi) > 0)
