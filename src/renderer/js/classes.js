@@ -42,6 +42,64 @@ const SlotNames = [
   "quiver",
   "pouch",
 ];
+const unknownCircleRecord = {
+  name: "Unknown",
+  type: "internal",
+};
+
+const VERBOSE_PARSE_LOG = false;
+let parseLogBuffer = [];
+
+function itemSlotName(slot) {
+  return SlotNames[slot] || "unknown";
+}
+
+function getCircleRecord(hex) {
+  return hexDictionary.get(hex) || unknownCircleRecord;
+}
+
+function getParseLogPath() {
+  try {
+    return path.join(remote.app.getPath("userData"), "parse-errors.log");
+  } catch (error) {
+    return path.join(process.cwd(), "parse-errors.log");
+  }
+}
+
+function formatParseDetail(detail) {
+  if (!detail) return "";
+  if (detail instanceof Error) return "\n" + (detail.stack || detail.message);
+  if (typeof detail === "string") return " | " + detail;
+  return " | " + JSON.stringify(detail);
+}
+
+function logParseIssue(message, detail, verbose = false) {
+  if (verbose && !VERBOSE_PARSE_LOG) return;
+
+  let entry =
+    "[" + new Date().toISOString() + "] " + message + formatParseDetail(detail);
+
+  console.warn(entry);
+  parseLogBuffer.push(entry);
+}
+
+function flushParseLog() {
+  if (!parseLogBuffer.length) return;
+
+  try {
+    fs.writeFileSync(
+      getParseLogPath(),
+      parseLogBuffer.join("\n") + "\n",
+      "utf8",
+    );
+  } catch (error) {
+    console.warn("Unable to write parse log", error);
+  }
+}
+
+function resetParseLog() {
+  parseLogBuffer = [];
+}
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -109,14 +167,14 @@ const ItemValueRandomizer = {
 
   namedArmor: (item) => {
     item.durability = Math.floor(
-      item.durability * getRandomInt(110, 125) * 0.01
+      item.durability * getRandomInt(110, 125) * 0.01,
     );
     item.fatigue = Math.min(-8, item.fatigue + getRandomInt(3, 9));
   },
 
   namedHelmet: (item) => {
     item.durability = Math.floor(
-      item.durability * getRandomInt(110, 125) * 0.01
+      item.durability * getRandomInt(110, 125) * 0.01,
     );
     item.fatigue = Math.min(-4, item.fatigue + getRandomInt(1, 4));
   },
@@ -145,7 +203,7 @@ const ItemValueRandomizer = {
 
     if (item.durability > 1)
       item.durability = Math.floor(
-        item.durability * getRandomInt(90, 140) * 0.01
+        item.durability * getRandomInt(90, 140) * 0.01,
       );
 
     pool.push(["damageMult", getRandomInt(110, 130)]);
@@ -427,11 +485,11 @@ const Meltdown = {
         if (item.type == "genericArmor") {
           itemHex += toBytes(
             hexDictionary.get(item.id).durability,
-            "writeFloatLE"
+            "writeFloatLE",
           );
           itemHex += toBytes(
             hexDictionary.get(item.id).fatigue,
-            "writeInt16LE"
+            "writeInt16LE",
           );
         } else {
           itemHex += toBytes(item.baseDurability, "writeFloatLE");
@@ -598,7 +656,7 @@ class Entity {
     let result = getSubstring(
       saveData,
       this.offset + this.readOffset,
-      amount * 2
+      amount * 2,
     );
     this.readOffset += amount * 2;
     if (useBuffer === "utf8") {
@@ -695,8 +753,9 @@ class Inventory {
 }
 
 class battleBrother extends Entity {
-  constructor(offset) {
+  constructor(offset, index = 0) {
     super(offset);
+    this.parseIndex = index;
 
     let int0 = 0;
     let int1 = 0;
@@ -723,7 +782,7 @@ class battleBrother extends Entity {
     this.header = getSubstring(
       saveData,
       this.offset + headerStart,
-      this.readOffset - headerStart
+      this.readOffset - headerStart,
     );
 
     this.actionPoints = this.readBytes(1, true);
@@ -738,21 +797,51 @@ class battleBrother extends Entity {
 
     for (var i = 0; i < this.inventory.items; i++) {
       let item = {};
+      let itemStart = this.readOffset;
       item.slot = this.readBytes(1, true);
       item.id = this.readBytes(4).toUpperCase();
-
-      if (!hexDictionary.has(item.id)) {
-        getInterface().displayWarning(
-          "UNKNOWN",
-          "Unknown item equipped! slot: " +
-            SlotNames[item.slot] +
+      let record = hexDictionary.get(item.id);
+      if (!record) {
+        throw new Error(
+          "Unknown item equipped | brother: " +
+            this.parseIndex +
+            " | item: " +
+            i +
+            " | relativeOffset: " +
+            itemStart +
+            " | slot: " +
+            itemSlotName(item.slot) +
             " | id: " +
-            item.id
+            item.id,
         );
       }
+      logParseIssue(
+        "Reading brother item | brother: " +
+          this.parseIndex +
+          " | item: " +
+          i +
+          " | relativeOffset: " +
+          itemStart +
+          " | slot: " +
+          itemSlotName(item.slot) +
+          " | id: " +
+          item.id +
+          " | type: " +
+          record.type,
+        undefined,
+        true,
+      );
 
-      item.type = hexDictionary.get(item.id).type;
+      item.type = record.type;
       Forge[item.type](this, item);
+      logParseIssue(
+        "Finished brother item | brother: " +
+          this.parseIndex +
+          " | item: " +
+          i +
+          " | relativeOffset: " +
+          this.readOffset,
+      );
 
       if (item.slot === 6) this.inventory.push(item);
       else this.inventory.assign(item.slot, item);
@@ -763,25 +852,48 @@ class battleBrother extends Entity {
     this.perks = [];
     this.background = "";
     int1 = this.readBytes(2, true, "readUInt16LE");
+    logParseIssue(
+      "Reading traits/backgrounds | brother: " +
+        this.parseIndex +
+        " | count: " +
+        int1 +
+        " | relativeOffset: " +
+        this.readOffset,
+    );
     for (var i = 0; i < int1; i++) {
+      let circleOffset = this.readOffset;
       let circleHex = this.readBytes(4).toUpperCase();
+      let record = getCircleRecord(circleHex);
 
       this.readOffset += 2; //skip isNew byte for skill serialization
 
-      if (!hexDictionary.has(circleHex))
-        getInterface().displayWarning(
-          "UNKNOWN",
-          "Found an unknown trait or background: " + circleHex
+      if (!hexDictionary.has(circleHex)) {
+        logParseIssue(
+          "Unknown perk while seeking background | brother: " +
+            this.parseIndex +
+            " | index: " +
+            i +
+            " | relativeOffset: " +
+            circleOffset +
+            " | id: " +
+            circleHex,
         );
+      }
 
-      if (hexDictionary.get(circleHex).type === "background") {
+      if (record.type === "background") {
         this.background = circleHex;
         break;
       }
 
       this.perks.push(circleHex);
     }
-
+    if (!this.background)
+      throw new Error(
+        "Background was not found before the circle section ended | brother: " +
+          this.parseIndex +
+          " | count: " +
+          int1,
+      );
     this.description = this.readBytes("string");
     this.descriptionTemplate = this.readBytes("string");
     this.unknown = this.readBytes(2); //unknown bytes
@@ -793,27 +905,35 @@ class battleBrother extends Entity {
     this.traits = [];
     for (var i = this.perks.length + 1; i < int1; i++) {
       let trait = {};
+      let traitOffset = this.readOffset;
       trait.id = this.readBytes(4).toUpperCase();
+      let record = getCircleRecord(trait.id);
 
-      if (!hexDictionary.has(trait.id))
-        getInterface().displayWarning("UNKNOWN", "Unknown trait: " + trait.id);
+      if (!hexDictionary.has(trait.id)) {
+        logParseIssue(
+          "Unknown trait | brother: " +
+            this.parseIndex +
+            " | index: " +
+            i +
+            " | relativeOffset: " +
+            traitOffset +
+            " | id: " +
+            trait.id,
+        );
+      }
 
-      if (hexDictionary.get(trait.id).type !== "injury") this.readOffset += 2; //accomodating "isNew" property of some traits
+      if (record.type !== "injury") this.readOffset += 2; //accomodating "isNew" property of some traits
 
-      if (hexDictionary.get(trait.id).type === "injury")
-        trait.event = this.readBytes(14);
-      if (hexDictionary.get(trait.id).type === "training")
-        trait.event = this.readBytes(37);
-      if (hexDictionary.get(trait.id).type === "knowledge")
-        trait.event = this.readBytes(12);
-      if (hexDictionary.get(trait.id).type === "learning")
-        trait.event = this.readBytes(2);
+      if (record.type === "injury") trait.event = this.readBytes(14);
+      if (record.type === "training") trait.event = this.readBytes(37);
+      if (record.type === "knowledge") trait.event = this.readBytes(12);
+      if (record.type === "learning") trait.event = this.readBytes(2);
 
       this.traits.push(trait);
     }
 
     this.traits = this.traits.filter((trait) => {
-      if (hexDictionary.get(trait.id).type === "perk") {
+      if (getCircleRecord(trait.id).type === "perk") {
         this.perks.push(trait.id);
         return false;
       }
@@ -895,7 +1015,7 @@ class battleBrother extends Entity {
 
     brotherHex += toBytes(
       this.perks.length + 1 + this.traits.length,
-      "writeUInt16LE"
+      "writeUInt16LE",
     );
     for (var i = 0; i < this.perks.length; i++)
       brotherHex += this.perks[i] + "00";
@@ -912,7 +1032,7 @@ class battleBrother extends Entity {
     for (var i = 0; i < this.traits.length; i++) {
       brotherHex += this.traits[i].id;
 
-      if (hexDictionary.get(this.traits[i].id).type !== "injury")
+      if (getCircleRecord(this.traits[i].id).type !== "injury")
         brotherHex += "00";
 
       if (this.traits[i].event !== undefined)
@@ -976,17 +1096,25 @@ class Stash extends Entity {
         continue;
 
       item.id = this.readBytes(4).toUpperCase();
-      if (!hexDictionary.has(item.id)) {
+      let record = hexDictionary.get(item.id);
+      if (!record) {
+        logParseIssue(
+          "Unknown item in stash | index: " +
+            i +
+            " | relativeOffset: " +
+            this.readOffset +
+            " | id: " +
+            item.id,
+        );
         getInterface().displayWarning(
           "Unknown Item",
-          "origin: stash | id: " + item.id + " Stash will not be displayed."
+          "origin: stash | id: " + item.id + " Stash will not be displayed.",
         );
-        console.log("Unknown Item | origin: stash | id: " + item.id);
         this.error = true;
         break;
       }
 
-      item.type = hexDictionary.get(item.id).type;
+      item.type = record.type;
       Forge[item.type](this, item);
       this.inventory.assign(i, item);
     }
@@ -1047,16 +1175,18 @@ class Interface {
     for (let tab of tabList) this.tabMap.set(tab.id, tab);
     this.tabMap.set(
       "perk-icons",
-      this.tabMap.get("perk-page").getElementsByClassName("perk")
+      this.tabMap.get("perk-page").getElementsByClassName("perk"),
     );
     this.tabMap.set(
       "talent-inputs",
-      Array.from(this.tabMap.get("editor-page").querySelectorAll("div > input"))
+      Array.from(
+        this.tabMap.get("editor-page").querySelectorAll("div > input"),
+      ),
     );
 
     this.tabMap.set(
       "stash-save-button",
-      this.tabMap.get("stash-page").querySelector("input[type='button']")
+      this.tabMap.get("stash-page").querySelector("input[type='button']"),
     );
 
     this.saveLocation = document.getElementById("save-location");
@@ -1089,7 +1219,7 @@ class Interface {
     const defaultDir = path.join(
       remote.app.getPath("documents"),
       "Battle Brothers",
-      "savegames"
+      "savegames",
     );
 
     const { canceled, filePaths } = await remote.dialog.showOpenDialog({
@@ -1239,7 +1369,7 @@ class Interface {
         if (binding[1] === "visual")
           this.selectOption(
             this.boundInputs[i],
-            brother.visualLayerMap.get(binding[2]).value
+            brother.visualLayerMap.get(binding[2]).value,
           );
         else this.selectOption(this.boundInputs[i], brother[binding[1]]);
         continue;
@@ -1269,17 +1399,18 @@ class Interface {
 
     for (var i = 0; i < brother.traits.length; i++) {
       let trait = brother.traits[i].id;
+      let record = getCircleRecord(trait);
 
-      if (hexDictionary.get(trait).type === "internal") continue;
+      if (record.type === "internal" && hexDictionary.has(trait)) continue;
 
       let traitListCircle = this.traitList.querySelector(
-        '[data-hex="' + trait + '"]'
+        '[data-hex="' + trait + '"]',
       );
       if (traitListCircle) traitListCircle.classList.add("active");
       let circle = this.templates.trait.cloneNode();
       circle.dataset.hex = trait;
-      if (hexDictionary.get(trait).type === "injury")
-        circle.classList.add("injury");
+      if (!hexDictionary.has(trait)) circle.dataset.unknownCircle = "true";
+      if (record.type === "injury") circle.classList.add("injury");
 
       this.traitField.appendChild(circle);
     }
@@ -1392,21 +1523,34 @@ class Interface {
     if (!filepath)
       return this.displayWarning(
         "Seriously?",
-        "You forgot the file path, genius."
+        "You forgot the file path, genius.",
       );
 
     this.clearValues(true);
 
     fs.readFile(this.filepath, "hex", (err, data) => {
       if (err) {
+        logParseIssue("Unable to read save file | path: " + this.filepath, err);
         this.displayWarning(
           "You broke something.",
-          "The file ain't there, chum. Watcha gunna do 'bout it?"
+          "The file ain't there, chum. Watcha gunna do 'bout it?",
         );
-        return console.log(err);
+        return;
       }
       saveData = data;
-      this.startParsing();
+      try {
+        resetParseLog();
+        logParseIssue("Starting parse | path: " + this.filepath);
+        this.startParsing();
+        flushParseLog();
+      } catch (error) {
+        logParseIssue("Parse failed | path: " + this.filepath, error);
+        flushParseLog();
+        this.displayWarning(
+          "Parse failed",
+          "A parser error was written to " + getParseLogPath(),
+        );
+      }
     });
   }
 
@@ -1417,19 +1561,29 @@ class Interface {
     let re = /000000000000007D2C10000000000000D4C4A7E9000100000102000000/gi;
     let result = re.exec(saveData);
     re.lastIndex = 0;
+    if (!result)
+      throw new Error("Brother signature was not found in the save data.");
 
     this.brotherCount = parseInt(
       getSubstring(saveData, result.index - 38, 2),
-      16
+      16,
     );
 
     for (var i = 0; i < this.brotherCount; i++) {
       result = re.exec(saveData);
+      if (!result)
+        throw new Error(
+          "Expected " +
+            this.brotherCount +
+            " brothers, but only found " +
+            i +
+            " signatures.",
+        );
       sigOffsets.push(result.index + 58);
     }
 
     for (var i = 0; i < sigOffsets.length; i++) {
-      let bb = new battleBrother(sigOffsets[i]);
+      let bb = new battleBrother(sigOffsets[i], i);
       this.brotherArray.push(bb);
     }
 
@@ -1438,6 +1592,8 @@ class Interface {
     let stashRe =
       /4E6563726F6D616E63657273.{0,512}E044C501.{0,128}((?!0000).{4})\1/gi; //seek E044C501 after Necromancers followed by repeating non-zero 2 byte pattern
     result = stashRe.exec(saveData);
+    if (!result)
+      throw new Error("Stash signature was not found in the save data.");
 
     this.stash = new Stash(result.index + result[0].length - 8);
     if (!this.stash.error) this.populateStashPage();
@@ -1463,7 +1619,9 @@ class Interface {
       if (value !== undefined || binding[1] === "id") {
         if (input.tagName === "SELECT") this.selectOption(input, value);
         else if (binding[1] === "attachment")
-          input.value = hexDictionary.get(item.attachment).name;
+          input.value = hexDictionary.has(item.attachment)
+            ? hexDictionary.get(item.attachment).name
+            : item.attachment;
         else input.value = value !== undefined ? value : "";
 
         label.classList.add("active");
@@ -1484,13 +1642,13 @@ class Interface {
     if (entity === undefined)
       return this.displayWarning(
         "Logic Hurdle",
-        "No brother selected, nothing to save!"
+        "No brother selected, nothing to save!",
       );
 
     if (entity.error)
       return this.displayWarning(
         "Faulty Stash",
-        "Stash parsing was unsuccessful earlier, saving was aborted."
+        "Stash parsing was unsuccessful earlier, saving was aborted.",
       );
 
     this.writing = true;
@@ -1517,7 +1675,24 @@ class Interface {
         this.currentBrother = "";
       }
 
-      this.startParsing();
+      try {
+        resetParseLog();
+        logParseIssue("Starting parse after save | path: " + this.filepath);
+        this.startParsing();
+        flushParseLog();
+      } catch (error) {
+        this.writing = false;
+        logParseIssue(
+          "Parse after save failed | path: " + this.filepath,
+          error,
+        );
+        flushParseLog();
+        return this.displayWarning(
+          "Parse failed",
+          "The save was written, but re-parsing failed. Details were written to " +
+            getParseLogPath(),
+        );
+      }
 
       if (index !== undefined) {
         this.currentBrother = this.brotherArray[index];
@@ -1529,7 +1704,7 @@ class Interface {
         "Saving done!",
         "Changes to " +
           entity.name +
-          " applied. All other changes were discarded."
+          " applied. All other changes were discarded.",
       );
     });
   }
@@ -1601,7 +1776,7 @@ class Interface {
       if (difference < 0)
         value += this.currentBrother.generateTalentString(
           type,
-          difference / -2
+          difference / -2,
         );
 
       this.currentBrother[binding] = value;
@@ -1622,7 +1797,7 @@ class Interface {
     if (!hexDictionary.has(value))
       return this.displayWarning(
         "Invalid ID",
-        "No such item exists in hex dictionary."
+        "No such item exists in hex dictionary.",
       );
 
     //type migration
@@ -1639,7 +1814,7 @@ class Interface {
         if (recordNew.slot !== SlotNames[slotIndex] && slotIndex !== 6)
           return this.displayWarning(
             "Type Mismatch",
-            "This item type is not accepted in current slot."
+            "This item type is not accepted in current slot.",
           );
 
         if (item.isEmpty) this.currentBrother.inventory.items++;
@@ -1704,10 +1879,11 @@ class Interface {
   }
 
   showTooltip(hex, rect) {
-    if (!hexDictionary.has(hex)) return;
+    let record = getCircleRecord(hex);
 
     this.tooltip.classList.add("active");
-    this.tooltip.textContent = hexDictionary.get(hex).name;
+    this.tooltip.textContent =
+      record.name + (hexDictionary.has(hex) ? "" : " - " + hex);
     this.tooltip.style.top = rect.top - this.tooltip.offsetHeight - 3 + "px";
 
     let offsetLeft = rect.left + rect.width / 2 - this.tooltip.offsetWidth / 2;
@@ -1891,13 +2067,16 @@ class Interface {
     //trait field functionality
     this.traitField.addEventListener("click", (event) => {
       let hex = event.target.dataset.hex;
+      let record = getCircleRecord(hex);
 
       if (hex === "TOOL0000") {
         this.traitList.classList.add("active");
         return;
       }
 
-      if (hexDictionary.get(hex).type === "background") {
+      if (!hexDictionary.has(hex)) return;
+
+      if (record.type === "background") {
         this.backgroundList.classList.add("active");
         return;
       }
@@ -1906,7 +2085,7 @@ class Interface {
         return element.id === hex;
       });
       let traitListCircle = this.traitList.querySelector(
-        '[data-hex="' + hex + '"]'
+        '[data-hex="' + hex + '"]',
       );
       if (traitListCircle) traitListCircle.classList.remove("active");
 
@@ -1964,7 +2143,7 @@ class Interface {
         this.templates.trait.dataset.hex = hex;
         this.traitField.insertBefore(
           this.templates.trait.cloneNode(),
-          this.traitField.children[index]
+          this.traitField.children[index],
         );
       }
     });
