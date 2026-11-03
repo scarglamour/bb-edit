@@ -16,9 +16,10 @@
 !/src/
 !/src/**
 
-# un-ignore the tools folder and everything beneath it
+# un-ignore the tools folder and everything beneath it except asset_report.txt
 !/tools/
 !/tools/**
+/tools/asset_report.txt
 
-# (optionally) un-ignore .gitattributes itself
+# un-ignore .gitattributes itself
 !/.gitattributes

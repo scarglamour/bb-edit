@@ -1,6 +1,6 @@
 # BB-Edit
 
-**BB-Edit** is a save editor for _Battle Brothers_ (v1.5.1–1.5.1.7) that lets you modify your mercenaries’ stats, inventory, perks, backgrounds, traits, and more.
+**BB-Edit** is a save editor for _Battle Brothers_ (v1.5.1–v1.5.2.3) that lets you modify your mercenaries’ stats, inventory, perks, backgrounds, traits, and more.
 
 ---
 
@@ -141,7 +141,6 @@ Script to unpack `data_001.dat` and extract images into your `game-art/` folder 
   ```
 
 - **Flags:**
-
   - `--all`: also perform fallback extraction for unmatched entries and report them.
 
 ### generate_asset_map.py

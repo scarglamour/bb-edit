@@ -514,6 +514,10 @@
 [data-hex="5CD45309"] {
   background: url("../../game-art/backgrounds/eunuch.png");
 }
+[data-hex="D424EA88"],
+[data-hex="335C6C24"] {
+  background: url("../../game-art/backgrounds/executioner.png");
+}
 [data-hex="C6DD9695"] {
   background: url("../../game-art/backgrounds/farmhand.png");
 }
@@ -1300,6 +1304,58 @@
   /* Occult Robes */
   background-image: url("../../game-art/armor/body-armor-115.png");
 }
+[data-slot="body"][data-icon="116"] {
+  /* Rusted Mail Hauberk */
+  background-image: url("../../game-art/armor/body-armor-116.png");
+}
+[data-slot="body"][data-icon="117"] {
+  /* Patchwork Scale Armor */
+  background-image: url("../../game-art/armor/body-armor-117.png");
+}
+[data-slot="body"][data-icon="118"] {
+  /* Pillaged Heavy Lamellar Armor */
+  background-image: url("../../game-art/armor/body-armor-118.png");
+}
+[data-slot="body"][data-icon="119"] {
+  /* Heraldic Mail, painted */
+  background-image: url("../../game-art/armor/body-armor-119.png");
+}
+[data-slot="body"][data-icon="120"] {
+  /* Heraldic Mail, painted */
+  background-image: url("../../game-art/armor/body-armor-120.png");
+}
+[data-slot="body"][data-icon="121"] {
+  /* Heraldic Mail, painted */
+  background-image: url("../../game-art/armor/body-armor-121.png");
+}
+[data-slot="body"][data-icon="122"] {
+  /* Enchanced Coat of Plates, painted */
+  background-image: url("../../game-art/armor/body-armor-122.png");
+}
+[data-slot="body"][data-icon="123"] {
+  /* Enchanced Coat of Plates, painted */
+  background-image: url("../../game-art/armor/body-armor-123.png");
+}
+[data-slot="body"][data-icon="124"] {
+  /* Enchanced Coat of Plates, painted */
+  background-image: url("../../game-art/armor/body-armor-124.png");
+}
+[data-slot="body"][data-icon="125"] {
+  /* Enchanced Coat of Plates, painted */
+  background-image: url("../../game-art/armor/body-armor-125.png");
+}
+[data-slot="body"][data-icon="126"] {
+  /* Enchanced Coat of Plates, painted */
+  background-image: url("../../game-art/armor/body-armor-126.png");
+}
+[data-slot="body"][data-icon="127"] {
+  /* Mercenary Layered Coat, painted */
+  background-image: url("../../game-art/armor/body-armor-127.png");
+}
+[data-slot="body"][data-icon="128"] {
+  /* Headsman's Vest */
+  background-image: url("../../game-art/armor/body-armor-128.png");
+}
 
 [data-slot="body"][data-icon="1"][data-icon-set="southern"] {
   /* Southern Long Mail Shirt with Padding */
@@ -1443,6 +1499,9 @@
 [data-slot="body"][data-attachment="DB86B709"]::before {
   background-image: url("../../game-art/armor-upgrades/mail-patch.png");
 }
+[data-slot="body"][data-attachment="D57947F8"]::before {
+  background-image: url("../../game-art/armor-upgrades/rusted-mail-patch.png");
+}
 [data-slot="body"][data-attachment="679155D7"]::before {
   background-image: url("../../game-art/armor-upgrades/metal-pauldrons.png");
 }
@@ -1520,6 +1579,9 @@
 }
 [data-hex="DB86B709"] {
   background-image: url("../../game-art/armor-upgrades/mail-patch-upgrade.png");
+}
+[data-hex="D57947F8"] {
+  background-image: url("../../game-art/armor-upgrades/rusted-mail-patch-upgrade.png");
 }
 [data-hex="679155D7"] {
   background-image: url("../../game-art/armor-upgrades/metal-pauldrons-upgrade.png");
@@ -2316,6 +2378,102 @@
 [data-slot="helmet"][data-icon="246"] {
   background-image: url("../../game-art/helmets/helmet-246.png");
 }
+[data-slot="helmet"][data-icon="247"] {
+  /* Marauder Helmet with Closed Mail */
+  background-image: url("../../game-art/helmets/helmet-247.png");
+}
+[data-slot="helmet"][data-icon="248"] {
+  /* Marauder Helmet with Closed Mail */
+  background-image: url("../../game-art/helmets/helmet-248.png");
+}
+[data-slot="helmet"][data-icon="249"] {
+  /* Marauder Helmet with Rusty Mail */
+  background-image: url("../../game-art/helmets/helmet-249.png");
+}
+[data-slot="helmet"][data-icon="250"] {
+  /* Marauder Helmet with Rusty Mail (Cloth) */
+  background-image: url("../../game-art/helmets/helmet-250.png");
+}
+[data-slot="helmet"][data-icon="251"] {
+  /* Kettle Hat with Rusty Mail */
+  background-image: url("../../game-art/helmets/helmet-251.png");
+}
+[data-slot="helmet"][data-icon="252"] {
+  /* Flat Top with Rusty Mail */
+  background-image: url("../../game-art/helmets/helmet-252.png");
+}
+[data-slot="helmet"][data-icon="257"] {
+  /* Ribboned Sallet, painted */
+  background-image: url("../../game-art/helmets/helmet-257.png");
+}
+[data-slot="helmet"][data-icon="258"] {
+  /* Ribboned Sallet, painted */
+  background-image: url("../../game-art/helmets/helmet-258.png");
+}
+[data-slot="helmet"][data-icon="259"] {
+  /* Ribboned Sallet, painted */
+  background-image: url("../../game-art/helmets/helmet-259.png");
+}
+[data-slot="helmet"][data-icon="260"] {
+  /* Ribboned Sallet, painted */
+  background-image: url("../../game-art/helmets/helmet-260.png");
+}
+[data-slot="helmet"][data-icon="261"] {
+  /* Ribboned Sallet, painted */
+  background-image: url("../../game-art/helmets/helmet-261.png");
+}
+[data-slot="helmet"][data-icon="262"] {
+  /* Knightly Helm, painted */
+  background-image: url("../../game-art/helmets/helmet-262.png");
+}
+[data-slot="helmet"][data-icon="263"] {
+  /* Knightly Helm, painted */
+  background-image: url("../../game-art/helmets/helmet-263.png");
+}
+[data-slot="helmet"][data-icon="264"] {
+  /* Knightly Helm, painted */
+  background-image: url("../../game-art/helmets/helmet-264.png");
+}
+[data-slot="helmet"][data-icon="265"] {
+  /* Knightly Helm, painted */
+  background-image: url("../../game-art/helmets/helmet-265.png");
+}
+[data-slot="helmet"][data-icon="266"] {
+  /* Knightly Helm, painted */
+  background-image: url("../../game-art/helmets/helmet-266.png");
+}
+[data-slot="helmet"][data-icon="267"] {
+  /* Rachegeist's Helm */
+  background-image: url("../../game-art/helmets/helmet-267.png");
+}
+[data-slot="helmet"][data-icon="268"] {
+  /* Executioner's Hood (Open) */
+  background-image: url("../../game-art/helmets/helmet-268.png");
+}
+[data-slot="helmet"][data-icon="269"] {
+  /* Executioner's Hood */
+  background-image: url("../../game-art/helmets/helmet-269.png");
+}
+[data-slot="helmet"][data-icon="270"] {
+  /* Executioner's Hood */
+  background-image: url("../../game-art/helmets/helmet-270.png");
+}
+[data-slot="helmet"][data-icon="271"] {
+  /* Executioner's Hood */
+  background-image: url("../../game-art/helmets/helmet-271.png");
+}
+[data-slot="helmet"][data-icon="272"] {
+  /* Executioner's Hood */
+  background-image: url("../../game-art/helmets/helmet-272.png");
+}
+[data-slot="helmet"][data-icon="273"] {
+  /* Executioner's Hood */
+  background-image: url("../../game-art/helmets/helmet-273.png");
+}
+[data-slot="helmet"][data-icon="274"] {
+  /* Executioner's Hood (Open) */
+  background-image: url("../../game-art/helmets/helmet-274.png");
+}
 
 [data-slot="helmet"][data-icon-set="southern"][data-icon="1"] {
   background-image: url("../../game-art/helmets/southern-helmet-01.png");
@@ -2497,6 +2655,37 @@
 }
 [data-slot="helmet"][data-hex="07D0CD68"][data-icon="10"] {
   background-image: url("../../game-art/helmets/faction-helmet-2-10.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="1"] {
+  /* Soldier's Heraldic Bascinet */
+  background-image: url("../../game-art/helmets/faction-helmet-3-01.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="2"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-02.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="3"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-03.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="4"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-04.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="5"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-05.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="6"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-06.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="7"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-07.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="8"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-08.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="9"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-09.png");
+}
+[data-slot="helmet"][data-hex="B761D7CB"][data-icon="10"] {
+  background-image: url("../../game-art/helmets/faction-helmet-3-10.png");
 }
 
 /* 			Weapons 			*/
@@ -2757,6 +2946,12 @@
 }
 .pouch[data-hex="56EA5919"] {
   background-image: url("../../game-art/weapons/melee/greatsword-inv.png");
+}
+[data-hex="35A5074F"] {
+  background-image: url("../../game-art/weapons/melee/executioners-sword.png");
+}
+.pouch[data-hex="35A5074F"] {
+  background-image: url("../../game-art/weapons/melee/executioners-sword-inv.png");
 }
 
 /* 			Bows 			*/
@@ -3131,6 +3326,12 @@
 .pouch[data-hex="CA64D63F"] {
   background-image: url("../../game-art/weapons/melee/polehammer-inv.png");
 }
+[data-hex="7E0B5BF3"] {
+  background-image: url("../../game-art/weapons/melee/pollaxe.png");
+}
+.pouch[data-hex="7E0B5BF3"] {
+  background-image: url("../../game-art/weapons/melee/pollaxe-inv.png");
+}
 [data-hex="1E62DD59"] {
   background-image: url("../../game-art/weapons/melee/two-handed-mace.png");
 }
@@ -3154,6 +3355,12 @@
 }
 .pouch[data-hex="6020114B"] {
   background-image: url("../../game-art/weapons/melee/fencing-sword-inv.png");
+}
+[data-hex="FE7323BD"] {
+  background-image: url("../../game-art/weapons/melee/estoc.png");
+}
+.pouch[data-hex="FE7323BD"] {
+  background-image: url("../../game-art/weapons/melee/estoc-inv.png");
 }
 [data-hex="A82D20D2"] {
   background-image: url("../../game-art/weapons/melee/obsidian-dagger.png");
@@ -3704,6 +3911,18 @@
 .pouch[data-hex="E6F65735"][data-icon="3"] {
   background-image: url("../../game-art/weapons/melee/named-greatsword-3-inv.png");
 }
+[data-hex="4534F102"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-executioners-sword-1.png");
+}
+.pouch[data-hex="4534F102"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-executioners-sword-1-inv.png");
+}
+[data-hex="4534F102"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-executioners-sword-2.png");
+}
+.pouch[data-hex="4534F102"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-executioners-sword-2-inv.png");
+}
 
 [data-hex="5DD57925"][data-icon="1"] {
   background-image: url("../../game-art/weapons/melee/named-orc-axe-1.png");
@@ -3857,6 +4076,18 @@
 .pouch[data-hex="5A71D45B"][data-icon="2"] {
   background-image: url("../../game-art/weapons/melee/named-polehammer-2-inv.png");
 }
+[data-hex="4E6907B3"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-pollaxe-1.png");
+}
+.pouch[data-hex="4E6907B3"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-pollaxe-1-inv.png");
+}
+[data-hex="4E6907B3"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-pollaxe-2.png");
+}
+.pouch[data-hex="4E6907B3"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-pollaxe-2-inv.png");
+}
 
 [data-hex="B0C80CF5"][data-icon="1"] {
   background-image: url("../../game-art/weapons/melee/named-fencing-sword-1.png");
@@ -3869,6 +4100,18 @@
 }
 .pouch[data-hex="B0C80CF5"][data-icon="2"] {
   background-image: url("../../game-art/weapons/melee/named-fencing-sword-2-inv.png");
+}
+[data-hex="4E76C365"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-estoc-1.png");
+}
+.pouch[data-hex="4E76C365"][data-icon="1"] {
+  background-image: url("../../game-art/weapons/melee/named-estoc-1-inv.png");
+}
+[data-hex="4E76C365"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-estoc-2.png");
+}
+.pouch[data-hex="4E76C365"][data-icon="2"] {
+  background-image: url("../../game-art/weapons/melee/named-estoc-2-inv.png");
 }
 
 [data-hex="EE75A45C"][data-icon="1"] {
@@ -4796,6 +5039,9 @@
 }
 [data-hex="A69958B5"][data-icon="2"] {
   background-image: url("../../game-art/shields/named-sipar-shield-2.png");
+}
+[data-hex="0FA9DB0E"][data-icon="1"] {
+  background-image: url("../../game-art/shields/named-buckler-1.png");
 }
 
 /* 			Tools 			*/

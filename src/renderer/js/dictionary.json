@@ -29,6 +29,8 @@
   ["71BA80F4", { "name": "Disowned Noble", "type": "background" }],
   ["29A78F2E", { "name": "Eunuch", "type": "background" }],
   ["5CD45309", { "name": "Eunuch (Southern)", "type": "background" }],
+  ["D424EA88", { "name": "Executioner", "type": "background" }],
+  ["335C6C24", { "name": "Executioner (Southern)", "type": "background" }],
   ["C6DD9695", { "name": "Farmhand", "type": "background" }],
   ["FA656BC3", { "name": "Fisherman", "type": "background" }],
   ["F1D086E6", { "name": "Fisherman (Southern)", "type": "background" }],
@@ -514,6 +516,11 @@
   ],
 
   [
+    "35A5074F",
+    { "name": "Executioner's Sword", "type": "genericWeapon", "slot": "weapon" }
+  ],
+
+  [
     "116D93E0",
     { "name": "Two-handed Mallet", "type": "genericWeapon", "slot": "weapon" }
   ],
@@ -546,6 +553,10 @@
     { "name": "Polehammer", "type": "genericWeapon", "slot": "weapon" }
   ],
   [
+    "7E0B5BF3",
+    { "name": "Pollaxe", "type": "genericWeapon", "slot": "weapon" }
+  ],
+  [
     "573A189E",
     {
       "name": "Two-handed Wooden Flail",
@@ -562,6 +573,8 @@
     "6020114B",
     { "name": "Fencing Sword", "type": "genericWeapon", "slot": "weapon" }
   ],
+
+  ["FE7323BD", { "name": "Estoc", "type": "genericWeapon", "slot": "weapon" }],
 
   [
     "B33AFB8A",
@@ -1236,6 +1249,30 @@
   ],
 
   [
+    "E51A891A",
+    {
+      "name": "Executioner's Hood",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 269
+    }
+  ],
+
+  [
+    "C2942D32",
+    {
+      "name": "Executioner's Hood (Open)",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 40,
+      "fatigue": 0,
+      "icon": 268
+    }
+  ],
+
+  [
     "8B0B19F3",
     {
       "name": "Full Leather Cap",
@@ -1723,6 +1760,30 @@
   ],
 
   [
+    "0FB48DAB",
+    {
+      "name": "Marauder Helmet with Rusty Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 180,
+      "fatigue": -14,
+      "icon": 249
+    }
+  ],
+
+  [
+    "0476BFDD",
+    {
+      "name": "Marauder Helmet with Rusty Mail (Cloth)",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 180,
+      "fatigue": -14,
+      "icon": 250
+    }
+  ],
+
+  [
     "64C6D5F5",
     {
       "name": "Barbute Helmet",
@@ -1808,6 +1869,18 @@
   ],
 
   [
+    "B761D7CB",
+    {
+      "name": "Soldier's Heraldic Bascinet",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 220,
+      "fatigue": -13,
+      "icon": 1
+    }
+  ],
+
+  [
     "7F85FA0A",
     {
       "name": "Gladiator Helmet",
@@ -1857,6 +1930,18 @@
   ],
 
   [
+    "C9044CE0",
+    {
+      "name": "Kettle Hat with Rusty Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 230,
+      "fatigue": -19,
+      "icon": 251
+    }
+  ],
+
+  [
     "430E8AE0",
     {
       "name": "Decayed Full Helm",
@@ -1877,6 +1962,30 @@
       "durability": 240,
       "fatigue": -16,
       "icon": 32
+    }
+  ],
+
+  [
+    "DDA695AE",
+    {
+      "name": "Flat Top with Rusty Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 245,
+      "fatigue": -20,
+      "icon": 252
+    }
+  ],
+
+  [
+    "6E056CF8",
+    {
+      "name": "Marauder Helmet with Closed Mail",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 245,
+      "fatigue": -20,
+      "icon": 247
     }
   ],
 
@@ -2047,6 +2156,18 @@
       "durability": 300,
       "fatigue": -18,
       "icon": 239
+    }
+  ],
+
+  [
+    "102E9948",
+    {
+      "name": "Rachegeist's Helm",
+      "type": "genericHelmet",
+      "slot": "helmet",
+      "durability": 300,
+      "fatigue": -18,
+      "icon": 267
     }
   ],
 
@@ -2250,6 +2371,18 @@
       "durability": 25,
       "fatigue": 0,
       "icon": 9
+    }
+  ],
+
+  [
+    "915B563D",
+    {
+      "name": "Headsman's Vest",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 25,
+      "fatigue": 0,
+      "icon": 128
     }
   ],
 
@@ -2769,6 +2902,18 @@
   ],
 
   [
+    "4221449E",
+    {
+      "name": "Rusted Mail Hauberk",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 140,
+      "fatigue": -18,
+      "icon": 116
+    }
+  ],
+
+  [
     "40038AF7",
     {
       "name": "Mail Hauberk",
@@ -2849,6 +2994,18 @@
       "durability": 180,
       "fatigue": -22,
       "icon": 68
+    }
+  ],
+
+  [
+    "3E313C03",
+    {
+      "name": "Heraldic Mail",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 185,
+      "fatigue": -18,
+      "icon": 119
     }
   ],
 
@@ -2938,6 +3095,18 @@
   ],
 
   [
+    "52D6947F",
+    {
+      "name": "Patchwork Scale Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 220,
+      "fatigue": -29,
+      "icon": 117
+    }
+  ],
+
+  [
     "150907FB",
     {
       "name": "Lamellar Harness",
@@ -2995,6 +3164,18 @@
       "durability": 250,
       "fatigue": -26,
       "icon": 35
+    }
+  ],
+
+  [
+    "DB3FAF9A",
+    {
+      "name": "Pillaged Heavy Lamellar Armor",
+      "type": "genericArmor",
+      "slot": "body",
+      "durability": 255,
+      "fatigue": -42,
+      "icon": 118
     }
   ],
 
@@ -3287,6 +3468,17 @@
   ],
 
   [
+    "D57947F8",
+    {
+      "name": "Rusted Mail Patch",
+      "type": "attachment",
+      "slot": "attachment",
+      "durability": 15,
+      "fatigue": -4
+    }
+  ],
+
+  [
     "7AC1159D",
     {
       "name": "Serpent Skin Mantle",
@@ -3457,6 +3649,21 @@
   ],
 
   [
+    "4E76C365",
+    {
+      "name": "Named Estoc",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "durability": 64,
+      "fatigue": -9,
+      "damageMin": 35,
+      "damageMax": 50,
+      "damageArmor": 0.75,
+      "headChance": 5
+    }
+  ],
+
+  [
     "96393407",
     {
       "name": "Named Cruel Falchion",
@@ -3497,6 +3704,22 @@
       "damageMin": 85,
       "damageMax": 100,
       "damageArmor": 1.0,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "4534F102",
+    {
+      "name": "Named Executioner's Sword",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 16,
+      "durability": 72,
+      "fatigue": -12,
+      "damageMin": 95,
+      "damageMax": 110,
+      "damageArmor": 0.9,
       "headChance": 5
     }
   ],
@@ -3797,6 +4020,22 @@
       "damageMin": 50,
       "damageMax": 75,
       "damageArmor": 1.85,
+      "headChance": 5
+    }
+  ],
+
+  [
+    "4E6907B3",
+    {
+      "name": "Named Pollaxe",
+      "type": "namedWeapon",
+      "slot": "weapon",
+      "damageShield": 24,
+      "durability": 72,
+      "fatigue": -13,
+      "damageMin": 50,
+      "damageMax": 75,
+      "damageArmor": 1.1,
       "headChance": 5
     }
   ],
@@ -4280,6 +4519,21 @@
       "fatigue": -18,
       "fatigueUse": 0,
       "durability": 60
+    }
+  ],
+
+  [
+    "0FA9DB0E",
+    {
+      "name": "Named Buckler",
+      "type": "namedShield",
+      "slot": "shield",
+      "icon": 1,
+      "mDef": 10,
+      "rDef": 5,
+      "fatigue": -4,
+      "fatigueUse": 0,
+      "durability": 48
     }
   ],
 
