@@ -1,5 +1,0 @@
-== Missing .png references ==
-  None 🎉
-
-== Unused .png files ==
-  game-art/backgrounds/drunkard.png
